@@ -17,19 +17,19 @@ Purpose: Fast, practical cues for what you might try right now. Not for diagnosi
   - Try now: Concrete–representational–abstract (manipulatives → visuals → symbols); worked examples; number lines; step-by-step scaffolds; spaced retrieval practice
 
 - If you see: Off-task, impulsive, inconsistent work completion; loses materials
-  - Consider: ADHD / executive function challenges
+  - Consider: [ADHD](https://www.cdc.gov/adhd/school-success.html) / executive function challenges
   - Try now: Clear rules and routines; behavior-specific praise; token/point system; chunk tasks; movement breaks; visual schedule; planner checks
 
 - If you see: Difficulty following multi-step directions; vague/immature sentences; weak vocabulary
-  - Consider: Developmental Language Disorder (DLD) / language needs
+  - Consider: [Developmental Language Disorder (DLD)](https://www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/) / language needs
   - Try now: Break directions into steps; model/recast sentences; preteach vocabulary with visuals and examples; check for understanding and ask student to rephrase
 
 - If you see: Difficulty with change, group work, social cues; sensory sensitivities
-  - Consider: Autism Spectrum differences
+  - Consider: [Autism Spectrum Disorder (ASD)](https://afirm.fpg.unc.edu/afirm-modules) differences
   - Try now: Visual schedules; advance warnings; clear, concrete language; teach/role-play routines; offer predictable choices; adjust sensory environment
 
-- If you see: “Doesn’t listen,” needs frequent repetition, struggles in noise
-  - Consider: Auditory Processing differences
+- If you see: "Doesn't listen," needs frequent repetition, struggles in noise
+  - Consider: [Auditory Processing Disorder (APD)](https://www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/) differences
   - Try now: Preferential seating; slow/clear speech with pauses; supplement with written directions and visuals; minimize background noise; confirm understanding
 
 - If you see: Loses place on the page; messy alignment; slow on visual tasks
@@ -37,8 +37,8 @@ Purpose: Fast, practical cues for what you might try right now. Not for diagnosi
   - Try now: Reduce visual clutter; larger fonts/spacing; graph paper; reading guides; copies of board notes; extra time
 
 - If you see: Strong talker but struggles with spatial tasks, math concepts, and social perception
-  - Consider: Nonverbal Learning Disability profile
-  - Try now: Make thinking visible with diagrams/maps; explicit spacing/organization routines; model social interpretations; scaffold math with CRA
+  - Consider: [Nonverbal Learning Disability (NVLD)](https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send) profile
+  - Try now: Make thinking visible with diagrams/maps; explicit spacing/organization routines; model social interpretations; scaffold math with [CRA](https://ies.ed.gov/ncee/wwc/PracticeGuide/18) (Concrete-Representational-Abstract)
 
 ## High-impact routines to build into lessons
 
@@ -48,13 +48,15 @@ Purpose: Fast, practical cues for what you might try right now. Not for diagnosi
 - Build movement and choice into lessons to sustain attention
 - Use assistive tech when the task goal is not handwriting/decoding (text-to-speech, speech-to-text, audiobooks)
 
-## What to jot down (for RTI/MTSS and family conversations)
+## What to jot down (for [RTI/MTSS](https://iris.peabody.vanderbilt.edu/module/rti01/) and family conversations)
 
 - Concern and impact on classwork (brief)
 - Date + task examples
 - Supports tried and student response
 - Patterns (time of day, task type, environment)
 - Date of family contact and summary
+
+**Quick template:** See [Teacher Observation Template](notes/teacher_observation_template.md) for a fillable form.
 
 ## Teacher-friendly resources (grounded in strong evidence)
 
