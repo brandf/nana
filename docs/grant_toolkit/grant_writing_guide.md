@@ -4,6 +4,29 @@
 
 ---
 
+## 🚀 **Quick Start**
+
+**New to grant writing?** Start here → **[Grant Writing Process](#-grant-writing-process)**  
+**Looking for local funders?** → **[Grand Rapids Philanthropist Database](grand_rapids_philanthropist_database.md)**  
+**Need templates?** → **[Proposal Templates](#-proposal-templates)**  
+**Budget planning?** → **[Budget Development](#-budget-development-strategies)**
+
+---
+
+## 📋 **What This Guide Covers**
+
+✅ **Grant writing process** and best practices  
+✅ **Proposal templates** and examples  
+✅ **Budget development** strategies  
+✅ **Evaluation planning** and metrics  
+✅ **Common mistakes** to avoid  
+
+❌ **Local foundation profiles** → See [Grand Rapids Database](grand_rapids_philanthropist_database.md)  
+❌ **Specific pitches** for local funders → See [Grand Rapids Database](grand_rapids_philanthropist_database.md)  
+❌ **Application timelines** and deadlines → See [Grand Rapids Database](grand_rapids_philanthropist_database.md)
+
+---
+
 ## 🎯 Grant Writing Fundamentals
 
 ### **Why Grants Matter for Learning Disability Support**
@@ -28,7 +51,7 @@
 - **Regional Educational Service Agencies (RESAs)** - Local support and training
 
 #### **Foundation Grants**
-- **Local foundations** - Community-focused funding
+- **Local foundations** - Community-focused funding (see [Grand Rapids Database](grand_rapids_philanthropist_database.md))
 - **National foundations** - Broader impact and research
 - **Corporate foundations** - Business community support
 - **Family foundations** - Personal philanthropy
@@ -196,23 +219,22 @@
 - Community support
 - Family engagement
 
-**Targeted Pitch**:
-*"Supporting families and students with learning differences through comprehensive, evidence-based interventions that promote academic success and overall well-being. Our program strengthens families and communities while building educational equity for all students."*
 
-### **State and Federal Opportunities**
+### **Finding Funding Opportunities**
 
-#### **Michigan Department of Education**
-**Focus Areas**: Special education, professional development, innovation
-**Typical Grant Range**: $25,000 - $500,000
-**Application Deadlines**: Varies by program
-**Key Priorities**:
-- Evidence-based practices
-- Professional development
-- Student outcomes
-- System improvement
+#### **Research Resources**
+- **[Grand Rapids Philanthropist Database](grand_rapids_philanthropist_database.md)** - Local foundation profiles and pitches
+- **Grants.gov** - Federal grant opportunities
+- **Foundation Directory Online** - Comprehensive foundation database
+- **Michigan Department of Education** - State grant programs
+- **Local nonprofit centers** - Regional funding resources
 
-**Targeted Pitch**:
-*"Implementing evidence-based, multi-tiered support systems for students with learning differences across Grand Rapids schools. Our program addresses state priorities for educational equity, professional development, and improved student outcomes through comprehensive, data-driven interventions."*
+#### **Key Research Questions**
+- What are the funder's current priorities?
+- What types of programs have they funded recently?
+- What is their typical grant range?
+- What are their application deadlines and process?
+- Who are the key decision makers?
 
 ---
 

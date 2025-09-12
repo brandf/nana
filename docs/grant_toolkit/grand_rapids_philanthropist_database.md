@@ -8,7 +8,21 @@
 
 **Total Potential Funding**: $500K+ annually  
 **Best Starting Points**: Grand Rapids Community Foundation, Frey Foundation, Spectrum Health Foundation  
-**Success Strategy**: Build relationships first, then apply strategically  
+**Success Strategy**: Build relationships first, then apply strategically
+
+---
+
+## 📋 **What This Database Covers**
+
+✅ **Local foundation profiles** with detailed information  
+✅ **Specific pitches** tailored to each funder  
+✅ **Application timelines** and deadlines  
+✅ **Priority ratings** and strategic planning  
+✅ **Success metrics** and tracking  
+
+❌ **Grant writing process** → See [Grant Writing Guide](grant_writing_guide.md)  
+❌ **Proposal templates** → See [Grant Writing Guide](grant_writing_guide.md)  
+❌ **Budget development** → See [Grant Writing Guide](grant_writing_guide.md)  
 
 ## 🚀 Quick Navigation
 
@@ -472,9 +486,9 @@
 ## 🔗 Related Resources
 
 ### **Grant Writing Support**
-- **[Grant Writing Guide](grant_writing_guide.md)** - Comprehensive writing guide
-- **[Proposal Templates](proposal_templates.md)** - Ready-to-use templates
-- **[Budget Planning](budget_planning_guide.md)** - Financial planning tools
+- **[Grant Writing Guide](grant_writing_guide.md)** - Comprehensive writing guide and process
+- **[Proposal Templates](grant_writing_guide.md#-proposal-templates)** - Ready-to-use templates
+- **[Budget Development](grant_writing_guide.md#-budget-development-strategies)** - Financial planning tools
 
 ### **Local Resources**
 - **[Grand Rapids Nonprofit Center](https://www.grnonprofitcenter.org)** - Local support
