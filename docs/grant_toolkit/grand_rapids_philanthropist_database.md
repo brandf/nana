@@ -487,8 +487,10 @@
 
 ### **Grant Writing Support**
 - **[Grant Writing Guide](grant_writing_guide.md)** - Comprehensive writing guide and process
-- **[Proposal Templates](grant_writing_guide.md#-proposal-templates)** - Ready-to-use templates
-- **[Budget Development](grant_writing_guide.md#-budget-development-strategies)** - Financial planning tools
+- **[Proposal Templates](proposal_templates.md)** - Ready-to-use templates and examples
+- **[Budget Planning Guide](budget_planning_guide.md)** - Financial planning tools and templates
+- **[Sample Proposals](sample_proposals.md)** - Real examples of successful grants
+- **[Grant Writing Flowcharts](grant_writing_flowcharts.md)** - Visual process guides
 
 ### **Local Resources**
 - **[Grand Rapids Nonprofit Center](https://www.grnonprofitcenter.org)** - Local support

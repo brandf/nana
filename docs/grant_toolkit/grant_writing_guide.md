@@ -8,8 +8,10 @@
 
 **New to grant writing?** Start here → **[Grant Writing Process](#-grant-writing-process)**  
 **Looking for local funders?** → **[Grand Rapids Philanthropist Database](grand_rapids_philanthropist_database.md)**  
-**Need templates?** → **[Proposal Templates](#-proposal-templates)**  
-**Budget planning?** → **[Budget Development](#-budget-development-strategies)**
+**Need templates?** → **[Proposal Templates](proposal_templates.md)**  
+**Budget planning?** → **[Budget Planning Guide](budget_planning_guide.md)**  
+**Want examples?** → **[Sample Proposals](sample_proposals.md)**  
+**Visual learner?** → **[Grant Writing Flowcharts](grant_writing_flowcharts.md)**
 
 ---
 
