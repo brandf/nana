@@ -91,30 +91,30 @@
 ## ⚡ **Emergency Checklists**
 
 ### **24-Hour Deadline Checklist**
-- [ ] **Choose** appropriate template
-- [ ] **Fill in** basic information
-- [ ] **Customize** for funder
-- [ ] **Review** for completeness
-- [ ] **Submit** before deadline
-- [ ] **Follow up** next day
+- ☐ **Choose** appropriate template
+- ☐ **Fill in** basic information
+- ☐ **Customize** for funder
+- ☐ **Review** for completeness
+- ☐ **Submit** before deadline
+- ☐ **Follow up** next day
 
 ### **1-Week Timeline Checklist**
-- [ ] **Research** funder priorities
-- [ ] **Choose** template and example
-- [ ] **Develop** budget
-- [ ] **Write** first draft
-- [ ] **Review** and edit
-- [ ] **Submit** with time to spare
-- [ ] **Follow up** appropriately
+- ☐ **Research** funder priorities
+- ☐ **Choose** template and example
+- ☐ **Develop** budget
+- ☐ **Write** first draft
+- ☐ **Review** and edit
+- ☐ **Submit** with time to spare
+- ☐ **Follow up** appropriately
 
 ### **1-Month Timeline Checklist**
-- [ ] **Research** multiple funders
-- [ ] **Build relationships** with program officers
-- [ ] **Develop** comprehensive proposal
-- [ ] **Get feedback** from colleagues
-- [ ] **Revise** based on feedback
-- [ ] **Submit** early
-- [ ] **Plan** follow-up strategy
+- ☐ **Research** multiple funders
+- ☐ **Build relationships** with program officers
+- ☐ **Develop** comprehensive proposal
+- ☐ **Get feedback** from colleagues
+- ☐ **Revise** based on feedback
+- ☐ **Submit** early
+- ☐ **Plan** follow-up strategy
 
 ---
 

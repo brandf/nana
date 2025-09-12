@@ -153,29 +153,29 @@
 ## 🎯 **Getting Started Checklist**
 
 ### **Week 1: Research and Planning**
-- [ ] **Read** the [Grant Writing Guide](grant_writing_guide.md)
-- [ ] **Review** the [Grand Rapids Database](grand_rapids_philanthropist_database.md)
-- [ ] **Choose** 2-3 funders to focus on
-- [ ] **Build relationships** with program officers
-- [ ] **Plan** your application timeline
+- ☐ **Read** the [Grant Writing Guide](grant_writing_guide.md)
+- ☐ **Review** the [Grand Rapids Database](grand_rapids_philanthropist_database.md)
+- ☐ **Choose** 2-3 funders to focus on
+- ☐ **Build relationships** with program officers
+- ☐ **Plan** your application timeline
 
 ### **Week 2: Proposal Development**
-- [ ] **Use** [Proposal Templates](proposal_templates.md) as starting points
-- [ ] **Develop** your budget using [Budget Planning Guide](budget_planning_guide.md)
-- [ ] **Review** [Sample Proposals](sample_proposals.md) for examples
-- [ ] **Follow** [Grant Writing Flowcharts](grant_writing_flowcharts.md) for process
+- ☐ **Use** [Proposal Templates](proposal_templates.md) as starting points
+- ☐ **Develop** your budget using [Budget Planning Guide](budget_planning_guide.md)
+- ☐ **Review** [Sample Proposals](sample_proposals.md) for examples
+- ☐ **Follow** [Grant Writing Flowcharts](grant_writing_flowcharts.md) for process
 
 ### **Week 3: Writing and Submission**
-- [ ] **Write** your proposal using templates and examples
-- [ ] **Review** using quality checklists
-- [ ] **Submit** by deadline
-- [ ] **Follow up** appropriately
+- ☐ **Write** your proposal using templates and examples
+- ☐ **Review** using quality checklists
+- ☐ **Submit** by deadline
+- ☐ **Follow up** appropriately
 
 ### **Week 4: Follow-up and Learning**
-- [ ] **Track** your application status
-- [ ] **Learn** from feedback (positive or negative)
-- [ ] **Plan** next applications
-- [ ] **Maintain** relationships with funders
+- ☐ **Track** your application status
+- ☐ **Learn** from feedback (positive or negative)
+- ☐ **Plan** next applications
+- ☐ **Maintain** relationships with funders
 
 ---
 

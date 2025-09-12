@@ -12,10 +12,10 @@
 **Time:** _________________  
 
 ### **What I Observed:**
-- [ ] Academic concern (reading, writing, math, other)
-- [ ] Behavioral concern (attention, following directions, other)
-- [ ] Social concern (peer interactions, group work, other)
-- [ ] Emotional concern (frustration, anxiety, other)
+- ☐ Academic concern (reading, writing, math, other)
+- ☐ Behavioral concern (attention, following directions, other)
+- ☐ Social concern (peer interactions, group work, other)
+- ☐ Emotional concern (frustration, anxiety, other)
 
 **Specific behavior:** _________________________________
 
@@ -43,28 +43,28 @@
 _________________________________
 
 **When does this typically occur?**
-- [ ] During independent work
-- [ ] During group activities
-- [ ] During transitions
-- [ ] During specific subjects
-- [ ] Other: _________________
+- ☐ During independent work
+- ☐ During group activities
+- ☐ During transitions
+- ☐ During specific subjects
+- ☐ Other: _________________
 
 **How often does this occur?**
-- [ ] Daily
-- [ ] Several times per week
-- [ ] Weekly
-- [ ] Occasionally
+- ☐ Daily
+- ☐ Several times per week
+- ☐ Weekly
+- ☐ Occasionally
 
 **What was happening before this occurred?**
 _________________________________
 
 ### **Student Response**
 **How did the student react?**
-- [ ] Continued working
-- [ ] Asked for help
-- [ ] Became frustrated
-- [ ] Avoided the task
-- [ ] Other: _________________
+- ☐ Continued working
+- ☐ Asked for help
+- ☐ Became frustrated
+- ☐ Avoided the task
+- ☐ Other: _________________
 
 **What did you try to help?**
 _________________________________
@@ -74,16 +74,16 @@ _________________________________
 
 ### **Impact on Learning**
 **How did this affect the student's learning?**
-- [ ] No impact
-- [ ] Slight impact
-- [ ] Moderate impact
-- [ ] Significant impact
+- ☐ No impact
+- ☐ Slight impact
+- ☐ Moderate impact
+- ☐ Significant impact
 
 **How did this affect other students?**
-- [ ] No impact
-- [ ] Slight impact
-- [ ] Moderate impact
-- [ ] Significant impact
+- ☐ No impact
+- ☐ Slight impact
+- ☐ Moderate impact
+- ☐ Significant impact
 
 ### **Follow-up Actions**
 **What will you try next?**
@@ -108,12 +108,12 @@ _________________________________
 _________________________________
 
 **When are you observing?**
-- [ ] Morning work
-- [ ] Reading time
-- [ ] Math time
-- [ ] Writing time
-- [ ] Transitions
-- [ ] Other: _________________
+- ☐ Morning work
+- ☐ Reading time
+- ☐ Math time
+- ☐ Writing time
+- ☐ Transitions
+- ☐ Other: _________________
 
 ### **Daily Tracking**
 | Day | Time | Behavior Observed | Context | Response |
@@ -147,11 +147,11 @@ _________________________________
 _________________________________
 
 **How are you measuring progress?**
-- [ ] Work samples
-- [ ] Test scores
-- [ ] Observation
-- [ ] Student self-report
-- [ ] Other: _________________
+- ☐ Work samples
+- ☐ Test scores
+- ☐ Observation
+- ☐ Student self-report
+- ☐ Other: _________________
 
 ### **Baseline Data**
 **Starting level:** _________________
@@ -195,41 +195,41 @@ _________________________________
 
 ### **Interaction Observed**
 **Who was involved?**
-- [ ] Peer(s)
-- [ ] Teacher
-- [ ] Small group
-- [ ] Whole class
-- [ ] Other: _________________
+- ☐ Peer(s)
+- ☐ Teacher
+- ☐ Small group
+- ☐ Whole class
+- ☐ Other: _________________
 
 **What type of interaction?**
-- [ ] Academic collaboration
-- [ ] Social conversation
-- [ ] Play/recreation
-- [ ] Conflict resolution
-- [ ] Other: _________________
+- ☐ Academic collaboration
+- ☐ Social conversation
+- ☐ Play/recreation
+- ☐ Conflict resolution
+- ☐ Other: _________________
 
 ### **Student's Behavior**
 **How did the student participate?**
-- [ ] Actively engaged
-- [ ] Passively involved
-- [ ] Avoided interaction
-- [ ] Dominated interaction
-- [ ] Other: _________________
+- ☐ Actively engaged
+- ☐ Passively involved
+- ☐ Avoided interaction
+- ☐ Dominated interaction
+- ☐ Other: _________________
 
 **What social skills did you observe?**
-- [ ] Taking turns
-- [ ] Sharing
-- [ ] Listening
-- [ ] Expressing ideas
-- [ ] Compromising
-- [ ] Other: _________________
+- ☐ Taking turns
+- ☐ Sharing
+- ☐ Listening
+- ☐ Expressing ideas
+- ☐ Compromising
+- ☐ Other: _________________
 
 ### **Peer Response**
 **How did peers respond to the student?**
-- [ ] Positively
-- [ ] Neutrally
-- [ ] Negatively
-- [ ] Mixed responses
+- ☐ Positively
+- ☐ Neutrally
+- ☐ Negatively
+- ☐ Mixed responses
 
 **Specific examples:**
 _________________________________
@@ -250,39 +250,39 @@ _________________________________
 **Observer:** _________________  
 
 ### **Organization Skills**
-- [ ] Keeps desk organized
-- [ ] Has necessary materials
-- [ ] Follows daily schedule
-- [ ] Completes assignments on time
-- [ ] Returns materials to proper place
+- ☐ Keeps desk organized
+- ☐ Has necessary materials
+- ☐ Follows daily schedule
+- ☐ Completes assignments on time
+- ☐ Returns materials to proper place
 
 ### **Planning and Prioritizing**
-- [ ] Breaks tasks into steps
-- [ ] Sets realistic goals
-- [ ] Manages time effectively
-- [ ] Prioritizes tasks appropriately
-- [ ] Asks for help when needed
+- ☐ Breaks tasks into steps
+- ☐ Sets realistic goals
+- ☐ Manages time effectively
+- ☐ Prioritizes tasks appropriately
+- ☐ Asks for help when needed
 
 ### **Self-Monitoring**
-- [ ] Checks work for errors
-- [ ] Adjusts behavior based on feedback
-- [ ] Recognizes when help is needed
-- [ ] Reflects on performance
-- [ ] Makes improvements
+- ☐ Checks work for errors
+- ☐ Adjusts behavior based on feedback
+- ☐ Recognizes when help is needed
+- ☐ Reflects on performance
+- ☐ Makes improvements
 
 ### **Impulse Control**
-- [ ] Waits for turn
-- [ ] Thinks before acting
-- [ ] Follows classroom rules
-- [ ] Manages frustration appropriately
-- [ ] Accepts consequences
+- ☐ Waits for turn
+- ☐ Thinks before acting
+- ☐ Follows classroom rules
+- ☐ Manages frustration appropriately
+- ☐ Accepts consequences
 
 ### **Working Memory**
-- [ ] Remembers multi-step directions
-- [ ] Keeps track of multiple tasks
-- [ ] Recalls information when needed
-- [ ] Maintains focus during activities
-- [ ] Transfers learning to new situations
+- ☐ Remembers multi-step directions
+- ☐ Keeps track of multiple tasks
+- ☐ Recalls information when needed
+- ☐ Maintains focus during activities
+- ☐ Transfers learning to new situations
 
 ### **Overall Assessment**
 **Strengths observed:** _________________
@@ -303,20 +303,20 @@ _________________________________
 **Family member contacted:** _________________
 
 **Method of contact:** _________________
-- [ ] Phone call
-- [ ] Email
-- [ ] In-person meeting
-- [ ] Note home
-- [ ] Other: _________________
+- ☐ Phone call
+- ☐ Email
+- ☐ In-person meeting
+- ☐ Note home
+- ☐ Other: _________________
 
 ### **Purpose of Contact**
 **Reason for reaching out:**
-- [ ] Positive update
-- [ ] Share concern
-- [ ] Discuss strategy
-- [ ] Schedule meeting
-- [ ] Follow-up
-- [ ] Other: _________________
+- ☐ Positive update
+- ☐ Share concern
+- ☐ Discuss strategy
+- ☐ Schedule meeting
+- ☐ Follow-up
+- ☐ Other: _________________
 
 ### **Key Points Discussed**
 **What did you share?**
