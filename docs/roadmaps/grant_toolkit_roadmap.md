@@ -16,17 +16,17 @@
 
 ### **Phase 1: Core Foundation** ✅ COMPLETED
 **Timeline:** Completed | **Impact:** High | **Effort:** Medium
-1. ✅ **Grant Writing Guide** - Complete step-by-step process
-2. ✅ **Grand Rapids Philanthropist Database** - Local foundation profiles and pitches
-3. ✅ **Proposal Templates** - Ready-to-use templates for every situation
-4. ✅ **Budget Planning Guide** - Financial planning tools and formulas
+1. ✅ **[Grant Writing Guide](../grant_toolkit/grant_writing_guide.md)** - Complete step-by-step process
+2. ✅ **[Grand Rapids Philanthropist Database](../grant_toolkit/grand_rapids_philanthropist_database.md)** - Local foundation profiles and pitches
+3. ✅ **[Proposal Templates](../grant_toolkit/proposal_templates.md)** - Ready-to-use templates for every situation
+4. ✅ **[Budget Planning Guide](../grant_toolkit/budget_planning_guide.md)** - Financial planning tools and formulas
 
 ### **Phase 2: Advanced Resources** ✅ COMPLETED
 **Timeline:** Completed | **Impact:** High | **Effort:** Medium
-1. ✅ **Sample Proposals** - Real examples of successful grants with analysis
-2. ✅ **Grant Writing Flowcharts** - Visual process guides for complex steps
-3. ✅ **Quick Start Guide** - Emergency help and 5-minute quick start
-4. ✅ **README & Navigation** - Clear entry points and user guidance
+1. ✅ **[Sample Proposals](../grant_toolkit/sample_proposals.md)** - Real examples of successful grants with analysis
+2. ✅ **[Grant Writing Flowcharts](../grant_toolkit/grant_writing_flowcharts.md)** - Visual process guides for complex steps
+3. ✅ **[Quick Start Guide](../grant_toolkit/quick_start.md)** - Emergency help and 5-minute quick start
+4. ✅ **[README & Navigation](../grant_toolkit/README.md)** - Clear entry points and user guidance
 
 ---
 
@@ -128,7 +128,7 @@
 
 - **[Teacher Toolkit Roadmap](teacher_toolkit_roadmap.md)** - Educational content and strategies
 - **[Export Plan](export_plan.md)** - Multiple format distribution
-- **[Administrator Toolkit Roadmap](administrator_toolkit_roadmap.md)** - System-level support (Future)
+- **[Main Roadmaps Index](README.md)** - Overview of all project roadmaps
 
 ---
 
