@@ -1,0 +1,56 @@
+# Research Project Gitignore
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Microsoft Office temporary files
+~$*
+*.docx~
+*.xlsx~
+*.pptx~
+
+# PDF temporary files
+*.pdf~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Personal notes (uncomment if you want to exclude personal notes)
+# personal-notes/
+# private/
+
+# Large data files (uncomment and modify as needed)
+# data/raw/
+# *.csv
+# *.xlsx
+# *.json
+
+# Compiled documents
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
