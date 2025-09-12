@@ -94,6 +94,46 @@
 - Strategies for building confidence and self-advocacy
 - **Implementation**: ✅ Created `docs/teacher_toolkit/social_emotional_learning_connections.md`
 
+---
+
+## 🏢 EXPANDED SCOPE: Multi-Stakeholder Resources
+
+### **Administrator Resources**
+**Priority:** High | **Effort:** High
+- **Policy and procedure** guidance for supporting students with learning differences
+- **Resource allocation** and budgeting for interventions
+- **Staff training** and professional development planning
+- **Legal compliance** and special education requirements
+- **Data analysis** and school-wide progress monitoring
+- **Implementation**: New directory `docs/administrator_toolkit/`
+
+### **Teacher Team Resources**
+**Priority:** High | **Effort:** Medium
+- **Collaborative planning** templates for grade-level teams
+- **Data team** protocols for analyzing student progress
+- **Intervention team** procedures and meeting structures
+- **Cross-curricular** strategies and coordination
+- **Peer observation** and coaching protocols
+- **Implementation**: New directory `docs/team_toolkit/`
+
+### **School Improvement Team Resources**
+**Priority:** High | **Effort:** High
+- **School-wide** assessment and planning tools
+- **MTSS/RTI** implementation guidance
+- **Professional development** planning and evaluation
+- **Family engagement** strategies and community outreach
+- **Continuous improvement** processes and data analysis
+- **Implementation**: New directory `docs/school_improvement_toolkit/`
+
+### **School Board Resources**
+**Priority:** Medium | **Effort:** High
+- **Policy development** and review guidance
+- **Budget planning** and resource allocation
+- **Community communication** and transparency
+- **Legal compliance** and regulatory requirements
+- **Strategic planning** and long-term vision
+- **Implementation**: New directory `docs/board_toolkit/`
+
 ### **Transition Planning**
 - Grade to grade transitions
 - School to school transitions
@@ -154,6 +194,28 @@
 3. Transition Planning
 4. Self-Advocacy Skill Development
 
+---
+
+## 🏢 EXPANDED IMPLEMENTATION PHASES
+
+### **Phase 5 (Multi-Stakeholder - High Impact, High Effort)**
+1. **Administrator Toolkit** - Policy, procedures, and resource allocation
+2. **Teacher Team Toolkit** - Collaborative planning and data protocols
+3. **School Improvement Toolkit** - MTSS/RTI implementation and PD planning
+4. **School Board Toolkit** - Policy development and community communication
+
+### **Phase 6 (System Integration - High Impact, High Effort)**
+1. **Cross-Stakeholder** communication protocols
+2. **System-wide** data integration and reporting
+3. **Professional development** coordination across roles
+4. **Community engagement** and family partnership strategies
+
+### **Phase 7 (Sustainability - Medium Impact, High Effort)**
+1. **Long-term** planning and resource sustainability
+2. **Continuous improvement** processes and evaluation
+3. **Leadership development** and succession planning
+4. **Research and development** for emerging needs
+
 ## Success Metrics
 
 ### **Teacher Usability**
@@ -170,6 +232,45 @@
 - Reduced unnecessary referrals
 - More effective use of support services
 - Better documentation for evaluations
+
+---
+
+## 🏢 EXPANDED SUCCESS METRICS
+
+### **Administrator Impact**
+- **Policy compliance** rates improve
+- **Resource allocation** becomes more strategic
+- **Staff training** effectiveness increases
+- **Data-driven** decision making improves
+- **Legal compliance** issues decrease
+
+### **Teacher Team Impact**
+- **Collaborative planning** becomes more effective
+- **Data team** meetings are more productive
+- **Intervention coordination** improves
+- **Cross-curricular** strategies are better aligned
+- **Peer support** networks strengthen
+
+### **School Improvement Impact**
+- **MTSS/RTI** implementation becomes more systematic
+- **Professional development** is more targeted and effective
+- **Family engagement** rates increase
+- **Continuous improvement** processes are established
+- **Student outcomes** improve school-wide
+
+### **School Board Impact**
+- **Policy development** is more informed and effective
+- **Budget decisions** better support student needs
+- **Community communication** improves transparency
+- **Strategic planning** aligns with student outcomes
+- **Stakeholder satisfaction** increases
+
+### **System-Wide Impact**
+- **Cross-stakeholder** communication improves
+- **Data integration** provides better insights
+- **Professional development** is coordinated and effective
+- **Community engagement** strengthens
+- **Student success** rates improve across all demographics
 
 ## Notes
 
