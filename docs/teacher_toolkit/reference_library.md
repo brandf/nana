@@ -22,50 +22,48 @@
 ## 🔍 Identify Concerns
 
 ### **Observation and Assessment**
-- **[Symptom Checker](workflows/identify_concerns.md)** - Interactive decision tree
-- **[Red Flags vs. Typical Development](reference/red_flags_vs_typical_development.md)** - When to worry
-- **[Age/Grade Considerations](reference/age_grade_considerations.md)** - Developmental expectations
-- **[Co-occurring Conditions](reference/co_occurring_conditions.md)** - Multiple conditions together
+- **[Symptom Checker](symptom_checker.md)** - Interactive decision tree
+- **[Red Flags vs. Typical Development](red_flags_vs_typical_development.md)** - When to worry
+- **[Age/Grade Considerations](age_grade_considerations.md)** - Developmental expectations
+- **[Co-occurring Conditions](co_occurring_conditions.md)** - Multiple conditions together
 
 ### **Documentation Tools**
 - **[Observation Templates](tools/observation_templates.md)** - Document what you see
-- **[Progress Monitoring](tools/progress_monitoring.md)** - Track student progress
-- **[Data Collection](tools/data_collection_templates.md)** - Systematic data gathering
+- **[Progress Monitoring](progress_monitoring/index.md)** - Track student progress
 
 ---
 
 ## 🛠️ Try Strategies
 
 ### **By Condition**
-- **[Dyslexia/Reading](strategies/intervention_guide.md#reading)** - Reading difficulties
-- **[Dysgraphia/Writing](strategies/intervention_guide.md#writing)** - Writing challenges
-- **[Dyscalculia/Math](strategies/intervention_guide.md#math)** - Math struggles
-- **[ADHD/Attention](strategies/intervention_guide.md#adhd)** - Attention and focus
-- **[ASD/Social](strategies/intervention_guide.md#asd)** - Social communication
-- **[Executive Function](reference/executive_function_standalone_guide.md)** - Planning and organization
-- **[Language Disorders](strategies/intervention_guide.md#language)** - Language difficulties
-- **[Auditory Processing](strategies/intervention_guide.md#apd)** - Listening challenges
-- **[Visual Processing](strategies/intervention_guide.md#visual-processing)** - Visual difficulties
+- **[Dyslexia/Reading](intervention_guide.md#reading)** - Reading difficulties
+- **[Dysgraphia/Writing](intervention_guide.md#writing)** - Writing challenges
+- **[Dyscalculia/Math](intervention_guide.md#math)** - Math struggles
+- **[ADHD/Attention](intervention_guide.md#adhd)** - Attention and focus
+- **[ASD/Social](intervention_guide.md#asd)** - Social communication
+- **[Executive Function](executive_function_standalone_guide.md)** - Planning and organization
+- **[Language Disorders](intervention_guide.md#language)** - Language difficulties
+- **[Auditory Processing](intervention_guide.md#apd)** - Listening challenges
+- **[Visual Processing](intervention_guide.md#visual-processing)** - Visual difficulties
 
 ### **By Grade Level**
-- **[Early Elementary (K-2)](reference/age_grade_considerations.md#early-elementary)** - Foundation building
-- **[Upper Elementary (3-5)](reference/age_grade_considerations.md#upper-elementary)** - Academic demands
-- **[Middle School (6-8)](reference/age_grade_considerations.md#middle-school)** - Executive function
-- **[High School (9-12)](reference/age_grade_considerations.md#high-school)** - Independence
+- **[Early Elementary (K-2)](age_grade_considerations.md#early-elementary)** - Foundation building
+- **[Upper Elementary (3-5)](age_grade_considerations.md#upper-elementary)** - Academic demands
+- **[Middle School (6-8)](age_grade_considerations.md#middle-school)** - Executive function
+- **[High School (9-12)](age_grade_considerations.md#high-school)** - Independence
 
 ### **Universal Supports**
-- **[Technology Integration](reference/technology_integration_guide.md)** - Apps and tools
-- **[Cultural Responsiveness](reference/cultural_responsiveness_guide.md)** - Supporting diversity
-- **[Common Mistakes to Avoid](reference/common_mistakes_to_avoid.md)** - What NOT to do
+- **[Technology Integration](technology_integration_guide.md)** - Apps and tools
+- **[Cultural Responsiveness](cultural_responsiveness_guide.md)** - Supporting diversity
+- **[Common Mistakes to Avoid](common_mistakes_to_avoid.md)** - What NOT to do
 
 ---
 
 ## 📊 Monitor Progress
 
 ### **Data Collection**
-- **[Progress Monitoring Tools](tools/progress_monitoring.md)** - Track student progress
-- **[Implementation Timeline](reference/implementation_timeline_priority_framework.md)** - When to adjust
-- **[Data Collection Templates](tools/data_collection_templates.md)** - Systematic tracking
+- **[Progress Monitoring Tools](progress_monitoring/index.md)** - Track student progress
+- **[Implementation Timeline](implementation_timeline_priority_framework.md)** - When to adjust
 
 ### **Adjustment Strategies**
 - **[When to Escalate](workflows/monitor_progress.md#when-to-escalate)** - Getting additional help

@@ -8,11 +8,13 @@
 
 ### **Emergency Situations** (Need help RIGHT NOW?)
 → **[QUICK START GUIDE](quick_start.md)** - Crisis response and immediate actions
+→ **[MOBILE QUICK REFERENCE](tools/mobile_quick_reference.md)** - On your phone
 
 ### **New to This Toolkit?** (First time here?)
 → **[GETTING STARTED GUIDE](getting_started.md)** - Step-by-step introduction
 
 ### **Looking for Specific Information?**
+→ **[COMPLETE INDEX](INDEX.md)** - Everything in one place
 → **[REFERENCE LIBRARY](reference_library.md)** - All resources organized by topic
 
 ---
@@ -21,31 +23,28 @@
 
 ### **1. Identify Concerns** 
 *"I'm seeing something that worries me"*
-- **[Symptom Checker](workflows/identify_concerns.md)** - Interactive decision tree
-- **[Red Flags vs. Typical Development](reference/red_flags_vs_typical_development.md)** - When to worry
-- **[Age/Grade Considerations](reference/age_grade_considerations.md)** - Developmental expectations
+- **[Symptom Checker](symptom_checker.md)** - Interactive decision tree
+- **[Red Flags vs. Typical Development](red_flags_vs_typical_development.md)** - When to worry
+- **[Age/Grade Considerations](age_grade_considerations.md)** - Developmental expectations
 - **[Observation Templates](tools/observation_templates.md)** - Document what you see
 
 ### **2. Try Strategies**
 *"I know what the problem is, what should I do?"*
-- **[Intervention Guide](strategies/intervention_guide.md)** - Detailed strategies by condition
-- **[Technology Integration](reference/technology_integration_guide.md)** - Apps and tools
-- **[Universal Supports](strategies/universal_supports.md)** - Strategies that help all students
-- **[Common Mistakes to Avoid](reference/common_mistakes_to_avoid.md)** - What NOT to do
+- **[Intervention Guide](intervention_guide.md)** - Detailed strategies by condition
+- **[Technology Integration](technology_integration_guide.md)** - Apps and tools
+- **[Common Mistakes to Avoid](common_mistakes_to_avoid.md)** - What NOT to do
 
 ### **3. Monitor Progress**
 *"I'm trying strategies, how do I know if they're working?"*
-- **[Progress Monitoring Tools](tools/progress_monitoring.md)** - Track student progress
-- **[Implementation Timeline](reference/implementation_timeline_priority_framework.md)** - When to adjust
-- **[Data Collection Templates](tools/data_collection_templates.md)** - Document progress
+- **[Progress Monitoring Tools](progress_monitoring/index.md)** - Track student progress
+- **[Implementation Timeline](implementation_timeline_priority_framework.md)** - When to adjust
 - **[Adjustment Strategies](workflows/monitor_progress.md)** - What to do when things change
 
 ### **4. Communicate with Families**
 *"I need to talk to families about concerns"*
-- **[Family Communication Templates](tools/family_communication_templates.md)** - Email and conversation guides
-- **[Cultural Responsiveness](reference/cultural_responsiveness_guide.md)** - Supporting diverse families
+- **[Family Communication Templates](family_communication/family_communication_templates.md)** - Email and conversation guides
+- **[Cultural Responsiveness](cultural_responsiveness_guide.md)** - Supporting diverse families
 - **[Difficult Conversations](workflows/communicate_families.md)** - When concerns are serious
-- **[Meeting Preparation](tools/meeting_preparation.md)** - Getting ready for conferences
 
 ---
 

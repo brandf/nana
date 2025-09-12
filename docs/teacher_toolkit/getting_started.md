@@ -217,7 +217,7 @@ Next step: Try pairing him with audio version of the book
 ## 📚 Next Steps
 
 ### **Immediate Actions** (This Week)
-1. **Read** the [Symptom Checker](workflows/identify_concerns.md)
+1. **Read** the [Symptom Checker](symptom_checker.md)
 2. **Choose** one student to observe
 3. **Try** one universal support strategy
 4. **Document** what you see and try
@@ -243,18 +243,17 @@ Next step: Try pairing him with audio version of the book
 
 ### **Daily Use**
 - **[Quick Reference Card](tools/quick_reference_card.md)** - Keep this handy
-- **[Symptom Checker](workflows/identify_concerns.md)** - When you see something concerning
+- **[Symptom Checker](symptom_checker.md)** - When you see something concerning
 - **[Observation Template](tools/observation_templates.md)** - Document your observations
 
 ### **Weekly Use**
-- **[Universal Supports](strategies/universal_supports.md)** - Strategies that help all students
-- **[Progress Monitoring](tools/progress_monitoring.md)** - Track student progress
-- **[Family Communication](tools/family_communication_templates.md)** - Talk to families
+- **[Progress Monitoring](progress_monitoring/index.md)** - Track student progress
+- **[Family Communication](family_communication/family_communication_templates.md)** - Talk to families
 
 ### **As Needed**
-- **[Intervention Guide](strategies/intervention_guide.md)** - Detailed strategies by condition
-- **[Technology Integration](reference/technology_integration_guide.md)** - Apps and tools
-- **[Cultural Responsiveness](reference/cultural_responsiveness_guide.md)** - Supporting diverse families
+- **[Intervention Guide](intervention_guide.md)** - Detailed strategies by condition
+- **[Technology Integration](technology_integration_guide.md)** - Apps and tools
+- **[Cultural Responsiveness](cultural_responsiveness_guide.md)** - Supporting diverse families
 
 ---
 
