@@ -39,6 +39,21 @@
 
 ---
 
+### **🏛️ [Federal/State Grants Roadmap](federal_state_grants_roadmap.md)**
+**Status:** 🚧 **PLANNING PHASE** - Detailed roadmap development  
+**Target:** Organizations seeking government funding for learning disability programs  
+**Focus:** Federal and state grant opportunities, application procedures, and compliance
+
+**Planned Expansion:**
+- 🚧 Federal grants database (20+ opportunities, $2M+ funding)
+- 🚧 Michigan state grants database (15+ opportunities, $1M+ funding)
+- 🚧 Application procedures and compliance requirements
+- 🚧 Ready-to-use templates and success stories
+
+**Status:** 🚧 **12-WEEK IMPLEMENTATION PLAN** - Ready to begin
+
+---
+
 ### **📦 [Export Plan](export_plan.md)**
 **Status:** 🚧 **Phase 1 Complete, Phases 2-3 Pending**  
 **Target:** All users needing different format access  
@@ -70,8 +85,11 @@
 ### **🚀 POTENTIAL FUTURE PROJECTS**
 *These would be separate, new toolkits - not extensions of current ones*
 1. **Administrator Toolkit** - System-level support resources
-2. **Federal/State Grants Toolkit** - Government funding opportunities
-3. **Regional Expansion Toolkit** - Broader geographic coverage
+2. **Regional Expansion Toolkit** - Broader geographic coverage
+
+### **🚧 ACTIVE DEVELOPMENT PROJECTS**
+*Currently in planning and development phase*
+1. **Federal/State Grants Expansion** - Government funding opportunities (12-week implementation plan)
 
 ---
 
