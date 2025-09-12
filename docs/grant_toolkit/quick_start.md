@@ -20,6 +20,7 @@
 - **Need templates?** → [Proposal Templates](proposal_templates.md)
 - **Want examples?** → [Sample Proposals](sample_proposals.md)
 - **Need local funders?** → [Grand Rapids Database](grand_rapids_philanthropist_database.md)
+- **Need government funding?** → [Federal/State Grants Expansion](federal_state_grants/README.md) (Coming Soon)
 
 ### **Step 2: Get What You Need (2 minutes)**
 - **Download** the appropriate template
@@ -42,10 +43,11 @@
 4. **Submit** and follow up
 
 ### **"I need to find funders"**
-1. **Check** [Grand Rapids Database](grand_rapids_philanthropist_database.md)
+1. **Check** [Grand Rapids Database](grand_rapids_philanthropist_database.md) for local opportunities
 2. **Look at** [Priority Ratings](grand_rapids_philanthropist_database.md#funding-summary-by-priority)
-3. **Choose** 2-3 to focus on
-4. **Start** with highest priority
+3. **Consider** [Federal/State Grants](federal_state_grants/README.md) for larger opportunities (Coming Soon)
+4. **Choose** 2-3 to focus on
+5. **Start** with highest priority
 
 ### **"I need to write a full proposal"**
 1. **Use** [Full Proposal Template](proposal_templates.md#full-proposal-template)

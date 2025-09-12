@@ -21,6 +21,9 @@
 ### **🏛️ I'm Looking for Local Funders**
 → **[Grand Rapids Philanthropist Database](grand_rapids_philanthropist_database.md)** - Local foundation profiles and pitches
 
+### **🏛️ I'm Looking for Government Funding**
+→ **[Federal/State Grants Expansion](federal_state_grants/README.md)** - Government funding opportunities (Coming Soon)
+
 ---
 
 ## 📋 **What This Toolkit Covers**
@@ -31,6 +34,7 @@
 ✅ **Local funder profiles** with specific pitches  
 ✅ **Sample proposals** with success analysis  
 ✅ **Visual flowcharts** for complex processes  
+🚧 **Federal/State grants** (20+ federal, 15+ state opportunities - Coming Soon)  
 
 ---
 
@@ -52,6 +56,11 @@
 2. **[Proposal Templates](proposal_templates.md)** - Customize for local funders
 3. **[Sample Proposals](sample_proposals.md)** - See successful local examples
 
+### **🏛️ Looking for Government Funding**
+1. **[Federal/State Grants Expansion](federal_state_grants/README.md)** - Government opportunities (Coming Soon)
+2. **[Federal Application Guide](federal_state_grants/federal_application_guide.md)** - Federal procedures (Coming Soon)
+3. **[State Application Guide](federal_state_grants/state_application_guide.md)** - Michigan procedures (Coming Soon)
+
 ---
 
 ## 📚 **Main Resources**
@@ -70,6 +79,12 @@
 - **[Grand Rapids Database](grand_rapids_philanthropist_database.md)** - Local foundation profiles
 - **[Priority Ratings](grand_rapids_philanthropist_database.md#funding-summary-by-priority)** - Strategic planning
 - **[Application Timelines](grand_rapids_philanthropist_database.md#application-strategy-timeline)** - When to apply
+
+### **🏛️ Government Funding Research** (Coming Soon)
+- **[Federal Grants Database](federal_state_grants/federal_grants_database.md)** - 20+ federal opportunities
+- **[State Grants Database](federal_state_grants/michigan_state_grants_database.md)** - 15+ Michigan opportunities
+- **[Federal Application Guide](federal_state_grants/federal_application_guide.md)** - Federal procedures
+- **[State Application Guide](federal_state_grants/state_application_guide.md)** - Michigan procedures
 
 ### **🎯 Visual Guides**
 - **[Grant Writing Flowcharts](grant_writing_flowcharts.md)** - Process flowcharts

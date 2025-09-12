@@ -8,6 +8,7 @@
 
 **New to grant writing?** Start here → **[Grant Writing Process](#-grant-writing-process)**  
 **Looking for local funders?** → **[Grand Rapids Philanthropist Database](grand_rapids_philanthropist_database.md)**  
+**Looking for government funding?** → **[Federal/State Grants Expansion](federal_state_grants/README.md)** (Coming Soon)  
 **Need templates?** → **[Proposal Templates](proposal_templates.md)**  
 **Budget planning?** → **[Budget Planning Guide](budget_planning_guide.md)**  
 **Want examples?** → **[Sample Proposals](sample_proposals.md)**  
@@ -25,7 +26,8 @@
 
 ❌ **Local foundation profiles** → See [Grand Rapids Database](grand_rapids_philanthropist_database.md)  
 ❌ **Specific pitches** for local funders → See [Grand Rapids Database](grand_rapids_philanthropist_database.md)  
-❌ **Application timelines** and deadlines → See [Grand Rapids Database](grand_rapids_philanthropist_database.md)
+❌ **Application timelines** and deadlines → See [Grand Rapids Database](grand_rapids_philanthropist_database.md)  
+❌ **Federal/State grant opportunities** → See [Federal/State Grants Expansion](federal_state_grants/README.md) (Coming Soon)
 
 ---
 
