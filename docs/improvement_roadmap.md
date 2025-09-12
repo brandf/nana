@@ -84,15 +84,15 @@
 
 ## Additional Missing Areas Identified
 
-### **Executive Function** as Standalone Section
+### **Executive Function** as Standalone Section ✅ COMPLETED
 - Currently embedded in ADHD but affects many students
 - Needs its own comprehensive treatment
-- **Implementation**: New section in research_report.md
+- **Implementation**: ✅ Created `docs/teacher_toolkit/executive_function_standalone_guide.md`
 
-### **Social-Emotional Learning** Connections
+### **Social-Emotional Learning** Connections ✅ COMPLETED
 - How learning differences impact social-emotional development
 - Strategies for building confidence and self-advocacy
-- **Implementation**: Cross-cutting addition
+- **Implementation**: ✅ Created `docs/teacher_toolkit/social_emotional_learning_connections.md`
 
 ### **Transition Planning**
 - Grade to grade transitions
@@ -143,10 +143,10 @@
 3. ✅ Co-occurring Conditions - COMPLETED
 4. ✅ Implementation Timeline/Priority Framework - COMPLETED
 
-### **Phase 3 (Medium-term - Medium Impact, Medium Effort)**
+### **Phase 3 (Medium-term - Medium Impact, Medium Effort)** ✅ COMPLETED
 1. ✅ Progress Monitoring Tools - COMPLETED
-2. Executive Function Standalone Section
-3. Social-Emotional Learning Connections
+2. ✅ Executive Function Standalone Section - COMPLETED
+3. ✅ Social-Emotional Learning Connections - COMPLETED
 
 ### **Phase 4 (Long-term - High Impact, High Effort)**
 1. Technology Integration Guide
