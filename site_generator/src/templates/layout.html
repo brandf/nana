@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - Nana Documentation</title>
+    <meta name="description" content="{{description}}">
+    <link rel="stylesheet" href="{{baseUrl}}assets/css/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">
+                    <a href="{{baseUrl}}index.html">Nana Documentation</a>
+                </h1>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="{{baseUrl}}teacher_toolkit/index.html">Teacher Toolkit</a></li>
+                        <li><a href="{{baseUrl}}grant_toolkit/index.html">Grant Toolkit</a></li>
+                        <li><a href="{{baseUrl}}roadmaps/index.html">Roadmaps</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <aside class="sidebar-nav">
+        {{sidebarNavigation}}
+    </aside>
+    
+    <main class="main-content">
+        <div class="container">
+            {{breadcrumbs}}
+            <article class="content">
+                <header class="page-header">
+                    <h1>{{title}}</h1>
+                    {{subtitle}}
+                </header>
+                {{content}}
+            </article>
+            {{tableOfContents}}
+            {{pageNavigation}}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Nana Documentation. Comprehensive toolkits for supporting students with learning disabilities.</p>
+        </div>
+    </footer>
+
+    <script src="{{baseUrl}}assets/js/main.js"></script>
+</body>
+</html>
