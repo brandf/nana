@@ -21,12 +21,20 @@
                         <li><a href="../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -56,16 +64,16 @@
       <a href="../../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
     <div class="nav-subsection ">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
-    </div>
-    <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../../teacher_toolkit/progress_monitoring/index.html" class="nav-link ">Progress Monitoring Tools</a>
       <a href="../../teacher_toolkit/workflows/communicate_families.html" class="nav-link ">Communicate with Families Workflow</a>
       <a href="../../teacher_toolkit/workflows/identify_concerns.html" class="nav-link ">Identify Concerns Workflow</a>
       <a href="../../teacher_toolkit/workflows/monitor_progress.html" class="nav-link ">Monitor Progress Workflow</a>
       <a href="../../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection ">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,24 +87,195 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../index.html">Home</a></li>
           <li><a href="../../teacher_toolkit">Teacher Toolkit</a></li><li><span aria-current="page">Co Occurring Conditions</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Co-occurring Conditions</h1>
+                        
+                    </header>
                     <h1>Co-occurring Conditions</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Co-occurring Conditions</h1></p><p><br><em>How multiple learning differences interact and what to do about it</em></p><p><br>---</p><p><br><h2>🔗 Why Co-occurring Conditions Matter</h2></p><p><br><h3><strong>The Reality</strong></h3></p><p><br>- <strong>60-80%</strong> of students with learning differences have multiple conditions</p><p><br>- <strong>ADHD + Dyslexia</strong> occurs in 25-40% of cases</p><p><br>- <strong>ASD + Language disorders</strong> are very common</p><p><br>- <strong>Anxiety + Learning disabilities</strong> often go together</p><p><br>- Conditions <strong>interact and amplify</strong> each other</p><p><br><h3><strong>Why This Matters for Teachers</strong></h3></p><p><br>- <strong>Single interventions</strong> may not work</p><p><br>- <strong>Symptoms can mask</strong> each other</p><p><br>- <strong>Prioritizing</strong> which condition to address first</p><p><br>- <strong>Complex needs</strong> require comprehensive approaches</p><p><br>- <strong>Family communication</strong> becomes more nuanced</p><p><br>---</p><p><br><h2>🧠 Common Co-occurring Patterns</h2></p><p><br><h3><strong>ADHD + Dyslexia (25-40% of cases)</strong></h3></p><p><br>#### <strong>How They Interact</strong></p><p><br>- <strong>ADHD symptoms</strong> can mask dyslexia</p><p><br>- <strong>Dyslexia symptoms</strong> can look like ADHD</p><p><br>- <strong>Both affect</strong> attention and working memory</p><p><br>- <strong>Reading struggles</strong> increase frustration and hyperactivity</p><p><br>- <strong>Impulsivity</strong> makes reading errors more likely</p><p><br>#### <strong>What Teachers See</strong></p><p><br>- <strong>Inattentive during reading</strong> (ADHD or dyslexia?)</p><p><br>- <strong>Avoids reading tasks</strong> (frustration or difficulty?)</p><p><br>- <strong>Makes careless errors</strong> (impulsivity or decoding issues?)</p><p><br>- <strong>Can't sit still during reading</strong> (hyperactivity or avoidance?)</p><p><br>#### <strong>What to Do</strong></p><p><br>- <strong>Address both</strong> simultaneously, not sequentially</p><p><br>- <strong>Use multisensory</strong> reading instruction</p><p><br>- <strong>Provide movement breaks</strong> during reading</p><p><br>- <strong>Use audiobooks</strong> to reduce frustration</p><p><br>- <strong>Teach self-regulation</strong> strategies</p><p><br>- <strong>Break reading</strong> into very small chunks</p><p><br><h3><strong>ASD + Language Disorders (60-80% of cases)</strong></h3></p><p><br>#### <strong>How They Interact</strong></p><p><br>- <strong>Social communication</strong> deficits compound language issues</p><p><br>- <strong>Literal thinking</strong> affects comprehension</p><p><br>- <strong>Sensory issues</strong> can interfere with listening</p><p><br>- <strong>Rigid thinking</strong> makes language learning harder</p><p><br>- <strong>Anxiety</strong> reduces language processing</p><p><br>#### <strong>What Teachers See</strong></p><p><br>- <strong>Can't follow directions</strong> (language or social understanding?)</p><p><br>- <strong>Repeats phrases</strong> (echolalia or language delay?)</p><p><br>- <strong>Avoids group work</strong> (social anxiety or language difficulty?)</p><p><br>- <strong>Takes things literally</strong> (ASD trait or language issue?)</p><p><br>#### <strong>What to Do</strong></p><p><br>- <strong>Use visual supports</strong> for all language</p><p><br>- <strong>Provide explicit</strong> social language instruction</p><p><br>- <strong>Use concrete examples</strong> and avoid idioms</p><p><br>- <strong>Allow processing time</strong> for language</p><p><br>- <strong>Teach social scripts</strong> for communication</p><p><br>- <strong>Use technology</strong> to support language</p><p><br><h3><strong>Anxiety + Learning Disabilities (30-50% of cases)</strong></h3></p><p><br>#### <strong>How They Interact</strong></p><p><br>- <strong>Learning struggles</strong> create anxiety</p><p><br>- <strong>Anxiety</strong> impairs learning and memory</p><p><br>- <strong>Fear of failure</strong> leads to avoidance</p><p><br>- <strong>Perfectionism</strong> increases stress</p><p><br>- <strong>Social anxiety</strong> affects participation</p><p><br>#### <strong>What Teachers See</strong></p><p><br>- <strong>Avoids challenging tasks</strong> (anxiety or inability?)</p><p><br>- <strong>Perfectionist behavior</strong> (anxiety or learning need?)</p><p><br>- <strong>Physical symptoms</strong> (headaches, stomachaches)</p><p><br>- <strong>Refuses to participate</strong> (anxiety or defiance?)</p><p><br>- <strong>Cries easily</strong> (anxiety or frustration?)</p><p><br>#### <strong>What to Do</strong></p><p><br>- <strong>Create safe learning</strong> environment</p><p><br>- <strong>Teach coping strategies</strong> for anxiety</p><p><br>- <strong>Use gradual exposure</strong> to challenging tasks</p><p><br>- <strong>Focus on effort</strong> not perfection</p><p><br>- <strong>Provide emotional support</strong> and validation</p><p><br>- <strong>Work with school counselor</strong> for anxiety management</p><p><br><h3><strong>Executive Function + Any Learning Disability</strong></h3></p><p><br>#### <strong>How They Interact</strong></p><p><br>- <strong>Poor organization</strong> makes learning harder</p><p><br>- <strong>Time management</strong> issues affect all subjects</p><p><br>- <strong>Working memory</strong> problems compound learning difficulties</p><p><br>- <strong>Impulse control</strong> affects learning strategies</p><p><br>- <strong>Planning deficits</strong> make projects overwhelming</p><p><br>#### <strong>What Teachers See</strong></p><p><br>- <strong>Lost assignments</strong> (organization or learning issue?)</p><p><br>- <strong>Can't get started</strong> (executive function or avoidance?)</p><p><br>- <strong>Incomplete work</strong> (time management or difficulty?)</p><p><br>- <strong>Messy desk</strong> (organization or learning disability?)</p><p><br>- <strong>Can't follow steps</strong> (executive function or comprehension?)</p><p><br>#### <strong>What to Do</strong></p><p><br>- <strong>Teach organization</strong> strategies explicitly</p><p><br>- <strong>Use visual schedules</strong> and checklists</p><p><br>- <strong>Break tasks</strong> into very small steps</p><p><br>- <strong>Provide external</strong> structure and support</p><p><br>- <strong>Teach self-monitoring</strong> strategies</p><p><br>- <strong>Use technology</strong> for organization</p><p><br>---</p><p><br><h2>🎯 Prioritizing Interventions</h2></p><p><br><h3><strong>When Multiple Conditions Present</strong></h3></p><p><br>#### <strong>Safety First</strong></p><p><br>- <strong>Behavioral concerns</strong> that affect safety</p><p><br>- <strong>Mental health</strong> crises</p><p><br>- <strong>Medical issues</strong> that need immediate attention</p><p><br>- <strong>Family crises</strong> that affect learning</p><p><br>#### <strong>Academic Impact</strong></p><p><br>- <strong>Which condition</strong> most affects learning?</p><p><br>- <strong>What interventions</strong> will help most students?</p><p><br>- <strong>What resources</strong> are available?</p><p><br>- <strong>What can be</strong> addressed simultaneously?</p><p><br>#### <strong>Student Strengths</strong></p><p><br>- <strong>What does</strong> the student do well?</p><p><br>- <strong>What motivates</strong> them?</p><p><br>- <strong>What strategies</strong> have worked before?</p><p><br>- <strong>How can we</strong> build on strengths?</p><p><br><h3><strong>Intervention Hierarchy</strong></h3></p><p><br>#### <strong>Tier 1: Universal Supports</strong></p><p><br>- <strong>High-quality instruction</strong> for all</p><p><br>- <strong>Positive behavior</strong> support</p><p><br>- <strong>Differentiated instruction</strong></p><p><br>- <strong>Regular progress</strong> monitoring</p><p><br>#### <strong>Tier 2: Targeted Supports</strong></p><p><br>- <strong>Small group</strong> instruction</p><p><br>- <strong>Behavior interventions</strong></p><p><br>- <strong>Social skills</strong> training</p><p><br>- <strong>Executive function</strong> support</p><p><br>#### <strong>Tier 3: Intensive Supports</strong></p><p><br>- <strong>Individualized</strong> instruction</p><p><br>- <strong>Intensive interventions</strong></p><p><br>- <strong>Specialized services</strong></p><p><br>- <strong>Frequent progress</strong> monitoring</p><p><br>---</p><p><br><h2>🔄 Complex Case Management</h2></p><p><br><h3><strong>The Challenge</strong></h3></p><p><br>- <strong>Multiple professionals</strong> involved</p><p><br>- <strong>Conflicting recommendations</strong> from different specialists</p><p><br>- <strong>Family overwhelmed</strong> by information</p><p><br>- <strong>Teacher juggling</strong> multiple needs</p><p><br>- <strong>Resources stretched</strong> thin</p><p><br><h3><strong>What Teachers Can Do</strong></h3></p><p><br>#### <strong>Coordinate with Team</strong></p><p><br>- <strong>Regular communication</strong> with all professionals</p><p><br>- <strong>Shared documentation</strong> of progress</p><p><br>- <strong>Consistent approaches</strong> across settings</p><p><br>- <strong>Regular team meetings</strong> to review progress</p><p><br>#### <strong>Simplify for Families</strong></p><p><br>- <strong>One point of contact</strong> (usually the teacher)</p><p><br>- <strong>Clear communication</strong> about priorities</p><p><br>- <strong>Realistic expectations</strong> about progress</p><p><br>- <strong>Celebrate small wins</strong> together</p><p><br>#### <strong>Focus on What Matters Most</strong></p><p><br>- <strong>Academic progress</strong> that affects learning</p><p><br>- <strong>Behavioral concerns</strong> that affect safety</p><p><br>- <strong>Social skills</strong> that affect relationships</p><p><br>- <strong>Self-advocacy</strong> that affects independence</p><p><br>---</p><p><br><h2>📊 Assessment Considerations</h2></p><p><br><h3><strong>When Multiple Conditions Present</strong></h3></p><p><br>#### <strong>Comprehensive Evaluation</strong></p><p><br>- <strong>Multiple assessments</strong> across domains</p><p><br>- <strong>Different professionals</strong> for different areas</p><p><br>- <strong>Family input</strong> about all concerns</p><p><br>- <strong>Teacher observations</strong> across settings</p><p><br>#### <strong>Avoiding Misdiagnosis</strong></p><p><br>- <strong>Don't assume</strong> one condition explains everything</p><p><br>- <strong>Look for patterns</strong> across different areas</p><p><br>- <strong>Consider cultural</strong> and linguistic factors</p><p><br>- <strong>Rule out</strong> other explanations</p><p><br>#### <strong>Documentation</strong></p><p><br>- <strong>Separate concerns</strong> by domain</p><p><br>- <strong>Note interactions</strong> between conditions</p><p><br>- <strong>Track progress</strong> in each area</p><p><br>- <strong>Adjust interventions</strong> based on data</p><p><br>---</p><p><br><h2>🏠 Family Communication</h2></p><p><br><h3><strong>The Challenge</strong></h3></p><p><br>- <strong>Overwhelming information</strong> about multiple conditions</p><p><br>- <strong>Conflicting advice</strong> from different professionals</p><p><br>- <strong>Guilt and worry</strong> about their child</p><p><br>- <strong>Financial stress</strong> from multiple services</p><p><br>- <strong>Time management</strong> for multiple appointments</p><p><br><h3><strong>What Teachers Can Do</strong></h3></p><p><br>#### <strong>Simplify Communication</strong></p><p><br>- <strong>One clear message</strong> at a time</p><p><br>- <strong>Focus on priorities</strong> not everything</p><p><br>- <strong>Use everyday language</strong> not jargon</p><p><br>- <strong>Provide written</strong> summaries of meetings</p><p><br>#### <strong>Build Partnerships</strong></p><p><br>- <strong>Listen to</strong> family concerns</p><p><br>- <strong>Validate</strong> their experiences</p><p><br>- <strong>Collaborate</strong> on solutions</p><p><br>- <strong>Celebrate progress</strong> together</p><p><br>#### <strong>Provide Support</strong></p><p><br>- <strong>Connect families</strong> with resources</p><p><br>- <strong>Help navigate</strong> the system</p><p><br>- <strong>Provide information</strong> about services</p><p><br>- <strong>Offer emotional</strong> support</p><p><br>---</p><p><br><h2>🎯 Classroom Strategies for Complex Cases</h2></p><p><br><h3><strong>Universal Design for Learning (UDL)</strong></h3></p><p><br>#### <strong>Multiple Means of Representation</strong></p><p><br>- <strong>Visual, auditory, kinesthetic</strong> input</p><p><br>- <strong>Different complexity</strong> levels</p><p><br>- <strong>Cultural relevance</strong> and diversity</p><p><br>- <strong>Technology supports</strong> for access</p><p><br>#### <strong>Multiple Means of Action and Expression</strong></p><p><br>- <strong>Different ways</strong> to demonstrate learning</p><p><br>- <strong>Various tools</strong> and technologies</p><p><br>- <strong>Flexible timing</strong> and pacing</p><p><br>- <strong>Choice in</strong> how to participate</p><p><br>#### <strong>Multiple Means of Engagement</strong></p><p><br>- <strong>Relevant and</strong> meaningful content</p><p><br>- <strong>Choice and</strong> autonomy</p><p><br>- <strong>Collaboration</strong> and community</p><p><br>- <strong>Self-regulation</strong> and reflection</p><p><br><h3><strong>Differentiated Instruction</strong></h3></p><p><br>#### <strong>Content</strong></p><p><br>- <strong>Different reading</strong> levels</p><p><br>- <strong>Various formats</strong> (text, audio, video)</p><p><br>- <strong>Cultural relevance</strong> and diversity</p><p><br>- <strong>Multiple perspectives</strong> on topics</p><p><br>#### <strong>Process</strong></p><p><br>- <strong>Different learning</strong> activities</p><p><br>- <strong>Various grouping</strong> strategies</p><p><br>- <strong>Flexible pacing</strong> and timing</p><p><br>- <strong>Multiple assessment</strong> methods</p><p><br>#### <strong>Product</strong></p><p><br>- <strong>Different ways</strong> to show learning</p><p><br>- <strong>Various formats</strong> for final products</p><p><br>- <strong>Flexible criteria</strong> for success</p><p><br>- <strong>Multiple opportunities</strong> to demonstrate mastery</p><p><br>---</p><p><br><h2>🔧 Technology Integration</h2></p><p><br><h3><strong>Assistive Technology for Multiple Needs</strong></h3></p><p><br>#### <strong>Reading Support</strong></p><p><br>- <strong>Text-to-speech</strong> for dyslexia</p><p><br>- <strong>Audio books</strong> for attention issues</p><p><br>- <strong>Visual supports</strong> for comprehension</p><p><br>- <strong>Interactive tools</strong> for engagement</p><p><br>#### <strong>Writing Support</strong></p><p><br>- <strong>Speech-to-text</strong> for motor issues</p><p><br>- <strong>Word prediction</strong> for spelling</p><p><br>- <strong>Graphic organizers</strong> for planning</p><p><br>- <strong>Collaborative tools</strong> for group work</p><p><br>#### <strong>Organization Support</strong></p><p><br>- <strong>Digital planners</strong> for executive function</p><p><br>- <strong>Reminder systems</strong> for memory</p><p><br>- <strong>Task management</strong> tools</p><p><br>- <strong>Progress tracking</strong> systems</p><p><br>---</p><p><br><h2>📈 Progress Monitoring</h2></p><p><br><h3><strong>Tracking Multiple Conditions</strong></h3></p><p><br>#### <strong>Academic Progress</strong></p><p><br>- <strong>Standardized tests</strong> for baseline</p><p><br>- <strong>Curriculum-based</strong> measurements</p><p><br>- <strong>Portfolio assessments</strong> for growth</p><p><br>- <strong>Self-assessment</strong> and reflection</p><p><br>#### <strong>Behavioral Progress</strong></p><p><br>- <strong>Behavior rating</strong> scales</p><p><br>- <strong>Observation</strong> data</p><p><br>- <strong>Self-monitoring</strong> tools</p><p><br>- <strong>Family input</strong> and feedback</p><p><br>#### <strong>Social-Emotional Progress</strong></p><p><br>- <strong>Social skills</strong> assessments</p><p><br>- <strong>Emotional regulation</strong> measures</p><p><br>- <strong>Self-advocacy</strong> development</p><p><br>- <strong>Relationship</strong> quality indicators</p><p><br>---</p><p><br><h2>🚨 Red Flags for Complex Cases</h2></p><p><br><h3><strong>When to Seek Additional Help</strong></h3></p><p><br>- <strong>No progress</strong> despite multiple interventions</p><p><br>- <strong>Regression</strong> in previously mastered skills</p><p><br>- <strong>Safety concerns</strong> for self or others</p><p><br>- <strong>Family crisis</strong> affecting learning</p><p><br>- <strong>Teacher feeling</strong> overwhelmed or ineffective</p><p><br><h3><strong>Who to Contact</strong></h3></p><p><br>- <strong>School psychologist</strong> for comprehensive evaluation</p><p><br>- <strong>Special education</strong> team for intensive supports</p><p><br>- <strong>School counselor</strong> for mental health concerns</p><p><br>- <strong>Administration</strong> for resource allocation</p><p><br>- <strong>Outside agencies</strong> for specialized services</p><p><br>---</p><p><br><h2>💡 Teacher Self-Care</h2></p><p><br><h3><strong>The Reality</strong></h3></p><p><br>- <strong>Complex cases</strong> are emotionally demanding</p><p><br>- <strong>Multiple needs</strong> can feel overwhelming</p><p><br>- <strong>Limited resources</strong> create stress</p><p><br>- <strong>High expectations</strong> from families and administration</p><p><br>- <strong>Burnout risk</strong> is real</p><p><br><h3><strong>What Teachers Can Do</strong></h3></p><p><br>- <strong>Set realistic</strong> expectations</p><p><br>- <strong>Ask for help</strong> when needed</p><p><br>- <strong>Focus on progress</strong> not perfection</p><p><br>- <strong>Celebrate small</strong> wins</p><p><br>- <strong>Take care</strong> of yourself</p><p><br>- <strong>Build support</strong> networks</p><p><br>---</p><p><br><em>Remember: You don't have to solve everything at once. Focus on what matters most, work with your team, and celebrate every step forward.</em></p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>How multiple learning differences interact and what to do about it</em></p>
+
+<p>---</p>
+
+<h2>🔗 Why Co-occurring Conditions Matter</h2>
+
+<h3><strong>The Reality</strong></h3><ul><li><strong>60-80%</strong> of students with learning differences have multiple conditions</li></ul><ul><li><strong>ADHD + Dyslexia</strong> occurs in 25-40% of cases</li></ul><ul><li><strong>ASD + Language disorders</strong> are very common</li></ul><ul><li><strong>Anxiety + Learning disabilities</strong> often go together</li></ul><ul><li>Conditions <strong>interact and amplify</strong> each other</li></ul>
+
+<h3><strong>Why This Matters for Teachers</strong></h3><ul><li><strong>Single interventions</strong> may not work</li></ul><ul><li><strong>Symptoms can mask</strong> each other</li></ul><ul><li><strong>Prioritizing</strong> which condition to address first</li></ul><ul><li><strong>Complex needs</strong> require comprehensive approaches</li></ul><ul><li><strong>Family communication</strong> becomes more nuanced</li></ul>
+
+<p>---</p>
+
+<h2>🧠 Common Co-occurring Patterns</h2>
+
+<h3><strong>ADHD + Dyslexia (25-40% of cases)</strong></h3>
+
+<p>#### <strong>How They Interact</strong></p><ul><li><strong>ADHD symptoms</strong> can mask dyslexia</li></ul><ul><li><strong>Dyslexia symptoms</strong> can look like ADHD</li></ul><ul><li><strong>Both affect</strong> attention and working memory</li></ul><ul><li><strong>Reading struggles</strong> increase frustration and hyperactivity</li></ul><ul><li><strong>Impulsivity</strong> makes reading errors more likely</li></ul>
+
+<p>#### <strong>What Teachers See</strong></p><ul><li><strong>Inattentive during reading</strong> (ADHD or dyslexia?)</li></ul><ul><li><strong>Avoids reading tasks</strong> (frustration or difficulty?)</li></ul><ul><li><strong>Makes careless errors</strong> (impulsivity or decoding issues?)</li></ul><ul><li><strong>Can't sit still during reading</strong> (hyperactivity or avoidance?)</li></ul>
+
+<p>#### <strong>What to Do</strong></p><ul><li><strong>Address both</strong> simultaneously, not sequentially</li></ul><ul><li><strong>Use multisensory</strong> reading instruction</li></ul><ul><li><strong>Provide movement breaks</strong> during reading</li></ul><ul><li><strong>Use audiobooks</strong> to reduce frustration</li></ul><ul><li><strong>Teach self-regulation</strong> strategies</li></ul><ul><li><strong>Break reading</strong> into very small chunks</li></ul>
+
+<h3><strong>ASD + Language Disorders (60-80% of cases)</strong></h3>
+
+<p>#### <strong>How They Interact</strong></p><ul><li><strong>Social communication</strong> deficits compound language issues</li></ul><ul><li><strong>Literal thinking</strong> affects comprehension</li></ul><ul><li><strong>Sensory issues</strong> can interfere with listening</li></ul><ul><li><strong>Rigid thinking</strong> makes language learning harder</li></ul><ul><li><strong>Anxiety</strong> reduces language processing</li></ul>
+
+<p>#### <strong>What Teachers See</strong></p><ul><li><strong>Can't follow directions</strong> (language or social understanding?)</li></ul><ul><li><strong>Repeats phrases</strong> (echolalia or language delay?)</li></ul><ul><li><strong>Avoids group work</strong> (social anxiety or language difficulty?)</li></ul><ul><li><strong>Takes things literally</strong> (ASD trait or language issue?)</li></ul>
+
+<p>#### <strong>What to Do</strong></p><ul><li><strong>Use visual supports</strong> for all language</li></ul><ul><li><strong>Provide explicit</strong> social language instruction</li></ul><ul><li><strong>Use concrete examples</strong> and avoid idioms</li></ul><ul><li><strong>Allow processing time</strong> for language</li></ul><ul><li><strong>Teach social scripts</strong> for communication</li></ul><ul><li><strong>Use technology</strong> to support language</li></ul>
+
+<h3><strong>Anxiety + Learning Disabilities (30-50% of cases)</strong></h3>
+
+<p>#### <strong>How They Interact</strong></p><ul><li><strong>Learning struggles</strong> create anxiety</li></ul><ul><li><strong>Anxiety</strong> impairs learning and memory</li></ul><ul><li><strong>Fear of failure</strong> leads to avoidance</li></ul><ul><li><strong>Perfectionism</strong> increases stress</li></ul><ul><li><strong>Social anxiety</strong> affects participation</li></ul>
+
+<p>#### <strong>What Teachers See</strong></p><ul><li><strong>Avoids challenging tasks</strong> (anxiety or inability?)</li></ul><ul><li><strong>Perfectionist behavior</strong> (anxiety or learning need?)</li></ul><ul><li><strong>Physical symptoms</strong> (headaches, stomachaches)</li></ul><ul><li><strong>Refuses to participate</strong> (anxiety or defiance?)</li></ul><ul><li><strong>Cries easily</strong> (anxiety or frustration?)</li></ul>
+
+<p>#### <strong>What to Do</strong></p><ul><li><strong>Create safe learning</strong> environment</li></ul><ul><li><strong>Teach coping strategies</strong> for anxiety</li></ul><ul><li><strong>Use gradual exposure</strong> to challenging tasks</li></ul><ul><li><strong>Focus on effort</strong> not perfection</li></ul><ul><li><strong>Provide emotional support</strong> and validation</li></ul><ul><li><strong>Work with school counselor</strong> for anxiety management</li></ul>
+
+<h3><strong>Executive Function + Any Learning Disability</strong></h3>
+
+<p>#### <strong>How They Interact</strong></p><ul><li><strong>Poor organization</strong> makes learning harder</li></ul><ul><li><strong>Time management</strong> issues affect all subjects</li></ul><ul><li><strong>Working memory</strong> problems compound learning difficulties</li></ul><ul><li><strong>Impulse control</strong> affects learning strategies</li></ul><ul><li><strong>Planning deficits</strong> make projects overwhelming</li></ul>
+
+<p>#### <strong>What Teachers See</strong></p><ul><li><strong>Lost assignments</strong> (organization or learning issue?)</li></ul><ul><li><strong>Can't get started</strong> (executive function or avoidance?)</li></ul><ul><li><strong>Incomplete work</strong> (time management or difficulty?)</li></ul><ul><li><strong>Messy desk</strong> (organization or learning disability?)</li></ul><ul><li><strong>Can't follow steps</strong> (executive function or comprehension?)</li></ul>
+
+<p>#### <strong>What to Do</strong></p><ul><li><strong>Teach organization</strong> strategies explicitly</li></ul><ul><li><strong>Use visual schedules</strong> and checklists</li></ul><ul><li><strong>Break tasks</strong> into very small steps</li></ul><ul><li><strong>Provide external</strong> structure and support</li></ul><ul><li><strong>Teach self-monitoring</strong> strategies</li></ul><ul><li><strong>Use technology</strong> for organization</li></ul>
+
+<p>---</p>
+
+<h2>🎯 Prioritizing Interventions</h2>
+
+<h3><strong>When Multiple Conditions Present</strong></h3>
+
+<p>#### <strong>Safety First</strong></p><ul><li><strong>Behavioral concerns</strong> that affect safety</li></ul><ul><li><strong>Mental health</strong> crises</li></ul><ul><li><strong>Medical issues</strong> that need immediate attention</li></ul><ul><li><strong>Family crises</strong> that affect learning</li></ul>
+
+<p>#### <strong>Academic Impact</strong></p><ul><li><strong>Which condition</strong> most affects learning?</li></ul><ul><li><strong>What interventions</strong> will help most students?</li></ul><ul><li><strong>What resources</strong> are available?</li></ul><ul><li><strong>What can be</strong> addressed simultaneously?</li></ul>
+
+<p>#### <strong>Student Strengths</strong></p><ul><li><strong>What does</strong> the student do well?</li></ul><ul><li><strong>What motivates</strong> them?</li></ul><ul><li><strong>What strategies</strong> have worked before?</li></ul><ul><li><strong>How can we</strong> build on strengths?</li></ul>
+
+<h3><strong>Intervention Hierarchy</strong></h3>
+
+<p>#### <strong>Tier 1: Universal Supports</strong></p><ul><li><strong>High-quality instruction</strong> for all</li></ul><ul><li><strong>Positive behavior</strong> support</li></ul><ul><li><strong>Differentiated instruction</strong></li></ul><ul><li><strong>Regular progress</strong> monitoring</li></ul>
+
+<p>#### <strong>Tier 2: Targeted Supports</strong></p><ul><li><strong>Small group</strong> instruction</li></ul><ul><li><strong>Behavior interventions</strong></li></ul><ul><li><strong>Social skills</strong> training</li></ul><ul><li><strong>Executive function</strong> support</li></ul>
+
+<p>#### <strong>Tier 3: Intensive Supports</strong></p><ul><li><strong>Individualized</strong> instruction</li></ul><ul><li><strong>Intensive interventions</strong></li></ul><ul><li><strong>Specialized services</strong></li></ul><ul><li><strong>Frequent progress</strong> monitoring</li></ul>
+
+<p>---</p>
+
+<h2>🔄 Complex Case Management</h2>
+
+<h3><strong>The Challenge</strong></h3><ul><li><strong>Multiple professionals</strong> involved</li></ul><ul><li><strong>Conflicting recommendations</strong> from different specialists</li></ul><ul><li><strong>Family overwhelmed</strong> by information</li></ul><ul><li><strong>Teacher juggling</strong> multiple needs</li></ul><ul><li><strong>Resources stretched</strong> thin</li></ul>
+
+<h3><strong>What Teachers Can Do</strong></h3>
+
+<p>#### <strong>Coordinate with Team</strong></p><ul><li><strong>Regular communication</strong> with all professionals</li></ul><ul><li><strong>Shared documentation</strong> of progress</li></ul><ul><li><strong>Consistent approaches</strong> across settings</li></ul><ul><li><strong>Regular team meetings</strong> to review progress</li></ul>
+
+<p>#### <strong>Simplify for Families</strong></p><ul><li><strong>One point of contact</strong> (usually the teacher)</li></ul><ul><li><strong>Clear communication</strong> about priorities</li></ul><ul><li><strong>Realistic expectations</strong> about progress</li></ul><ul><li><strong>Celebrate small wins</strong> together</li></ul>
+
+<p>#### <strong>Focus on What Matters Most</strong></p><ul><li><strong>Academic progress</strong> that affects learning</li></ul><ul><li><strong>Behavioral concerns</strong> that affect safety</li></ul><ul><li><strong>Social skills</strong> that affect relationships</li></ul><ul><li><strong>Self-advocacy</strong> that affects independence</li></ul>
+
+<p>---</p>
+
+<h2>📊 Assessment Considerations</h2>
+
+<h3><strong>When Multiple Conditions Present</strong></h3>
+
+<p>#### <strong>Comprehensive Evaluation</strong></p><ul><li><strong>Multiple assessments</strong> across domains</li></ul><ul><li><strong>Different professionals</strong> for different areas</li></ul><ul><li><strong>Family input</strong> about all concerns</li></ul><ul><li><strong>Teacher observations</strong> across settings</li></ul>
+
+<p>#### <strong>Avoiding Misdiagnosis</strong></p><ul><li><strong>Don't assume</strong> one condition explains everything</li></ul><ul><li><strong>Look for patterns</strong> across different areas</li></ul><ul><li><strong>Consider cultural</strong> and linguistic factors</li></ul><ul><li><strong>Rule out</strong> other explanations</li></ul>
+
+<p>#### <strong>Documentation</strong></p><ul><li><strong>Separate concerns</strong> by domain</li></ul><ul><li><strong>Note interactions</strong> between conditions</li></ul><ul><li><strong>Track progress</strong> in each area</li></ul><ul><li><strong>Adjust interventions</strong> based on data</li></ul>
+
+<p>---</p>
+
+<h2>🏠 Family Communication</h2>
+
+<h3><strong>The Challenge</strong></h3><ul><li><strong>Overwhelming information</strong> about multiple conditions</li></ul><ul><li><strong>Conflicting advice</strong> from different professionals</li></ul><ul><li><strong>Guilt and worry</strong> about their child</li></ul><ul><li><strong>Financial stress</strong> from multiple services</li></ul><ul><li><strong>Time management</strong> for multiple appointments</li></ul>
+
+<h3><strong>What Teachers Can Do</strong></h3>
+
+<p>#### <strong>Simplify Communication</strong></p><ul><li><strong>One clear message</strong> at a time</li></ul><ul><li><strong>Focus on priorities</strong> not everything</li></ul><ul><li><strong>Use everyday language</strong> not jargon</li></ul><ul><li><strong>Provide written</strong> summaries of meetings</li></ul>
+
+<p>#### <strong>Build Partnerships</strong></p><ul><li><strong>Listen to</strong> family concerns</li></ul><ul><li><strong>Validate</strong> their experiences</li></ul><ul><li><strong>Collaborate</strong> on solutions</li></ul><ul><li><strong>Celebrate progress</strong> together</li></ul>
+
+<p>#### <strong>Provide Support</strong></p><ul><li><strong>Connect families</strong> with resources</li></ul><ul><li><strong>Help navigate</strong> the system</li></ul><ul><li><strong>Provide information</strong> about services</li></ul><ul><li><strong>Offer emotional</strong> support</li></ul>
+
+<p>---</p>
+
+<h2>🎯 Classroom Strategies for Complex Cases</h2>
+
+<h3><strong>Universal Design for Learning (UDL)</strong></h3>
+
+<p>#### <strong>Multiple Means of Representation</strong></p><ul><li><strong>Visual, auditory, kinesthetic</strong> input</li></ul><ul><li><strong>Different complexity</strong> levels</li></ul><ul><li><strong>Cultural relevance</strong> and diversity</li></ul><ul><li><strong>Technology supports</strong> for access</li></ul>
+
+<p>#### <strong>Multiple Means of Action and Expression</strong></p><ul><li><strong>Different ways</strong> to demonstrate learning</li></ul><ul><li><strong>Various tools</strong> and technologies</li></ul><ul><li><strong>Flexible timing</strong> and pacing</li></ul><ul><li><strong>Choice in</strong> how to participate</li></ul>
+
+<p>#### <strong>Multiple Means of Engagement</strong></p><ul><li><strong>Relevant and</strong> meaningful content</li></ul><ul><li><strong>Choice and</strong> autonomy</li></ul><ul><li><strong>Collaboration</strong> and community</li></ul><ul><li><strong>Self-regulation</strong> and reflection</li></ul>
+
+<h3><strong>Differentiated Instruction</strong></h3>
+
+<p>#### <strong>Content</strong></p><ul><li><strong>Different reading</strong> levels</li></ul><ul><li><strong>Various formats</strong> (text, audio, video)</li></ul><ul><li><strong>Cultural relevance</strong> and diversity</li></ul><ul><li><strong>Multiple perspectives</strong> on topics</li></ul>
+
+<p>#### <strong>Process</strong></p><ul><li><strong>Different learning</strong> activities</li></ul><ul><li><strong>Various grouping</strong> strategies</li></ul><ul><li><strong>Flexible pacing</strong> and timing</li></ul><ul><li><strong>Multiple assessment</strong> methods</li></ul>
+
+<p>#### <strong>Product</strong></p><ul><li><strong>Different ways</strong> to show learning</li></ul><ul><li><strong>Various formats</strong> for final products</li></ul><ul><li><strong>Flexible criteria</strong> for success</li></ul><ul><li><strong>Multiple opportunities</strong> to demonstrate mastery</li></ul>
+
+<p>---</p>
+
+<h2>🔧 Technology Integration</h2>
+
+<h3><strong>Assistive Technology for Multiple Needs</strong></h3>
+
+<p>#### <strong>Reading Support</strong></p><ul><li><strong>Text-to-speech</strong> for dyslexia</li></ul><ul><li><strong>Audio books</strong> for attention issues</li></ul><ul><li><strong>Visual supports</strong> for comprehension</li></ul><ul><li><strong>Interactive tools</strong> for engagement</li></ul>
+
+<p>#### <strong>Writing Support</strong></p><ul><li><strong>Speech-to-text</strong> for motor issues</li></ul><ul><li><strong>Word prediction</strong> for spelling</li></ul><ul><li><strong>Graphic organizers</strong> for planning</li></ul><ul><li><strong>Collaborative tools</strong> for group work</li></ul>
+
+<p>#### <strong>Organization Support</strong></p><ul><li><strong>Digital planners</strong> for executive function</li></ul><ul><li><strong>Reminder systems</strong> for memory</li></ul><ul><li><strong>Task management</strong> tools</li></ul><ul><li><strong>Progress tracking</strong> systems</li></ul>
+
+<p>---</p>
+
+<h2>📈 Progress Monitoring</h2>
+
+<h3><strong>Tracking Multiple Conditions</strong></h3>
+
+<p>#### <strong>Academic Progress</strong></p><ul><li><strong>Standardized tests</strong> for baseline</li></ul><ul><li><strong>Curriculum-based</strong> measurements</li></ul><ul><li><strong>Portfolio assessments</strong> for growth</li></ul><ul><li><strong>Self-assessment</strong> and reflection</li></ul>
+
+<p>#### <strong>Behavioral Progress</strong></p><ul><li><strong>Behavior rating</strong> scales</li></ul><ul><li><strong>Observation</strong> data</li></ul><ul><li><strong>Self-monitoring</strong> tools</li></ul><ul><li><strong>Family input</strong> and feedback</li></ul>
+
+<p>#### <strong>Social-Emotional Progress</strong></p><ul><li><strong>Social skills</strong> assessments</li></ul><ul><li><strong>Emotional regulation</strong> measures</li></ul><ul><li><strong>Self-advocacy</strong> development</li></ul><ul><li><strong>Relationship</strong> quality indicators</li></ul>
+
+<p>---</p>
+
+<h2>🚨 Red Flags for Complex Cases</h2>
+
+<h3><strong>When to Seek Additional Help</strong></h3><ul><li><strong>No progress</strong> despite multiple interventions</li></ul><ul><li><strong>Regression</strong> in previously mastered skills</li></ul><ul><li><strong>Safety concerns</strong> for self or others</li></ul><ul><li><strong>Family crisis</strong> affecting learning</li></ul><ul><li><strong>Teacher feeling</strong> overwhelmed or ineffective</li></ul>
+
+<h3><strong>Who to Contact</strong></h3><ul><li><strong>School psychologist</strong> for comprehensive evaluation</li></ul><ul><li><strong>Special education</strong> team for intensive supports</li></ul><ul><li><strong>School counselor</strong> for mental health concerns</li></ul><ul><li><strong>Administration</strong> for resource allocation</li></ul><ul><li><strong>Outside agencies</strong> for specialized services</li></ul>
+
+<p>---</p>
+
+<h2>💡 Teacher Self-Care</h2>
+
+<h3><strong>The Reality</strong></h3><ul><li><strong>Complex cases</strong> are emotionally demanding</li></ul><ul><li><strong>Multiple needs</strong> can feel overwhelming</li></ul><ul><li><strong>Limited resources</strong> create stress</li></ul><ul><li><strong>High expectations</strong> from families and administration</li></ul><ul><li><strong>Burnout risk</strong> is real</li></ul>
+
+<h3><strong>What Teachers Can Do</strong></h3><ul><li><strong>Set realistic</strong> expectations</li></ul><ul><li><strong>Ask for help</strong> when needed</li></ul><ul><li><strong>Focus on progress</strong> not perfection</li></ul><ul><li><strong>Celebrate small</strong> wins</li></ul><ul><li><strong>Take care</strong> of yourself</li></ul><ul><li><strong>Build support</strong> networks</li></ul>
+
+<p>---</p>
+
+<p><em>Remember: You don't have to solve everything at once. Focus on what matters most, work with your team, and celebrate every step forward.</em></p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#co-occurring-conditions">Co-occurring Conditions</a></li>
@@ -134,12 +313,13 @@
         <li><a href="#what-teachers-can-do">What Teachers Can Do</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../teacher_toolkit/common_mistakes_to_avoid.html" class="nav-prev">← Common Mistakes to Avoid</a>
   <a href="../../teacher_toolkit/cultural_responsiveness_guide.html" class="nav-next">Cultural Responsiveness Guide →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -147,6 +327,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/main.js"></script>
 </body>
 </html>

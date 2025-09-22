@@ -21,12 +21,20 @@
                         <li><a href="../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section ">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
   </div>
@@ -57,24 +65,210 @@
     </div>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../index.html">Home</a></li>
           <li><a href="../../roadmaps">Roadmaps</a></li><li><span aria-current="page">Federal State Grants Roadmap</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Federal & State Grants Toolkit - Development Roadmap</h1>
+                        
+                    </header>
                     <h1>Federal & State Grants Toolkit - Development Roadmap</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Federal & State Grants Toolkit - Development Roadmap</h1></p><p><br><em>Strategic expansion of grant opportunities beyond local foundations</em></p><p><br>---</p><p><br><h2>🎯 <strong>Toolkit Overview</strong></h2></p><p><br><strong>Target:</strong> Organizations seeking larger, government funding for learning disability support programs  </p><p><br><strong>Current Status:<em>* 🚧 *</em>PLANNING PHASE</strong> - Detailed roadmap development  </p><p><br><strong>Timeline:</strong> 2-3 months for full implementation  </p><p><br><strong>Last Updated:</strong> December 2024</p><p><br>---</p><p><br><h2>📊 <strong>Market Analysis</strong></h2></p><p><br><h3><strong>Federal Grant Opportunities</strong></h3></p><p><br>- <strong>Total Annual Funding:</strong> $2M+ in relevant federal opportunities</p><p><br>- <strong>Major Programs:</strong> IDEA, Title I, ESSER, 21st Century Community Learning Centers</p><p><br>- <strong>Application Complexity:</strong> High (detailed compliance requirements)</p><p><br>- <strong>Success Rate:</strong> 15-25% (higher with proper preparation)</p><p><br>- <strong>Timeline:</strong> 6-12 months from application to award</p><p><br><h3><strong>State Grant Opportunities (Michigan)</strong></h3></p><p><br>- <strong>Total Annual Funding:</strong> $1M+ in Michigan education funding</p><p><br>- <strong>Major Programs:</strong> MDE Special Education, School Improvement, Early Childhood</p><p><br>- <strong>Application Complexity:</strong> Medium-High (state-specific requirements)</p><p><br>- <strong>Success Rate:</strong> 20-35% (higher than federal)</p><p><br>- <strong>Timeline:</strong> 3-6 months from application to award</p><p><br>---</p><p><br><h2>🎯 <strong>PHASE 1: RESEARCH & DATABASE DEVELOPMENT</strong> (Weeks 1-4)</h2></p><p><br><h3><strong>Week 1-2: Federal Grant Research</strong></h3></p><p><br><strong>Priority:<em>* High | **Effort:** High | *</em>Impact:</strong> Very High</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Comprehensive Federal Database</strong></p><p><br>   - Research all relevant federal grant programs</p><p><br>   - Document eligibility requirements, deadlines, and funding amounts</p><p><br>   - Create detailed profiles for top 20 federal opportunities</p><p><br>   - Include application procedures and compliance requirements</p><p><br>2. <strong>Federal Grant Categories</strong></p><p><br>   - <strong>Special Education Grants</strong> (IDEA Part B, Part C)</p><p><br>   - <strong>Title I Programs</strong> (School Improvement, Family Engagement)</p><p><br>   - <strong>ESSER Funding</strong> (COVID relief, learning recovery)</p><p><br>   - <strong>21st Century Community Learning Centers</strong></p><p><br>   - <strong>Promise Neighborhoods</strong></p><p><br>   - <strong>Full-Service Community Schools</strong></p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>federal_grants_database.md</code> - Comprehensive federal opportunities</p><p><br>- <code>federal_grant_categories.md</code> - Organized by program type</p><p><br>- <code>federal_eligibility_guide.md</code> - Who can apply for what</p><p><br><h3><strong>Week 3-4: State Grant Research</strong></h3></p><p><br><strong>Priority:<em>* High | **Effort:** Medium | *</em>Impact:</strong> High</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Michigan Department of Education Research</strong></p><p><br>   - MDE Special Education grants and programs</p><p><br>   - School Improvement and accountability grants</p><p><br>   - Early childhood and family engagement programs</p><p><br>   - Career and technical education opportunities</p><p><br>2. <strong>State Grant Categories</strong></p><p><br>   - <strong>Special Education</strong> (MDE Part B, Early Intervention)</p><p><br>   - <strong>School Improvement</strong> (Comprehensive Support, Targeted Support)</p><p><br>   - <strong>Early Childhood</strong> (Great Start Readiness Program, Head Start)</p><p><br>   - <strong>Family Engagement</strong> (Parent Involvement, Community Partnerships)</p><p><br>   - <strong>Professional Development</strong> (Teacher Training, Leadership Development)</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>michigan_state_grants_database.md</code> - Comprehensive state opportunities</p><p><br>- <code>state_grant_categories.md</code> - Organized by program type</p><p><br>- <code>state_eligibility_guide.md</code> - Who can apply for what</p><p><br>---</p><p><br><h2>🎯 <strong>PHASE 2: APPLICATION GUIDANCE</strong> (Weeks 5-8)</h2></p><p><br><h3><strong>Week 5-6: Federal Application Procedures</strong></h3></p><p><br><strong>Priority:<em>* High | **Effort:** High | *</em>Impact:</strong> Very High</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Step-by-Step Application Guides</strong></p><p><br>   - Detailed procedures for each major federal program</p><p><br>   - Required documents and forms</p><p><br>   - Timeline and deadline management</p><p><br>   - Common mistakes and how to avoid them</p><p><br>2. <strong>Compliance Requirements</strong></p><p><br>   - Legal and regulatory requirements</p><p><br>   - Reporting and monitoring obligations</p><p><br>   - Audit and evaluation requirements</p><p><br>   - Record-keeping standards</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>federal_application_guide.md</code> - Complete application procedures</p><p><br>- <code>federal_compliance_requirements.md</code> - Legal and regulatory guide</p><p><br>- <code>federal_timeline_management.md</code> - Deadline and milestone tracking</p><p><br><h3><strong>Week 7-8: State Application Procedures</strong></h3></p><p><br><strong>Priority:<em>* High | **Effort:** Medium | *</em>Impact:</strong> High</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Michigan-Specific Application Guides</strong></p><p><br>   - MDE application procedures and requirements</p><p><br>   - State-specific forms and documentation</p><p><br>   - Timeline and deadline management</p><p><br>   - Common mistakes and how to avoid them</p><p><br>2. <strong>State Compliance Requirements</strong></p><p><br>   - Michigan education law and regulations</p><p><br>   - State reporting and monitoring obligations</p><p><br>   - Audit and evaluation requirements</p><p><br>   - Record-keeping standards</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>state_application_guide.md</code> - Complete application procedures</p><p><br>- <code>state_compliance_requirements.md</code> - Legal and regulatory guide</p><p><br>- <code>state_timeline_management.md</code> - Deadline and milestone tracking</p><p><br>---</p><p><br><h2>🎯 <strong>PHASE 3: TEMPLATES & EXAMPLES</strong> (Weeks 9-10)</h2></p><p><br><h3><strong>Week 9: Federal Grant Templates</strong></h3></p><p><br><strong>Priority:<em>* Medium | **Effort:** Medium | *</em>Impact:</strong> High</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Federal Proposal Templates</strong></p><p><br>   - IDEA Part B application template</p><p><br>   - Title I School Improvement template</p><p><br>   - ESSER funding application template</p><p><br>   - 21st Century Community Learning Centers template</p><p><br>2. <strong>Federal Budget Templates</strong></p><p><br>   - Detailed budget forms for each program</p><p><br>   - Budget justification templates</p><p><br>   - Cost allocation methodologies</p><p><br>   - Indirect cost rate calculations</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>federal_proposal_templates.md</code> - Ready-to-use templates</p><p><br>- <code>federal_budget_templates.md</code> - Budget planning tools</p><p><br>- <code>federal_budget_justification_guide.md</code> - Cost justification strategies</p><p><br><h3><strong>Week 10: State Grant Templates</strong></h3></p><p><br><strong>Priority:<em>* Medium | **Effort:** Medium | *</em>Impact:</strong> High</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>State Proposal Templates</strong></p><p><br>   - MDE Special Education application template</p><p><br>   - School Improvement grant template</p><p><br>   - Early childhood program template</p><p><br>   - Family engagement template</p><p><br>2. <strong>State Budget Templates</strong></p><p><br>   - MDE budget forms and requirements</p><p><br>   - State-specific cost categories</p><p><br>   - Budget justification templates</p><p><br>   - Cost allocation methodologies</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>state_proposal_templates.md</code> - Ready-to-use templates</p><p><br>- <code>state_budget_templates.md</code> - Budget planning tools</p><p><br>- <code>state_budget_justification_guide.md</code> - Cost justification strategies</p><p><br>---</p><p><br><h2>🎯 <strong>PHASE 4: SUCCESS STORIES & ANALYSIS</strong> (Weeks 11-12)</h2></p><p><br><h3><strong>Week 11: Federal Success Stories</strong></h3></p><p><br><strong>Priority:<em>* Medium | **Effort:** Medium | *</em>Impact:</strong> Medium</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Case Studies and Analysis</strong></p><p><br>   - Successful federal grant applications</p><p><br>   - What made them successful</p><p><br>   - Common challenges and solutions</p><p><br>   - Lessons learned and best practices</p><p><br>2. <strong>Success Metrics and Outcomes</strong></p><p><br>   - How to measure grant success</p><p><br>   - Reporting requirements and timelines</p><p><br>   - Evaluation and assessment strategies</p><p><br>   - Sustainability planning</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>federal_success_stories.md</code> - Case studies and analysis</p><p><br>- <code>federal_success_metrics.md</code> - Measurement and evaluation guide</p><p><br><h3><strong>Week 12: State Success Stories</strong></h3></p><p><br><strong>Priority:<em>* Medium | **Effort:** Medium | *</em>Impact:</strong> Medium</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Michigan Success Stories</strong></p><p><br>   - Successful state grant applications</p><p><br>   - What made them successful</p><p><br>   - Common challenges and solutions</p><p><br>   - Lessons learned and best practices</p><p><br>2. <strong>State Success Metrics</strong></p><p><br>   - How to measure grant success</p><p><br>   - MDE reporting requirements</p><p><br>   - Evaluation and assessment strategies</p><p><br>   - Sustainability planning</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>state_success_stories.md</code> - Case studies and analysis</p><p><br>- <code>state_success_metrics.md</code> - Measurement and evaluation guide</p><p><br>---</p><p><br><h2>📁 <strong>PROPOSED FILE STRUCTURE</strong></h2></p><p><br><h3><strong>New Grant Toolkit Organization:</strong></h3></p><p><br><pre><code></p><p><br>docs/grant_toolkit/</p><p><br>├── README.md                                    # Main entry point</p><p><br>├── quick_start.md                              # Emergency help</p><p><br>├── grant_writing_guide.md                      # Core process guide</p><p><br>├── grand_rapids_philanthropist_database.md     # Local funders</p><p><br>├── proposal_templates.md                       # All templates</p><p><br>├── budget_planning_guide.md                    # Budget tools</p><p><br>├── sample_proposals.md                         # Examples</p><p><br>├── grant_writing_flowcharts.md                 # Visual guides</p><p><br>├── federal_state_grants/                       # NEW: Government funding</p><p><br>│   ├── README.md                               # Federal/State overview</p><p><br>│   ├── federal_grants_database.md              # Federal opportunities</p><p><br>│   ├── michigan_state_grants_database.md       # State opportunities</p><p><br>│   ├── federal_application_guide.md            # Federal procedures</p><p><br>│   ├── state_application_guide.md              # State procedures</p><p><br>│   ├── federal_compliance_requirements.md       # Federal compliance</p><p><br>│   ├── state_compliance_requirements.md        # State compliance</p><p><br>│   ├── federal_proposal_templates.md           # Federal templates</p><p><br>│   ├── state_proposal_templates.md             # State templates</p><p><br>│   ├── federal_budget_templates.md             # Federal budgets</p><p><br>│   ├── state_budget_templates.md               # State budgets</p><p><br>│   ├── federal_success_stories.md              # Federal examples</p><p><br>│   └── state_success_stories.md                # State examples</p><p><br>└── advanced_topics/                            # NEW: Advanced resources</p><p><br>    ├── README.md                               # Advanced overview</p><p><br>    ├── grant_management.md                     # Post-award management</p><p><br>    ├── sustainability_planning.md              # Long-term funding</p><p><br>    ├── performance_metrics.md                  # Measurement & evaluation</p><p><br>    └── renewal_strategies.md                    # Continued funding</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🎯 <strong>SUCCESS METRICS</strong></h2></p><p><br><h3><strong>Quantitative Metrics:</strong></h3></p><p><br>- <strong>Grant Success Rate:</strong> Increase from 15-25% to 30-40%</p><p><br>- <strong>Funding Diversity:</strong> 60% local, 25% state, 15% federal</p><p><br>- <strong>Application Volume:</strong> 3x increase in government grant applications</p><p><br>- <strong>Award Amount:</strong> Average award size increases by 200%</p><p><br><h3><strong>Qualitative Metrics:</strong></h3></p><p><br>- <strong>User Confidence:</strong> Grant writers report increased confidence with government applications</p><p><br>- <strong>Compliance Understanding:</strong> Better understanding of legal and regulatory requirements</p><p><br>- <strong>Strategic Approach:</strong> More systematic approach to government funding</p><p><br>- <strong>Success Stories:</strong> Documented case studies of successful applications</p><p><br>---</p><p><br><h2>🚀 <strong>IMPLEMENTATION STRATEGY</strong></h2></p><p><br><h3><strong>Week 1-2: Foundation</strong></h3></p><p><br>- Create federal_state_grants directory structure</p><p><br>- Begin comprehensive federal grant research</p><p><br>- Set up tracking and organization systems</p><p><br><h3><strong>Week 3-4: State Research</strong></h3></p><p><br>- Complete federal database</p><p><br>- Begin Michigan state grant research</p><p><br>- Create initial organization framework</p><p><br><h3><strong>Week 5-8: Application Guidance</strong></h3></p><p><br>- Develop detailed application procedures</p><p><br>- Create compliance requirement guides</p><p><br>- Build timeline management tools</p><p><br><h3><strong>Week 9-10: Templates</strong></h3></p><p><br>- Create proposal templates for major programs</p><p><br>- Develop budget planning tools</p><p><br>- Build justification guides</p><p><br><h3><strong>Week 11-12: Success Stories</strong></h3></p><p><br>- Research and document success stories</p><p><br>- Create evaluation and measurement guides</p><p><br>- Develop sustainability planning resources</p><p><br>---</p><p><br><h2>📚 <strong>RELATED ROADMAPS</strong></h2></p><p><br>- <strong><a href="../../grant_toolkit_roadmap.html">Grant Toolkit Roadmap</a></strong> - Core grant writing resources</p><p><br>- <strong><a href="../../export_plan.html">Export Plan</a></strong> - Multiple format distribution</p><p><br>- <strong><a href="../../README.html">Main Roadmaps Index</a></strong> - Overview of all project roadmaps</p><p><br>---</p><p><br><em>This roadmap provides a comprehensive plan for expanding grant opportunities beyond local foundations. The focus is on maintaining the 10/10 quality standard while significantly expanding funding potential.</em></p><p><br><strong>Last Updated:</strong> December 2024  </p><p><br><strong>Next Review:</strong> March 2025</p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Strategic expansion of grant opportunities beyond local foundations</em></p>
+
+<p>---</p>
+
+<h2>🎯 <strong>Toolkit Overview</strong></h2>
+
+<p><strong>Target:</strong> Organizations seeking larger, government funding for learning disability support programs  </p>
+<p><strong>Current Status:</strong> 🚧 <strong>PLANNING PHASE</strong> - Detailed roadmap development  </p>
+<p><strong>Timeline:</strong> 2-3 months for full implementation  </p>
+<p><strong>Last Updated:</strong> December 2024</p>
+
+<p>---</p>
+
+<h2>📊 <strong>Market Analysis</strong></h2>
+
+<h3><strong>Federal Grant Opportunities</strong></h3><ul><li><strong>Total Annual Funding:</strong> $2M+ in relevant federal opportunities</li></ul><ul><li><strong>Major Programs:</strong> IDEA, Title I, ESSER, 21st Century Community Learning Centers</li></ul><ul><li><strong>Application Complexity:</strong> High (detailed compliance requirements)</li></ul><ul><li><strong>Success Rate:</strong> 15-25% (higher with proper preparation)</li></ul><ul><li><strong>Timeline:</strong> 6-12 months from application to award</li></ul>
+
+<h3><strong>State Grant Opportunities (Michigan)</strong></h3><ul><li><strong>Total Annual Funding:</strong> $1M+ in Michigan education funding</li></ul><ul><li><strong>Major Programs:</strong> MDE Special Education, School Improvement, Early Childhood</li></ul><ul><li><strong>Application Complexity:</strong> Medium-High (state-specific requirements)</li></ul><ul><li><strong>Success Rate:</strong> 20-35% (higher than federal)</li></ul><ul><li><strong>Timeline:</strong> 3-6 months from application to award</li></ul>
+
+<p>---</p>
+
+<h2>🎯 <strong>PHASE 1: RESEARCH & DATABASE DEVELOPMENT</strong> (Weeks 1-4)</h2>
+
+<h3><strong>Week 1-2: Federal Grant Research</strong></h3>
+<p><strong>Priority:</strong> High | <strong>Effort:</strong> High | <strong>Impact:</strong> Very High</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Comprehensive Federal Database</strong></p><ul><li>Research all relevant federal grant programs</li></ul><ul><li>Document eligibility requirements, deadlines, and funding amounts</li></ul><ul><li>Create detailed profiles for top 20 federal opportunities</li></ul><ul><li>Include application procedures and compliance requirements</li></ul>
+
+<p>2. <strong>Federal Grant Categories</strong></p><ul><li><strong>Special Education Grants</strong> (IDEA Part B, Part C)</li></ul><ul><li><strong>Title I Programs</strong> (School Improvement, Family Engagement)</li></ul><ul><li><strong>ESSER Funding</strong> (COVID relief, learning recovery)</li></ul><ul><li><strong>21st Century Community Learning Centers</strong></li></ul><ul><li><strong>Promise Neighborhoods</strong></li></ul><ul><li><strong>Full-Service Community Schools</strong></li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>federal_grants_database.md</code> - Comprehensive federal opportunities</li></ul><ul><li><code>federal_grant_categories.md</code> - Organized by program type</li></ul><ul><li><code>federal_eligibility_guide.md</code> - Who can apply for what</li></ul>
+
+<h3><strong>Week 3-4: State Grant Research</strong></h3>
+<p><strong>Priority:</strong> High | <strong>Effort:</strong> Medium | <strong>Impact:</strong> High</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Michigan Department of Education Research</strong></p><ul><li>MDE Special Education grants and programs</li></ul><ul><li>School Improvement and accountability grants</li></ul><ul><li>Early childhood and family engagement programs</li></ul><ul><li>Career and technical education opportunities</li></ul>
+
+<p>2. <strong>State Grant Categories</strong></p><ul><li><strong>Special Education</strong> (MDE Part B, Early Intervention)</li></ul><ul><li><strong>School Improvement</strong> (Comprehensive Support, Targeted Support)</li></ul><ul><li><strong>Early Childhood</strong> (Great Start Readiness Program, Head Start)</li></ul><ul><li><strong>Family Engagement</strong> (Parent Involvement, Community Partnerships)</li></ul><ul><li><strong>Professional Development</strong> (Teacher Training, Leadership Development)</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>michigan_state_grants_database.md</code> - Comprehensive state opportunities</li></ul><ul><li><code>state_grant_categories.md</code> - Organized by program type</li></ul><ul><li><code>state_eligibility_guide.md</code> - Who can apply for what</li></ul>
+
+<p>---</p>
+
+<h2>🎯 <strong>PHASE 2: APPLICATION GUIDANCE</strong> (Weeks 5-8)</h2>
+
+<h3><strong>Week 5-6: Federal Application Procedures</strong></h3>
+<p><strong>Priority:</strong> High | <strong>Effort:</strong> High | <strong>Impact:</strong> Very High</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Step-by-Step Application Guides</strong></p><ul><li>Detailed procedures for each major federal program</li></ul><ul><li>Required documents and forms</li></ul><ul><li>Timeline and deadline management</li></ul><ul><li>Common mistakes and how to avoid them</li></ul>
+
+<p>2. <strong>Compliance Requirements</strong></p><ul><li>Legal and regulatory requirements</li></ul><ul><li>Reporting and monitoring obligations</li></ul><ul><li>Audit and evaluation requirements</li></ul><ul><li>Record-keeping standards</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>federal_application_guide.md</code> - Complete application procedures</li></ul><ul><li><code>federal_compliance_requirements.md</code> - Legal and regulatory guide</li></ul><ul><li><code>federal_timeline_management.md</code> - Deadline and milestone tracking</li></ul>
+
+<h3><strong>Week 7-8: State Application Procedures</strong></h3>
+<p><strong>Priority:</strong> High | <strong>Effort:</strong> Medium | <strong>Impact:</strong> High</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Michigan-Specific Application Guides</strong></p><ul><li>MDE application procedures and requirements</li></ul><ul><li>State-specific forms and documentation</li></ul><ul><li>Timeline and deadline management</li></ul><ul><li>Common mistakes and how to avoid them</li></ul>
+
+<p>2. <strong>State Compliance Requirements</strong></p><ul><li>Michigan education law and regulations</li></ul><ul><li>State reporting and monitoring obligations</li></ul><ul><li>Audit and evaluation requirements</li></ul><ul><li>Record-keeping standards</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>state_application_guide.md</code> - Complete application procedures</li></ul><ul><li><code>state_compliance_requirements.md</code> - Legal and regulatory guide</li></ul><ul><li><code>state_timeline_management.md</code> - Deadline and milestone tracking</li></ul>
+
+<p>---</p>
+
+<h2>🎯 <strong>PHASE 3: TEMPLATES & EXAMPLES</strong> (Weeks 9-10)</h2>
+
+<h3><strong>Week 9: Federal Grant Templates</strong></h3>
+<p><strong>Priority:</strong> Medium | <strong>Effort:</strong> Medium | <strong>Impact:</strong> High</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Federal Proposal Templates</strong></p><ul><li>IDEA Part B application template</li></ul><ul><li>Title I School Improvement template</li></ul><ul><li>ESSER funding application template</li></ul><ul><li>21st Century Community Learning Centers template</li></ul>
+
+<p>2. <strong>Federal Budget Templates</strong></p><ul><li>Detailed budget forms for each program</li></ul><ul><li>Budget justification templates</li></ul><ul><li>Cost allocation methodologies</li></ul><ul><li>Indirect cost rate calculations</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>federal_proposal_templates.md</code> - Ready-to-use templates</li></ul><ul><li><code>federal_budget_templates.md</code> - Budget planning tools</li></ul><ul><li><code>federal_budget_justification_guide.md</code> - Cost justification strategies</li></ul>
+
+<h3><strong>Week 10: State Grant Templates</strong></h3>
+<p><strong>Priority:</strong> Medium | <strong>Effort:</strong> Medium | <strong>Impact:</strong> High</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>State Proposal Templates</strong></p><ul><li>MDE Special Education application template</li></ul><ul><li>School Improvement grant template</li></ul><ul><li>Early childhood program template</li></ul><ul><li>Family engagement template</li></ul>
+
+<p>2. <strong>State Budget Templates</strong></p><ul><li>MDE budget forms and requirements</li></ul><ul><li>State-specific cost categories</li></ul><ul><li>Budget justification templates</li></ul><ul><li>Cost allocation methodologies</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>state_proposal_templates.md</code> - Ready-to-use templates</li></ul><ul><li><code>state_budget_templates.md</code> - Budget planning tools</li></ul><ul><li><code>state_budget_justification_guide.md</code> - Cost justification strategies</li></ul>
+
+<p>---</p>
+
+<h2>🎯 <strong>PHASE 4: SUCCESS STORIES & ANALYSIS</strong> (Weeks 11-12)</h2>
+
+<h3><strong>Week 11: Federal Success Stories</strong></h3>
+<p><strong>Priority:</strong> Medium | <strong>Effort:</strong> Medium | <strong>Impact:</strong> Medium</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Case Studies and Analysis</strong></p><ul><li>Successful federal grant applications</li></ul><ul><li>What made them successful</li></ul><ul><li>Common challenges and solutions</li></ul><ul><li>Lessons learned and best practices</li></ul>
+
+<p>2. <strong>Success Metrics and Outcomes</strong></p><ul><li>How to measure grant success</li></ul><ul><li>Reporting requirements and timelines</li></ul><ul><li>Evaluation and assessment strategies</li></ul><ul><li>Sustainability planning</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>federal_success_stories.md</code> - Case studies and analysis</li></ul><ul><li><code>federal_success_metrics.md</code> - Measurement and evaluation guide</li></ul>
+
+<h3><strong>Week 12: State Success Stories</strong></h3>
+<p><strong>Priority:</strong> Medium | <strong>Effort:</strong> Medium | <strong>Impact:</strong> Medium</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Michigan Success Stories</strong></p><ul><li>Successful state grant applications</li></ul><ul><li>What made them successful</li></ul><ul><li>Common challenges and solutions</li></ul><ul><li>Lessons learned and best practices</li></ul>
+
+<p>2. <strong>State Success Metrics</strong></p><ul><li>How to measure grant success</li></ul><ul><li>MDE reporting requirements</li></ul><ul><li>Evaluation and assessment strategies</li></ul><ul><li>Sustainability planning</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>state_success_stories.md</code> - Case studies and analysis</li></ul><ul><li><code>state_success_metrics.md</code> - Measurement and evaluation guide</li></ul>
+
+<p>---</p>
+
+<h2>📁 <strong>PROPOSED FILE STRUCTURE</strong></h2>
+
+<h3><strong>New Grant Toolkit Organization:</strong></h3>
+<pre><code>
+<p>docs/grant_toolkit/</p>
+<p>├── README.md                                    # Main entry point</p>
+<p>├── quick_start.md                              # Emergency help</p>
+<p>├── grant_writing_guide.md                      # Core process guide</p>
+<p>├── grand_rapids_philanthropist_database.md     # Local funders</p>
+<p>├── proposal_templates.md                       # All templates</p>
+<p>├── budget_planning_guide.md                    # Budget tools</p>
+<p>├── sample_proposals.md                         # Examples</p>
+<p>├── grant_writing_flowcharts.md                 # Visual guides</p>
+<p>├── federal_state_grants/                       # NEW: Government funding</p>
+<p>│   ├── README.md                               # Federal/State overview</p>
+<p>│   ├── federal_grants_database.md              # Federal opportunities</p>
+<p>│   ├── michigan_state_grants_database.md       # State opportunities</p>
+<p>│   ├── federal_application_guide.md            # Federal procedures</p>
+<p>│   ├── state_application_guide.md              # State procedures</p>
+<p>│   ├── federal_compliance_requirements.md       # Federal compliance</p>
+<p>│   ├── state_compliance_requirements.md        # State compliance</p>
+<p>│   ├── federal_proposal_templates.md           # Federal templates</p>
+<p>│   ├── state_proposal_templates.md             # State templates</p>
+<p>│   ├── federal_budget_templates.md             # Federal budgets</p>
+<p>│   ├── state_budget_templates.md               # State budgets</p>
+<p>│   ├── federal_success_stories.md              # Federal examples</p>
+<p>│   └── state_success_stories.md                # State examples</p>
+<p>└── advanced_topics/                            # NEW: Advanced resources</p>
+<p>    ├── README.md                               # Advanced overview</p>
+<p>    ├── grant_management.md                     # Post-award management</p>
+<p>    ├── sustainability_planning.md              # Long-term funding</p>
+<p>    ├── performance_metrics.md                  # Measurement & evaluation</p>
+<p>    └── renewal_strategies.md                    # Continued funding</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🎯 <strong>SUCCESS METRICS</strong></h2>
+
+<h3><strong>Quantitative Metrics:</strong></h3><ul><li><strong>Grant Success Rate:</strong> Increase from 15-25% to 30-40%</li></ul><ul><li><strong>Funding Diversity:</strong> 60% local, 25% state, 15% federal</li></ul><ul><li><strong>Application Volume:</strong> 3x increase in government grant applications</li></ul><ul><li><strong>Award Amount:</strong> Average award size increases by 200%</li></ul>
+
+<h3><strong>Qualitative Metrics:</strong></h3><ul><li><strong>User Confidence:</strong> Grant writers report increased confidence with government applications</li></ul><ul><li><strong>Compliance Understanding:</strong> Better understanding of legal and regulatory requirements</li></ul><ul><li><strong>Strategic Approach:</strong> More systematic approach to government funding</li></ul><ul><li><strong>Success Stories:</strong> Documented case studies of successful applications</li></ul>
+
+<p>---</p>
+
+<h2>🚀 <strong>IMPLEMENTATION STRATEGY</strong></h2>
+
+<h3><strong>Week 1-2: Foundation</strong></h3><ul><li>Create federal_state_grants directory structure</li></ul><ul><li>Begin comprehensive federal grant research</li></ul><ul><li>Set up tracking and organization systems</li></ul>
+
+<h3><strong>Week 3-4: State Research</strong></h3><ul><li>Complete federal database</li></ul><ul><li>Begin Michigan state grant research</li></ul><ul><li>Create initial organization framework</li></ul>
+
+<h3><strong>Week 5-8: Application Guidance</strong></h3><ul><li>Develop detailed application procedures</li></ul><ul><li>Create compliance requirement guides</li></ul><ul><li>Build timeline management tools</li></ul>
+
+<h3><strong>Week 9-10: Templates</strong></h3><ul><li>Create proposal templates for major programs</li></ul><ul><li>Develop budget planning tools</li></ul><ul><li>Build justification guides</li></ul>
+
+<h3><strong>Week 11-12: Success Stories</strong></h3><ul><li>Research and document success stories</li></ul><ul><li>Create evaluation and measurement guides</li></ul><ul><li>Develop sustainability planning resources</li></ul>
+
+<p>---</p>
+
+<h2>📚 <strong>RELATED ROADMAPS</strong></h2><ul><li><strong><a href="../../grant_toolkit_roadmap.html">Grant Toolkit Roadmap</a></strong> - Core grant writing resources</li></ul><ul><li><strong><a href="../../export_plan.html">Export Plan</a></strong> - Multiple format distribution</li></ul><ul><li><strong><a href="../../README.html">Main Roadmaps Index</a></strong> - Overview of all project roadmaps</li></ul>
+
+<p>---</p>
+
+<p><em>This roadmap provides a comprehensive plan for expanding grant opportunities beyond local foundations. The focus is on maintaining the 10/10 quality standard while significantly expanding funding potential.</em></p>
+
+<p><strong>Last Updated:</strong> December 2024  </p>
+<p><strong>Next Review:</strong> March 2025</p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#federal-state-grants-toolkit-development-roadmap">Federal & State Grants Toolkit - Development Roadmap</a></li>
@@ -108,12 +302,13 @@
     <li><a href="#related-roadmaps">📚 RELATED ROADMAPS</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../roadmaps/federal_state_grants_quality_plan.html" class="nav-prev">← Federal & State Grants Toolkit - Quality Assurance Plan</a>
   <a href="../../roadmaps/grant_toolkit_roadmap.html" class="nav-next">Grant Toolkit - Development Roadmap →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -121,6 +316,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/main.js"></script>
 </body>
 </html>

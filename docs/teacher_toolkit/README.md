@@ -1,50 +1,36 @@
 # Teacher Toolkit: Supporting Students with Learning Needs
 
-*Your comprehensive, organized guide to identifying, supporting, and documenting learning differences in the classroom*
+*Your comprehensive guide to identifying, supporting, and documenting learning differences in the classroom*
 
 ---
 
-## 🚀 Quick Access
+## 🚀 Start Here
 
-### **Emergency Situations** (Need help RIGHT NOW?)
-→ **[QUICK START GUIDE](quick_start.md)** - Crisis response and immediate actions
-→ **[MOBILE QUICK REFERENCE](tools/mobile_quick_reference.md)** - On your phone
+**New to this toolkit?** Begin with our **[Quick Start Guide](quick_start.md)** for immediate help.
 
-### **New to This Toolkit?** (First time here?)
-→ **[GETTING STARTED GUIDE](getting_started.md)** - Step-by-step introduction
-
-### **Looking for Specific Information?**
-→ **[COMPLETE INDEX](INDEX.md)** - Everything in one place
-→ **[REFERENCE LIBRARY](reference_library.md)** - All resources organized by topic
+**Need something specific?** Use our **[Complete Index](INDEX.md)** to find exactly what you're looking for.
 
 ---
 
-## 📚 Main Workflows
+## 📋 Common Scenarios
 
-### **1. Identify Concerns** 
-*"I'm seeing something that worries me"*
+### **I'm concerned about a student**
 - **[Symptom Checker](symptom_checker.md)** - Interactive decision tree
 - **[Red Flags vs. Typical Development](red_flags_vs_typical_development.md)** - When to worry
 - **[Age/Grade Considerations](age_grade_considerations.md)** - Developmental expectations
-- **[Observation Templates](tools/observation_templates.md)** - Document what you see
 
-### **2. Try Strategies**
-*"I know what the problem is, what should I do?"*
+### **I know the problem, need strategies**
 - **[Intervention Guide](intervention_guide.md)** - Detailed strategies by condition
 - **[Technology Integration](technology_integration_guide.md)** - Apps and tools
 - **[Common Mistakes to Avoid](common_mistakes_to_avoid.md)** - What NOT to do
 
-### **3. Monitor Progress**
-*"I'm trying strategies, how do I know if they're working?"*
+### **I need to track progress**
 - **[Progress Monitoring Tools](progress_monitoring/index.md)** - Track student progress
 - **[Implementation Timeline](implementation_timeline_priority_framework.md)** - When to adjust
-- **[Adjustment Strategies](workflows/monitor_progress.md)** - What to do when things change
 
-### **4. Communicate with Families**
-*"I need to talk to families about concerns"*
+### **I need to talk to families**
 - **[Family Communication Templates](family_communication/family_communication_templates.md)** - Email and conversation guides
 - **[Cultural Responsiveness](cultural_responsiveness_guide.md)** - Supporting diverse families
-- **[Difficult Conversations](workflows/communicate_families.md)** - When concerns are serious
 
 ---
 

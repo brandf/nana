@@ -21,12 +21,20 @@
                         <li><a href="../../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../../../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -55,10 +63,6 @@
       <a href="../../../teacher_toolkit/tools/quick_reference_card.html" class="nav-link ">Quick Reference Card</a>
       <a href="../../../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
-    <div class="nav-subsection ">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
-    </div>
     <div class="nav-subsection expanded">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../../../teacher_toolkit/progress_monitoring/index.html" class="nav-link ">Progress Monitoring Tools</a>
@@ -66,6 +70,10 @@
       <a href="../../../teacher_toolkit/workflows/identify_concerns.html" class="nav-link ">Identify Concerns Workflow</a>
       <a href="../../../teacher_toolkit/workflows/monitor_progress.html" class="nav-link active">Monitor Progress Workflow</a>
       <a href="../../../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection ">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,24 +87,168 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../../index.html">Home</a></li>
           <li><a href="../../../teacher_toolkit">Teacher Toolkit</a></li><li><a href="../../../teacher_toolkit/workflows">Workflows</a></li><li><span aria-current="page">Monitor Progress</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Monitor Progress Workflow</h1>
+                        
+                    </header>
                     <h1>Monitor Progress Workflow</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Monitor Progress Workflow</h1></p><p><br><em>Step-by-step process for tracking student progress and adjusting interventions</em></p><p><br>---</p><p><br><h2>🎯 Overview</h2></p><p><br>This workflow helps you systematically track student progress, evaluate intervention effectiveness, and make data-driven decisions about next steps.</p><p><br>---</p><p><br><h2>📊 Step 1: Establish Baseline</h2></p><p><br><h3><strong>What is Baseline Data?</strong></h3></p><p><br>Baseline data is information about the student's current performance before you start an intervention. It helps you:</p><p><br>- <strong>Measure</strong> if the intervention is working</p><p><br>- <strong>Set realistic</strong> goals for improvement</p><p><br>- <strong>Compare</strong> before and after performance</p><p><br>- <strong>Make decisions</strong> about continuing or changing strategies</p><p><br><h3><strong>What to Measure</strong></h3></p><p><br>- <strong>Academic skills</strong> - Reading fluency, math accuracy, writing quality</p><p><br>- <strong>Behavioral patterns</strong> - On-task time, work completion, following directions</p><p><br>- <strong>Social-emotional</strong> - Confidence, engagement, peer interactions</p><p><br>- <strong>Strategy use</strong> - How well the student uses accommodations</p><p><br><h3><strong>How to Collect Baseline Data</strong></h3></p><p><br>- <strong>Observe</strong> the student for 3-5 days</p><p><br>- <strong>Record</strong> specific behaviors or skills</p><p><br>- <strong>Use</strong> the same measurement method you'll use later</p><p><br>- <strong>Document</strong> the current level of performance</p><p><br>- <strong>Note</strong> any patterns or trends</p><p><br>---</p><p><br><h2>📈 Step 2: Set Up Progress Monitoring</h2></p><p><br><h3><strong>Choose Your Measurement Method</strong></h3></p><p><br>#### <strong>Academic Monitoring</strong></p><p><br>- <strong>Reading fluency</strong> - Words per minute, accuracy</p><p><br>- <strong>Math computation</strong> - Problems correct per minute</p><p><br>- <strong>Writing</strong> - Words written, quality scores</p><p><br>- <strong>Spelling</strong> - Words spelled correctly</p><p><br>- <strong>Comprehension</strong> - Questions answered correctly</p><p><br>#### <strong>Behavioral Monitoring</strong></p><p><br>- <strong>On-task behavior</strong> - Percentage of time on task</p><p><br>- <strong>Work completion</strong> - Percentage of assignments completed</p><p><br>- <strong>Following directions</strong> - Number of directions followed correctly</p><p><br>- <strong>Appropriate behavior</strong> - Frequency of positive behaviors</p><p><br>#### <strong>Social-Emotional Monitoring</strong></p><p><br>- <strong>Engagement</strong> - Level of participation in activities</p><p><br>- <strong>Confidence</strong> - Student self-report or teacher observation</p><p><br>- <strong>Peer interactions</strong> - Quality and frequency of social interactions</p><p><br>- <strong>Self-regulation</strong> - Ability to manage emotions and behavior</p><p><br><h3><strong>Data Collection Schedule</strong></h3></p><p><br>- <strong>Daily</strong> - For intensive interventions</p><p><br>- <strong>Weekly</strong> - For most interventions</p><p><br>- <strong>Bi-weekly</strong> - For long-term monitoring</p><p><br>- <strong>Monthly</strong> - For general progress tracking</p><p><br>---</p><p><br><h2>📋 Step 3: Data Collection</h2></p><p><br><h3><strong>Daily Data Collection</strong></h3></p><p><br>- <strong>Quick observations</strong> - 2-3 times per day</p><p><br>- <strong>Specific behaviors</strong> - What you see, not what you think</p><p><br>- <strong>Context</strong> - When and where it happened</p><p><br>- <strong>Response</strong> - How the student responded to intervention</p><p><br><h3><strong>Weekly Data Collection</strong></h3></p><p><br>- <strong>Formal assessments</strong> - Tests, quizzes, work samples</p><p><br>- <strong>Behavior tracking</strong> - Frequency and duration of behaviors</p><p><br>- <strong>Student feedback</strong> - How they feel about the intervention</p><p><br>- <strong>Family input</strong> - Observations from home</p><p><br><h3><strong>Data Collection Tools</strong></h3></p><p><br>- <strong>Observation forms</strong> - Structured checklists</p><p><br>- <strong>Progress charts</strong> - Visual tracking of improvement</p><p><br>- <strong>Work samples</strong> - Before and after examples</p><p><br>- <strong>Student self-assessment</strong> - Student's view of progress</p><p><br>- <strong>Family surveys</strong> - Home observations and feedback</p><p><br>---</p><p><br><h2>📊 Step 4: Data Analysis</h2></p><p><br><h3><strong>Look for Patterns</strong></h3></p><p><br>- <strong>Trends</strong> - Is the student improving over time?</p><p><br>- <strong>Consistency</strong> - Is progress steady or inconsistent?</p><p><br>- <strong>Variability</strong> - Are there good days and bad days?</p><p><br>- <strong>Triggers</strong> - What seems to help or hinder progress?</p><p><br><h3><strong>Compare to Goals</strong></h3></p><p><br>- <strong>Are you on track</strong> to meet the goal?</p><p><br>- <strong>How much progress</strong> has been made?</p><p><br>- <strong>What's working</strong> and what isn't?</p><p><br>- <strong>What adjustments</strong> might be needed?</p><p><br><h3><strong>Data Analysis Questions</strong></h3></p><p><br>- <strong>Is the student making progress?</strong> (Yes/No/Somewhat)</p><p><br>- <strong>Is the progress fast enough?</strong> (Too slow/Just right/Too fast)</p><p><br>- <strong>Is the intervention working?</strong> (Yes/No/Partially)</p><p><br>- <strong>What changes are needed?</strong> (Continue/Adjust/Change completely)</p><p><br>---</p><p><br><h2>🔄 Step 5: Decision Making</h2></p><p><br><h3><strong>If Student is Making Good Progress</strong></h3></p><p><br>- <strong>Continue</strong> the current intervention</p><p><br>- <strong>Gradually reduce</strong> support as student improves</p><p><br>- <strong>Set new goals</strong> for continued growth</p><p><br>- <strong>Celebrate</strong> success with student and family</p><p><br>- <strong>Consider</strong> applying strategies to other areas</p><p><br><h3><strong>If Student is Making Some Progress</strong></h3></p><p><br>- <strong>Continue</strong> the intervention with minor adjustments</p><p><br>- <strong>Provide additional</strong> support or practice</p><p><br>- <strong>Extend</strong> the timeline for achieving goals</p><p><br>- <strong>Monitor</strong> more closely for continued improvement</p><p><br>- <strong>Get input</strong> from student and family</p><p><br><h3><strong>If Student is Not Making Progress</strong></h3></p><p><br>- <strong>Try different</strong> strategies or approaches</p><p><br>- <strong>Increase</strong> intensity or frequency of intervention</p><p><br>- <strong>Consult</strong> with colleagues or support team</p><p><br>- <strong>Consider</strong> if goals are appropriate</p><p><br>- <strong>Involve</strong> family in problem-solving</p><p><br><h3><strong>If Student is Getting Worse</strong></h3></p><p><br>- <strong>Stop</strong> the current intervention immediately</p><p><br>- <strong>Consult</strong> with support team right away</p><p><br>- <strong>Consider</strong> if there are other factors affecting the student</p><p><br>- <strong>Involve</strong> family and other professionals</p><p><br>- <strong>Document</strong> everything for future reference</p><p><br>---</p><p><br><h2>📝 Step 6: Documentation</h2></p><p><br><h3><strong>What to Document</strong></h3></p><p><br>- <strong>Baseline data</strong> - Starting point for intervention</p><p><br>- <strong>Intervention details</strong> - What strategy was used, when, how often</p><p><br>- <strong>Progress data</strong> - Regular measurements of student performance</p><p><br>- <strong>Adjustments made</strong> - Changes to intervention based on data</p><p><br>- <strong>Final outcomes</strong> - Whether goals were met and why</p><p><br><h3><strong>Documentation Template</strong></h3></p><p><br><pre><code></p><p><br><strong>Student:</strong> [Name]</p><p><br><strong>Intervention:</strong> [Strategy used]</p><p><br><strong>Goal:</strong> [What you wanted to achieve]</p><p><br><strong>Timeline:</strong> [Start date - End date]</p><p><br><strong>Baseline Data:</strong></p><p><br>- [Specific measurements before intervention]</p><p><br><strong>Progress Data:</strong></p><p><br>- Week 1: [Measurements and observations]</p><p><br>- Week 2: [Measurements and observations]</p><p><br>- Week 3: [Measurements and observations]</p><p><br>- Week 4: [Measurements and observations]</p><p><br><strong>Adjustments Made:</strong></p><p><br>- [Any changes to the intervention]</p><p><br><strong>Final Outcomes:</strong></p><p><br>- [Whether goal was met and why]</p><p><br>- [Next steps for the student]</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🎯 Step 7: Goal Adjustment</h2></p><p><br><h3><strong>When to Adjust Goals</strong></h3></p><p><br>- <strong>Student exceeds</strong> expectations quickly</p><p><br>- <strong>Student struggles</strong> to make progress</p><p><br>- <strong>Circumstances change</strong> for the student</p><p><br>- <strong>New information</strong> becomes available</p><p><br>- <strong>Family requests</strong> changes</p><p><br><h3><strong>How to Adjust Goals</strong></h3></p><p><br>- <strong>Make goals</strong> more specific or measurable</p><p><br>- <strong>Change timeline</strong> for achieving goals</p><p><br>- <strong>Modify expectations</strong> based on student needs</p><p><br>- <strong>Involve student</strong> and family in goal setting</p><p><br>- <strong>Document</strong> reasons for changes</p><p><br>---</p><p><br><h2>👥 Step 8: Team Collaboration</h2></p><p><br><h3><strong>When to Involve the Team</strong></h3></p><p><br>- <strong>No progress</strong> after 2-3 weeks of intervention</p><p><br>- <strong>Student needs</strong> additional support or resources</p><p><br>- <strong>Multiple concerns</strong> across different areas</p><p><br>- <strong>Family requests</strong> team meeting</p><p><br>- <strong>You need</strong> additional expertise or support</p><p><br><h3><strong>Team Meeting Preparation</strong></h3></p><p><br>- <strong>Gather</strong> all relevant data and documentation</p><p><br>- <strong>Prepare</strong> summary of concerns and strategies tried</p><p><br>- <strong>Identify</strong> specific questions or needs</p><p><br>- <strong>Invite</strong> appropriate team members</p><p><br>- <strong>Set agenda</strong> and goals for meeting</p><p><br><h3><strong>Team Meeting Process</strong></h3></p><p><br>- <strong>Share</strong> observations and data</p><p><br>- <strong>Discuss</strong> what's working and what isn't</p><p><br>- <strong>Brainstorm</strong> new strategies or approaches</p><p><br>- <strong>Assign</strong> responsibilities and next steps</p><p><br>- <strong>Set timeline</strong> for follow-up</p><p><br>---</p><p><br><h2>🏠 Step 9: Family Communication</h2></p><p><br><h3><strong>Regular Updates</strong></h3></p><p><br>- <strong>Weekly or bi-weekly</strong> progress reports</p><p><br>- <strong>Celebrate</strong> successes and improvements</p><p><br>- <strong>Share</strong> data and observations</p><p><br>- <strong>Ask</strong> for family input and feedback</p><p><br>- <strong>Collaborate</strong> on next steps</p><p><br><h3><strong>When Concerns Persist</strong></h3></p><p><br>- <strong>Schedule</strong> formal meeting with family</p><p><br>- <strong>Share</strong> comprehensive data and documentation</p><p><br>- <strong>Discuss</strong> possible causes and solutions</p><p><br>- <strong>Consider</strong> formal evaluation if needed</p><p><br>- <strong>Develop</strong> action plan together</p><p><br>---</p><p><br><h2>🚨 Step 10: Escalation</h2></p><p><br><h3><strong>When to Escalate</strong></h3></p><p><br>- <strong>No progress</strong> after 4-6 weeks of intervention</p><p><br>- <strong>Student is getting worse</strong> despite supports</p><p><br>- <strong>Multiple strategies</strong> tried without success</p><p><br>- <strong>Family requests</strong> formal evaluation</p><p><br>- <strong>You feel</strong> overwhelmed or unsure</p><p><br><h3><strong>How to Escalate</strong></h3></p><p><br>- <strong>Contact</strong> support team or administrator</p><p><br>- <strong>Provide</strong> comprehensive documentation</p><p><br>- <strong>Explain</strong> what you've tried and results</p><p><br>- <strong>Request</strong> specific support or resources</p><p><br>- <strong>Follow up</strong> on recommendations</p><p><br>---</p><p><br><h2>💡 Best Practices</h2></p><p><br><h3><strong>Do This</strong></h3></p><p><br>- <strong>Collect data</strong> consistently and regularly</p><p><br>- <strong>Use multiple</strong> sources of information</p><p><br>- <strong>Involve student</strong> in monitoring their own progress</p><p><br>- <strong>Celebrate</strong> small wins and improvements</p><p><br>- <strong>Be patient</strong> - progress takes time</p><p><br>- <strong>Adjust</strong> strategies based on data</p><p><br><h3><strong>Don't Do This</strong></h3></p><p><br>- <strong>Ignore</strong> data that doesn't support your assumptions</p><p><br>- <strong>Give up</strong> too quickly on interventions</p><p><br>- <strong>Work in isolation</strong> - use your team</p><p><br>- <strong>Compare students</strong> unfairly</p><p><br>- <strong>Expect</strong> perfect progress - ups and downs are normal</p><p><br>- <strong>Forget</strong> to document your observations</p><p><br>---</p><p><br><h2>🛠️ Tools and Resources</h2></p><p><br><h3><strong>Data Collection Tools</strong></h3></p><p><br>- <strong><a href="../../../tools/progress_monitoring_forms.html">Progress Monitoring Forms</a></strong> - Structured data collection</p><p><br>- <strong><a href="../../../tools/behavior_tracking_sheets.html">Behavior Tracking Sheets</a></strong> - Frequency and duration tracking</p><p><br>- <strong><a href="../../../tools/academic_assessment_tools.html">Academic Assessment Tools</a></strong> - Skill-based measurements</p><p><br><h3><strong>Analysis Tools</strong></h3></p><p><br>- <strong><a href="../../../tools/data_analysis_templates.html">Data Analysis Templates</a></strong> - Organize and interpret data</p><p><br>- <strong><a href="../../../tools/progress_charts.html">Progress Charts</a></strong> - Visual representation of progress</p><p><br>- <strong><a href="../../../tools/goal_setting_forms.html">Goal Setting Forms</a></strong> - SMART goal development</p><p><br><h3><strong>Communication Tools</strong></h3></p><p><br>- <strong><a href="../../../tools/family_update_templates.html">Family Update Templates</a></strong> - Regular progress reports</p><p><br>- <strong><a href="../../../tools/team_meeting_agendas.html">Team Meeting Agendas</a></strong> - Structured team collaboration</p><p><br>- <strong><a href="../../../tools/referral_forms.html">Referral Forms</a></strong> - Formal evaluation requests</p><p><br>---</p><p><br><em>Remember: Progress monitoring is not about perfection - it's about understanding what's working and what isn't, so you can make informed decisions about how to best support each student.</em></p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Step-by-step process for tracking student progress and adjusting interventions</em></p>
+
+<p>---</p>
+
+<h2>🎯 Overview</h2>
+
+<p>This workflow helps you systematically track student progress, evaluate intervention effectiveness, and make data-driven decisions about next steps.</p>
+
+<p>---</p>
+
+<h2>📊 Step 1: Establish Baseline</h2>
+
+<h3><strong>What is Baseline Data?</strong></h3>
+<p>Baseline data is information about the student's current performance before you start an intervention. It helps you:</p><ul><li><strong>Measure</strong> if the intervention is working</li></ul><ul><li><strong>Set realistic</strong> goals for improvement</li></ul><ul><li><strong>Compare</strong> before and after performance</li></ul><ul><li><strong>Make decisions</strong> about continuing or changing strategies</li></ul>
+
+<h3><strong>What to Measure</strong></h3><ul><li><strong>Academic skills</strong> - Reading fluency, math accuracy, writing quality</li></ul><ul><li><strong>Behavioral patterns</strong> - On-task time, work completion, following directions</li></ul><ul><li><strong>Social-emotional</strong> - Confidence, engagement, peer interactions</li></ul><ul><li><strong>Strategy use</strong> - How well the student uses accommodations</li></ul>
+
+<h3><strong>How to Collect Baseline Data</strong></h3><ul><li><strong>Observe</strong> the student for 3-5 days</li></ul><ul><li><strong>Record</strong> specific behaviors or skills</li></ul><ul><li><strong>Use</strong> the same measurement method you'll use later</li></ul><ul><li><strong>Document</strong> the current level of performance</li></ul><ul><li><strong>Note</strong> any patterns or trends</li></ul>
+
+<p>---</p>
+
+<h2>📈 Step 2: Set Up Progress Monitoring</h2>
+
+<h3><strong>Choose Your Measurement Method</strong></h3>
+
+<p>#### <strong>Academic Monitoring</strong></p><ul><li><strong>Reading fluency</strong> - Words per minute, accuracy</li></ul><ul><li><strong>Math computation</strong> - Problems correct per minute</li></ul><ul><li><strong>Writing</strong> - Words written, quality scores</li></ul><ul><li><strong>Spelling</strong> - Words spelled correctly</li></ul><ul><li><strong>Comprehension</strong> - Questions answered correctly</li></ul>
+
+<p>#### <strong>Behavioral Monitoring</strong></p><ul><li><strong>On-task behavior</strong> - Percentage of time on task</li></ul><ul><li><strong>Work completion</strong> - Percentage of assignments completed</li></ul><ul><li><strong>Following directions</strong> - Number of directions followed correctly</li></ul><ul><li><strong>Appropriate behavior</strong> - Frequency of positive behaviors</li></ul>
+
+<p>#### <strong>Social-Emotional Monitoring</strong></p><ul><li><strong>Engagement</strong> - Level of participation in activities</li></ul><ul><li><strong>Confidence</strong> - Student self-report or teacher observation</li></ul><ul><li><strong>Peer interactions</strong> - Quality and frequency of social interactions</li></ul><ul><li><strong>Self-regulation</strong> - Ability to manage emotions and behavior</li></ul>
+
+<h3><strong>Data Collection Schedule</strong></h3><ul><li><strong>Daily</strong> - For intensive interventions</li></ul><ul><li><strong>Weekly</strong> - For most interventions</li></ul><ul><li><strong>Bi-weekly</strong> - For long-term monitoring</li></ul><ul><li><strong>Monthly</strong> - For general progress tracking</li></ul>
+
+<p>---</p>
+
+<h2>📋 Step 3: Data Collection</h2>
+
+<h3><strong>Daily Data Collection</strong></h3><ul><li><strong>Quick observations</strong> - 2-3 times per day</li></ul><ul><li><strong>Specific behaviors</strong> - What you see, not what you think</li></ul><ul><li><strong>Context</strong> - When and where it happened</li></ul><ul><li><strong>Response</strong> - How the student responded to intervention</li></ul>
+
+<h3><strong>Weekly Data Collection</strong></h3><ul><li><strong>Formal assessments</strong> - Tests, quizzes, work samples</li></ul><ul><li><strong>Behavior tracking</strong> - Frequency and duration of behaviors</li></ul><ul><li><strong>Student feedback</strong> - How they feel about the intervention</li></ul><ul><li><strong>Family input</strong> - Observations from home</li></ul>
+
+<h3><strong>Data Collection Tools</strong></h3><ul><li><strong>Observation forms</strong> - Structured checklists</li></ul><ul><li><strong>Progress charts</strong> - Visual tracking of improvement</li></ul><ul><li><strong>Work samples</strong> - Before and after examples</li></ul><ul><li><strong>Student self-assessment</strong> - Student's view of progress</li></ul><ul><li><strong>Family surveys</strong> - Home observations and feedback</li></ul>
+
+<p>---</p>
+
+<h2>📊 Step 4: Data Analysis</h2>
+
+<h3><strong>Look for Patterns</strong></h3><ul><li><strong>Trends</strong> - Is the student improving over time?</li></ul><ul><li><strong>Consistency</strong> - Is progress steady or inconsistent?</li></ul><ul><li><strong>Variability</strong> - Are there good days and bad days?</li></ul><ul><li><strong>Triggers</strong> - What seems to help or hinder progress?</li></ul>
+
+<h3><strong>Compare to Goals</strong></h3><ul><li><strong>Are you on track</strong> to meet the goal?</li></ul><ul><li><strong>How much progress</strong> has been made?</li></ul><ul><li><strong>What's working</strong> and what isn't?</li></ul><ul><li><strong>What adjustments</strong> might be needed?</li></ul>
+
+<h3><strong>Data Analysis Questions</strong></h3><ul><li><strong>Is the student making progress?</strong> (Yes/No/Somewhat)</li></ul><ul><li><strong>Is the progress fast enough?</strong> (Too slow/Just right/Too fast)</li></ul><ul><li><strong>Is the intervention working?</strong> (Yes/No/Partially)</li></ul><ul><li><strong>What changes are needed?</strong> (Continue/Adjust/Change completely)</li></ul>
+
+<p>---</p>
+
+<h2>🔄 Step 5: Decision Making</h2>
+
+<h3><strong>If Student is Making Good Progress</strong></h3><ul><li><strong>Continue</strong> the current intervention</li></ul><ul><li><strong>Gradually reduce</strong> support as student improves</li></ul><ul><li><strong>Set new goals</strong> for continued growth</li></ul><ul><li><strong>Celebrate</strong> success with student and family</li></ul><ul><li><strong>Consider</strong> applying strategies to other areas</li></ul>
+
+<h3><strong>If Student is Making Some Progress</strong></h3><ul><li><strong>Continue</strong> the intervention with minor adjustments</li></ul><ul><li><strong>Provide additional</strong> support or practice</li></ul><ul><li><strong>Extend</strong> the timeline for achieving goals</li></ul><ul><li><strong>Monitor</strong> more closely for continued improvement</li></ul><ul><li><strong>Get input</strong> from student and family</li></ul>
+
+<h3><strong>If Student is Not Making Progress</strong></h3><ul><li><strong>Try different</strong> strategies or approaches</li></ul><ul><li><strong>Increase</strong> intensity or frequency of intervention</li></ul><ul><li><strong>Consult</strong> with colleagues or support team</li></ul><ul><li><strong>Consider</strong> if goals are appropriate</li></ul><ul><li><strong>Involve</strong> family in problem-solving</li></ul>
+
+<h3><strong>If Student is Getting Worse</strong></h3><ul><li><strong>Stop</strong> the current intervention immediately</li></ul><ul><li><strong>Consult</strong> with support team right away</li></ul><ul><li><strong>Consider</strong> if there are other factors affecting the student</li></ul><ul><li><strong>Involve</strong> family and other professionals</li></ul><ul><li><strong>Document</strong> everything for future reference</li></ul>
+
+<p>---</p>
+
+<h2>📝 Step 6: Documentation</h2>
+
+<h3><strong>What to Document</strong></h3><ul><li><strong>Baseline data</strong> - Starting point for intervention</li></ul><ul><li><strong>Intervention details</strong> - What strategy was used, when, how often</li></ul><ul><li><strong>Progress data</strong> - Regular measurements of student performance</li></ul><ul><li><strong>Adjustments made</strong> - Changes to intervention based on data</li></ul><ul><li><strong>Final outcomes</strong> - Whether goals were met and why</li></ul>
+
+<h3><strong>Documentation Template</strong></h3>
+<pre><code>
+<p><strong>Student:</strong> [Name]</p>
+<p><strong>Intervention:</strong> [Strategy used]</p>
+<p><strong>Goal:</strong> [What you wanted to achieve]</p>
+<p><strong>Timeline:</strong> [Start date - End date]</p>
+
+<p><strong>Baseline Data:</strong></p><ul><li>[Specific measurements before intervention]</li></ul>
+
+<p><strong>Progress Data:</strong></p><ul><li>Week 1: [Measurements and observations]</li></ul><ul><li>Week 2: [Measurements and observations]</li></ul><ul><li>Week 3: [Measurements and observations]</li></ul><ul><li>Week 4: [Measurements and observations]</li></ul>
+
+<p><strong>Adjustments Made:</strong></p><ul><li>[Any changes to the intervention]</li></ul>
+
+<p><strong>Final Outcomes:</strong></p><ul><li>[Whether goal was met and why]</li></ul><ul><li>[Next steps for the student]</li></ul>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🎯 Step 7: Goal Adjustment</h2>
+
+<h3><strong>When to Adjust Goals</strong></h3><ul><li><strong>Student exceeds</strong> expectations quickly</li></ul><ul><li><strong>Student struggles</strong> to make progress</li></ul><ul><li><strong>Circumstances change</strong> for the student</li></ul><ul><li><strong>New information</strong> becomes available</li></ul><ul><li><strong>Family requests</strong> changes</li></ul>
+
+<h3><strong>How to Adjust Goals</strong></h3><ul><li><strong>Make goals</strong> more specific or measurable</li></ul><ul><li><strong>Change timeline</strong> for achieving goals</li></ul><ul><li><strong>Modify expectations</strong> based on student needs</li></ul><ul><li><strong>Involve student</strong> and family in goal setting</li></ul><ul><li><strong>Document</strong> reasons for changes</li></ul>
+
+<p>---</p>
+
+<h2>👥 Step 8: Team Collaboration</h2>
+
+<h3><strong>When to Involve the Team</strong></h3><ul><li><strong>No progress</strong> after 2-3 weeks of intervention</li></ul><ul><li><strong>Student needs</strong> additional support or resources</li></ul><ul><li><strong>Multiple concerns</strong> across different areas</li></ul><ul><li><strong>Family requests</strong> team meeting</li></ul><ul><li><strong>You need</strong> additional expertise or support</li></ul>
+
+<h3><strong>Team Meeting Preparation</strong></h3><ul><li><strong>Gather</strong> all relevant data and documentation</li></ul><ul><li><strong>Prepare</strong> summary of concerns and strategies tried</li></ul><ul><li><strong>Identify</strong> specific questions or needs</li></ul><ul><li><strong>Invite</strong> appropriate team members</li></ul><ul><li><strong>Set agenda</strong> and goals for meeting</li></ul>
+
+<h3><strong>Team Meeting Process</strong></h3><ul><li><strong>Share</strong> observations and data</li></ul><ul><li><strong>Discuss</strong> what's working and what isn't</li></ul><ul><li><strong>Brainstorm</strong> new strategies or approaches</li></ul><ul><li><strong>Assign</strong> responsibilities and next steps</li></ul><ul><li><strong>Set timeline</strong> for follow-up</li></ul>
+
+<p>---</p>
+
+<h2>🏠 Step 9: Family Communication</h2>
+
+<h3><strong>Regular Updates</strong></h3><ul><li><strong>Weekly or bi-weekly</strong> progress reports</li></ul><ul><li><strong>Celebrate</strong> successes and improvements</li></ul><ul><li><strong>Share</strong> data and observations</li></ul><ul><li><strong>Ask</strong> for family input and feedback</li></ul><ul><li><strong>Collaborate</strong> on next steps</li></ul>
+
+<h3><strong>When Concerns Persist</strong></h3><ul><li><strong>Schedule</strong> formal meeting with family</li></ul><ul><li><strong>Share</strong> comprehensive data and documentation</li></ul><ul><li><strong>Discuss</strong> possible causes and solutions</li></ul><ul><li><strong>Consider</strong> formal evaluation if needed</li></ul><ul><li><strong>Develop</strong> action plan together</li></ul>
+
+<p>---</p>
+
+<h2>🚨 Step 10: Escalation</h2>
+
+<h3><strong>When to Escalate</strong></h3><ul><li><strong>No progress</strong> after 4-6 weeks of intervention</li></ul><ul><li><strong>Student is getting worse</strong> despite supports</li></ul><ul><li><strong>Multiple strategies</strong> tried without success</li></ul><ul><li><strong>Family requests</strong> formal evaluation</li></ul><ul><li><strong>You feel</strong> overwhelmed or unsure</li></ul>
+
+<h3><strong>How to Escalate</strong></h3><ul><li><strong>Contact</strong> support team or administrator</li></ul><ul><li><strong>Provide</strong> comprehensive documentation</li></ul><ul><li><strong>Explain</strong> what you've tried and results</li></ul><ul><li><strong>Request</strong> specific support or resources</li></ul><ul><li><strong>Follow up</strong> on recommendations</li></ul>
+
+<p>---</p>
+
+<h2>💡 Best Practices</h2>
+
+<h3><strong>Do This</strong></h3><ul><li><strong>Collect data</strong> consistently and regularly</li></ul><ul><li><strong>Use multiple</strong> sources of information</li></ul><ul><li><strong>Involve student</strong> in monitoring their own progress</li></ul><ul><li><strong>Celebrate</strong> small wins and improvements</li></ul><ul><li><strong>Be patient</strong> - progress takes time</li></ul><ul><li><strong>Adjust</strong> strategies based on data</li></ul>
+
+<h3><strong>Don't Do This</strong></h3><ul><li><strong>Ignore</strong> data that doesn't support your assumptions</li></ul><ul><li><strong>Give up</strong> too quickly on interventions</li></ul><ul><li><strong>Work in isolation</strong> - use your team</li></ul><ul><li><strong>Compare students</strong> unfairly</li></ul><ul><li><strong>Expect</strong> perfect progress - ups and downs are normal</li></ul><ul><li><strong>Forget</strong> to document your observations</li></ul>
+
+<p>---</p>
+
+<h2>🛠️ Tools and Resources</h2>
+
+<h3><strong>Data Collection Tools</strong></h3><ul><li><strong><a href="../../../tools/progress_monitoring_forms.html">Progress Monitoring Forms</a></strong> - Structured data collection</li></ul><ul><li><strong><a href="../../../tools/behavior_tracking_sheets.html">Behavior Tracking Sheets</a></strong> - Frequency and duration tracking</li></ul><ul><li><strong><a href="../../../tools/academic_assessment_tools.html">Academic Assessment Tools</a></strong> - Skill-based measurements</li></ul>
+
+<h3><strong>Analysis Tools</strong></h3><ul><li><strong><a href="../../../tools/data_analysis_templates.html">Data Analysis Templates</a></strong> - Organize and interpret data</li></ul><ul><li><strong><a href="../../../tools/progress_charts.html">Progress Charts</a></strong> - Visual representation of progress</li></ul><ul><li><strong><a href="../../../tools/goal_setting_forms.html">Goal Setting Forms</a></strong> - SMART goal development</li></ul>
+
+<h3><strong>Communication Tools</strong></h3><ul><li><strong><a href="../../../tools/family_update_templates.html">Family Update Templates</a></strong> - Regular progress reports</li></ul><ul><li><strong><a href="../../../tools/team_meeting_agendas.html">Team Meeting Agendas</a></strong> - Structured team collaboration</li></ul><ul><li><strong><a href="../../../tools/referral_forms.html">Referral Forms</a></strong> - Formal evaluation requests</li></ul>
+
+<p>---</p>
+
+<p><em>Remember: Progress monitoring is not about perfection - it's about understanding what's working and what isn't, so you can make informed decisions about how to best support each student.</em></p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#monitor-progress-workflow">Monitor Progress Workflow</a></li>
@@ -146,12 +298,13 @@
         <li><a href="#communication-tools">Communication Tools</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../../teacher_toolkit/workflows/identify_concerns.html" class="nav-prev">← Identify Concerns Workflow</a>
   <a href="../../../teacher_toolkit/workflows/try_strategies.html" class="nav-next">Try Strategies Workflow →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -159,6 +312,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../../assets/js/search.js"></script>
     <script src="../../../assets/js/main.js"></script>
 </body>
 </html>

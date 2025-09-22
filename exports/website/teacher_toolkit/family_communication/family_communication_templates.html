@@ -21,12 +21,20 @@
                         <li><a href="../../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../../../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -55,10 +63,6 @@
       <a href="../../../teacher_toolkit/tools/quick_reference_card.html" class="nav-link ">Quick Reference Card</a>
       <a href="../../../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
-    <div class="nav-subsection expanded">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link active">Family Communication Templates</a>
-    </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../../../teacher_toolkit/progress_monitoring/index.html" class="nav-link ">Progress Monitoring Tools</a>
@@ -66,6 +70,10 @@
       <a href="../../../teacher_toolkit/workflows/identify_concerns.html" class="nav-link ">Identify Concerns Workflow</a>
       <a href="../../../teacher_toolkit/workflows/monitor_progress.html" class="nav-link ">Monitor Progress Workflow</a>
       <a href="../../../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection expanded">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link active">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,24 +87,192 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../../index.html">Home</a></li>
           <li><a href="../../../teacher_toolkit">Teacher Toolkit</a></li><li><a href="../../../teacher_toolkit/family_communication">Family Communication</a></li><li><span aria-current="page">Family Communication Templates</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Family Communication Templates</h1>
+                        
+                    </header>
                     <h1>Family Communication Templates</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Family Communication Templates</h1></p><p><br><em>Templates for teachers to communicate concerns about learning needs with families</em></p><p><br><h2>When to Use These Templates</h2></p><p><br>- <strong>Early concerns</strong>: When you notice patterns but aren't sure if it's a learning difference</p><p><br>- <strong>Documentation needed</strong>: When you need to document attempts to support the student</p><p><br>- <strong>Referral preparation</strong>: When you're preparing to involve the school support team</p><p><br>- <strong>Follow-up</strong>: After implementing interventions to update families</p><p><br>---</p><p><br><h2>Template 1: Initial Concern (Early Stage)</h2></p><p><br><strong>Subject:</strong> [Student Name] - Classroom Observations and Support</p><p><br>Dear [Family Name],</p><p><br>I hope this message finds you well. I wanted to reach out to share some observations I've made about [Student Name] in our classroom and discuss how we can work together to support their success.</p><p><br><strong>What I've noticed:</strong></p><p><br>- [Specific, objective observations - e.g., "struggles with reading aloud in class"]</p><p><br>- [Positive observations too - e.g., "shows great creativity in discussions"]</p><p><br>- [Patterns you've observed - e.g., "this seems to happen most during independent reading time"]</p><p><br><strong>What I'm doing in class:</strong></p><p><br>- [Specific strategies you've tried - e.g., "providing extra time for reading assignments"]</p><p><br>- [Accommodations you've made - e.g., "allowing [Student] to use audiobooks for longer texts"]</p><p><br><strong>How you can help at home:</strong></p><p><br>- [Specific, actionable suggestions]</p><p><br>- [Resources or activities they can try]</p><p><br>I'd love to schedule a brief conversation to discuss these observations and hear your perspective. Would [specific times] work for you?</p><p><br>Thank you for your partnership in supporting [Student Name]'s learning.</p><p><br>Best regards,</p><p><br>[Your Name]</p><p><br>---</p><p><br><h2>Template 2: Documentation/Follow-up</h2></p><p><br><strong>Subject:</strong> [Student Name] - Update on Classroom Supports</p><p><br>Dear [Family Name],</p><p><br>I wanted to follow up on our conversation about [Student Name] and share how the strategies we discussed are working in the classroom.</p><p><br><strong>What we've tried:</strong></p><p><br>- [List specific interventions]</p><p><br>- [How long you've been using them]</p><p><br><strong>What I'm observing:</strong></p><p><br>- [Positive changes you've noticed]</p><p><br>- [Areas that still need attention]</p><p><br>- [Student's response to different strategies]</p><p><br><strong>Next steps:</strong></p><p><br>- [What you plan to try next]</p><p><br>- [When you'll check in again]</p><p><br>- [Any additional support you might need]</p><p><br>I'm committed to finding what works best for [Student Name]. Please let me know if you have any questions or if you're noticing similar patterns at home.</p><p><br>Best regards,</p><p><br>[Your Name]</p><p><br>---</p><p><br><h2>Template 3: Referral Preparation</h2></p><p><br><strong>Subject:</strong> [Student Name] - Request for Team Meeting</p><p><br>Dear [Family Name],</p><p><br>I hope you're doing well. I'm writing to request a meeting with our school's support team to discuss [Student Name]'s learning needs and explore additional resources that might be helpful.</p><p><br><strong>Why I'm requesting this meeting:</strong></p><p><br>- [Specific concerns with examples]</p><p><br>- [What you've already tried]</p><p><br>- [Why you think additional support might be needed]</p><p><br><strong>What to expect:</strong></p><p><br>- [Who will be at the meeting]</p><p><br>- [What will be discussed]</p><p><br>- [What information would be helpful to bring]</p><p><br><strong>Meeting details:</strong></p><p><br>- [Proposed times]</p><p><br>- [Location/format]</p><p><br>- [How to prepare]</p><p><br>This meeting is about ensuring [Student Name] gets the support they need to be successful. Please let me know if you have any questions before we meet.</p><p><br>Best regards,</p><p><br>[Your Name]</p><p><br>---</p><p><br><h2>Template 4: Positive Update</h2></p><p><br><strong>Subject:</strong> [Student Name] - Great Progress!</p><p><br>Dear [Family Name],</p><p><br>I wanted to share some wonderful news about [Student Name]'s progress in our classroom!</p><p><br><strong>What I'm celebrating:</strong></p><p><br>- [Specific improvements you've noticed]</p><p><br>- [Strategies that are working well]</p><p><br>- [Positive changes in behavior or engagement]</p><p><br><strong>What's working:</strong></p><p><br>- [Specific interventions that are helping]</p><p><br>- [How the student is responding]</p><p><br>- [What you plan to continue doing]</p><p><br><strong>How you can continue supporting:</strong></p><p><br>- [What's working at home]</p><p><br>- [Additional strategies to try]</p><p><br>- [Resources that might be helpful]</p><p><br>Thank you for your partnership in supporting [Student Name]'s success. It's been wonderful to see their growth!</p><p><br>Best regards,</p><p><br>[Your Name]</p><p><br>---</p><p><br><h2>Template 5: Difficult Conversation</h2></p><p><br><strong>Subject:</strong> [Student Name] - Important Discussion About Learning</p><p><br>Dear [Family Name],</p><p><br>I hope this message finds you well. I'm writing to discuss some concerns I have about [Student Name]'s learning and to explore how we can work together to support them.</p><p><br><strong>My concerns:</strong></p><p><br>- [Specific, objective observations]</p><p><br>- [How this is impacting their learning]</p><p><br>- [Why I'm concerned about this pattern]</p><p><br><strong>What I've tried:</strong></p><p><br>- [Specific strategies and accommodations]</p><p><br>- [How long you've been using them]</p><p><br>- [What the results have been]</p><p><br><strong>What I'm asking:</strong></p><p><br>- [Request for meeting to discuss further]</p><p><br>- [Permission to involve support team if needed]</p><p><br>- [Specific information you'd like from them]</p><p><br>I understand this might be difficult to hear, and I want you to know that my goal is to help [Student Name] succeed. I'm here to answer any questions you might have.</p><p><br>Would you be available to talk this week? I'm available [specific times].</p><p><br>With care and concern,</p><p><br>[Your Name]</p><p><br>---</p><p><br><h2>Conversation Starters for Phone/In-Person</h2></p><p><br><h3>Opening the Conversation</h3></p><p><br>- "I've been noticing some patterns with [Student] that I'd like to discuss with you."</p><p><br>- "I wanted to share some observations about [Student]'s learning and get your perspective."</p><p><br>- "I've been trying some new strategies with [Student] and wanted to update you on how they're working."</p><p><br><h3>When Families Are Defensive</h3></p><p><br>- "I understand this might be hard to hear. My goal is to help [Student] succeed."</p><p><br>- "I'm not suggesting there's anything wrong with [Student] - I'm looking for ways to better support them."</p><p><br>- "I value your input as [Student]'s parent/guardian. What are you seeing at home?"</p><p><br><h3>When Families Are Overwhelmed</h3></p><p><br>- "Let's start with one small step. What feels manageable to you?"</p><p><br>- "We don't have to figure everything out today. What questions do you have?"</p><p><br>- "I'm here to support you through this process. What would be most helpful right now?"</p><p><br><h3>When Families Disagree</h3></p><p><br>- "I hear that you see things differently. Can you help me understand your perspective?"</p><p><br>- "Let's focus on what we both want - for [Student] to be successful. How can we work together on that?"</p><p><br>- "I respect your viewpoint. What information would help you feel more comfortable with this approach?"</p><p><br>---</p><p><br><h2>What NOT to Say</h2></p><p><br><h3>Avoid These Phrases</h3></p><p><br>- "I think [Student] has [specific condition]" - You're not qualified to diagnose</p><p><br>- "There's definitely something wrong" - Too negative and definitive</p><p><br>- "Other students don't have this problem" - Creates comparison and shame</p><p><br>- "You should get [Student] tested" - Too directive; suggest exploring options instead</p><p><br><h3>Instead, Say This</h3></p><p><br>- "I've noticed some patterns that might benefit from additional support"</p><p><br>- "I'm concerned about [Student]'s progress in [specific area]"</p><p><br>- "I'd like to explore what might help [Student] be more successful"</p><p><br>- "Let's discuss what resources might be available to support [Student]"</p><p><br>---</p><p><br><h2>Documentation Tips</h2></p><p><br><h3>What to Include</h3></p><p><br>- Specific, objective observations</p><p><br>- Dates and times of incidents</p><p><br>- Strategies you've tried and their results</p><p><br>- Student's response to different approaches</p><p><br>- Family's response to your communication</p><p><br><h3>What to Avoid</h3></p><p><br>- Subjective judgments about the student or family</p><p><br>- Speculation about causes or diagnoses</p><p><br>- Personal opinions about parenting or home life</p><p><br>- Comparisons to other students</p><p><br><h3>Sample Documentation Entry</h3></p><p><br><pre><code></p><p><br>Date: [Date]</p><p><br>Student: [Name]</p><p><br>Concern: Reading fluency</p><p><br>Observations: Student reads 15 WPM below grade level, skips words, guesses at unfamiliar words</p><p><br>Strategies tried: Audiobooks, extended time, chunked reading</p><p><br>Results: Student engagement improved with audiobooks, still struggles with independent reading</p><p><br>Family contact: [Date] - Parent expressed concern about reading at home too</p><p><br>Next steps: Continue audiobooks, try repeated reading practice, consider referral</p><p><br></code></pre></p><p><br>---</p><p><br><h2>Resources to Share with Families</h2></p><p><br><h3>General Information</h3></p><p><br>- <a href="https://www.understood.org/">Understood.org</a> - Comprehensive resources for families</p><p><br>- <a href="https://www.ldonline.org/">LD Online</a> - Learning disabilities information</p><p><br>- <a href="https://www.wrightslaw.com/">Wrightslaw</a> - Special education law and advocacy</p><p><br><h3>Specific Conditions</h3></p><p><br>- <a href="https://dyslexiaida.org/">International Dyslexia Association</a> - Dyslexia resources</p><p><br>- <a href="https://chadd.org/">CHADD</a> - ADHD information and support</p><p><br>- <a href="https://autismsociety.org/">Autism Society</a> - Autism resources and support</p><p><br><h3>Local Resources</h3></p><p><br>- [Add your district's parent resource center]</p><p><br>- [Add local support groups]</p><p><br>- [Add community mental health resources]</p><p><br>---</p><p><br><em>Remember: These templates are starting points. Adapt them to your communication style and the specific situation. Always prioritize the student's well-being and the family's partnership in their education.</em></p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Templates for teachers to communicate concerns about learning needs with families</em></p>
+
+<h2>When to Use These Templates</h2><ul><li><strong>Early concerns</strong>: When you notice patterns but aren't sure if it's a learning difference</li></ul><ul><li><strong>Documentation needed</strong>: When you need to document attempts to support the student</li></ul><ul><li><strong>Referral preparation</strong>: When you're preparing to involve the school support team</li></ul><ul><li><strong>Follow-up</strong>: After implementing interventions to update families</li></ul>
+
+<p>---</p>
+
+<h2>Template 1: Initial Concern (Early Stage)</h2>
+
+<p><strong>Subject:</strong> [Student Name] - Classroom Observations and Support</p>
+
+<p>Dear [Family Name],</p>
+
+<p>I hope this message finds you well. I wanted to reach out to share some observations I've made about [Student Name] in our classroom and discuss how we can work together to support their success.</p>
+
+<p><strong>What I've noticed:</strong></p><ul><li>[Specific, objective observations - e.g., "struggles with reading aloud in class"]</li></ul><ul><li>[Positive observations too - e.g., "shows great creativity in discussions"]</li></ul><ul><li>[Patterns you've observed - e.g., "this seems to happen most during independent reading time"]</li></ul>
+
+<p><strong>What I'm doing in class:</strong></p><ul><li>[Specific strategies you've tried - e.g., "providing extra time for reading assignments"]</li></ul><ul><li>[Accommodations you've made - e.g., "allowing [Student] to use audiobooks for longer texts"]</li></ul>
+
+<p><strong>How you can help at home:</strong></p><ul><li>[Specific, actionable suggestions]</li></ul><ul><li>[Resources or activities they can try]</li></ul>
+
+<p>I'd love to schedule a brief conversation to discuss these observations and hear your perspective. Would [specific times] work for you?</p>
+
+<p>Thank you for your partnership in supporting [Student Name]'s learning.</p>
+
+<p>Best regards,</p>
+<p>[Your Name]</p>
+
+<p>---</p>
+
+<h2>Template 2: Documentation/Follow-up</h2>
+
+<p><strong>Subject:</strong> [Student Name] - Update on Classroom Supports</p>
+
+<p>Dear [Family Name],</p>
+
+<p>I wanted to follow up on our conversation about [Student Name] and share how the strategies we discussed are working in the classroom.</p>
+
+<p><strong>What we've tried:</strong></p><ul><li>[List specific interventions]</li></ul><ul><li>[How long you've been using them]</li></ul>
+
+<p><strong>What I'm observing:</strong></p><ul><li>[Positive changes you've noticed]</li></ul><ul><li>[Areas that still need attention]</li></ul><ul><li>[Student's response to different strategies]</li></ul>
+
+<p><strong>Next steps:</strong></p><ul><li>[What you plan to try next]</li></ul><ul><li>[When you'll check in again]</li></ul><ul><li>[Any additional support you might need]</li></ul>
+
+<p>I'm committed to finding what works best for [Student Name]. Please let me know if you have any questions or if you're noticing similar patterns at home.</p>
+
+<p>Best regards,</p>
+<p>[Your Name]</p>
+
+<p>---</p>
+
+<h2>Template 3: Referral Preparation</h2>
+
+<p><strong>Subject:</strong> [Student Name] - Request for Team Meeting</p>
+
+<p>Dear [Family Name],</p>
+
+<p>I hope you're doing well. I'm writing to request a meeting with our school's support team to discuss [Student Name]'s learning needs and explore additional resources that might be helpful.</p>
+
+<p><strong>Why I'm requesting this meeting:</strong></p><ul><li>[Specific concerns with examples]</li></ul><ul><li>[What you've already tried]</li></ul><ul><li>[Why you think additional support might be needed]</li></ul>
+
+<p><strong>What to expect:</strong></p><ul><li>[Who will be at the meeting]</li></ul><ul><li>[What will be discussed]</li></ul><ul><li>[What information would be helpful to bring]</li></ul>
+
+<p><strong>Meeting details:</strong></p><ul><li>[Proposed times]</li></ul><ul><li>[Location/format]</li></ul><ul><li>[How to prepare]</li></ul>
+
+<p>This meeting is about ensuring [Student Name] gets the support they need to be successful. Please let me know if you have any questions before we meet.</p>
+
+<p>Best regards,</p>
+<p>[Your Name]</p>
+
+<p>---</p>
+
+<h2>Template 4: Positive Update</h2>
+
+<p><strong>Subject:</strong> [Student Name] - Great Progress!</p>
+
+<p>Dear [Family Name],</p>
+
+<p>I wanted to share some wonderful news about [Student Name]'s progress in our classroom!</p>
+
+<p><strong>What I'm celebrating:</strong></p><ul><li>[Specific improvements you've noticed]</li></ul><ul><li>[Strategies that are working well]</li></ul><ul><li>[Positive changes in behavior or engagement]</li></ul>
+
+<p><strong>What's working:</strong></p><ul><li>[Specific interventions that are helping]</li></ul><ul><li>[How the student is responding]</li></ul><ul><li>[What you plan to continue doing]</li></ul>
+
+<p><strong>How you can continue supporting:</strong></p><ul><li>[What's working at home]</li></ul><ul><li>[Additional strategies to try]</li></ul><ul><li>[Resources that might be helpful]</li></ul>
+
+<p>Thank you for your partnership in supporting [Student Name]'s success. It's been wonderful to see their growth!</p>
+
+<p>Best regards,</p>
+<p>[Your Name]</p>
+
+<p>---</p>
+
+<h2>Template 5: Difficult Conversation</h2>
+
+<p><strong>Subject:</strong> [Student Name] - Important Discussion About Learning</p>
+
+<p>Dear [Family Name],</p>
+
+<p>I hope this message finds you well. I'm writing to discuss some concerns I have about [Student Name]'s learning and to explore how we can work together to support them.</p>
+
+<p><strong>My concerns:</strong></p><ul><li>[Specific, objective observations]</li></ul><ul><li>[How this is impacting their learning]</li></ul><ul><li>[Why I'm concerned about this pattern]</li></ul>
+
+<p><strong>What I've tried:</strong></p><ul><li>[Specific strategies and accommodations]</li></ul><ul><li>[How long you've been using them]</li></ul><ul><li>[What the results have been]</li></ul>
+
+<p><strong>What I'm asking:</strong></p><ul><li>[Request for meeting to discuss further]</li></ul><ul><li>[Permission to involve support team if needed]</li></ul><ul><li>[Specific information you'd like from them]</li></ul>
+
+<p>I understand this might be difficult to hear, and I want you to know that my goal is to help [Student Name] succeed. I'm here to answer any questions you might have.</p>
+
+<p>Would you be available to talk this week? I'm available [specific times].</p>
+
+<p>With care and concern,</p>
+<p>[Your Name]</p>
+
+<p>---</p>
+
+<h2>Conversation Starters for Phone/In-Person</h2>
+
+<h3>Opening the Conversation</h3><ul><li>"I've been noticing some patterns with [Student] that I'd like to discuss with you."</li></ul><ul><li>"I wanted to share some observations about [Student]'s learning and get your perspective."</li></ul><ul><li>"I've been trying some new strategies with [Student] and wanted to update you on how they're working."</li></ul>
+
+<h3>When Families Are Defensive</h3><ul><li>"I understand this might be hard to hear. My goal is to help [Student] succeed."</li></ul><ul><li>"I'm not suggesting there's anything wrong with [Student] - I'm looking for ways to better support them."</li></ul><ul><li>"I value your input as [Student]'s parent/guardian. What are you seeing at home?"</li></ul>
+
+<h3>When Families Are Overwhelmed</h3><ul><li>"Let's start with one small step. What feels manageable to you?"</li></ul><ul><li>"We don't have to figure everything out today. What questions do you have?"</li></ul><ul><li>"I'm here to support you through this process. What would be most helpful right now?"</li></ul>
+
+<h3>When Families Disagree</h3><ul><li>"I hear that you see things differently. Can you help me understand your perspective?"</li></ul><ul><li>"Let's focus on what we both want - for [Student] to be successful. How can we work together on that?"</li></ul><ul><li>"I respect your viewpoint. What information would help you feel more comfortable with this approach?"</li></ul>
+
+<p>---</p>
+
+<h2>What NOT to Say</h2>
+
+<h3>Avoid These Phrases</h3><ul><li>"I think [Student] has [specific condition]" - You're not qualified to diagnose</li></ul><ul><li>"There's definitely something wrong" - Too negative and definitive</li></ul><ul><li>"Other students don't have this problem" - Creates comparison and shame</li></ul><ul><li>"You should get [Student] tested" - Too directive; suggest exploring options instead</li></ul>
+
+<h3>Instead, Say This</h3><ul><li>"I've noticed some patterns that might benefit from additional support"</li></ul><ul><li>"I'm concerned about [Student]'s progress in [specific area]"</li></ul><ul><li>"I'd like to explore what might help [Student] be more successful"</li></ul><ul><li>"Let's discuss what resources might be available to support [Student]"</li></ul>
+
+<p>---</p>
+
+<h2>Documentation Tips</h2>
+
+<h3>What to Include</h3><ul><li>Specific, objective observations</li></ul><ul><li>Dates and times of incidents</li></ul><ul><li>Strategies you've tried and their results</li></ul><ul><li>Student's response to different approaches</li></ul><ul><li>Family's response to your communication</li></ul>
+
+<h3>What to Avoid</h3><ul><li>Subjective judgments about the student or family</li></ul><ul><li>Speculation about causes or diagnoses</li></ul><ul><li>Personal opinions about parenting or home life</li></ul><ul><li>Comparisons to other students</li></ul>
+
+<h3>Sample Documentation Entry</h3>
+<pre><code>
+<p>Date: [Date]</p>
+<p>Student: [Name]</p>
+<p>Concern: Reading fluency</p>
+<p>Observations: Student reads 15 WPM below grade level, skips words, guesses at unfamiliar words</p>
+<p>Strategies tried: Audiobooks, extended time, chunked reading</p>
+<p>Results: Student engagement improved with audiobooks, still struggles with independent reading</p>
+<p>Family contact: [Date] - Parent expressed concern about reading at home too</p>
+<p>Next steps: Continue audiobooks, try repeated reading practice, consider referral</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>Resources to Share with Families</h2>
+
+<h3>General Information</h3><ul><li><a href="https://www.understood.org/">Understood.org</a> - Comprehensive resources for families</li></ul><ul><li><a href="https://www.ldonline.org/">LD Online</a> - Learning disabilities information</li></ul><ul><li><a href="https://www.wrightslaw.com/">Wrightslaw</a> - Special education law and advocacy</li></ul>
+
+<h3>Specific Conditions</h3><ul><li><a href="https://dyslexiaida.org/">International Dyslexia Association</a> - Dyslexia resources</li></ul><ul><li><a href="https://chadd.org/">CHADD</a> - ADHD information and support</li></ul><ul><li><a href="https://autismsociety.org/">Autism Society</a> - Autism resources and support</li></ul>
+
+<h3>Local Resources</h3><ul><li>[Add your district's parent resource center]</li></ul><ul><li>[Add local support groups]</li></ul><ul><li>[Add community mental health resources]</li></ul>
+
+<p>---</p>
+
+<p><em>Remember: These templates are starting points. Adapt them to your communication style and the specific situation. Always prioritize the student's well-being and the family's partnership in their education.</em></p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#family-communication-templates">Family Communication Templates</a></li>
@@ -124,12 +300,13 @@
         <li><a href="#local-resources">Local Resources</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
-  <a href="../../../grant_toolkit/federal_state_grants/index.html" class="nav-prev">← Federal & State Grants Expansion</a>
-  <a href="../../../teacher_toolkit/progress_monitoring/index.html" class="nav-next">Progress Monitoring Tools →</a>
+                <nav class="page-navigation">
+  <a href="../../../teacher_toolkit/progress_monitoring/index.html" class="nav-prev">← Progress Monitoring Tools</a>
+  <a href="../../../grant_toolkit/federal_state_grants/federal_grants_database.html" class="nav-next">Federal Grants Database →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -137,6 +314,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../../assets/js/search.js"></script>
     <script src="../../../assets/js/main.js"></script>
 </body>
 </html>

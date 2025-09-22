@@ -21,12 +21,20 @@
                         <li><a href="../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -56,16 +64,16 @@
       <a href="../../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
     <div class="nav-subsection ">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
-    </div>
-    <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../../teacher_toolkit/progress_monitoring/index.html" class="nav-link ">Progress Monitoring Tools</a>
       <a href="../../teacher_toolkit/workflows/communicate_families.html" class="nav-link ">Communicate with Families Workflow</a>
       <a href="../../teacher_toolkit/workflows/identify_concerns.html" class="nav-link ">Identify Concerns Workflow</a>
       <a href="../../teacher_toolkit/workflows/monitor_progress.html" class="nav-link ">Monitor Progress Workflow</a>
       <a href="../../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection ">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,24 +87,162 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../index.html">Home</a></li>
           <li><a href="../../teacher_toolkit">Teacher Toolkit</a></li><li><span aria-current="page">Symptom Checker</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Symptom Checker: What to Try When</h1>
+                        
+                    </header>
                     <h1>Symptom Checker: What to Try When</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Symptom Checker: What to Try When</h1></p><p><br><em>Interactive decision tree for classroom concerns</em></p><p><br><h2>🔍 Start Here: What are you seeing?</h2></p><p><br><h3><strong>Reading Concerns</strong></h3></p><p><br><strong>If student shows:</strong></p><p><br>- Slow, effortful reading</p><p><br>- Guessing or skipping words</p><p><br>- Poor spelling despite studying</p><p><br>- Avoids reading aloud</p><p><br>- Comprehension better when read to</p><p><br><strong>→ Try these strategies:</strong></p><p><br>1. <strong>Immediate:</strong> Pair text with audio, reduce decoding-heavy tasks</p><p><br>2. <strong>This week:</strong> Explicit phonics review, repeated reading practice</p><p><br>3. <strong>Ongoing:</strong> Structured literacy approach, extended time</p><p><br>4. <strong>Document:</strong> Reading fluency rates, error patterns, response to supports</p><p><br><strong>→ See:</strong> <a href="../../intervention_guide.md#reading">Reading Strategies</a> | <a href="../../resources/#dyslexia">Dyslexia Resources</a></p><p><br>---</p><p><br><h3><strong>Writing Concerns</strong></h3></p><p><br><strong>If student shows:</strong></p><p><br>- Illegible or labored handwriting</p><p><br>- Written output far below oral expression</p><p><br>- Poor spacing and alignment</p><p><br>- Avoids writing tasks</p><p><br>- Spelling errors despite studying</p><p><br><strong>→ Try these strategies:</strong></p><p><br>1. <strong>Immediate:</strong> Allow typing, provide guided notes, accept oral responses</p><p><br>2. <strong>This week:</strong> Short handwriting practice, graphic organizers</p><p><br>3. <strong>Ongoing:</strong> Speech-to-text, explicit writing instruction</p><p><br>4. <strong>Document:</strong> Writing samples, speed, spelling patterns</p><p><br><strong>→ See:</strong> <a href="../../intervention_guide.md#writing">Writing Strategies</a> | <a href="../../resources/#dysgraphia">Dysgraphia Resources</a></p><p><br>---</p><p><br><h3><strong>Math Concerns</strong></h3></p><p><br><strong>If student shows:</strong></p><p><br>- Struggles with number sense</p><p><br>- Slow, error-prone fact retrieval</p><p><br>- Confusion with place value/fractions</p><p><br>- Avoids math tasks</p><p><br>- High cognitive load for simple problems</p><p><br><strong>→ Try these strategies:</strong></p><p><br>1. <strong>Immediate:</strong> Use manipulatives, number lines, worked examples</p><p><br>2. <strong>This week:</strong> Concrete-Representational-Abstract sequence</p><p><br>3. <strong>Ongoing:</strong> Spaced retrieval practice, explicit strategy instruction</p><p><br>4. <strong>Document:</strong> Error patterns, fluency data, response to CRA</p><p><br><strong>→ See:</strong> <a href="../../intervention_guide.md#math">Math Strategies</a> | <a href="../../resources/#dyscalculia">Dyscalculia Resources</a></p><p><br>---</p><p><br><h3><strong>Attention/Executive Function Concerns</strong></h3></p><p><br><strong>If student shows:</strong></p><p><br>- Off-task, easily distracted</p><p><br>- Impulsive, inconsistent work completion</p><p><br>- Loses materials, forgets assignments</p><p><br>- Difficulty with transitions</p><p><br>- Poor organization and planning</p><p><br><strong>→ Try these strategies:</strong></p><p><br>1. <strong>Immediate:</strong> Clear routines, behavior-specific praise, movement breaks</p><p><br>2. <strong>This week:</strong> Visual schedules, chunked tasks, choice options</p><p><br>3. <strong>Ongoing:</strong> Self-monitoring training, organizational supports</p><p><br>4. <strong>Document:</strong> On-task intervals, work completion, response to supports</p><p><br><strong>→ See:</strong> <a href="../../intervention_guide.md#adhd">ADHD Strategies</a> | <a href="../../resources/#executive-function">Executive Function Resources</a></p><p><br>---</p><p><br><h3><strong>Language Concerns</strong></h3></p><p><br><strong>If student shows:</strong></p><p><br>- Difficulty following multi-step directions</p><p><br>- Vague or immature sentences</p><p><br>- Weak vocabulary for age</p><p><br>- Reading comprehension weaker than decoding</p><p><br>- Struggles with oral discussions</p><p><br><strong>→ Try these strategies:</strong></p><p><br>1. <strong>Immediate:</strong> Break directions into steps, use visual supports</p><p><br>2. <strong>This week:</strong> Preteach vocabulary, model complex sentences</p><p><br>3. <strong>Ongoing:</strong> Sentence frames, guided practice, check for understanding</p><p><br>4. <strong>Document:</strong> Language samples, following directions, vocabulary use</p><p><br><strong>→ See:</strong> <a href="../../intervention_guide.md#language">Language Strategies</a> | <a href="../../resources/#dld">DLD Resources</a></p><p><br>---</p><p><br><h3><strong>Social/Behavioral Concerns</strong></h3></p><p><br><strong>If student shows:</strong></p><p><br>- Difficulty with change or transitions</p><p><br>- Struggles with group work</p><p><br>- Misreads social cues</p><p><br>- Sensory sensitivities</p><p><br>- Restricted interests or repetitive behaviors</p><p><br><strong>→ Try these strategies:</strong></p><p><br>1. <strong>Immediate:</strong> Visual schedules, advance warnings, clear expectations</p><p><br>2. <strong>This week:</strong> Teach routines, role-play social situations</p><p><br>3. <strong>Ongoing:</strong> Structured choices, sensory accommodations</p><p><br>4. <strong>Document:</strong> Triggers, successful supports, communication modes</p><p><br><strong>→ See:</strong> <a href="../../intervention_guide.md#asd">ASD Strategies</a> | <a href="../../resources/#social-skills">Social Skills Resources</a></p><p><br>---</p><p><br><h3><strong>Auditory Processing Concerns</strong></h3></p><p><br><strong>If student shows:</strong></p><p><br>- "Doesn't listen" or needs repetition</p><p><br>- Struggles in noisy environments</p><p><br>- Difficulty following oral directions</p><p><br>- Asks "what?" frequently</p><p><br>- Better with written instructions</p><p><br><strong>→ Try these strategies:</strong></p><p><br>1. <strong>Immediate:</strong> Preferential seating, written directions, reduce noise</p><p><br>2. <strong>This week:</strong> Clear/slow speech, visual supports, check understanding</p><p><br>3. <strong>Ongoing:</strong> Note-taking instruction, assistive listening devices</p><p><br>4. <strong>Document:</strong> Environments where breakdowns occur, response to supports</p><p><br><strong>→ See:</strong> <a href="../../intervention_guide.md#apd">APD Strategies</a> | <a href="../../resources/#apd">Auditory Processing Resources</a></p><p><br>---</p><p><br><h3><strong>Visual Processing Concerns</strong></h3></p><p><br><strong>If student shows:</strong></p><p><br>- Loses place when reading</p><p><br>- Difficulty copying from board</p><p><br>- Slow on visual tasks</p><p><br>- Messy alignment or spacing</p><p><br>- Better with oral information</p><p><br><strong>→ Try these strategies:</strong></p><p><br>1. <strong>Immediate:</strong> Reduce visual clutter, larger fonts, reading guides</p><p><br>2. <strong>This week:</strong> Copies of notes, graph paper, extra time</p><p><br>3. <strong>Ongoing:</strong> Visual organization tools, oral explanations</p><p><br>4. <strong>Document:</strong> Tasks where visual complexity impedes performance</p><p><br><strong>→ See:</strong> <a href="../../intervention_guide.md#visual-processing">Visual Processing Strategies</a> | <a href="../../resources/#visual-processing">Visual Resources</a></p><p><br>---</p><p><br><h2>🚨 Red Flags - When to Escalate Immediately</h2></p><p><br><strong>Contact support team right away if you see:</strong></p><p><br>- Student is a danger to self or others</p><p><br>- Severe academic regression</p><p><br>- Family requests evaluation</p><p><br>- Multiple teachers have similar concerns</p><p><br>- Student is completely disengaged despite supports</p><p><br><h2>📊 Progress Tracking</h2></p><p><br><strong>After trying strategies for 3-5 days, ask:</strong></p><p><br>- Is the student more engaged?</p><p><br>- Is work completion improving?</p><p><br>- Are behaviors more positive?</p><p><br>- Is the student making progress toward goals?</p><p><br><strong>If YES:</strong> Continue current strategies, document success</p><p><br><strong>If NO:</strong> Try different strategies or involve support team</p><p><br><h2>🔄 Next Steps</h2></p><p><br>1. <strong>Choose your strategy</strong> from the options above</p><p><br>2. <strong>Try it consistently</strong> for 3-5 days</p><p><br>3. <strong>Document results</strong> using <a href="../../../notes/teacher_observation_template.html">Observation Template</a></p><p><br>4. <strong>Adjust as needed</strong> based on student response</p><p><br>5. <strong>Involve others</strong> if concerns persist</p><p><br><h2>📞 When to Contact Families</h2></p><p><br><strong>Reach out if:</strong></p><p><br>- You've tried 2-3 strategies without improvement</p><p><br>- Student is falling significantly behind</p><p><br>- You need more information about patterns at home</p><p><br>- Family has expressed concerns</p><p><br>- You're preparing for a formal referral</p><p><br><strong>Use:</strong> <a href="../../family_communication/">Family Communication Templates</a> for guidance</p><p><br>---</p><p><br><em>Remember: This is a starting point. Every student is unique, and you may need to try multiple approaches to find what works.</em></p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Interactive decision tree for classroom concerns</em></p>
+
+<h2>🔍 Start Here: What are you seeing?</h2>
+
+<h3><strong>Reading Concerns</strong></h3>
+<p><strong>If student shows:</strong></p><ul><li>Slow, effortful reading</li></ul><ul><li>Guessing or skipping words</li></ul><ul><li>Poor spelling despite studying</li></ul><ul><li>Avoids reading aloud</li></ul><ul><li>Comprehension better when read to</li></ul>
+
+<p><strong>→ Try these strategies:</strong></p>
+<p>1. <strong>Immediate:</strong> Pair text with audio, reduce decoding-heavy tasks</p>
+<p>2. <strong>This week:</strong> Explicit phonics review, repeated reading practice</p>
+<p>3. <strong>Ongoing:</strong> Structured literacy approach, extended time</p>
+<p>4. <strong>Document:</strong> Reading fluency rates, error patterns, response to supports</p>
+
+<p><strong>→ See:</strong> <a href="../../intervention_guide.md#reading">Reading Strategies</a> | <a href="../../resources/#dyslexia">Dyslexia Resources</a></p>
+
+<p>---</p>
+
+<h3><strong>Writing Concerns</strong></h3>
+<p><strong>If student shows:</strong></p><ul><li>Illegible or labored handwriting</li></ul><ul><li>Written output far below oral expression</li></ul><ul><li>Poor spacing and alignment</li></ul><ul><li>Avoids writing tasks</li></ul><ul><li>Spelling errors despite studying</li></ul>
+
+<p><strong>→ Try these strategies:</strong></p>
+<p>1. <strong>Immediate:</strong> Allow typing, provide guided notes, accept oral responses</p>
+<p>2. <strong>This week:</strong> Short handwriting practice, graphic organizers</p>
+<p>3. <strong>Ongoing:</strong> Speech-to-text, explicit writing instruction</p>
+<p>4. <strong>Document:</strong> Writing samples, speed, spelling patterns</p>
+
+<p><strong>→ See:</strong> <a href="../../intervention_guide.md#writing">Writing Strategies</a> | <a href="../../resources/#dysgraphia">Dysgraphia Resources</a></p>
+
+<p>---</p>
+
+<h3><strong>Math Concerns</strong></h3>
+<p><strong>If student shows:</strong></p><ul><li>Struggles with number sense</li></ul><ul><li>Slow, error-prone fact retrieval</li></ul><ul><li>Confusion with place value/fractions</li></ul><ul><li>Avoids math tasks</li></ul><ul><li>High cognitive load for simple problems</li></ul>
+
+<p><strong>→ Try these strategies:</strong></p>
+<p>1. <strong>Immediate:</strong> Use manipulatives, number lines, worked examples</p>
+<p>2. <strong>This week:</strong> Concrete-Representational-Abstract sequence</p>
+<p>3. <strong>Ongoing:</strong> Spaced retrieval practice, explicit strategy instruction</p>
+<p>4. <strong>Document:</strong> Error patterns, fluency data, response to CRA</p>
+
+<p><strong>→ See:</strong> <a href="../../intervention_guide.md#math">Math Strategies</a> | <a href="../../resources/#dyscalculia">Dyscalculia Resources</a></p>
+
+<p>---</p>
+
+<h3><strong>Attention/Executive Function Concerns</strong></h3>
+<p><strong>If student shows:</strong></p><ul><li>Off-task, easily distracted</li></ul><ul><li>Impulsive, inconsistent work completion</li></ul><ul><li>Loses materials, forgets assignments</li></ul><ul><li>Difficulty with transitions</li></ul><ul><li>Poor organization and planning</li></ul>
+
+<p><strong>→ Try these strategies:</strong></p>
+<p>1. <strong>Immediate:</strong> Clear routines, behavior-specific praise, movement breaks</p>
+<p>2. <strong>This week:</strong> Visual schedules, chunked tasks, choice options</p>
+<p>3. <strong>Ongoing:</strong> Self-monitoring training, organizational supports</p>
+<p>4. <strong>Document:</strong> On-task intervals, work completion, response to supports</p>
+
+<p><strong>→ See:</strong> <a href="../../intervention_guide.md#adhd">ADHD Strategies</a> | <a href="../../resources/#executive-function">Executive Function Resources</a></p>
+
+<p>---</p>
+
+<h3><strong>Language Concerns</strong></h3>
+<p><strong>If student shows:</strong></p><ul><li>Difficulty following multi-step directions</li></ul><ul><li>Vague or immature sentences</li></ul><ul><li>Weak vocabulary for age</li></ul><ul><li>Reading comprehension weaker than decoding</li></ul><ul><li>Struggles with oral discussions</li></ul>
+
+<p><strong>→ Try these strategies:</strong></p>
+<p>1. <strong>Immediate:</strong> Break directions into steps, use visual supports</p>
+<p>2. <strong>This week:</strong> Preteach vocabulary, model complex sentences</p>
+<p>3. <strong>Ongoing:</strong> Sentence frames, guided practice, check for understanding</p>
+<p>4. <strong>Document:</strong> Language samples, following directions, vocabulary use</p>
+
+<p><strong>→ See:</strong> <a href="../../intervention_guide.md#language">Language Strategies</a> | <a href="../../resources/#dld">DLD Resources</a></p>
+
+<p>---</p>
+
+<h3><strong>Social/Behavioral Concerns</strong></h3>
+<p><strong>If student shows:</strong></p><ul><li>Difficulty with change or transitions</li></ul><ul><li>Struggles with group work</li></ul><ul><li>Misreads social cues</li></ul><ul><li>Sensory sensitivities</li></ul><ul><li>Restricted interests or repetitive behaviors</li></ul>
+
+<p><strong>→ Try these strategies:</strong></p>
+<p>1. <strong>Immediate:</strong> Visual schedules, advance warnings, clear expectations</p>
+<p>2. <strong>This week:</strong> Teach routines, role-play social situations</p>
+<p>3. <strong>Ongoing:</strong> Structured choices, sensory accommodations</p>
+<p>4. <strong>Document:</strong> Triggers, successful supports, communication modes</p>
+
+<p><strong>→ See:</strong> <a href="../../intervention_guide.md#asd">ASD Strategies</a> | <a href="../../resources/#social-skills">Social Skills Resources</a></p>
+
+<p>---</p>
+
+<h3><strong>Auditory Processing Concerns</strong></h3>
+<p><strong>If student shows:</strong></p><ul><li>"Doesn't listen" or needs repetition</li></ul><ul><li>Struggles in noisy environments</li></ul><ul><li>Difficulty following oral directions</li></ul><ul><li>Asks "what?" frequently</li></ul><ul><li>Better with written instructions</li></ul>
+
+<p><strong>→ Try these strategies:</strong></p>
+<p>1. <strong>Immediate:</strong> Preferential seating, written directions, reduce noise</p>
+<p>2. <strong>This week:</strong> Clear/slow speech, visual supports, check understanding</p>
+<p>3. <strong>Ongoing:</strong> Note-taking instruction, assistive listening devices</p>
+<p>4. <strong>Document:</strong> Environments where breakdowns occur, response to supports</p>
+
+<p><strong>→ See:</strong> <a href="../../intervention_guide.md#apd">APD Strategies</a> | <a href="../../resources/#apd">Auditory Processing Resources</a></p>
+
+<p>---</p>
+
+<h3><strong>Visual Processing Concerns</strong></h3>
+<p><strong>If student shows:</strong></p><ul><li>Loses place when reading</li></ul><ul><li>Difficulty copying from board</li></ul><ul><li>Slow on visual tasks</li></ul><ul><li>Messy alignment or spacing</li></ul><ul><li>Better with oral information</li></ul>
+
+<p><strong>→ Try these strategies:</strong></p>
+<p>1. <strong>Immediate:</strong> Reduce visual clutter, larger fonts, reading guides</p>
+<p>2. <strong>This week:</strong> Copies of notes, graph paper, extra time</p>
+<p>3. <strong>Ongoing:</strong> Visual organization tools, oral explanations</p>
+<p>4. <strong>Document:</strong> Tasks where visual complexity impedes performance</p>
+
+<p><strong>→ See:</strong> <a href="../../intervention_guide.md#visual-processing">Visual Processing Strategies</a> | <a href="../../resources/#visual-processing">Visual Resources</a></p>
+
+<p>---</p>
+
+<h2>🚨 Red Flags - When to Escalate Immediately</h2>
+
+<p><strong>Contact support team right away if you see:</strong></p><ul><li>Student is a danger to self or others</li></ul><ul><li>Severe academic regression</li></ul><ul><li>Family requests evaluation</li></ul><ul><li>Multiple teachers have similar concerns</li></ul><ul><li>Student is completely disengaged despite supports</li></ul>
+
+<h2>📊 Progress Tracking</h2>
+
+<p><strong>After trying strategies for 3-5 days, ask:</strong></p><ul><li>Is the student more engaged?</li></ul><ul><li>Is work completion improving?</li></ul><ul><li>Are behaviors more positive?</li></ul><ul><li>Is the student making progress toward goals?</li></ul>
+
+<p><strong>If YES:</strong> Continue current strategies, document success</p>
+<p><strong>If NO:</strong> Try different strategies or involve support team</p>
+
+<h2>🔄 Next Steps</h2>
+
+<p>1. <strong>Choose your strategy</strong> from the options above</p>
+<p>2. <strong>Try it consistently</strong> for 3-5 days</p>
+<p>3. <strong>Document results</strong> using <a href="../../../notes/teacher_observation_template.html">Observation Template</a></p>
+<p>4. <strong>Adjust as needed</strong> based on student response</p>
+<p>5. <strong>Involve others</strong> if concerns persist</p>
+
+<h2>📞 When to Contact Families</h2>
+
+<p><strong>Reach out if:</strong></p><ul><li>You've tried 2-3 strategies without improvement</li></ul><ul><li>Student is falling significantly behind</li></ul><ul><li>You need more information about patterns at home</li></ul><ul><li>Family has expressed concerns</li></ul><ul><li>You're preparing for a formal referral</li></ul>
+
+<p><strong>Use:</strong> <a href="../../family_communication/">Family Communication Templates</a> for guidance</p>
+
+<p>---</p>
+
+<p><em>Remember: This is a starting point. Every student is unique, and you may need to try multiple approaches to find what works.</em></p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#symptom-checker-what-to-try-when">Symptom Checker: What to Try When</a></li>
@@ -115,12 +261,13 @@
     <li><a href="#when-to-contact-families">📞 When to Contact Families</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../teacher_toolkit/social_emotional_learning_connections.html" class="nav-prev">← Social-Emotional Learning Connections</a>
   <a href="../../teacher_toolkit/technology_integration_guide.html" class="nav-next">Technology Integration Guide →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -128,6 +275,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/main.js"></script>
 </body>
 </html>

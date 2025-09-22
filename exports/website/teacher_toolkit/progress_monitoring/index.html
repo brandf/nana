@@ -21,12 +21,20 @@
                         <li><a href="../../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../../../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -55,10 +63,6 @@
       <a href="../../../teacher_toolkit/tools/quick_reference_card.html" class="nav-link ">Quick Reference Card</a>
       <a href="../../../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
-    <div class="nav-subsection ">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
-    </div>
     <div class="nav-subsection expanded">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../../../teacher_toolkit/progress_monitoring/index.html" class="nav-link active">Progress Monitoring Tools</a>
@@ -66,6 +70,10 @@
       <a href="../../../teacher_toolkit/workflows/identify_concerns.html" class="nav-link ">Identify Concerns Workflow</a>
       <a href="../../../teacher_toolkit/workflows/monitor_progress.html" class="nav-link ">Monitor Progress Workflow</a>
       <a href="../../../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection ">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,24 +87,224 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../../index.html">Home</a></li>
           <li><a href="../../../teacher_toolkit">Teacher Toolkit</a></li><li><a href="../../../teacher_toolkit/progress_monitoring">Progress Monitoring</a></li><li><span aria-current="page">README</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Progress Monitoring Tools</h1>
+                        
+                    </header>
                     <h1>Progress Monitoring Tools</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Progress Monitoring Tools</h1></p><p><br><em>Simple, effective ways to track student progress and adjust interventions</em></p><p><br><h2>📊 Quick Progress Monitoring</h2></p><p><br><h3><strong>Daily Check-ins (2-3 minutes)</strong></h3></p><p><br>- <strong>Engagement:</strong> Is the student on-task? (Yes/No, 1-5 scale)</p><p><br>- <strong>Work completion:</strong> How much did they finish? (0-100%)</p><p><br>- <strong>Behavior:</strong> Any concerning behaviors? (Brief notes)</p><p><br>- <strong>Supports used:</strong> What strategies did you try? (List)</p><p><br><h3><strong>Weekly Reviews (5-10 minutes)</strong></h3></p><p><br>- <strong>Patterns:</strong> What's working? What isn't?</p><p><br>- <strong>Changes:</strong> Any improvements or new concerns?</p><p><br>- <strong>Next steps:</strong> What will you try next week?</p><p><br>- <strong>Family contact:</strong> When did you last communicate with family?</p><p><br>---</p><p><br><h2>📝 Data Collection Templates</h2></p><p><br><h3><strong>Reading Progress</strong></h3></p><p><br><pre><code></p><p><br>Week of: ___________</p><p><br>Student: ___________</p><p><br>Fluency (words per minute): _____</p><p><br>Accuracy (% correct): _____</p><p><br>Comprehension (1-5 scale): _____</p><p><br>Engagement (1-5 scale): _____</p><p><br>Supports used: ________________</p><p><br>Notes: _______________________</p><p><br></code></pre></p><p><br><h3><strong>Writing Progress</strong></h3></p><p><br><pre><code></p><p><br>Week of: ___________</p><p><br>Student: ___________</p><p><br>Handwriting legibility (1-5): _____</p><p><br>Writing speed (words per minute): _____</p><p><br>Content quality (1-5): _____</p><p><br>Spelling accuracy (%): _____</p><p><br>Supports used: ________________</p><p><br>Notes: _______________________</p><p><br></code></pre></p><p><br><h3><strong>Math Progress</strong></h3></p><p><br><pre><code></p><p><br>Week of: ___________</p><p><br>Student: ___________</p><p><br>Fact fluency (problems per minute): _____</p><p><br>Accuracy (% correct): _____</p><p><br>Problem-solving (1-5): _____</p><p><br>Engagement (1-5): _____</p><p><br>Supports used: ________________</p><p><br>Notes: _______________________</p><p><br></code></pre></p><p><br><h3><strong>Behavior/Attention Progress</strong></h3></p><p><br><pre><code></p><p><br>Week of: ___________</p><p><br>Student: ___________</p><p><br>On-task time (%): _____</p><p><br>Work completion (%): _____</p><p><br>Following directions (1-5): _____</p><p><br>Self-regulation (1-5): _____</p><p><br>Supports used: ________________</p><p><br>Notes: _______________________</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🎯 Goal Setting Templates</h2></p><p><br><h3><strong>SMART Goals for Students</strong></h3></p><p><br><strong>S</strong>pecific: What exactly will the student do?</p><p><br><strong>M</strong>easurable: How will you measure success?</p><p><br><strong>A</strong>chievable: Is this realistic for the student?</p><p><br><strong>R</strong>elevant: Does this matter for their learning?</p><p><br><strong>T</strong>ime-bound: When will this be achieved?</p><p><br><strong>Example:</strong></p><p><br>- <strong>Goal:</strong> Student will read 60 words per minute with 95% accuracy</p><p><br>- <strong>Measurement:</strong> Weekly fluency assessments</p><p><br>- <strong>Timeline:</strong> 8 weeks</p><p><br>- <strong>Supports:</strong> Repeated reading, audiobooks, extended time</p><p><br><h3><strong>Teacher Goals</strong></h3></p><p><br><strong>Example:</strong></p><p><br>- <strong>Goal:</strong> Implement 3 new reading strategies consistently</p><p><br>- <strong>Measurement:</strong> Daily strategy use checklist</p><p><br>- <strong>Timeline:</strong> 4 weeks</p><p><br>- <strong>Supports:</strong> Colleague check-ins, resource review</p><p><br>---</p><p><br><h2>📈 Progress Tracking Charts</h2></p><p><br><h3><strong>Simple Line Graph</strong></h3></p><p><br><pre><code></p><p><br>Progress Over Time</p><p><br>100% |     ●</p><p><br> 90% |   ●</p><p><br> 80% | ●</p><p><br> 70% |●</p><p><br> 60% |</p><p><br>     |________________</p><p><br>     Week 1 2 3 4 5 6</p><p><br></code></pre></p><p><br><h3><strong>Behavior Tracking</strong></h3></p><p><br><pre><code></p><p><br>On-Task Behavior</p><p><br>100% |████████████</p><p><br> 90% |██████████</p><p><br> 80% |████████</p><p><br> 70% |██████</p><p><br> 60% |████</p><p><br>     |________________</p><p><br>     Mon Tue Wed Thu Fri</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🔍 What to Look For</h2></p><p><br><h3><strong>Positive Progress Indicators</strong></h3></p><p><br>- <strong>Engagement:</strong> Student is more interested and motivated</p><p><br>- <strong>Completion:</strong> Work is being finished more consistently</p><p><br>- <strong>Accuracy:</strong> Fewer errors or mistakes</p><p><br>- <strong>Independence:</strong> Less support needed over time</p><p><br>- <strong>Confidence:</strong> Student is more willing to try new things</p><p><br><h3><strong>Concerning Patterns</strong></h3></p><p><br>- <strong>Regression:</strong> Skills getting worse instead of better</p><p><br>- <strong>Plateau:</strong> No improvement after 2-3 weeks</p><p><br>- <strong>Inconsistency:</strong> Good days followed by very difficult days</p><p><br>- <strong>Avoidance:</strong> Student actively avoiding certain tasks</p><p><br>- <strong>Frustration:</strong> Student becoming more upset or withdrawn</p><p><br><h3><strong>When to Adjust Interventions</strong></h3></p><p><br>- <strong>No progress after 2 weeks:</strong> Try different strategies</p><p><br>- <strong>Student is frustrated:</strong> Reduce demands or increase support</p><p><br>- <strong>Family is concerned:</strong> Schedule meeting to discuss</p><p><br>- <strong>Multiple teachers notice:</strong> Involve support team</p><p><br>- <strong>Student is falling behind:</strong> Consider formal evaluation</p><p><br>---</p><p><br><h2>📞 Communication Templates</h2></p><p><br><h3><strong>Progress Update to Family</strong></h3></p><p><br><pre><code></p><p><br>Dear [Family],</p><p><br>I wanted to update you on [Student]'s progress with the strategies we've been trying.</p><p><br>What we've been working on: [Specific skills/strategies]</p><p><br>Progress I'm seeing: [Positive changes]</p><p><br>Areas still needing attention: [Ongoing concerns]</p><p><br>What's working well: [Successful strategies]</p><p><br>Next steps: [What you'll try next]</p><p><br>I'm encouraged by [Student]'s [specific positive change]. </p><p><br>Let me know if you have any questions or if you're seeing similar patterns at home.</p><p><br>Best regards,</p><p><br>[Your name]</p><p><br></code></pre></p><p><br><h3><strong>Progress Update to Support Team</strong></h3></p><p><br><pre><code></p><p><br>Student: [Name]</p><p><br>Date: [Date]</p><p><br>Concern: [Specific area]</p><p><br>Strategies tried: [List]</p><p><br>Duration: [How long]</p><p><br>Results: [What happened]</p><p><br>Data: [Specific numbers/observations]</p><p><br>Next steps: [What you recommend]</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🛠️ Tools and Apps</h2></p><p><br><h3><strong>Simple Tracking Apps</strong></h3></p><p><br>- <strong>Google Forms:</strong> Create simple data collection forms</p><p><br>- <strong>Excel/Sheets:</strong> Basic progress tracking spreadsheets</p><p><br>- <strong>Seesaw:</strong> Student portfolio and progress tracking</p><p><br>- <strong>ClassDojo:</strong> Behavior and engagement tracking</p><p><br><h3><strong>Professional Tools</strong></h3></p><p><br>- <strong>FastBridge:</strong> Comprehensive progress monitoring</p><p><br>- <strong>AIMSweb:</strong> Academic and behavioral assessment</p><p><br>- <strong>DIBELS:</strong> Reading fluency monitoring</p><p><br>- <strong>Behavioral Assessment Tools:</strong> Various behavior tracking systems</p><p><br><h3><strong>DIY Solutions</strong></h3></p><p><br>- <strong>Sticky notes:</strong> Quick daily observations</p><p><br>- <strong>Index cards:</strong> Weekly progress summaries</p><p><br>- <strong>Photo documentation:</strong> Visual progress tracking</p><p><br>- <strong>Voice memos:</strong> Quick verbal observations</p><p><br>---</p><p><br><h2>📋 Weekly Review Checklist</h2></p><p><br><h3><strong>Data Review (5 minutes)</strong></h3></p><p><br>- [ ] Look at this week's data</p><p><br>- [ ] Compare to previous weeks</p><p><br>- [ ] Identify patterns or trends</p><p><br>- [ ] Note any concerning changes</p><p><br><h3><strong>Strategy Evaluation (5 minutes)</strong></h3></p><p><br>- [ ] What strategies worked well?</p><p><br>- [ ] What strategies didn't work?</p><p><br>- [ ] What new strategies should I try?</p><p><br>- [ ] What supports need adjustment?</p><p><br><h3><strong>Planning Next Week (5 minutes)</strong></h3></p><p><br>- [ ] Set specific goals for next week</p><p><br>- [ ] Choose 2-3 strategies to focus on</p><p><br>- [ ] Plan data collection methods</p><p><br>- [ ] Schedule family communication if needed</p><p><br><h3><strong>Documentation (5 minutes)</strong></h3></p><p><br>- [ ] Update progress tracking charts</p><p><br>- [ ] Write brief summary notes</p><p><br>- [ ] File any important observations</p><p><br>- [ ] Prepare for team meetings if needed</p><p><br>---</p><p><br><h2>🎯 Success Criteria</h2></p><p><br><h3><strong>Short-term Success (1-2 weeks)</strong></h3></p><p><br>- Student is more engaged</p><p><br>- Work completion is improving</p><p><br>- Behavior is more positive</p><p><br>- Student is trying new strategies</p><p><br><h3><strong>Medium-term Success (1-2 months)</strong></h3></p><p><br>- Measurable improvement in target skills</p><p><br>- Increased independence</p><p><br>- Better self-regulation</p><p><br>- Positive family feedback</p><p><br><h3><strong>Long-term Success (3+ months)</strong></h3></p><p><br>- Significant skill improvement</p><p><br>- Student is meeting grade-level expectations</p><p><br>- Strong self-advocacy skills</p><p><br>- Positive peer relationships</p><p><br>---</p><p><br><h2>🚨 When to Seek Additional Support</h2></p><p><br><h3><strong>Contact Support Team If:</strong></h3></p><p><br>- No progress after 4 weeks of consistent intervention</p><p><br>- Student is regressing despite supports</p><p><br>- Behavior is becoming dangerous or disruptive</p><p><br>- Family is requesting formal evaluation</p><p><br>- You feel overwhelmed or unsure</p><p><br><h3><strong>Emergency Situations:</strong></h3></p><p><br>- Student is a danger to self or others</p><p><br>- Severe academic regression</p><p><br>- Complete disengagement from learning</p><p><br>- Family crisis affecting student</p><p><br>---</p><p><br><em>Remember: Progress monitoring is about finding what works for each student. Be patient, be consistent, and don't hesitate to ask for help when you need it.</em></p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Simple, effective ways to track student progress and adjust interventions</em></p>
+
+<h2>📊 Quick Progress Monitoring</h2>
+
+<h3><strong>Daily Check-ins (2-3 minutes)</strong></h3><ul><li><strong>Engagement:</strong> Is the student on-task? (Yes/No, 1-5 scale)</li></ul><ul><li><strong>Work completion:</strong> How much did they finish? (0-100%)</li></ul><ul><li><strong>Behavior:</strong> Any concerning behaviors? (Brief notes)</li></ul><ul><li><strong>Supports used:</strong> What strategies did you try? (List)</li></ul>
+
+<h3><strong>Weekly Reviews (5-10 minutes)</strong></h3><ul><li><strong>Patterns:</strong> What's working? What isn't?</li></ul><ul><li><strong>Changes:</strong> Any improvements or new concerns?</li></ul><ul><li><strong>Next steps:</strong> What will you try next week?</li></ul><ul><li><strong>Family contact:</strong> When did you last communicate with family?</li></ul>
+
+<p>---</p>
+
+<h2>📝 Data Collection Templates</h2>
+
+<h3><strong>Reading Progress</strong></h3>
+<pre><code>
+<p>Week of: ___________</p>
+<p>Student: ___________</p>
+
+<p>Fluency (words per minute): _____</p>
+<p>Accuracy (% correct): _____</p>
+<p>Comprehension (1-5 scale): _____</p>
+<p>Engagement (1-5 scale): _____</p>
+<p>Supports used: ________________</p>
+<p>Notes: _______________________</p>
+<p></code></pre></p>
+
+<h3><strong>Writing Progress</strong></h3>
+<pre><code>
+<p>Week of: ___________</p>
+<p>Student: ___________</p>
+
+<p>Handwriting legibility (1-5): _____</p>
+<p>Writing speed (words per minute): _____</p>
+<p>Content quality (1-5): _____</p>
+<p>Spelling accuracy (%): _____</p>
+<p>Supports used: ________________</p>
+<p>Notes: _______________________</p>
+<p></code></pre></p>
+
+<h3><strong>Math Progress</strong></h3>
+<pre><code>
+<p>Week of: ___________</p>
+<p>Student: ___________</p>
+
+<p>Fact fluency (problems per minute): _____</p>
+<p>Accuracy (% correct): _____</p>
+<p>Problem-solving (1-5): _____</p>
+<p>Engagement (1-5): _____</p>
+<p>Supports used: ________________</p>
+<p>Notes: _______________________</p>
+<p></code></pre></p>
+
+<h3><strong>Behavior/Attention Progress</strong></h3>
+<pre><code>
+<p>Week of: ___________</p>
+<p>Student: ___________</p>
+
+<p>On-task time (%): _____</p>
+<p>Work completion (%): _____</p>
+<p>Following directions (1-5): _____</p>
+<p>Self-regulation (1-5): _____</p>
+<p>Supports used: ________________</p>
+<p>Notes: _______________________</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🎯 Goal Setting Templates</h2>
+
+<h3><strong>SMART Goals for Students</strong></h3>
+<p><strong>S</strong>pecific: What exactly will the student do?</p>
+<p><strong>M</strong>easurable: How will you measure success?</p>
+<p><strong>A</strong>chievable: Is this realistic for the student?</p>
+<p><strong>R</strong>elevant: Does this matter for their learning?</p>
+<p><strong>T</strong>ime-bound: When will this be achieved?</p>
+
+<p><strong>Example:</strong></p><ul><li><strong>Goal:</strong> Student will read 60 words per minute with 95% accuracy</li></ul><ul><li><strong>Measurement:</strong> Weekly fluency assessments</li></ul><ul><li><strong>Timeline:</strong> 8 weeks</li></ul><ul><li><strong>Supports:</strong> Repeated reading, audiobooks, extended time</li></ul>
+
+<h3><strong>Teacher Goals</strong></h3>
+<p><strong>Example:</strong></p><ul><li><strong>Goal:</strong> Implement 3 new reading strategies consistently</li></ul><ul><li><strong>Measurement:</strong> Daily strategy use checklist</li></ul><ul><li><strong>Timeline:</strong> 4 weeks</li></ul><ul><li><strong>Supports:</strong> Colleague check-ins, resource review</li></ul>
+
+<p>---</p>
+
+<h2>📈 Progress Tracking Charts</h2>
+
+<h3><strong>Simple Line Graph</strong></h3>
+<pre><code>
+<p>Progress Over Time</p>
+
+<p>100% |     ●</p>
+<p> 90% |   ●</p>
+<p> 80% | ●</p>
+<p> 70% |●</p>
+<p> 60% |</p>
+<p>     |________________</p>
+<p>     Week 1 2 3 4 5 6</p>
+<p></code></pre></p>
+
+<h3><strong>Behavior Tracking</strong></h3>
+<pre><code>
+<p>On-Task Behavior</p>
+
+<p>100% |████████████</p>
+<p> 90% |██████████</p>
+<p> 80% |████████</p>
+<p> 70% |██████</p>
+<p> 60% |████</p>
+<p>     |________________</p>
+<p>     Mon Tue Wed Thu Fri</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🔍 What to Look For</h2>
+
+<h3><strong>Positive Progress Indicators</strong></h3><ul><li><strong>Engagement:</strong> Student is more interested and motivated</li></ul><ul><li><strong>Completion:</strong> Work is being finished more consistently</li></ul><ul><li><strong>Accuracy:</strong> Fewer errors or mistakes</li></ul><ul><li><strong>Independence:</strong> Less support needed over time</li></ul><ul><li><strong>Confidence:</strong> Student is more willing to try new things</li></ul>
+
+<h3><strong>Concerning Patterns</strong></h3><ul><li><strong>Regression:</strong> Skills getting worse instead of better</li></ul><ul><li><strong>Plateau:</strong> No improvement after 2-3 weeks</li></ul><ul><li><strong>Inconsistency:</strong> Good days followed by very difficult days</li></ul><ul><li><strong>Avoidance:</strong> Student actively avoiding certain tasks</li></ul><ul><li><strong>Frustration:</strong> Student becoming more upset or withdrawn</li></ul>
+
+<h3><strong>When to Adjust Interventions</strong></h3><ul><li><strong>No progress after 2 weeks:</strong> Try different strategies</li></ul><ul><li><strong>Student is frustrated:</strong> Reduce demands or increase support</li></ul><ul><li><strong>Family is concerned:</strong> Schedule meeting to discuss</li></ul><ul><li><strong>Multiple teachers notice:</strong> Involve support team</li></ul><ul><li><strong>Student is falling behind:</strong> Consider formal evaluation</li></ul>
+
+<p>---</p>
+
+<h2>📞 Communication Templates</h2>
+
+<h3><strong>Progress Update to Family</strong></h3>
+<pre><code>
+<p>Dear [Family],</p>
+
+<p>I wanted to update you on [Student]'s progress with the strategies we've been trying.</p>
+
+<p>What we've been working on: [Specific skills/strategies]</p>
+<p>Progress I'm seeing: [Positive changes]</p>
+<p>Areas still needing attention: [Ongoing concerns]</p>
+<p>What's working well: [Successful strategies]</p>
+<p>Next steps: [What you'll try next]</p>
+
+<p>I'm encouraged by [Student]'s [specific positive change]. </p>
+<p>Let me know if you have any questions or if you're seeing similar patterns at home.</p>
+
+<p>Best regards,</p>
+<p>[Your name]</p>
+<p></code></pre></p>
+
+<h3><strong>Progress Update to Support Team</strong></h3>
+<pre><code>
+<p>Student: [Name]</p>
+<p>Date: [Date]</p>
+<p>Concern: [Specific area]</p>
+<p>Strategies tried: [List]</p>
+<p>Duration: [How long]</p>
+<p>Results: [What happened]</p>
+<p>Data: [Specific numbers/observations]</p>
+<p>Next steps: [What you recommend]</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🛠️ Tools and Apps</h2>
+
+<h3><strong>Simple Tracking Apps</strong></h3><ul><li><strong>Google Forms:</strong> Create simple data collection forms</li></ul><ul><li><strong>Excel/Sheets:</strong> Basic progress tracking spreadsheets</li></ul><ul><li><strong>Seesaw:</strong> Student portfolio and progress tracking</li></ul><ul><li><strong>ClassDojo:</strong> Behavior and engagement tracking</li></ul>
+
+<h3><strong>Professional Tools</strong></h3><ul><li><strong>FastBridge:</strong> Comprehensive progress monitoring</li></ul><ul><li><strong>AIMSweb:</strong> Academic and behavioral assessment</li></ul><ul><li><strong>DIBELS:</strong> Reading fluency monitoring</li></ul><ul><li><strong>Behavioral Assessment Tools:</strong> Various behavior tracking systems</li></ul>
+
+<h3><strong>DIY Solutions</strong></h3><ul><li><strong>Sticky notes:</strong> Quick daily observations</li></ul><ul><li><strong>Index cards:</strong> Weekly progress summaries</li></ul><ul><li><strong>Photo documentation:</strong> Visual progress tracking</li></ul><ul><li><strong>Voice memos:</strong> Quick verbal observations</li></ul>
+
+<p>---</p>
+
+<h2>📋 Weekly Review Checklist</h2>
+
+<h3><strong>Data Review (5 minutes)</strong></h3><ul><li>[ ] Look at this week's data</li></ul><ul><li>[ ] Compare to previous weeks</li></ul><ul><li>[ ] Identify patterns or trends</li></ul><ul><li>[ ] Note any concerning changes</li></ul>
+
+<h3><strong>Strategy Evaluation (5 minutes)</strong></h3><ul><li>[ ] What strategies worked well?</li></ul><ul><li>[ ] What strategies didn't work?</li></ul><ul><li>[ ] What new strategies should I try?</li></ul><ul><li>[ ] What supports need adjustment?</li></ul>
+
+<h3><strong>Planning Next Week (5 minutes)</strong></h3><ul><li>[ ] Set specific goals for next week</li></ul><ul><li>[ ] Choose 2-3 strategies to focus on</li></ul><ul><li>[ ] Plan data collection methods</li></ul><ul><li>[ ] Schedule family communication if needed</li></ul>
+
+<h3><strong>Documentation (5 minutes)</strong></h3><ul><li>[ ] Update progress tracking charts</li></ul><ul><li>[ ] Write brief summary notes</li></ul><ul><li>[ ] File any important observations</li></ul><ul><li>[ ] Prepare for team meetings if needed</li></ul>
+
+<p>---</p>
+
+<h2>🎯 Success Criteria</h2>
+
+<h3><strong>Short-term Success (1-2 weeks)</strong></h3><ul><li>Student is more engaged</li></ul><ul><li>Work completion is improving</li></ul><ul><li>Behavior is more positive</li></ul><ul><li>Student is trying new strategies</li></ul>
+
+<h3><strong>Medium-term Success (1-2 months)</strong></h3><ul><li>Measurable improvement in target skills</li></ul><ul><li>Increased independence</li></ul><ul><li>Better self-regulation</li></ul><ul><li>Positive family feedback</li></ul>
+
+<h3><strong>Long-term Success (3+ months)</strong></h3><ul><li>Significant skill improvement</li></ul><ul><li>Student is meeting grade-level expectations</li></ul><ul><li>Strong self-advocacy skills</li></ul><ul><li>Positive peer relationships</li></ul>
+
+<p>---</p>
+
+<h2>🚨 When to Seek Additional Support</h2>
+
+<h3><strong>Contact Support Team If:</strong></h3><ul><li>No progress after 4 weeks of consistent intervention</li></ul><ul><li>Student is regressing despite supports</li></ul><ul><li>Behavior is becoming dangerous or disruptive</li></ul><ul><li>Family is requesting formal evaluation</li></ul><ul><li>You feel overwhelmed or unsure</li></ul>
+
+<h3><strong>Emergency Situations:</strong></h3><ul><li>Student is a danger to self or others</li></ul><ul><li>Severe academic regression</li></ul><ul><li>Complete disengagement from learning</li></ul><ul><li>Family crisis affecting student</li></ul>
+
+<p>---</p>
+
+<p><em>Remember: Progress monitoring is about finding what works for each student. Be patient, be consistent, and don't hesitate to ask for help when you need it.</em></p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#progress-monitoring-tools">Progress Monitoring Tools</a></li>
@@ -139,12 +347,13 @@
         <li><a href="#emergency-situations">Emergency Situations:</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
-  <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-prev">← Family Communication Templates</a>
-  <a href="../../../teacher_toolkit/resources/index.html" class="nav-next">Teacher Resources Index →</a>
+                <nav class="page-navigation">
+  <a href="../../../teacher_toolkit/transition_planning_guide.html" class="nav-prev">← Transition Planning Guide</a>
+  <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-next">Family Communication Templates →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -152,6 +361,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../../assets/js/search.js"></script>
     <script src="../../../assets/js/main.js"></script>
 </body>
 </html>

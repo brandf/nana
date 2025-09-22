@@ -21,11 +21,46 @@
                         <li><a href="{{baseUrl}}roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <main class="main-content">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h3 class="nav-section-title">🏠 Home</h3>
+                    <a href="{{baseUrl}}index.html" class="nav-link active">Home</a>
+                </div>
+                <div class="nav-section">
+                    <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
+                    {{#each teacherPages}}
+                    <a href="{{baseUrl}}{{href}}" class="nav-link">{{title}}</a>
+                    {{/each}}
+                </div>
+                <div class="nav-section">
+                    <h3 class="nav-section-title">💰 Grant Toolkit</h3>
+                    {{#each grantPages}}
+                    <a href="{{baseUrl}}{{href}}" class="nav-link">{{title}}</a>
+                    {{/each}}
+                </div>
+                <div class="nav-section">
+                    <h3 class="nav-section-title">🗺️ Roadmaps</h3>
+                    {{#each roadmapPages}}
+                    <a href="{{baseUrl}}{{href}}" class="nav-link">{{title}}</a>
+                    {{/each}}
+                </div>
+            </nav>
+        </aside>
+        
+        <main class="main-content">
         <div class="container">
             <div class="hero-section">
                 <h1>Nana Documentation</h1>
@@ -78,7 +113,8 @@
                 </div>
             </div>
         </div>
-    </main>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -86,6 +122,30 @@
         </div>
     </footer>
 
+    <!-- Search Overlay -->
+    <div id="search-container" class="search-container" style="display: none;">
+        <button class="search-close" onclick="document.querySelector('#search-container').style.display='none'; document.body.classList.remove('search-open');">&times;</button>
+        <input type="text" id="search-input" class="search-input" placeholder="Search documentation (Press '/' to open, 'Esc' to close)">
+        <div id="search-results" class="search-results">
+            <div class="search-results-header">
+                <span id="search-count"></span> results found
+            </div>
+            <div id="search-results-list">
+                <!-- Search results will be injected here -->
+            </div>
+            <div id="search-no-results" class="search-no-results" style="display: none;">
+                <p>No results found for your query.</p>
+                <p class="search-suggestions">Try adjusting your search terms or checking for typos.</p>
+            </div>
+            <div id="search-error" class="search-error" style="display: none;">
+                <p>An error occurred while searching. Please try again.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="{{baseUrl}}assets/js/search.js"></script>
     <script src="{{baseUrl}}assets/js/main.js"></script>
 </body>
 </html>

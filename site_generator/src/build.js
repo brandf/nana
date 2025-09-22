@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 import { TemplateEngine, generateBreadcrumbs, getBaseUrl } from './template-engine.js';
 import { NavigationBuilder } from './navigation.js';
+import { SearchIndexBuilder } from './search.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, '..', '..');
@@ -44,21 +45,30 @@ function markdownToHtml(markdown, baseUrl = './') {
     .replace(/^## (.*$)/gim, '<h2>$1</h2>')
     .replace(/^# (.*$)/gim, '<h1>$1</h1>')
     // Bold
-    .replace(/\*\*(.*)\*\*/gim, '<strong>$1</strong>')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     // Italic
-    .replace(/\*(.*)\*/gim, '<em>$1</em>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
     // Code blocks
-    .replace(/```([^`]+)```/gim, '<pre><code>$1</code></pre>')
+    .replace(/```([^`]+)```/g, '<pre><code>$1</code></pre>')
     // Inline code
-    .replace(/`([^`]+)`/gim, '<code>$1</code>')
-    // Line breaks
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    // Lists - handle multiple consecutive list items
+    .replace(/^(\s*-\s.*(?:\n\s*-\s.*)*)/gim, (match) => {
+      const items = match.split('\n')
+        .filter(line => line.trim().match(/^- /))
+        .map(line => `<li>${line.replace(/^\s*-\s/, '')}</li>`)
+        .join('');
+      return `<ul>${items}</ul>`;
+    })
+    // Line breaks - convert double line breaks to paragraph breaks
     .replace(/\n\n/gim, '</p><p>')
-    .replace(/\n/gim, '<br>')
     // Wrap in paragraphs
-    .replace(/^(.*)$/gim, '<p>$1</p>')
-    // Clean up empty paragraphs
+    .replace(/^(?!<h|<ul|<li|<pre|<p)(.*)$/gim, '<p>$1</p>')
+    // Clean up empty paragraphs and excessive breaks
     .replace(/<p><\/p>/gim, '')
-    .replace(/<p><br><\/p>/gim, '');
+    .replace(/<p><br><\/p>/gim, '')
+    .replace(/<p><br><br><\/p>/gim, '')
+    .replace(/<p>\s*<br>\s*<\/p>/gim, '');
 
   // Process links - convert internal .md links to .html
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, (match, linkText, linkUrl) => {
@@ -119,6 +129,9 @@ for (const file of markdownFiles) {
 // Initialize navigation builder
 const navigationBuilder = new NavigationBuilder(pages);
 
+// Initialize search index builder
+const searchIndexBuilder = new SearchIndexBuilder();
+
 // Process each page for rendering
 for (const page of pages) {
   const route = page.route;
@@ -138,6 +151,7 @@ for (const page of pages) {
   // Render template
   const templateData = {
     title: pageTitle,
+    subtitle: page.frontmatter.subtitle || '',
     description: page.frontmatter.description || `Documentation for ${pageTitle}`,
     content: page.content,
     baseUrl: baseUrl,
@@ -160,6 +174,9 @@ for (const page of pages) {
   };
   
   const fullHtml = await templateEngine.renderTemplate('layout.html', templateData);
+  
+  // Add to search index
+  searchIndexBuilder.addDocument(route, pageTitle, fullHtml, page.frontmatter);
   
   // Write HTML file
   let outputPath;
@@ -209,6 +226,10 @@ console.log(`Generated: ${path.join(outputDir, 'index.html')}`);
 // Generate sitemap
 await navigationBuilder.generateSitemap(outputDir);
 console.log(`Generated: ${path.join(outputDir, 'sitemap.xml')}`);
+
+// Generate search index
+await searchIndexBuilder.saveSearchIndex(outputDir);
+console.log('Search index generated successfully');
 
 console.log(`\nBuild complete! Generated ${pages.length + 1} pages.`);
 console.log(`Output directory: ${outputDir}`);

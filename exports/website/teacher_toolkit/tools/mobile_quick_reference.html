@@ -21,12 +21,20 @@
                         <li><a href="../../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../../../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -56,16 +64,16 @@
       <a href="../../../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
     <div class="nav-subsection ">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
-    </div>
-    <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../../../teacher_toolkit/progress_monitoring/index.html" class="nav-link ">Progress Monitoring Tools</a>
       <a href="../../../teacher_toolkit/workflows/communicate_families.html" class="nav-link ">Communicate with Families Workflow</a>
       <a href="../../../teacher_toolkit/workflows/identify_concerns.html" class="nav-link ">Identify Concerns Workflow</a>
       <a href="../../../teacher_toolkit/workflows/monitor_progress.html" class="nav-link ">Monitor Progress Workflow</a>
       <a href="../../../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection ">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,24 +87,122 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../../index.html">Home</a></li>
           <li><a href="../../../teacher_toolkit">Teacher Toolkit</a></li><li><a href="../../../teacher_toolkit/tools">Tools</a></li><li><span aria-current="page">Mobile Quick Reference</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Mobile Quick Reference</h1>
+                        
+                    </header>
                     <h1>Mobile Quick Reference</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Mobile Quick Reference</h1></p><p><br><em>Optimized for mobile devices - keep this handy on your phone</em></p><p><br>---</p><p><br><h2>🚨 EMERGENCY</h2></p><p><br><h3><strong>Meltdown</strong></h3></p><p><br>- Stay calm</p><p><br>- Reduce demands</p><p><br>- "I'm here. Take your time."</p><p><br>- Offer choices</p><p><br>- When calm: "What can I do to help?"</p><p><br><h3><strong>Refusing Work</strong></h3></p><p><br>- Don't argue</p><p><br>- "Let's try this together"</p><p><br>- Break it down</p><p><br>- Offer alternatives</p><p><br>- Check basic needs</p><p><br>---</p><p><br><h2>📊 SYMPTOM → ACTION</h2></p><p><br>| <strong>See<em>* | *</em>Try</strong> |</p><p><br>|---------|---------|</p><p><br>| <strong>Reverses letters</strong> | Audiobooks, multisensory |</p><p><br>| <strong>Messy writing</strong> | Typing, speech-to-text |</p><p><br>| <strong>Can't do math</strong> | Manipulatives, visual aids |</p><p><br>| <strong>Can't follow directions</strong> | Face student, write instructions |</p><p><br>| <strong>Clumsy</strong> | Break tasks, visual cues |</p><p><br>| <strong>Can't sit still</strong> | Movement breaks, fidgets |</p><p><br>| <strong>Social struggles</strong> | Clear expectations, schedules |</p><p><br>| <strong>Forgets everything</strong> | Checklists, timers |</p><p><br>---</p><p><br><h2>🎯 QUICK FIXES</h2></p><p><br><h3><strong>Can't Focus</strong></h3></p><p><br>- Move closer to teacher</p><p><br>- Fidget tools</p><p><br>- Movement break</p><p><br>- Reduce distractions</p><p><br>- Check if hungry/tired</p><p><br><h3><strong>Overwhelmed</strong></h3></p><p><br>- Break into steps</p><p><br>- Offer choices</p><p><br>- Use timer</p><p><br>- Encourage</p><p><br>- Check understanding</p><p><br><h3><strong>Acting Out</strong></h3></p><p><br>- Stay calm</p><p><br>- Use proximity</p><p><br>- Redirect positively</p><p><br>- Offer alternatives</p><p><br>- Document</p><p><br><h3><strong>Giving Up</strong></h3></p><p><br>- Acknowledge effort</p><p><br>- Adjust difficulty</p><p><br>- Offer support</p><p><br>- Celebrate small wins</p><p><br>- Check understanding</p><p><br>---</p><p><br><h2>📞 WHO TO CALL</h2></p><p><br><strong>Counselor</strong> - Social/emotional  </p><p><br><strong>Special Ed</strong> - Accommodations  </p><p><br><strong>Principal</strong> - Behavior concerns  </p><p><br><strong>Nurse</strong> - Health issues  </p><p><br>---</p><p><br><h2>📝 QUICK NOTES</h2></p><p><br><strong>Date:</strong> _____  </p><p><br><strong>Student:</strong> _____  </p><p><br><strong>What I saw:</strong> _____  </p><p><br><strong>What I tried:</strong> _____  </p><p><br><strong>Result:</strong> _____  </p><p><br>---</p><p><br><h2>🏠 FAMILY TALK</h2></p><p><br><h3><strong>Good News</strong></h3></p><p><br>"I wanted to share something great..."</p><p><br><h3><strong>Concerns</strong></h3></p><p><br>"I've noticed some patterns..."</p><p><br><h3><strong>Never Say</strong></h3></p><p><br>"I think your child has [condition]"</p><p><br>---</p><p><br><h2>⚡ DAILY CHECKLIST</h2></p><p><br><strong>Morning</strong></p><p><br>- [ ] Check in with student</p><p><br>- [ ] Review schedule</p><p><br>- [ ] Set expectations</p><p><br><strong>During Class</strong></p><p><br>- [ ] Monitor engagement</p><p><br>- [ ] Provide support</p><p><br>- [ ] Document observations</p><p><br><strong>End of Day</strong></p><p><br>- [ ] Check in with student</p><p><br>- [ ] Document concerns</p><p><br>- [ ] Plan tomorrow</p><p><br>---</p><p><br><h2>🆘 RED FLAGS</h2></p><p><br><strong>Academic</strong></p><p><br>- Reading 2+ years behind</p><p><br>- Can't do basic math</p><p><br>- Illegible writing</p><p><br>- Can't follow directions</p><p><br><strong>Behavioral</strong></p><p><br>- Aggressive to others</p><p><br>- Self-injury</p><p><br>- Complete withdrawal</p><p><br>- Extreme mood swings</p><p><br><strong>Social</strong></p><p><br>- No friends</p><p><br>- Extreme anxiety</p><p><br>- Bullying/being bullied</p><p><br>- Inappropriate behavior</p><p><br>---</p><p><br><h2>💡 REMEMBER</h2></p><p><br>- Every student is different</p><p><br>- Progress takes time</p><p><br>- Document everything</p><p><br>- Ask for help</p><p><br>- Celebrate small wins</p><p><br>---</p><p><br><em>Keep this on your phone! You've got this!</em> 🎯</p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Optimized for mobile devices - keep this handy on your phone</em></p>
+
+<p>---</p>
+
+<h2>🚨 EMERGENCY</h2>
+
+<h3><strong>Meltdown</strong></h3><ul><li>Stay calm</li></ul><ul><li>Reduce demands</li></ul><ul><li>"I'm here. Take your time."</li></ul><ul><li>Offer choices</li></ul><ul><li>When calm: "What can I do to help?"</li></ul>
+
+<h3><strong>Refusing Work</strong></h3><ul><li>Don't argue</li></ul><ul><li>"Let's try this together"</li></ul><ul><li>Break it down</li></ul><ul><li>Offer alternatives</li></ul><ul><li>Check basic needs</li></ul>
+
+<p>---</p>
+
+<h2>📊 SYMPTOM → ACTION</h2>
+
+<p>| <strong>See</strong> | <strong>Try</strong> |</p>
+<p>|---------|---------|</p>
+<p>| <strong>Reverses letters</strong> | Audiobooks, multisensory |</p>
+<p>| <strong>Messy writing</strong> | Typing, speech-to-text |</p>
+<p>| <strong>Can't do math</strong> | Manipulatives, visual aids |</p>
+<p>| <strong>Can't follow directions</strong> | Face student, write instructions |</p>
+<p>| <strong>Clumsy</strong> | Break tasks, visual cues |</p>
+<p>| <strong>Can't sit still</strong> | Movement breaks, fidgets |</p>
+<p>| <strong>Social struggles</strong> | Clear expectations, schedules |</p>
+<p>| <strong>Forgets everything</strong> | Checklists, timers |</p>
+
+<p>---</p>
+
+<h2>🎯 QUICK FIXES</h2>
+
+<h3><strong>Can't Focus</strong></h3><ul><li>Move closer to teacher</li></ul><ul><li>Fidget tools</li></ul><ul><li>Movement break</li></ul><ul><li>Reduce distractions</li></ul><ul><li>Check if hungry/tired</li></ul>
+
+<h3><strong>Overwhelmed</strong></h3><ul><li>Break into steps</li></ul><ul><li>Offer choices</li></ul><ul><li>Use timer</li></ul><ul><li>Encourage</li></ul><ul><li>Check understanding</li></ul>
+
+<h3><strong>Acting Out</strong></h3><ul><li>Stay calm</li></ul><ul><li>Use proximity</li></ul><ul><li>Redirect positively</li></ul><ul><li>Offer alternatives</li></ul><ul><li>Document</li></ul>
+
+<h3><strong>Giving Up</strong></h3><ul><li>Acknowledge effort</li></ul><ul><li>Adjust difficulty</li></ul><ul><li>Offer support</li></ul><ul><li>Celebrate small wins</li></ul><ul><li>Check understanding</li></ul>
+
+<p>---</p>
+
+<h2>📞 WHO TO CALL</h2>
+
+<p><strong>Counselor</strong> - Social/emotional  </p>
+<p><strong>Special Ed</strong> - Accommodations  </p>
+<p><strong>Principal</strong> - Behavior concerns  </p>
+<p><strong>Nurse</strong> - Health issues  </p>
+
+<p>---</p>
+
+<h2>📝 QUICK NOTES</h2>
+
+<p><strong>Date:</strong> _____  </p>
+<p><strong>Student:</strong> _____  </p>
+<p><strong>What I saw:</strong> _____  </p>
+<p><strong>What I tried:</strong> _____  </p>
+<p><strong>Result:</strong> _____  </p>
+
+<p>---</p>
+
+<h2>🏠 FAMILY TALK</h2>
+
+<h3><strong>Good News</strong></h3>
+<p>"I wanted to share something great..."</p>
+
+<h3><strong>Concerns</strong></h3>
+<p>"I've noticed some patterns..."</p>
+
+<h3><strong>Never Say</strong></h3>
+<p>"I think your child has [condition]"</p>
+
+<p>---</p>
+
+<h2>⚡ DAILY CHECKLIST</h2>
+
+<p><strong>Morning</strong></p><ul><li>[ ] Check in with student</li></ul><ul><li>[ ] Review schedule</li></ul><ul><li>[ ] Set expectations</li></ul>
+
+<p><strong>During Class</strong></p><ul><li>[ ] Monitor engagement</li></ul><ul><li>[ ] Provide support</li></ul><ul><li>[ ] Document observations</li></ul>
+
+<p><strong>End of Day</strong></p><ul><li>[ ] Check in with student</li></ul><ul><li>[ ] Document concerns</li></ul><ul><li>[ ] Plan tomorrow</li></ul>
+
+<p>---</p>
+
+<h2>🆘 RED FLAGS</h2>
+
+<p><strong>Academic</strong></p><ul><li>Reading 2+ years behind</li></ul><ul><li>Can't do basic math</li></ul><ul><li>Illegible writing</li></ul><ul><li>Can't follow directions</li></ul>
+
+<p><strong>Behavioral</strong></p><ul><li>Aggressive to others</li></ul><ul><li>Self-injury</li></ul><ul><li>Complete withdrawal</li></ul><ul><li>Extreme mood swings</li></ul>
+
+<p><strong>Social</strong></p><ul><li>No friends</li></ul><ul><li>Extreme anxiety</li></ul><ul><li>Bullying/being bullied</li></ul><ul><li>Inappropriate behavior</li></ul>
+
+<p>---</p>
+
+<h2>💡 REMEMBER</h2><ul><li>Every student is different</li></ul><ul><li>Progress takes time</li></ul><ul><li>Document everything</li></ul><ul><li>Ask for help</li></ul><ul><li>Celebrate small wins</li></ul>
+
+<p>---</p>
+
+<p><em>Keep this on your phone! You've got this!</em> 🎯</p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#mobile-quick-reference">Mobile Quick Reference</a></li>
@@ -120,12 +226,13 @@
     <li><a href="#remember">💡 REMEMBER</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../../teacher_toolkit/resources/index.html" class="nav-prev">← Teacher Resources Index</a>
   <a href="../../../teacher_toolkit/tools/observation_templates.html" class="nav-next">Observation Templates →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -133,6 +240,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../../assets/js/search.js"></script>
     <script src="../../../assets/js/main.js"></script>
 </body>
 </html>

@@ -21,12 +21,20 @@
                         <li><a href="../../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section ">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
   </div>
@@ -63,24 +71,55 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../../index.html">Home</a></li>
           <li><a href="../../../grant_toolkit">Grant Toolkit</a></li><li><a href="../../../grant_toolkit/federal_state_grants">Federal State Grants</a></li><li><span aria-current="page">Federal Grants Database</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Federal Grants Database</h1>
+                        
+                    </header>
                     <h1>Federal Grants Database</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Federal Grants Database</h1></p><p><br>Targeted federal opportunities to fund learning disability support programs. Primary source: <a href="https://www.grants.gov">Grants.gov</a> and <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">ED Available Grants</a>.</p><p><br>---</p><p><br><h2>How to Use This Database</h2></p><p><br>- Start with programs aligned to K-12 learning support and afterschool</p><p><br>- Check eligibility, deadlines (rolling vs. cycles), and typical award sizes</p><p><br>- Use our <a href="../../../federal_application_guide.html">Federal Application Guide</a> and <a href="../../../federal_proposal_templates.html">Templates</a></p><p><br>---</p><p><br><h2>High-Priority Programs (Start Here)</h2></p><p><br><h3>1) 21st Century Community Learning Centers (21st CCLC) — CFDA 84.287</h3></p><p><br>- Purpose: Afterschool and summer programs, academic enrichment, family engagement</p><p><br>- Sponsor: U.S. Department of Education (administered by states)</p><p><br>- Typical Award: Varies by state; multi-year awards</p><p><br>- Eligibility: LEAs, nonprofits in partnerships, community orgs (state-specific)</p><p><br>- Deadlines: State RFP cycles</p><p><br>- Official Links:</p><p><br>  - ED: <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">Available Grants</a></p><p><br>  - Grants.gov: <a href="https://www.grants.gov/">Search 21st CCLC / 84.287</a></p><p><br>  - Forecast: <a href="https://www2.ed.gov/fund/grant/find/edlite-forecast.html">ED Forecast of Funding Opportunities</a></p><p><br>- Best For: After-school tutoring, SEL, enrichment tied to academic outcomes</p><p><br><h3>2) Full-Service Community Schools (FSCS) — CFDA 84.215U</h3></p><p><br>- Purpose: Integrated academic, health, and social services coordinated through schools</p><p><br>- Sponsor: U.S. Department of Education</p><p><br>- Typical Award: Often $500K+/year up to 5 years (varies by NOFO)</p><p><br>- Eligibility: LEAs, school consortia, partners</p><p><br>- Deadlines: Annual/biannual NOFO cycles</p><p><br>- Official Links:</p><p><br>  - ED: <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">Available Grants</a></p><p><br>  - Grants.gov: <a href="https://www.grants.gov/">Search FSCS / 84.215U</a></p><p><br>  - Forecast: <a href="https://www2.ed.gov/fund/grant/find/edlite-forecast.html">ED Forecast of Funding Opportunities</a></p><p><br>- Best For: Whole-child, community-partnership models supporting LD students and families</p><p><br><h3>3) Promise Neighborhoods — CFDA 84.215N</h3></p><p><br>- Purpose: Cradle-to-career pipeline in distressed communities</p><p><br>- Sponsor: U.S. Department of Education</p><p><br>- Typical Award: Large multi-year implementation or planning grants</p><p><br>- Eligibility: Nonprofits, IHEs, LEAs (consortia with partnerships)</p><p><br>- Deadlines: Periodic NOFOs</p><p><br>- Official Links:</p><p><br>  - ED: <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">Available Grants</a></p><p><br>  - Grants.gov: <a href="https://www.grants.gov/">Search Promise Neighborhoods / 84.215N</a></p><p><br>  - Forecast: <a href="https://www2.ed.gov/fund/grant/find/edlite-forecast.html">ED Forecast of Funding Opportunities</a></p><p><br>- Best For: Multi-partner initiatives impacting LD supports within broader neighborhood efforts</p><p><br><h3>4) IDEA, Part B — CFDA 84.027 (Formula) and OSEP Discretionary</h3></p><p><br>- Purpose: Special education support; personnel prep; TA & dissemination</p><p><br>- Sponsor: Office of Special Education Programs (OSEP)</p><p><br>- Typical Award: Varies (state formula allocations; discretionary RFPs vary)</p><p><br>- Eligibility: State agencies (formula); IHEs/SEAs/LEAs/nonprofits (discretionary)</p><p><br>- Deadlines: Formula annual; discretionary per NOFO</p><p><br>- Official Links:</p><p><br>  - OSEP: <a href="https://publicddb.osepideasthatwork.org/">Discretionary Grants Public Database</a></p><p><br>  - ED: <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">Available Grants</a></p><p><br>  - Grants.gov: <a href="https://www.grants.gov/">Search IDEA / 84.027, 84.173, 84.325, etc.</a></p><p><br>  - Forecast: <a href="https://www2.ed.gov/fund/grant/find/edlite-forecast.html">ED Forecast of Funding Opportunities</a></p><p><br>- Best For: Specialized LD initiatives, training, evidence-based practices</p><p><br>---</p><p><br><h2>Additional Relevant Programs</h2></p><p><br>- Education Innovation and Research (EIR) — Evidence-based innovations in K-12</p><p><br>- Institute of Education Sciences (IES) — Research grants (if partnering with researchers)</p><p><br>- AmeriCorps (CNCS) — Education-focused service members to support programs</p><p><br>- HRSA/Maternal & Child Health — Family and developmental supports</p><p><br>- SAMHSA — School-based mental health supports (co-occurring needs)</p><p><br>---</p><p><br><h2>Strategy Notes</h2></p><p><br>- Prioritize programs with strong alignment to your target outcomes (reading/math gains, SEL, attendance)</p><p><br>- Build partnerships early (districts, CBOs, health partners)</p><p><br>- Use strong evaluation plans; leverage our <a href="../../../../budget_planning_guide.html">Budget Planning Guide</a></p><p><br>- Map opportunities to timelines in <a href="../../../../grant_writing_flowcharts.html">Grant Writing Flowcharts</a></p><p><br>---</p><p><br><h2>Quick Links</h2></p><p><br>- Grants.gov: Federal opportunity search</p><p><br>- ED: Available Grants — central listing of open ED grants</p><p><br>- OSEP Discretionary Grants Database — special education discretionary opportunities</p><p><br>- ED Forecast of Funding Opportunities — upcoming competitions and dates</p>
-            </article>
-            <nav class="table-of-contents">
+
+<p>Targeted federal opportunities to fund learning disability support programs. Primary source: <a href="https://www.grants.gov">Grants.gov</a> and <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">ED Available Grants</a>.</p>
+
+<p>---</p>
+
+<h2>How to Use This Database</h2><ul><li>Start with programs aligned to K-12 learning support and afterschool</li></ul><ul><li>Check eligibility, deadlines (rolling vs. cycles), and typical award sizes</li></ul><ul><li>Use our <a href="../../../federal_application_guide.html">Federal Application Guide</a> and <a href="../../../federal_proposal_templates.html">Templates</a></li></ul>
+
+<p>---</p>
+
+<h2>High-Priority Programs (Start Here)</h2>
+
+<h3>1) 21st Century Community Learning Centers (21st CCLC) — CFDA 84.287</h3><ul><li>Purpose: Afterschool and summer programs, academic enrichment, family engagement</li></ul><ul><li>Sponsor: U.S. Department of Education (administered by states)</li></ul><ul><li>Typical Award: Varies by state; multi-year awards</li></ul><ul><li>Eligibility: LEAs, nonprofits in partnerships, community orgs (state-specific)</li></ul><ul><li>Deadlines: State RFP cycles</li></ul><ul><li>Official Links:</li></ul><ul><li>ED: <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">Available Grants</a></li></ul><ul><li>Grants.gov: <a href="https://www.grants.gov/">Search 21st CCLC / 84.287</a></li></ul><ul><li>Forecast: <a href="https://www2.ed.gov/fund/grant/find/edlite-forecast.html">ED Forecast of Funding Opportunities</a></li></ul><ul><li>Best For: After-school tutoring, SEL, enrichment tied to academic outcomes</li></ul>
+
+<h3>2) Full-Service Community Schools (FSCS) — CFDA 84.215U</h3><ul><li>Purpose: Integrated academic, health, and social services coordinated through schools</li></ul><ul><li>Sponsor: U.S. Department of Education</li></ul><ul><li>Typical Award: Often $500K+/year up to 5 years (varies by NOFO)</li></ul><ul><li>Eligibility: LEAs, school consortia, partners</li></ul><ul><li>Deadlines: Annual/biannual NOFO cycles</li></ul><ul><li>Official Links:</li></ul><ul><li>ED: <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">Available Grants</a></li></ul><ul><li>Grants.gov: <a href="https://www.grants.gov/">Search FSCS / 84.215U</a></li></ul><ul><li>Forecast: <a href="https://www2.ed.gov/fund/grant/find/edlite-forecast.html">ED Forecast of Funding Opportunities</a></li></ul><ul><li>Best For: Whole-child, community-partnership models supporting LD students and families</li></ul>
+
+<h3>3) Promise Neighborhoods — CFDA 84.215N</h3><ul><li>Purpose: Cradle-to-career pipeline in distressed communities</li></ul><ul><li>Sponsor: U.S. Department of Education</li></ul><ul><li>Typical Award: Large multi-year implementation or planning grants</li></ul><ul><li>Eligibility: Nonprofits, IHEs, LEAs (consortia with partnerships)</li></ul><ul><li>Deadlines: Periodic NOFOs</li></ul><ul><li>Official Links:</li></ul><ul><li>ED: <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">Available Grants</a></li></ul><ul><li>Grants.gov: <a href="https://www.grants.gov/">Search Promise Neighborhoods / 84.215N</a></li></ul><ul><li>Forecast: <a href="https://www2.ed.gov/fund/grant/find/edlite-forecast.html">ED Forecast of Funding Opportunities</a></li></ul><ul><li>Best For: Multi-partner initiatives impacting LD supports within broader neighborhood efforts</li></ul>
+
+<h3>4) IDEA, Part B — CFDA 84.027 (Formula) and OSEP Discretionary</h3><ul><li>Purpose: Special education support; personnel prep; TA & dissemination</li></ul><ul><li>Sponsor: Office of Special Education Programs (OSEP)</li></ul><ul><li>Typical Award: Varies (state formula allocations; discretionary RFPs vary)</li></ul><ul><li>Eligibility: State agencies (formula); IHEs/SEAs/LEAs/nonprofits (discretionary)</li></ul><ul><li>Deadlines: Formula annual; discretionary per NOFO</li></ul><ul><li>Official Links:</li></ul><ul><li>OSEP: <a href="https://publicddb.osepideasthatwork.org/">Discretionary Grants Public Database</a></li></ul><ul><li>ED: <a href="https://www.ed.gov/grants-and-programs/apply-grant/available-grants">Available Grants</a></li></ul><ul><li>Grants.gov: <a href="https://www.grants.gov/">Search IDEA / 84.027, 84.173, 84.325, etc.</a></li></ul><ul><li>Forecast: <a href="https://www2.ed.gov/fund/grant/find/edlite-forecast.html">ED Forecast of Funding Opportunities</a></li></ul><ul><li>Best For: Specialized LD initiatives, training, evidence-based practices</li></ul>
+
+<p>---</p>
+
+<h2>Additional Relevant Programs</h2><ul><li>Education Innovation and Research (EIR) — Evidence-based innovations in K-12</li></ul><ul><li>Institute of Education Sciences (IES) — Research grants (if partnering with researchers)</li></ul><ul><li>AmeriCorps (CNCS) — Education-focused service members to support programs</li></ul><ul><li>HRSA/Maternal & Child Health — Family and developmental supports</li></ul><ul><li>SAMHSA — School-based mental health supports (co-occurring needs)</li></ul>
+
+<p>---</p>
+
+<h2>Strategy Notes</h2><ul><li>Prioritize programs with strong alignment to your target outcomes (reading/math gains, SEL, attendance)</li></ul><ul><li>Build partnerships early (districts, CBOs, health partners)</li></ul><ul><li>Use strong evaluation plans; leverage our <a href="../../../../budget_planning_guide.html">Budget Planning Guide</a></li></ul><ul><li>Map opportunities to timelines in <a href="../../../../grant_writing_flowcharts.html">Grant Writing Flowcharts</a></li></ul>
+
+<p>---</p>
+
+<h2>Quick Links</h2><ul><li>Grants.gov: Federal opportunity search</li></ul><ul><li>ED: Available Grants — central listing of open ED grants</li></ul><ul><li>OSEP Discretionary Grants Database — special education discretionary opportunities</li></ul><ul><li>ED Forecast of Funding Opportunities — upcoming competitions and dates</li></ul>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#federal-grants-database">Federal Grants Database</a></li>
@@ -95,12 +134,13 @@
     <li><a href="#quick-links">Quick Links</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
-  <a href="../../../teacher_toolkit/transition_planning_guide.html" class="nav-prev">← Transition Planning Guide</a>
+                <nav class="page-navigation">
+  <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-prev">← Family Communication Templates</a>
   <a href="../../../grant_toolkit/federal_state_grants/michigan_state_grants_database.html" class="nav-next">Michigan State Grants Database →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -108,6 +148,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../../assets/js/search.js"></script>
     <script src="../../../assets/js/main.js"></script>
 </body>
 </html>

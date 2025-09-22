@@ -21,12 +21,20 @@
                         <li><a href="../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -56,16 +64,16 @@
       <a href="../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
     <div class="nav-subsection ">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
-    </div>
-    <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../teacher_toolkit/progress_monitoring/index.html" class="nav-link ">Progress Monitoring Tools</a>
       <a href="../teacher_toolkit/workflows/communicate_families.html" class="nav-link ">Communicate with Families Workflow</a>
       <a href="../teacher_toolkit/workflows/identify_concerns.html" class="nav-link ">Identify Concerns Workflow</a>
       <a href="../teacher_toolkit/workflows/monitor_progress.html" class="nav-link ">Monitor Progress Workflow</a>
       <a href="../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection ">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,36 +87,129 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../index.html">Home</a></li>
           <li><span aria-current="page">Teacher Toolkit</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Teacher Toolkit: Supporting Students with Learning Needs</h1>
+                        
+                    </header>
                     <h1>Teacher Toolkit: Supporting Students with Learning Needs</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Teacher Toolkit: Supporting Students with Learning Needs</h1></p><p><br><em>Your comprehensive, organized guide to identifying, supporting, and documenting learning differences in the classroom</em></p><p><br>---</p><p><br><h2>🚀 Quick Access</h2></p><p><br><h3><strong>Emergency Situations</strong> (Need help RIGHT NOW?)</h3></p><p><br>→ <strong><a href="../quick_start.html">QUICK START GUIDE</a></strong> - Crisis response and immediate actions</p><p><br>→ <strong><a href="../tools/mobile_quick_reference.html">MOBILE QUICK REFERENCE</a></strong> - On your phone</p><p><br><h3><strong>New to This Toolkit?</strong> (First time here?)</h3></p><p><br>→ <strong><a href="../getting_started.html">GETTING STARTED GUIDE</a></strong> - Step-by-step introduction</p><p><br><h3><strong>Looking for Specific Information?</strong></h3></p><p><br>→ <strong><a href="../INDEX.html">COMPLETE INDEX</a></strong> - Everything in one place</p><p><br>→ <strong><a href="../reference_library.html">REFERENCE LIBRARY</a></strong> - All resources organized by topic</p><p><br>---</p><p><br><h2>📚 Main Workflows</h2></p><p><br><h3><strong>1. Identify Concerns</strong> </h3></p><p><br><em>"I'm seeing something that worries me"</em></p><p><br>- <strong><a href="../symptom_checker.html">Symptom Checker</a></strong> - Interactive decision tree</p><p><br>- <strong><a href="../red_flags_vs_typical_development.html">Red Flags vs. Typical Development</a></strong> - When to worry</p><p><br>- <strong><a href="../age_grade_considerations.html">Age/Grade Considerations</a></strong> - Developmental expectations</p><p><br>- <strong><a href="../tools/observation_templates.html">Observation Templates</a></strong> - Document what you see</p><p><br><h3><strong>2. Try Strategies</strong></h3></p><p><br><em>"I know what the problem is, what should I do?"</em></p><p><br>- <strong><a href="../intervention_guide.html">Intervention Guide</a></strong> - Detailed strategies by condition</p><p><br>- <strong><a href="../technology_integration_guide.html">Technology Integration</a></strong> - Apps and tools</p><p><br>- <strong><a href="../common_mistakes_to_avoid.html">Common Mistakes to Avoid</a></strong> - What NOT to do</p><p><br><h3><strong>3. Monitor Progress</strong></h3></p><p><br><em>"I'm trying strategies, how do I know if they're working?"</em></p><p><br>- <strong><a href="../progress_monitoring/index.html">Progress Monitoring Tools</a></strong> - Track student progress</p><p><br>- <strong><a href="../implementation_timeline_priority_framework.html">Implementation Timeline</a></strong> - When to adjust</p><p><br>- <strong><a href="../workflows/monitor_progress.html">Adjustment Strategies</a></strong> - What to do when things change</p><p><br><h3><strong>4. Communicate with Families</strong></h3></p><p><br><em>"I need to talk to families about concerns"</em></p><p><br>- <strong><a href="../family_communication/family_communication_templates.html">Family Communication Templates</a></strong> - Email and conversation guides</p><p><br>- <strong><a href="../cultural_responsiveness_guide.html">Cultural Responsiveness</a></strong> - Supporting diverse families</p><p><br>- <strong><a href="../workflows/communicate_families.html">Difficult Conversations</a></strong> - When concerns are serious</p><p><br>---</p><p><br><h2>🎯 By Experience Level</h2></p><p><br><h3><strong>🆕 New Teachers</strong></h3></p><p><br><em>Just starting out with supporting students with learning differences</em></p><p><br>- <strong><a href="../getting_started.html">Getting Started Guide</a></strong> - Step-by-step introduction</p><p><br>- <strong><a href="../quick_start.html">Quick Start Guide</a></strong> - Emergency situations</p><p><br>- <strong><a href="../tools/quick_reference_card.html">Quick Reference Card</a></strong> - Keep this handy</p><p><br><h3><strong>💼 Experienced Teachers</strong></h3></p><p><br><em>Looking for advanced strategies and comprehensive resources</em></p><p><br>- <strong><a href="../intervention_guide.html">Intervention Guide</a></strong> - Detailed strategies by condition</p><p><br>- <strong><a href="../executive_function_standalone_guide.html">Executive Function Guide</a></strong> - Advanced strategies</p><p><br>- <strong><a href="../social_emotional_learning_connections.html">SEL Connections</a></strong> - Social-emotional development</p><p><br><h3><strong>👥 Teacher Teams</strong></h3></p><p><br><em>Collaborative approaches and team resources</em></p><p><br>- <strong><a href="../workflows/communicate_families.html">Family Communication</a></strong> - Team collaboration</p><p><br>- <strong><a href="../progress_monitoring/index.html">Progress Monitoring</a></strong> - Data collection tools</p><p><br>- <strong><a href="../tools/observation_templates.html">Observation Templates</a></strong> - Team documentation</p><p><br>---</p><p><br><h2>⚡ Quick Access by Situation</h2></p><p><br><h3><strong>🚨 "I see a problem"</strong></h3></p><p><br>→ <a href="../symptom_checker.html">Symptom Checker</a> → <a href="../tools/observation_templates.html">Observation Templates</a></p><p><br><h3><strong>🛠️ "I need strategies"</strong></h3></p><p><br>→ <a href="../intervention_guide.html">Intervention Guide</a> → <a href="../tools/quick_reference_card.html">Quick Reference Card</a></p><p><br><h3><strong>📊 "I need to track progress"</strong></h3></p><p><br>→ <a href="../workflows/monitor_progress.html">Progress Monitoring</a> → <a href="../progress_monitoring/index.html">Progress Tools</a></p><p><br><h3><strong>🏠 "I need to talk to families"</strong></h3></p><p><br>→ <a href="../workflows/communicate_families.html">Family Communication</a> → <a href="../family_communication/family_communication_templates.html">Family Templates</a></p><p><br><h3><strong>📚 "I need to learn more"</strong></h3></p><p><br>→ <a href="../reference_library.html">Reference Library</a> → <a href="../getting_started.html">Getting Started</a></p><p><br>---</p><p><br><h2>💡 Success Tips</h2></p><p><br><h3><strong>Before You Start</strong></h3></p><p><br>- ☐ <strong>Read</strong> the <a href="../getting_started.html">Getting Started Guide</a></p><p><br>- ☐ <strong>Choose</strong> one student to observe</p><p><br>- ☐ <strong>Try</strong> one universal support strategy</p><p><br>- ☐ <strong>Document</strong> what you see and try</p><p><br>- ☐ <strong>Ask</strong> a colleague for advice</p><p><br><h3><strong>Essential Resources</strong></h3></p><p><br>#### <strong>Daily Use</strong></p><p><br>- <a href="../tools/quick_reference_card.html">Quick Reference Card</a> - Keep this handy</p><p><br>- <a href="../symptom_checker.html">Symptom Checker</a> - When you see something concerning</p><p><br>- <a href="../tools/observation_templates.html">Observation Template</a> - Document your observations</p><p><br>#### <strong>Weekly Use</strong></p><p><br>- <a href="../progress_monitoring/index.html">Progress Monitoring</a> - Track student progress</p><p><br>- <a href="../family_communication/family_communication_templates.html">Family Communication</a> - Talk to families</p><p><br>#### <strong>As Needed</strong></p><p><br>- <a href="../intervention_guide.html">Intervention Guide</a> - Detailed strategies by condition</p><p><br>- <a href="../technology_integration_guide.html">Technology Integration</a> - Apps and tools</p><p><br>- <a href="../cultural_responsiveness_guide.html">Cultural Responsiveness</a> - Supporting diverse families</p><p><br>---</p><p><br><h2>🆘 Emergency Strategies</h2></p><p><br><strong>When nothing else is working:</strong></p><p><br>1. <strong>Reduce demands</strong> - Focus on essential skills only</p><p><br>2. <strong>Increase support</strong> - More one-on-one time, peer helpers</p><p><br>3. <strong>Change environment</strong> - Different seating, quieter space</p><p><br>4. <strong>Involve others</strong> - Counselor, special education teacher, administrator</p><p><br>5. <strong>Document everything</strong> - You'll need this for formal evaluation</p><p><br>---</p><p><br><h2>📚 Next Steps</h2></p><p><br>1. <strong>Bookmark this page</strong> - Your main entry point</p><p><br>2. <strong>Explore the Symptom Checker</strong> - Learn the decision tree</p><p><br>3. <strong>Practice with one student</strong> - Try the observation template</p><p><br>4. <strong>Review family communication templates</strong> - Be ready for conversations</p><p><br>5. <strong>Check back weekly</strong> - This guide will be updated as we learn</p><p><br>---</p><p><br><em>Remember: You're not alone in this. Use your colleagues, support staff, and these resources. The goal is student success, not perfection.</em></p><p><br><strong>Need help?</strong> Contact your support team or refer to the <a href="../resources/index.html">Resources</a> section.</p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Your comprehensive guide to identifying, supporting, and documenting learning differences in the classroom</em></p>
+
+<p>---</p>
+
+<h2>🚀 Start Here</h2>
+
+<p><strong>New to this toolkit?</strong> Begin with our <strong><a href="../quick_start.html">Quick Start Guide</a></strong> for immediate help.</p>
+
+<p><strong>Need something specific?</strong> Use our <strong><a href="../INDEX.html">Complete Index</a></strong> to find exactly what you're looking for.</p>
+
+<p>---</p>
+
+<h2>📋 Common Scenarios</h2>
+
+<h3><strong>I'm concerned about a student</strong></h3><ul><li><strong><a href="../symptom_checker.html">Symptom Checker</a></strong> - Interactive decision tree</li></ul><ul><li><strong><a href="../red_flags_vs_typical_development.html">Red Flags vs. Typical Development</a></strong> - When to worry</li></ul><ul><li><strong><a href="../age_grade_considerations.html">Age/Grade Considerations</a></strong> - Developmental expectations</li></ul>
+
+<h3><strong>I know the problem, need strategies</strong></h3><ul><li><strong><a href="../intervention_guide.html">Intervention Guide</a></strong> - Detailed strategies by condition</li></ul><ul><li><strong><a href="../technology_integration_guide.html">Technology Integration</a></strong> - Apps and tools</li></ul><ul><li><strong><a href="../common_mistakes_to_avoid.html">Common Mistakes to Avoid</a></strong> - What NOT to do</li></ul>
+
+<h3><strong>I need to track progress</strong></h3><ul><li><strong><a href="../progress_monitoring/index.html">Progress Monitoring Tools</a></strong> - Track student progress</li></ul><ul><li><strong><a href="../implementation_timeline_priority_framework.html">Implementation Timeline</a></strong> - When to adjust</li></ul>
+
+<h3><strong>I need to talk to families</strong></h3><ul><li><strong><a href="../family_communication/family_communication_templates.html">Family Communication Templates</a></strong> - Email and conversation guides</li></ul><ul><li><strong><a href="../cultural_responsiveness_guide.html">Cultural Responsiveness</a></strong> - Supporting diverse families</li></ul>
+
+<p>---</p>
+
+<h2>🎯 By Experience Level</h2>
+
+<h3><strong>🆕 New Teachers</strong></h3>
+<p><em>Just starting out with supporting students with learning differences</em></p><ul><li><strong><a href="../getting_started.html">Getting Started Guide</a></strong> - Step-by-step introduction</li></ul><ul><li><strong><a href="../quick_start.html">Quick Start Guide</a></strong> - Emergency situations</li></ul><ul><li><strong><a href="../tools/quick_reference_card.html">Quick Reference Card</a></strong> - Keep this handy</li></ul>
+
+<h3><strong>💼 Experienced Teachers</strong></h3>
+<p><em>Looking for advanced strategies and comprehensive resources</em></p><ul><li><strong><a href="../intervention_guide.html">Intervention Guide</a></strong> - Detailed strategies by condition</li></ul><ul><li><strong><a href="../executive_function_standalone_guide.html">Executive Function Guide</a></strong> - Advanced strategies</li></ul><ul><li><strong><a href="../social_emotional_learning_connections.html">SEL Connections</a></strong> - Social-emotional development</li></ul>
+
+<h3><strong>👥 Teacher Teams</strong></h3>
+<p><em>Collaborative approaches and team resources</em></p><ul><li><strong><a href="../workflows/communicate_families.html">Family Communication</a></strong> - Team collaboration</li></ul><ul><li><strong><a href="../progress_monitoring/index.html">Progress Monitoring</a></strong> - Data collection tools</li></ul><ul><li><strong><a href="../tools/observation_templates.html">Observation Templates</a></strong> - Team documentation</li></ul>
+
+<p>---</p>
+
+<h2>⚡ Quick Access by Situation</h2>
+
+<h3><strong>🚨 "I see a problem"</strong></h3>
+<p>→ <a href="../symptom_checker.html">Symptom Checker</a> → <a href="../tools/observation_templates.html">Observation Templates</a></p>
+
+<h3><strong>🛠️ "I need strategies"</strong></h3>
+<p>→ <a href="../intervention_guide.html">Intervention Guide</a> → <a href="../tools/quick_reference_card.html">Quick Reference Card</a></p>
+
+<h3><strong>📊 "I need to track progress"</strong></h3>
+<p>→ <a href="../workflows/monitor_progress.html">Progress Monitoring</a> → <a href="../progress_monitoring/index.html">Progress Tools</a></p>
+
+<h3><strong>🏠 "I need to talk to families"</strong></h3>
+<p>→ <a href="../workflows/communicate_families.html">Family Communication</a> → <a href="../family_communication/family_communication_templates.html">Family Templates</a></p>
+
+<h3><strong>📚 "I need to learn more"</strong></h3>
+<p>→ <a href="../reference_library.html">Reference Library</a> → <a href="../getting_started.html">Getting Started</a></p>
+
+<p>---</p>
+
+<h2>💡 Success Tips</h2>
+
+<h3><strong>Before You Start</strong></h3><ul><li>☐ <strong>Read</strong> the <a href="../getting_started.html">Getting Started Guide</a></li></ul><ul><li>☐ <strong>Choose</strong> one student to observe</li></ul><ul><li>☐ <strong>Try</strong> one universal support strategy</li></ul><ul><li>☐ <strong>Document</strong> what you see and try</li></ul><ul><li>☐ <strong>Ask</strong> a colleague for advice</li></ul>
+
+<h3><strong>Essential Resources</strong></h3>
+
+<p>#### <strong>Daily Use</strong></p><ul><li><a href="../tools/quick_reference_card.html">Quick Reference Card</a> - Keep this handy</li></ul><ul><li><a href="../symptom_checker.html">Symptom Checker</a> - When you see something concerning</li></ul><ul><li><a href="../tools/observation_templates.html">Observation Template</a> - Document your observations</li></ul>
+
+<p>#### <strong>Weekly Use</strong></p><ul><li><a href="../progress_monitoring/index.html">Progress Monitoring</a> - Track student progress</li></ul><ul><li><a href="../family_communication/family_communication_templates.html">Family Communication</a> - Talk to families</li></ul>
+
+<p>#### <strong>As Needed</strong></p><ul><li><a href="../intervention_guide.html">Intervention Guide</a> - Detailed strategies by condition</li></ul><ul><li><a href="../technology_integration_guide.html">Technology Integration</a> - Apps and tools</li></ul><ul><li><a href="../cultural_responsiveness_guide.html">Cultural Responsiveness</a> - Supporting diverse families</li></ul>
+
+<p>---</p>
+
+<h2>🆘 Emergency Strategies</h2>
+
+<p><strong>When nothing else is working:</strong></p>
+
+<p>1. <strong>Reduce demands</strong> - Focus on essential skills only</p>
+<p>2. <strong>Increase support</strong> - More one-on-one time, peer helpers</p>
+<p>3. <strong>Change environment</strong> - Different seating, quieter space</p>
+<p>4. <strong>Involve others</strong> - Counselor, special education teacher, administrator</p>
+<p>5. <strong>Document everything</strong> - You'll need this for formal evaluation</p>
+
+<p>---</p>
+
+<h2>📚 Next Steps</h2>
+
+<p>1. <strong>Bookmark this page</strong> - Your main entry point</p>
+<p>2. <strong>Explore the Symptom Checker</strong> - Learn the decision tree</p>
+<p>3. <strong>Practice with one student</strong> - Try the observation template</p>
+<p>4. <strong>Review family communication templates</strong> - Be ready for conversations</p>
+<p>5. <strong>Check back weekly</strong> - This guide will be updated as we learn</p>
+
+<p>---</p>
+
+<p><em>Remember: You're not alone in this. Use your colleagues, support staff, and these resources. The goal is student success, not perfection.</em></p>
+
+<p><strong>Need help?</strong> Contact your support team or refer to the <a href="../resources/index.html">Resources</a> section.</p>
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#teacher-toolkit-supporting-students-with-learning-needs">Teacher Toolkit: Supporting Students with Learning Needs</a></li>
-    <li><a href="#quick-access">🚀 Quick Access</a></li>
-        <li><a href="#emergency-situations-need-help-right-now">Emergency Situations (Need help RIGHT NOW?)</a></li>
-        <li><a href="#new-to-this-toolkit-first-time-here">New to This Toolkit? (First time here?)</a></li>
-        <li><a href="#looking-for-specific-information">Looking for Specific Information?</a></li>
-    <li><a href="#main-workflows">📚 Main Workflows</a></li>
-        <li><a href="#1-identify-concerns">1. Identify Concerns </a></li>
-        <li><a href="#2-try-strategies">2. Try Strategies</a></li>
-        <li><a href="#3-monitor-progress">3. Monitor Progress</a></li>
-        <li><a href="#4-communicate-with-families">4. Communicate with Families</a></li>
+    <li><a href="#start-here">🚀 Start Here</a></li>
+    <li><a href="#common-scenarios">📋 Common Scenarios</a></li>
+        <li><a href="#im-concerned-about-a-student">I'm concerned about a student</a></li>
+        <li><a href="#i-know-the-problem-need-strategies">I know the problem, need strategies</a></li>
+        <li><a href="#i-need-to-track-progress">I need to track progress</a></li>
+        <li><a href="#i-need-to-talk-to-families">I need to talk to families</a></li>
     <li><a href="#by-experience-level">🎯 By Experience Level</a></li>
         <li><a href="#new-teachers">🆕 New Teachers</a></li>
         <li><a href="#experienced-teachers">💼 Experienced Teachers</a></li>
@@ -126,12 +227,13 @@
     <li><a href="#next-steps">📚 Next Steps</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../teacher_toolkit/quick_start.html" class="nav-prev">← Teacher Quick Start Guide</a>
   <a href="../teacher_toolkit/red_flags_vs_typical_development.html" class="nav-next">Red Flags vs. Typical Development →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -139,6 +241,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../assets/js/search.js"></script>
     <script src="../assets/js/main.js"></script>
 </body>
 </html>

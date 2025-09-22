@@ -21,12 +21,20 @@
                         <li><a href="../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -56,16 +64,16 @@
       <a href="../../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
     <div class="nav-subsection ">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
-    </div>
-    <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../../teacher_toolkit/progress_monitoring/index.html" class="nav-link ">Progress Monitoring Tools</a>
       <a href="../../teacher_toolkit/workflows/communicate_families.html" class="nav-link ">Communicate with Families Workflow</a>
       <a href="../../teacher_toolkit/workflows/identify_concerns.html" class="nav-link ">Identify Concerns Workflow</a>
       <a href="../../teacher_toolkit/workflows/monitor_progress.html" class="nav-link ">Monitor Progress Workflow</a>
       <a href="../../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection ">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,24 +87,112 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../index.html">Home</a></li>
           <li><a href="../../teacher_toolkit">Teacher Toolkit</a></li><li><span aria-current="page">Quick Start</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Teacher Quick Start Guide</h1>
+                        
+                    </header>
                     <h1>Teacher Quick Start Guide</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Teacher Quick Start Guide</h1></p><p><br><em>Your go-to resource for supporting students with learning needs</em></p><p><br><h2>🚨 What to do RIGHT NOW (First 5 minutes)</h2></p><p><br><strong>If a student is struggling in your class:</strong></p><p><br>1. <strong>Take a breath</strong> - You're not expected to diagnose or fix everything immediately</p><p><br>2. <strong>Observe objectively</strong> - What exactly is happening? When? How often?</p><p><br>3. <strong>Try one simple support</strong> - Extended time, visual aids, or breaking down instructions</p><p><br>4. <strong>Document briefly</strong> - Date, what you saw, what you tried, how they responded</p><p><br>5. <strong>Plan your next step</strong> - Will you try more strategies or involve support staff?</p><p><br><h2>📋 What to do TODAY (First day)</h2></p><p><br><strong>After noticing a pattern:</strong></p><p><br>1. <strong>Try 2-3 basic supports</strong> from the <a href="../../symptom_checker.html">Symptom Checker</a></p><p><br>2. <strong>Document your observations</strong> using the <a href="../../../notes/teacher_observation_template.html">Observation Template</a></p><p><br>3. <strong>Check with colleagues</strong> - Have they noticed similar patterns?</p><p><br>4. <strong>Review the student's file</strong> - Any previous concerns or supports noted?</p><p><br>5. <strong>Plan your approach</strong> - What will you try tomorrow?</p><p><br><h2>📅 What to do THIS WEEK (First week)</h2></p><p><br><strong>If concerns persist:</strong></p><p><br>1. <strong>Continue trying strategies</strong> - Give interventions time to work (at least 3-5 days)</p><p><br>2. <strong>Collect data</strong> - Use the <a href="../../progress_monitoring/">Progress Monitoring Tools</a></p><p><br>3. <strong>Reach out to family</strong> - Use <a href="../../family_communication/">Family Communication Templates</a></p><p><br>4. <strong>Involve support team</strong> - Counselor, special education teacher, or administrator</p><p><br>5. <strong>Document everything</strong> - You'll need this for referrals and meetings</p><p><br><h2>🔍 Quick Symptom Checker</h2></p><p><br><strong>If you see...<em>* | **Try this first...** | *</em>Then...</strong></p><p><br>---|---|---</p><p><br>Slow, inaccurate reading | Pair with audio, reduce decoding tasks | <a href="../../intervention_guide.md#reading">See Reading Strategies</a></p><p><br>Illegible handwriting | Allow typing, provide guided notes | <a href="../../intervention_guide.md#writing">See Writing Strategies</a></p><p><br>Math struggles | Use manipulatives, number lines | <a href="../../intervention_guide.md#math">See Math Strategies</a></p><p><br>Off-task, impulsive | Clear routines, movement breaks | <a href="../../intervention_guide.md#adhd">See ADHD Strategies</a></p><p><br>"Doesn't listen" | Written directions, preferential seating | <a href="../../intervention_guide.md#apd">See APD Strategies</a></p><p><br>Social difficulties | Visual schedules, explicit instruction | <a href="../../intervention_guide.md#asd">See ASD Strategies</a></p><p><br><h2>📞 When to Escalate</h2></p><p><br><strong>Contact support team immediately if:</strong></p><p><br>- Student is a danger to self or others</p><p><br>- Family requests evaluation</p><p><br>- Multiple teachers have similar concerns</p><p><br>- Strategies aren't working after 2 weeks</p><p><br><strong>Contact support team within a week if:</strong></p><p><br>- Concerns are getting worse</p><p><br>- Student is falling significantly behind</p><p><br>- Family is expressing concerns</p><p><br>- You need additional resources</p><p><br><h2>🛠️ Essential Tools</h2></p><p><br><h3><strong>Daily Use</strong></h3></p><p><br>- <a href="../../symptom_checker.html">Symptom Checker</a> - Quick decision tree</p><p><br>- <a href="../../../notes/teacher_observation_template.html">Observation Template</a> - Document concerns</p><p><br>- <a href="../../family_communication/">Family Communication Templates</a> - Talk to families</p><p><br><h3><strong>Weekly Use</strong></h3></p><p><br>- <a href="../../intervention_guide.html">Intervention Guide</a> - Detailed strategies</p><p><br>- <a href="../../progress_monitoring/">Progress Monitoring Tools</a> - Track student progress</p><p><br>- <a href="../../resources/">Resources</a> - Links and references</p><p><br><h3><strong>As Needed</strong></h3></p><p><br>- <a href="../../family_communication/">Family Communication Templates</a> - Difficult conversations</p><p><br>- <a href="../../../research_report.html">Research Report</a> - Deep dive into conditions</p><p><br>- <a href="../../../improvement_roadmap.html">Improvement Roadmap</a> - Future enhancements</p><p><br><h2>🎯 Success Indicators</h2></p><p><br><strong>You're on the right track if:</strong></p><p><br>- Student is more engaged in learning</p><p><br>- Work completion is improving</p><p><br>- Behavior is more positive</p><p><br>- Family communication is open and collaborative</p><p><br>- You feel more confident supporting the student</p><p><br><strong>Time to adjust if:</strong></p><p><br>- No improvement after 2 weeks of consistent strategies</p><p><br>- Student is getting frustrated or giving up</p><p><br>- Family is not responding to communication</p><p><br>- You're feeling overwhelmed or unsure</p><p><br><h2>🆘 Emergency Strategies</h2></p><p><br><strong>When nothing else is working:</strong></p><p><br>1. <strong>Reduce demands</strong> - Focus on essential skills only</p><p><br>2. <strong>Increase support</strong> - More one-on-one time, peer helpers</p><p><br>3. <strong>Change environment</strong> - Different seating, quieter space</p><p><br>4. <strong>Involve others</strong> - Counselor, special education teacher, administrator</p><p><br>5. <strong>Document everything</strong> - You'll need this for formal evaluation</p><p><br><h2>📚 Next Steps</h2></p><p><br>1. <strong>Bookmark this page</strong> - Your main entry point</p><p><br>2. <strong>Explore the Symptom Checker</strong> - Learn the decision tree</p><p><br>3. <strong>Practice with one student</strong> - Try the observation template</p><p><br>4. <strong>Review family communication templates</strong> - Be ready for conversations</p><p><br>5. <strong>Check back weekly</strong> - This guide will be updated as we learn</p><p><br>---</p><p><br><em>Remember: You're not alone in this. Use your colleagues, support staff, and these resources. The goal is student success, not perfection.</em></p><p><br><strong>Need help?</strong> Contact [your support team] or refer to the <a href="../../resources/">Resources</a> section.</p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Your go-to resource for supporting students with learning needs</em></p>
+
+<h2>🚨 What to do RIGHT NOW (First 5 minutes)</h2>
+
+<p><strong>If a student is struggling in your class:</strong></p>
+
+<p>1. <strong>Take a breath</strong> - You're not expected to diagnose or fix everything immediately</p>
+<p>2. <strong>Observe objectively</strong> - What exactly is happening? When? How often?</p>
+<p>3. <strong>Try one simple support</strong> - Extended time, visual aids, or breaking down instructions</p>
+<p>4. <strong>Document briefly</strong> - Date, what you saw, what you tried, how they responded</p>
+<p>5. <strong>Plan your next step</strong> - Will you try more strategies or involve support staff?</p>
+
+<h2>📋 What to do TODAY (First day)</h2>
+
+<p><strong>After noticing a pattern:</strong></p>
+
+<p>1. <strong>Try 2-3 basic supports</strong> from the <a href="../../symptom_checker.html">Symptom Checker</a></p>
+<p>2. <strong>Document your observations</strong> using the <a href="../../../notes/teacher_observation_template.html">Observation Template</a></p>
+<p>3. <strong>Check with colleagues</strong> - Have they noticed similar patterns?</p>
+<p>4. <strong>Review the student's file</strong> - Any previous concerns or supports noted?</p>
+<p>5. <strong>Plan your approach</strong> - What will you try tomorrow?</p>
+
+<h2>📅 What to do THIS WEEK (First week)</h2>
+
+<p><strong>If concerns persist:</strong></p>
+
+<p>1. <strong>Continue trying strategies</strong> - Give interventions time to work (at least 3-5 days)</p>
+<p>2. <strong>Collect data</strong> - Use the <a href="../../progress_monitoring/">Progress Monitoring Tools</a></p>
+<p>3. <strong>Reach out to family</strong> - Use <a href="../../family_communication/">Family Communication Templates</a></p>
+<p>4. <strong>Involve support team</strong> - Counselor, special education teacher, or administrator</p>
+<p>5. <strong>Document everything</strong> - You'll need this for referrals and meetings</p>
+
+<h2>🔍 Quick Symptom Checker</h2>
+
+<p><strong>If you see...</strong> | <strong>Try this first...</strong> | <strong>Then...</strong></p>
+<p>---|---|---</p>
+<p>Slow, inaccurate reading | Pair with audio, reduce decoding tasks | <a href="../../intervention_guide.md#reading">See Reading Strategies</a></p>
+<p>Illegible handwriting | Allow typing, provide guided notes | <a href="../../intervention_guide.md#writing">See Writing Strategies</a></p>
+<p>Math struggles | Use manipulatives, number lines | <a href="../../intervention_guide.md#math">See Math Strategies</a></p>
+<p>Off-task, impulsive | Clear routines, movement breaks | <a href="../../intervention_guide.md#adhd">See ADHD Strategies</a></p>
+<p>"Doesn't listen" | Written directions, preferential seating | <a href="../../intervention_guide.md#apd">See APD Strategies</a></p>
+<p>Social difficulties | Visual schedules, explicit instruction | <a href="../../intervention_guide.md#asd">See ASD Strategies</a></p>
+
+<h2>📞 When to Escalate</h2>
+
+<p><strong>Contact support team immediately if:</strong></p><ul><li>Student is a danger to self or others</li></ul><ul><li>Family requests evaluation</li></ul><ul><li>Multiple teachers have similar concerns</li></ul><ul><li>Strategies aren't working after 2 weeks</li></ul>
+
+<p><strong>Contact support team within a week if:</strong></p><ul><li>Concerns are getting worse</li></ul><ul><li>Student is falling significantly behind</li></ul><ul><li>Family is expressing concerns</li></ul><ul><li>You need additional resources</li></ul>
+
+<h2>🛠️ Essential Tools</h2>
+
+<h3><strong>Daily Use</strong></h3><ul><li><a href="../../symptom_checker.html">Symptom Checker</a> - Quick decision tree</li></ul><ul><li><a href="../../../notes/teacher_observation_template.html">Observation Template</a> - Document concerns</li></ul><ul><li><a href="../../family_communication/">Family Communication Templates</a> - Talk to families</li></ul>
+
+<h3><strong>Weekly Use</strong></h3><ul><li><a href="../../intervention_guide.html">Intervention Guide</a> - Detailed strategies</li></ul><ul><li><a href="../../progress_monitoring/">Progress Monitoring Tools</a> - Track student progress</li></ul><ul><li><a href="../../resources/">Resources</a> - Links and references</li></ul>
+
+<h3><strong>As Needed</strong></h3><ul><li><a href="../../family_communication/">Family Communication Templates</a> - Difficult conversations</li></ul><ul><li><a href="../../../research_report.html">Research Report</a> - Deep dive into conditions</li></ul><ul><li><a href="../../../improvement_roadmap.html">Improvement Roadmap</a> - Future enhancements</li></ul>
+
+<h2>🎯 Success Indicators</h2>
+
+<p><strong>You're on the right track if:</strong></p><ul><li>Student is more engaged in learning</li></ul><ul><li>Work completion is improving</li></ul><ul><li>Behavior is more positive</li></ul><ul><li>Family communication is open and collaborative</li></ul><ul><li>You feel more confident supporting the student</li></ul>
+
+<p><strong>Time to adjust if:</strong></p><ul><li>No improvement after 2 weeks of consistent strategies</li></ul><ul><li>Student is getting frustrated or giving up</li></ul><ul><li>Family is not responding to communication</li></ul><ul><li>You're feeling overwhelmed or unsure</li></ul>
+
+<h2>🆘 Emergency Strategies</h2>
+
+<p><strong>When nothing else is working:</strong></p>
+
+<p>1. <strong>Reduce demands</strong> - Focus on essential skills only</p>
+<p>2. <strong>Increase support</strong> - More one-on-one time, peer helpers</p>
+<p>3. <strong>Change environment</strong> - Different seating, quieter space</p>
+<p>4. <strong>Involve others</strong> - Counselor, special education teacher, administrator</p>
+<p>5. <strong>Document everything</strong> - You'll need this for formal evaluation</p>
+
+<h2>📚 Next Steps</h2>
+
+<p>1. <strong>Bookmark this page</strong> - Your main entry point</p>
+<p>2. <strong>Explore the Symptom Checker</strong> - Learn the decision tree</p>
+<p>3. <strong>Practice with one student</strong> - Try the observation template</p>
+<p>4. <strong>Review family communication templates</strong> - Be ready for conversations</p>
+<p>5. <strong>Check back weekly</strong> - This guide will be updated as we learn</p>
+
+<p>---</p>
+
+<p><em>Remember: You're not alone in this. Use your colleagues, support staff, and these resources. The goal is student success, not perfection.</em></p>
+
+<p><strong>Need help?</strong> Contact [your support team] or refer to the <a href="../../resources/">Resources</a> section.</p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#teacher-quick-start-guide">Teacher Quick Start Guide</a></li>
@@ -114,12 +210,13 @@
     <li><a href="#next-steps">📚 Next Steps</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../teacher_toolkit/quick_reference_card.html" class="nav-prev">← Quick Reference Card</a>
   <a href="../../teacher_toolkit/index.html" class="nav-next">Teacher Toolkit: Supporting Students with Learning Needs →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -127,6 +224,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/main.js"></script>
 </body>
 </html>

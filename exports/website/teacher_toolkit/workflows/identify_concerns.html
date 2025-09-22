@@ -21,12 +21,20 @@
                         <li><a href="../../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section active">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
     <a href="../../../teacher_toolkit/age_grade_considerations.html" class="nav-link ">Age and Grade-Specific Considerations</a>
@@ -55,10 +63,6 @@
       <a href="../../../teacher_toolkit/tools/quick_reference_card.html" class="nav-link ">Quick Reference Card</a>
       <a href="../../../teacher_toolkit/tools/visual_navigation_guide.html" class="nav-link ">Visual Navigation Guide</a>
     </div>
-    <div class="nav-subsection ">
-      <h4 class="nav-subsection-title">Family Communication</h4>
-      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
-    </div>
     <div class="nav-subsection expanded">
       <h4 class="nav-subsection-title">Workflows</h4>
       <a href="../../../teacher_toolkit/progress_monitoring/index.html" class="nav-link ">Progress Monitoring Tools</a>
@@ -66,6 +70,10 @@
       <a href="../../../teacher_toolkit/workflows/identify_concerns.html" class="nav-link active">Identify Concerns Workflow</a>
       <a href="../../../teacher_toolkit/workflows/monitor_progress.html" class="nav-link ">Monitor Progress Workflow</a>
       <a href="../../../teacher_toolkit/workflows/try_strategies.html" class="nav-link ">Try Strategies Workflow</a>
+    </div>
+    <div class="nav-subsection ">
+      <h4 class="nav-subsection-title">Family Communication</h4>
+      <a href="../../../teacher_toolkit/family_communication/family_communication_templates.html" class="nav-link ">Family Communication Templates</a>
     </div>
     <div class="nav-subsection ">
       <h4 class="nav-subsection-title">Resources</h4>
@@ -79,24 +87,149 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../../index.html">Home</a></li>
           <li><a href="../../../teacher_toolkit">Teacher Toolkit</a></li><li><a href="../../../teacher_toolkit/workflows">Workflows</a></li><li><span aria-current="page">Identify Concerns</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Identify Concerns Workflow</h1>
+                        
+                    </header>
                     <h1>Identify Concerns Workflow</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Identify Concerns Workflow</h1></p><p><br><em>Step-by-step process for identifying and documenting student concerns</em></p><p><br>---</p><p><br><h2>🎯 Overview</h2></p><p><br>This workflow helps you systematically identify when a student might need additional support and document your observations effectively.</p><p><br>---</p><p><br><h2>📋 Step 1: Initial Observation</h2></p><p><br><h3><strong>What to Look For</strong></h3></p><p><br>- <strong>Academic patterns</strong> - Consistent struggles in specific areas</p><p><br>- <strong>Behavioral patterns</strong> - Changes in engagement or behavior</p><p><br>- <strong>Social patterns</strong> - Difficulties with peer interactions</p><p><br>- <strong>Emotional patterns</strong> - Signs of frustration or anxiety</p><p><br><h3><strong>Documentation Template</strong></h3></p><p><br><pre><code></p><p><br>Date: ___________</p><p><br>Student: ___________</p><p><br>Observer: ___________</p><p><br><strong>What I observed:</strong></p><p><br>- Specific behavior or concern</p><p><br>- When it happened (time, activity, setting)</p><p><br>- How often it occurs</p><p><br>- What was happening before/during</p><p><br><strong>Context:</strong></p><p><br>- Classroom activity</p><p><br>- Other students present</p><p><br>- Environmental factors</p><p><br>- Student's apparent mood/energy</p><p><br><strong>My initial thoughts:</strong></p><p><br>- Possible causes</p><p><br>- Similar patterns I've noticed</p><p><br>- What might help</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🔍 Step 2: Pattern Recognition</h2></p><p><br><h3><strong>Look for Consistency</strong></h3></p><p><br>- <strong>Same behavior</strong> across different activities?</p><p><br>- <strong>Same time</strong> of day or week?</p><p><br>- <strong>Same triggers</strong> or situations?</p><p><br>- <strong>Getting better or worse</strong> over time?</p><p><br><h3><strong>Compare to Peers</strong></h3></p><p><br>- <strong>Typical</strong> for this age group?</p><p><br>- <strong>Similar</strong> to other students?</p><p><br>- <strong>Significantly different</strong> from peers?</p><p><br>- <strong>Concerning</strong> enough to warrant attention?</p><p><br><h3><strong>Check Multiple Sources</strong></h3></p><p><br>- <strong>Your observations</strong> - What you see in class</p><p><br>- <strong>Other teachers</strong> - Similar concerns?</p><p><br>- <strong>Student work</strong> - Patterns in assignments?</p><p><br>- <strong>Family input</strong> - Concerns at home?</p><p><br>---</p><p><br><h2>📊 Step 3: Data Collection</h2></p><p><br><h3><strong>Academic Data</strong></h3></p><p><br>- <strong>Test scores</strong> and grades</p><p><br>- <strong>Work samples</strong> showing patterns</p><p><br>- <strong>Reading fluency</strong> data</p><p><br>- <strong>Math computation</strong> accuracy</p><p><br>- <strong>Writing samples</strong> and quality</p><p><br><h3><strong>Behavioral Data</strong></h3></p><p><br>- <strong>Frequency</strong> of concerning behaviors</p><p><br>- <strong>Duration</strong> of episodes</p><p><br>- <strong>Triggers</strong> and antecedents</p><p><br>- <strong>Consequences</strong> and responses</p><p><br>- <strong>Time of day</strong> patterns</p><p><br><h3><strong>Social-Emotional Data</strong></h3></p><p><br>- <strong>Peer interactions</strong> and relationships</p><p><br>- <strong>Emotional regulation</strong> abilities</p><p><br>- <strong>Self-advocacy</strong> skills</p><p><br>- <strong>Confidence</strong> and self-esteem</p><p><br>- <strong>Stress indicators</strong></p><p><br>---</p><p><br><h2>🚨 Step 4: Determine Severity</h2></p><p><br><h3><strong>Green Light - Monitor</strong></h3></p><p><br>- <strong>Occasional</strong> concerns</p><p><br>- <strong>Typical</strong> for age/development</p><p><br>- <strong>Responds</strong> to basic supports</p><p><br>- <strong>No impact</strong> on learning or others</p><p><br><h3><strong>Yellow Light - Investigate</strong></h3></p><p><br>- <strong>Regular</strong> concerns</p><p><br>- <strong>Somewhat unusual</strong> for age</p><p><br>- <strong>Partial response</strong> to supports</p><p><br>- <strong>Mild impact</strong> on learning</p><p><br><h3><strong>Red Light - Take Action</strong></h3></p><p><br>- <strong>Frequent</strong> concerns</p><p><br>- <strong>Significantly different</strong> from peers</p><p><br>- <strong>No response</strong> to supports</p><p><br>- <strong>Significant impact</strong> on learning or others</p><p><br>---</p><p><br><h2>📝 Step 5: Documentation</h2></p><p><br><h3><strong>Essential Information</strong></h3></p><p><br>- <strong>Specific behaviors</strong> observed</p><p><br>- <strong>Frequency and duration</strong> of concerns</p><p><br>- <strong>Context</strong> and triggers</p><p><br>- <strong>Strategies tried</strong> and results</p><p><br>- <strong>Impact</strong> on learning and others</p><p><br><h3><strong>Sample Documentation</strong></h3></p><p><br><pre><code></p><p><br><strong>Student:</strong> Alex Johnson</p><p><br><strong>Date Range:</strong> September 15-29, 2024</p><p><br><strong>Observer:</strong> Ms. Smith</p><p><br><strong>Concerns Observed:</strong></p><p><br>- Reading: Reads 20 WPM below grade level, skips words, guesses at unfamiliar words</p><p><br>- Writing: Illegible handwriting, avoids writing tasks, written work below oral ability</p><p><br>- Behavior: Becomes frustrated during reading/writing, says "I can't do this"</p><p><br><strong>Frequency:</strong></p><p><br>- Reading concerns: Daily during independent reading</p><p><br>- Writing concerns: 3-4 times per week during writing tasks</p><p><br>- Behavioral concerns: 2-3 times per week when frustrated</p><p><br><strong>Context:</strong></p><p><br>- Occurs most during independent work time</p><p><br>- Less problematic during group activities</p><p><br>- Student seems more engaged with hands-on activities</p><p><br><strong>Strategies Tried:</strong></p><p><br>- 9/16: Offered audiobook for reading - student more engaged</p><p><br>- 9/20: Allowed typing for writing - student completed more work</p><p><br>- 9/25: Provided graphic organizer - student better organized thoughts</p><p><br><strong>Results:</strong></p><p><br>- Some improvement with accommodations</p><p><br>- Student still struggles with basic reading/writing skills</p><p><br>- Frustration levels decreased with supports</p><p><br><strong>Next Steps:</strong></p><p><br>- Continue with current accommodations</p><p><br>- Consider formal assessment if no further progress</p><p><br>- Involve family in discussion about concerns</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🔄 Step 6: Next Steps</h2></p><p><br><h3><strong>If Monitoring (Green)</strong></h3></p><p><br>- <strong>Continue</strong> current supports</p><p><br>- <strong>Check in</strong> weekly</p><p><br>- <strong>Document</strong> any changes</p><p><br>- <strong>Celebrate</strong> progress</p><p><br><h3><strong>If Investigating (Yellow)</strong></h3></p><p><br>- <strong>Try additional</strong> strategies</p><p><br>- <strong>Collect more</strong> data</p><p><br>- <strong>Consult</strong> with colleagues</p><p><br>- <strong>Involve</strong> support team</p><p><br><h3><strong>If Taking Action (Red)</strong></h3></p><p><br>- <strong>Implement</strong> intensive supports</p><p><br>- <strong>Involve</strong> support team immediately</p><p><br>- <strong>Contact</strong> family</p><p><br>- <strong>Consider</strong> formal evaluation</p><p><br>---</p><p><br><h2>🛠️ Tools and Resources</h2></p><p><br><h3><strong>Observation Tools</strong></h3></p><p><br>- <strong><a href="../../../tools/observation_templates.html">Observation Template</a></strong> - Structured observation form</p><p><br>- <strong><a href="../../../tools/behavior_tracking.html">Behavior Tracking</a></strong> - Frequency and duration tracking</p><p><br>- <strong><a href="../../../tools/academic_monitoring.html">Academic Monitoring</a></strong> - Progress tracking tools</p><p><br><h3><strong>Reference Materials</strong></h3></p><p><br>- <strong><a href="../../../reference/red_flags_vs_typical_development.html">Red Flags vs. Typical Development</a></strong> - When to worry</p><p><br>- <strong><a href="../../../reference/age_grade_considerations.html">Age/Grade Considerations</a></strong> - Developmental expectations</p><p><br>- <strong><a href="../../../symptom_checker.html">Symptom Checker</a></strong> - Interactive decision tree</p><p><br><h3><strong>Support Resources</strong></h3></p><p><br>- <strong><a href="../../../tools/family_communication_templates.html">Family Communication</a></strong> - Talking to families</p><p><br>- <strong><a href="../../../tools/team_collaboration.html">Team Collaboration</a></strong> - Working with support staff</p><p><br>- <strong><a href="../../../tools/referral_process.html">Referral Process</a></strong> - Formal evaluation procedures</p><p><br>---</p><p><br><h2>💡 Best Practices</h2></p><p><br><h3><strong>Do This</strong></h3></p><p><br>- <strong>Observe objectively</strong> - Record what you see, not what you think</p><p><br>- <strong>Collect data</strong> over time - One observation isn't enough</p><p><br>- <strong>Document everything</strong> - You'll need it for referrals</p><p><br>- <strong>Try strategies</strong> before escalating</p><p><br>- <strong>Involve others</strong> - Get multiple perspectives</p><p><br><h3><strong>Don't Do This</strong></h3></p><p><br>- <strong>Jump to conclusions</strong> - Gather data first</p><p><br>- <strong>Compare unfairly</strong> - Consider individual circumstances</p><p><br>- <strong>Ignore small concerns</strong> - They can become big problems</p><p><br>- <strong>Work in isolation</strong> - Use your team</p><p><br>- <strong>Delay action</strong> - When in doubt, ask for help</p><p><br>---</p><p><br><h2>🚨 Red Flags - When to Escalate Immediately</h2></p><p><br><h3><strong>Safety Concerns</strong></h3></p><p><br>- Student is a danger to self or others</p><p><br>- Severe behavioral outbursts</p><p><br>- Self-injurious behavior</p><p><br>- Threats of violence</p><p><br><h3><strong>Academic Concerns</strong></h3></p><p><br>- Reading 2+ years below grade level</p><p><br>- Can't do basic math facts</p><p><br>- Writing illegible despite practice</p><p><br>- Complete academic disengagement</p><p><br><h3><strong>Social-Emotional Concerns</strong></h3></p><p><br>- Complete social withdrawal</p><p><br>- Extreme anxiety about school</p><p><br>- Depression or suicidal ideation</p><p><br>- Family crisis affecting student</p><p><br>---</p><p><br><em>Remember: The goal is to help students succeed, not to label or diagnose. Focus on what you can do to support the student's learning and well-being.</em></p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Step-by-step process for identifying and documenting student concerns</em></p>
+
+<p>---</p>
+
+<h2>🎯 Overview</h2>
+
+<p>This workflow helps you systematically identify when a student might need additional support and document your observations effectively.</p>
+
+<p>---</p>
+
+<h2>📋 Step 1: Initial Observation</h2>
+
+<h3><strong>What to Look For</strong></h3><ul><li><strong>Academic patterns</strong> - Consistent struggles in specific areas</li></ul><ul><li><strong>Behavioral patterns</strong> - Changes in engagement or behavior</li></ul><ul><li><strong>Social patterns</strong> - Difficulties with peer interactions</li></ul><ul><li><strong>Emotional patterns</strong> - Signs of frustration or anxiety</li></ul>
+
+<h3><strong>Documentation Template</strong></h3>
+<pre><code>
+<p>Date: ___________</p>
+<p>Student: ___________</p>
+<p>Observer: ___________</p>
+
+<p><strong>What I observed:</strong></p><ul><li>Specific behavior or concern</li></ul><ul><li>When it happened (time, activity, setting)</li></ul><ul><li>How often it occurs</li></ul><ul><li>What was happening before/during</li></ul>
+
+<p><strong>Context:</strong></p><ul><li>Classroom activity</li></ul><ul><li>Other students present</li></ul><ul><li>Environmental factors</li></ul><ul><li>Student's apparent mood/energy</li></ul>
+
+<p><strong>My initial thoughts:</strong></p><ul><li>Possible causes</li></ul><ul><li>Similar patterns I've noticed</li></ul><ul><li>What might help</li></ul>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🔍 Step 2: Pattern Recognition</h2>
+
+<h3><strong>Look for Consistency</strong></h3><ul><li><strong>Same behavior</strong> across different activities?</li></ul><ul><li><strong>Same time</strong> of day or week?</li></ul><ul><li><strong>Same triggers</strong> or situations?</li></ul><ul><li><strong>Getting better or worse</strong> over time?</li></ul>
+
+<h3><strong>Compare to Peers</strong></h3><ul><li><strong>Typical</strong> for this age group?</li></ul><ul><li><strong>Similar</strong> to other students?</li></ul><ul><li><strong>Significantly different</strong> from peers?</li></ul><ul><li><strong>Concerning</strong> enough to warrant attention?</li></ul>
+
+<h3><strong>Check Multiple Sources</strong></h3><ul><li><strong>Your observations</strong> - What you see in class</li></ul><ul><li><strong>Other teachers</strong> - Similar concerns?</li></ul><ul><li><strong>Student work</strong> - Patterns in assignments?</li></ul><ul><li><strong>Family input</strong> - Concerns at home?</li></ul>
+
+<p>---</p>
+
+<h2>📊 Step 3: Data Collection</h2>
+
+<h3><strong>Academic Data</strong></h3><ul><li><strong>Test scores</strong> and grades</li></ul><ul><li><strong>Work samples</strong> showing patterns</li></ul><ul><li><strong>Reading fluency</strong> data</li></ul><ul><li><strong>Math computation</strong> accuracy</li></ul><ul><li><strong>Writing samples</strong> and quality</li></ul>
+
+<h3><strong>Behavioral Data</strong></h3><ul><li><strong>Frequency</strong> of concerning behaviors</li></ul><ul><li><strong>Duration</strong> of episodes</li></ul><ul><li><strong>Triggers</strong> and antecedents</li></ul><ul><li><strong>Consequences</strong> and responses</li></ul><ul><li><strong>Time of day</strong> patterns</li></ul>
+
+<h3><strong>Social-Emotional Data</strong></h3><ul><li><strong>Peer interactions</strong> and relationships</li></ul><ul><li><strong>Emotional regulation</strong> abilities</li></ul><ul><li><strong>Self-advocacy</strong> skills</li></ul><ul><li><strong>Confidence</strong> and self-esteem</li></ul><ul><li><strong>Stress indicators</strong></li></ul>
+
+<p>---</p>
+
+<h2>🚨 Step 4: Determine Severity</h2>
+
+<h3><strong>Green Light - Monitor</strong></h3><ul><li><strong>Occasional</strong> concerns</li></ul><ul><li><strong>Typical</strong> for age/development</li></ul><ul><li><strong>Responds</strong> to basic supports</li></ul><ul><li><strong>No impact</strong> on learning or others</li></ul>
+
+<h3><strong>Yellow Light - Investigate</strong></h3><ul><li><strong>Regular</strong> concerns</li></ul><ul><li><strong>Somewhat unusual</strong> for age</li></ul><ul><li><strong>Partial response</strong> to supports</li></ul><ul><li><strong>Mild impact</strong> on learning</li></ul>
+
+<h3><strong>Red Light - Take Action</strong></h3><ul><li><strong>Frequent</strong> concerns</li></ul><ul><li><strong>Significantly different</strong> from peers</li></ul><ul><li><strong>No response</strong> to supports</li></ul><ul><li><strong>Significant impact</strong> on learning or others</li></ul>
+
+<p>---</p>
+
+<h2>📝 Step 5: Documentation</h2>
+
+<h3><strong>Essential Information</strong></h3><ul><li><strong>Specific behaviors</strong> observed</li></ul><ul><li><strong>Frequency and duration</strong> of concerns</li></ul><ul><li><strong>Context</strong> and triggers</li></ul><ul><li><strong>Strategies tried</strong> and results</li></ul><ul><li><strong>Impact</strong> on learning and others</li></ul>
+
+<h3><strong>Sample Documentation</strong></h3>
+<pre><code>
+<p><strong>Student:</strong> Alex Johnson</p>
+<p><strong>Date Range:</strong> September 15-29, 2024</p>
+<p><strong>Observer:</strong> Ms. Smith</p>
+
+<p><strong>Concerns Observed:</strong></p><ul><li>Reading: Reads 20 WPM below grade level, skips words, guesses at unfamiliar words</li></ul><ul><li>Writing: Illegible handwriting, avoids writing tasks, written work below oral ability</li></ul><ul><li>Behavior: Becomes frustrated during reading/writing, says "I can't do this"</li></ul>
+
+<p><strong>Frequency:</strong></p><ul><li>Reading concerns: Daily during independent reading</li></ul><ul><li>Writing concerns: 3-4 times per week during writing tasks</li></ul><ul><li>Behavioral concerns: 2-3 times per week when frustrated</li></ul>
+
+<p><strong>Context:</strong></p><ul><li>Occurs most during independent work time</li></ul><ul><li>Less problematic during group activities</li></ul><ul><li>Student seems more engaged with hands-on activities</li></ul>
+
+<p><strong>Strategies Tried:</strong></p><ul><li>9/16: Offered audiobook for reading - student more engaged</li></ul><ul><li>9/20: Allowed typing for writing - student completed more work</li></ul><ul><li>9/25: Provided graphic organizer - student better organized thoughts</li></ul>
+
+<p><strong>Results:</strong></p><ul><li>Some improvement with accommodations</li></ul><ul><li>Student still struggles with basic reading/writing skills</li></ul><ul><li>Frustration levels decreased with supports</li></ul>
+
+<p><strong>Next Steps:</strong></p><ul><li>Continue with current accommodations</li></ul><ul><li>Consider formal assessment if no further progress</li></ul><ul><li>Involve family in discussion about concerns</li></ul>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🔄 Step 6: Next Steps</h2>
+
+<h3><strong>If Monitoring (Green)</strong></h3><ul><li><strong>Continue</strong> current supports</li></ul><ul><li><strong>Check in</strong> weekly</li></ul><ul><li><strong>Document</strong> any changes</li></ul><ul><li><strong>Celebrate</strong> progress</li></ul>
+
+<h3><strong>If Investigating (Yellow)</strong></h3><ul><li><strong>Try additional</strong> strategies</li></ul><ul><li><strong>Collect more</strong> data</li></ul><ul><li><strong>Consult</strong> with colleagues</li></ul><ul><li><strong>Involve</strong> support team</li></ul>
+
+<h3><strong>If Taking Action (Red)</strong></h3><ul><li><strong>Implement</strong> intensive supports</li></ul><ul><li><strong>Involve</strong> support team immediately</li></ul><ul><li><strong>Contact</strong> family</li></ul><ul><li><strong>Consider</strong> formal evaluation</li></ul>
+
+<p>---</p>
+
+<h2>🛠️ Tools and Resources</h2>
+
+<h3><strong>Observation Tools</strong></h3><ul><li><strong><a href="../../../tools/observation_templates.html">Observation Template</a></strong> - Structured observation form</li></ul><ul><li><strong><a href="../../../tools/behavior_tracking.html">Behavior Tracking</a></strong> - Frequency and duration tracking</li></ul><ul><li><strong><a href="../../../tools/academic_monitoring.html">Academic Monitoring</a></strong> - Progress tracking tools</li></ul>
+
+<h3><strong>Reference Materials</strong></h3><ul><li><strong><a href="../../../reference/red_flags_vs_typical_development.html">Red Flags vs. Typical Development</a></strong> - When to worry</li></ul><ul><li><strong><a href="../../../reference/age_grade_considerations.html">Age/Grade Considerations</a></strong> - Developmental expectations</li></ul><ul><li><strong><a href="../../../symptom_checker.html">Symptom Checker</a></strong> - Interactive decision tree</li></ul>
+
+<h3><strong>Support Resources</strong></h3><ul><li><strong><a href="../../../tools/family_communication_templates.html">Family Communication</a></strong> - Talking to families</li></ul><ul><li><strong><a href="../../../tools/team_collaboration.html">Team Collaboration</a></strong> - Working with support staff</li></ul><ul><li><strong><a href="../../../tools/referral_process.html">Referral Process</a></strong> - Formal evaluation procedures</li></ul>
+
+<p>---</p>
+
+<h2>💡 Best Practices</h2>
+
+<h3><strong>Do This</strong></h3><ul><li><strong>Observe objectively</strong> - Record what you see, not what you think</li></ul><ul><li><strong>Collect data</strong> over time - One observation isn't enough</li></ul><ul><li><strong>Document everything</strong> - You'll need it for referrals</li></ul><ul><li><strong>Try strategies</strong> before escalating</li></ul><ul><li><strong>Involve others</strong> - Get multiple perspectives</li></ul>
+
+<h3><strong>Don't Do This</strong></h3><ul><li><strong>Jump to conclusions</strong> - Gather data first</li></ul><ul><li><strong>Compare unfairly</strong> - Consider individual circumstances</li></ul><ul><li><strong>Ignore small concerns</strong> - They can become big problems</li></ul><ul><li><strong>Work in isolation</strong> - Use your team</li></ul><ul><li><strong>Delay action</strong> - When in doubt, ask for help</li></ul>
+
+<p>---</p>
+
+<h2>🚨 Red Flags - When to Escalate Immediately</h2>
+
+<h3><strong>Safety Concerns</strong></h3><ul><li>Student is a danger to self or others</li></ul><ul><li>Severe behavioral outbursts</li></ul><ul><li>Self-injurious behavior</li></ul><ul><li>Threats of violence</li></ul>
+
+<h3><strong>Academic Concerns</strong></h3><ul><li>Reading 2+ years below grade level</li></ul><ul><li>Can't do basic math facts</li></ul><ul><li>Writing illegible despite practice</li></ul><ul><li>Complete academic disengagement</li></ul>
+
+<h3><strong>Social-Emotional Concerns</strong></h3><ul><li>Complete social withdrawal</li></ul><ul><li>Extreme anxiety about school</li></ul><ul><li>Depression or suicidal ideation</li></ul><ul><li>Family crisis affecting student</li></ul>
+
+<p>---</p>
+
+<p><em>Remember: The goal is to help students succeed, not to label or diagnose. Focus on what you can do to support the student's learning and well-being.</em></p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#identify-concerns-workflow">Identify Concerns Workflow</a></li>
@@ -136,12 +269,13 @@
         <li><a href="#social-emotional-concerns">Social-Emotional Concerns</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../../teacher_toolkit/workflows/communicate_families.html" class="nav-prev">← Communicate with Families Workflow</a>
   <a href="../../../teacher_toolkit/workflows/monitor_progress.html" class="nav-next">Monitor Progress Workflow →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -149,6 +283,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../../assets/js/search.js"></script>
     <script src="../../../assets/js/main.js"></script>
 </body>
 </html>

@@ -21,12 +21,20 @@
                         <li><a href="../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section ">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
   </div>
@@ -57,24 +65,252 @@
     </div>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../index.html">Home</a></li>
           <li><a href="../../roadmaps">Roadmaps</a></li><li><span aria-current="page">Export Plan</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Export Plan: Learning Disability Support Toolkits</h1>
+                        
+                    </header>
                     <h1>Export Plan: Learning Disability Support Toolkits</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Export Plan: Learning Disability Support Toolkits</h1></p><p><br><em>Comprehensive plan for exporting teacher and grant toolkits into multiple shareable formats</em></p><p><br>---</p><p><br><h2>🎯 <strong>Project Overview</strong></h2></p><p><br><strong>Goal:</strong> Export the Teacher Toolkit and Grant Toolkit as independent artifacts into multiple formats for different audiences and use cases.</p><p><br><strong>Target Audiences:</strong></p><p><br>- Teachers and educators</p><p><br>- School administrators</p><p><br>- Grant writers and fundraisers</p><p><br>- School district staff</p><p><br>- Community organizations</p><p><br>---</p><p><br><h2>📋 <strong>Export Formats</strong></h2></p><p><br><h3><strong>1. Static Website (ZIP Package)</strong></h3></p><p><br><strong>Target:</strong> School CMS, web hosting, offline use</p><p><br><strong>Audience:</strong> All users, especially those who prefer digital access</p><p><br>#### <strong>Features:</strong></p><p><br>- <strong>Two independent websites</strong> - Teacher Toolkit and Grant Toolkit</p><p><br>- Complete HTML website with all content for each toolkit</p><p><br>- Internal linking within each toolkit</p><p><br>- Mobile-responsive design</p><p><br>- Search functionality (client-side)</p><p><br>- Clean navigation and table of contents</p><p><br>- Print-friendly CSS for individual pages</p><p><br>#### <strong>Technical Approach:</strong></p><p><br>- Convert all markdown to HTML for each toolkit</p><p><br>- Create unified CSS styling (shared between toolkits)</p><p><br>- Build independent navigation systems</p><p><br>- Test all internal links within each toolkit</p><p><br>- Package each toolkit as separate ZIP file</p><p><br>#### <strong>Advantages:</strong></p><p><br>- ✅ All internal links work perfectly</p><p><br>- ✅ Professional appearance</p><p><br>- ✅ Easy to share and deploy</p><p><br>- ✅ Works offline after download</p><p><br>- ✅ Can be hosted anywhere</p><p><br>---</p><p><br><h3><strong>2. Individual PDF Documents</strong></h3></p><p><br><strong>Target:</strong> Formal sharing, printing, email distribution</p><p><br><strong>Audience:</strong> Administrators, formal presentations, offline use</p><p><br>#### <strong>Features:</strong></p><p><br>- <strong>Two independent PDF collections</strong> - Teacher Toolkit and Grant Toolkit</p><p><br>- Separate PDFs for each major document within each toolkit</p><p><br>- Cross-references instead of clickable links</p><p><br>- Table of contents for each PDF</p><p><br>- Consistent formatting across all PDFs</p><p><br>- Print-optimized layouts</p><p><br>#### <strong>Link Handling:</strong></p><p><br>- Internal links → Convert to "See [Document Name] on page X"</p><p><br>- External links → Keep as clickable URLs</p><p><br>- Cross-references → Add page numbers where possible</p><p><br>- Navigation → Include document index</p><p><br>#### <strong>Advantages:</strong></p><p><br>- ✅ Professional, printable format</p><p><br>- ✅ Works on any device</p><p><br>- ✅ Easy to email or share</p><p><br>- ✅ Can be printed and distributed</p><p><br>- ✅ Standard format everyone can open</p><p><br>---</p><p><br><h3><strong>3. Google Docs Format (ZIP of .doc files)</strong></h3></p><p><br><strong>Target:</strong> Collaborative editing, Google Workspace integration</p><p><br><strong>Audience:</strong> Teams, collaborative work, version control</p><p><br>#### <strong>Features:</strong></p><p><br>- <strong>Two independent document collections</strong> - Teacher Toolkit and Grant Toolkit</p><p><br>- Word documents (.docx format) for each toolkit</p><p><br>- Preserved formatting and styling</p><p><br>- Internal cross-references as text</p><p><br>- Table of contents and navigation</p><p><br>- Ready for Google Docs import</p><p><br>#### <strong>Link Handling:</strong></p><p><br>- Internal links → Convert to "See [Document Name]"</p><p><br>- External links → Keep as clickable URLs</p><p><br>- Cross-references → Add document names</p><p><br>- Navigation → Include document index</p><p><br>#### <strong>Advantages:</strong></p><p><br>- ✅ Easy to import to Google Docs</p><p><br>- ✅ Collaborative editing</p><p><br>- ✅ Version control</p><p><br>- ✅ Easy to share and comment</p><p><br>- ✅ Familiar format for most users</p><p><br>---</p><p><br><h2>🚀 <strong>Implementation Phases</strong></h2></p><p><br><h3><strong>Phase 1: Static Website (ZIP Package)</strong> ✅ COMPLETED</h3></p><p><br><strong>Timeline:<em>* 2-3 hours | *</em>Priority:</strong> High (most versatile)</p><p><br>#### <strong>Tasks Completed:</strong></p><p><br>1. ✅ <strong>Convert all markdown to HTML</strong> - Teacher Toolkit and Grant Toolkit</p><p><br>2. ✅ <strong>Create unified CSS styling</strong> - Professional, responsive design</p><p><br>3. ✅ <strong>Build independent navigation systems</strong> - Clear navigation for each toolkit</p><p><br>4. ✅ <strong>Handle internal linking</strong> - All links work within each toolkit</p><p><br>5. ✅ <strong>Test and package</strong> - Both toolkits packaged as separate ZIP files</p><p><br>#### <strong>Deliverables Created:</strong></p><p><br>- ✅ <code>teacher-toolkit-website.zip</code> - Complete teacher toolkit website</p><p><br>- ✅ <code>grant-toolkit-website.zip</code> - Complete grant toolkit website</p><p><br>- ✅ <code>deployment-instructions.md</code> - How to deploy each toolkit</p><p><br>- ✅ <code>browser-compatibility.md</code> - Supported browsers</p><p><br>---</p><p><br><h3><strong>Phase 2: PDF Documents</strong> 🚧 PENDING</h3></p><p><br><strong>Timeline:<em>* 2-3 hours | *</em>Priority:</strong> Medium (specific use cases)</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Convert HTML to PDF format</strong></p><p><br>   - Use HTML-to-PDF conversion</p><p><br>   - Maintain formatting and layout</p><p><br>   - Optimize for printing</p><p><br>2. <strong>Handle internal links</strong></p><p><br>   - Convert to cross-references</p><p><br>   - Add page numbers where possible</p><p><br>   - Create document index</p><p><br>3. <strong>Create individual PDFs</strong></p><p><br>   - Teacher Toolkit PDFs</p><p><br>   - Grant Toolkit PDFs</p><p><br>   - Combined index PDF</p><p><br>4. <strong>Optimize for printing</strong></p><p><br>   - Adjust margins and spacing</p><p><br>   - Ensure readability</p><p><br>   - Test print quality</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>teacher-toolkit-complete.pdf</code> - Complete teacher toolkit</p><p><br>- <code>grant-toolkit-complete.pdf</code> - Complete grant toolkit</p><p><br>- <code>teacher-toolkit-individual/</code> - Separate PDFs for each teacher document</p><p><br>- <code>grant-toolkit-individual/</code> - Separate PDFs for each grant document</p><p><br>---</p><p><br><h3><strong>Phase 3: Google Docs Format</strong> 🚧 PENDING</h3></p><p><br><strong>Timeline:<em>* 1-2 hours | *</em>Priority:</strong> Low (collaborative use)</p><p><br>#### <strong>Tasks:</strong></p><p><br>1. <strong>Convert to Word format</strong></p><p><br>   - Use HTML-to-Word conversion</p><p><br>   - Preserve formatting and structure</p><p><br>   - Optimize for Google Docs</p><p><br>2. <strong>Handle internal links</strong></p><p><br>   - Convert to text references</p><p><br>   - Maintain document structure</p><p><br>   - Create navigation</p><p><br>3. <strong>Create import guide</strong></p><p><br>   - Instructions for Google Docs import</p><p><br>   - Collaboration setup</p><p><br>   - Version control guidance</p><p><br>4. <strong>Package and test</strong></p><p><br>   - Create ZIP of .doc files</p><p><br>   - Test import process</p><p><br>   - Verify functionality</p><p><br>#### <strong>Deliverables:</strong></p><p><br>- <code>teacher-toolkit-google-docs.zip</code> - Teacher toolkit Word documents</p><p><br>- <code>grant-toolkit-google-docs.zip</code> - Grant toolkit Word documents</p><p><br>- <code>google-docs-import-guide.md</code> - Import instructions</p><p><br>- <code>collaboration-setup.md</code> - Team setup guide</p><p><br>---</p><p><br><h2>📁 <strong>File Structure</strong></h2></p><p><br><h3><strong>Static Website Structure:</strong></h3></p><p><br><pre><code></p><p><br>teacher-toolkit-website/</p><p><br>├── index.html</p><p><br>├── css/</p><p><br>│   ├── main.css</p><p><br>│   ├── print.css</p><p><br>│   └── mobile.css</p><p><br>├── js/</p><p><br>│   └── search.js</p><p><br>├── quick-start.html</p><p><br>├── workflows/</p><p><br>├── strategies/</p><p><br>├── tools/</p><p><br>└── assets/</p><p><br>    ├── images/</p><p><br>    └── fonts/</p><p><br>grant-toolkit-website/</p><p><br>├── index.html</p><p><br>├── css/</p><p><br>│   ├── main.css</p><p><br>│   ├── print.css</p><p><br>│   └── mobile.css</p><p><br>├── js/</p><p><br>│   └── search.js</p><p><br>├── quick-start.html</p><p><br>├── templates/</p><p><br>├── samples/</p><p><br>└── assets/</p><p><br>    ├── images/</p><p><br>    └── fonts/</p><p><br></code></pre></p><p><br><h3><strong>PDF Structure:</strong></h3></p><p><br><pre><code></p><p><br>teacher-toolkit-pdfs/</p><p><br>├── teacher-toolkit-complete.pdf</p><p><br>└── individual-documents/</p><p><br>    ├── workflows/</p><p><br>    ├── strategies/</p><p><br>    └── tools/</p><p><br>grant-toolkit-pdfs/</p><p><br>├── grant-toolkit-complete.pdf</p><p><br>└── individual-documents/</p><p><br>    ├── templates/</p><p><br>    └── samples/</p><p><br></code></pre></p><p><br><h3><strong>Google Docs Structure:</strong></h3></p><p><br><pre><code></p><p><br>teacher-toolkit-google-docs/</p><p><br>├── workflows/</p><p><br>├── strategies/</p><p><br>├── tools/</p><p><br>└── import-guide.md</p><p><br>grant-toolkit-google-docs/</p><p><br>├── templates/</p><p><br>├── samples/</p><p><br>└── import-guide.md</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🎨 <strong>Design Specifications</strong></h2></p><p><br><h3><strong>Color Scheme:</strong></h3></p><p><br>- <strong>Primary:</strong> Professional blue (#2c3e50)</p><p><br>- <strong>Secondary:</strong> Learning green (#27ae60)</p><p><br>- <strong>Accent:</strong> Grant gold (#f39c12)</p><p><br>- <strong>Text:</strong> Dark gray (#2c3e50)</p><p><br>- <strong>Background:</strong> Light gray (#f8f9fa)</p><p><br><h3><strong>Typography:</strong></h3></p><p><br>- <strong>Headings:</strong> Inter, sans-serif</p><p><br>- <strong>Body:</strong> Source Sans Pro, sans-serif</p><p><br>- <strong>Code:</strong> Fira Code, monospace</p><p><br><h3><strong>Layout:</strong></h3></p><p><br>- <strong>Max width:</strong> 1200px</p><p><br>- <strong>Sidebar:</strong> 250px (desktop)</p><p><br>- <strong>Content:</strong> Responsive grid</p><p><br>- <strong>Mobile:</strong> Single column</p><p><br>---</p><p><br><h2>🔧 <strong>Technical Requirements</strong></h2></p><p><br><h3><strong>Static Website:</strong></h3></p><p><br>- HTML5 semantic markup</p><p><br>- CSS3 with flexbox/grid</p><p><br>- Vanilla JavaScript (no dependencies)</p><p><br>- Responsive design (mobile-first)</p><p><br>- Print-friendly styles</p><p><br>- Cross-browser compatibility</p><p><br><h3><strong>PDF Export:</strong></h3></p><p><br>- High-quality rendering</p><p><br>- Preserved formatting</p><p><br>- Clickable external links</p><p><br>- Table of contents</p><p><br>- Page numbers</p><p><br>- Print optimization</p><p><br><h3><strong>Google Docs:</strong></h3></p><p><br>- .docx format</p><p><br>- Preserved formatting</p><p><br>- Compatible with Google Docs</p><p><br>- Maintained structure</p><p><br>- Cross-references</p><p><br>---</p><p><br><h2>📊 <strong>Success Metrics</strong></h2></p><p><br><h3><strong>Static Website:</strong></h3></p><p><br>- ✅ All internal links work</p><p><br>- ✅ Mobile-responsive design</p><p><br>- ✅ Fast loading (< 3 seconds)</p><p><br>- ✅ Search functionality works</p><p><br>- ✅ Print-friendly pages</p><p><br><h3><strong>PDF Export:</strong></h3></p><p><br>- ✅ Professional appearance</p><p><br>- ✅ All content preserved</p><p><br>- ✅ Cross-references accurate</p><p><br>- ✅ Print quality excellent</p><p><br>- ✅ File sizes reasonable</p><p><br><h3><strong>Google Docs:</strong></h3></p><p><br>- ✅ Easy import process</p><p><br>- ✅ Formatting preserved</p><p><br>- ✅ Collaboration ready</p><p><br>- ✅ Version control works</p><p><br>- ✅ Sharing functional</p><p><br>---</p><p><br><h2>🚀 <strong>Getting Started</strong></h2></p><p><br><h3><strong>Phase 1: Static Website</strong> ✅ COMPLETED</h3></p><p><br><strong>Status:</strong> Complete and ready for deployment</p><p><br><strong>Next Steps:</strong> Deploy to school CMS or share ZIP files</p><p><br><h3><strong>Phase 2: PDF Documents</strong> 🚧 READY TO START</h3></p><p><br><strong>Status:</strong> Pending Phase 1 completion</p><p><br><strong>Dependencies:</strong> Static website HTML</p><p><br><h3><strong>Phase 3: Google Docs Format</strong> 🚧 READY TO START</h3></p><p><br><strong>Status:</strong> Pending Phase 1 completion</p><p><br><strong>Dependencies:</strong> Static website HTML</p><p><br>---</p><p><br><h2>📝 <strong>Notes and Considerations</strong></h2></p><p><br><h3><strong>Link Handling Strategy:</strong></h3></p><p><br>- <strong>Internal links:</strong> Convert to relative paths (HTML) or cross-references (PDF/DOC)</p><p><br>- <strong>External links:</strong> Keep as clickable URLs in all formats</p><p><br>- <strong>Navigation:</strong> Maintain consistent structure across formats</p><p><br><h3><strong>Content Updates:</strong></h3></p><p><br>- <strong>Source of truth:</strong> Markdown files in repository</p><p><br>- <strong>Export process:</strong> Automated conversion from markdown</p><p><br>- <strong>Version control:</strong> Git-based with export timestamps</p><p><br><h3><strong>Quality Assurance:</strong></h3></p><p><br>- <strong>Testing:</strong> Cross-browser, cross-device testing</p><p><br>- <strong>Validation:</strong> HTML/CSS validation</p><p><br>- <strong>Accessibility:</strong> WCAG 2.1 compliance</p><p><br>- <strong>Performance:</strong> Page speed optimization</p><p><br>---</p><p><br><em>This export plan provides a comprehensive roadmap for creating multiple shareable formats of the learning disability support toolkits. Each format serves different use cases and audiences while maintaining the quality and functionality of the original content.</em></p><p><br><strong>Last Updated:</strong> December 2024  </p><p><br><strong>Next Review:</strong> As needed for additional formats</p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Comprehensive plan for exporting teacher and grant toolkits into multiple shareable formats</em></p>
+
+<p>---</p>
+
+<h2>🎯 <strong>Project Overview</strong></h2>
+
+<p><strong>Goal:</strong> Export the Teacher Toolkit and Grant Toolkit as independent artifacts into multiple formats for different audiences and use cases.</p>
+
+<p><strong>Target Audiences:</strong></p><ul><li>Teachers and educators</li></ul><ul><li>School administrators</li></ul><ul><li>Grant writers and fundraisers</li></ul><ul><li>School district staff</li></ul><ul><li>Community organizations</li></ul>
+
+<p>---</p>
+
+<h2>📋 <strong>Export Formats</strong></h2>
+
+<h3><strong>1. Static Website (ZIP Package)</strong></h3>
+<p><strong>Target:</strong> School CMS, web hosting, offline use</p>
+<p><strong>Audience:</strong> All users, especially those who prefer digital access</p>
+
+<p>#### <strong>Features:</strong></p><ul><li><strong>Two independent websites</strong> - Teacher Toolkit and Grant Toolkit</li></ul><ul><li>Complete HTML website with all content for each toolkit</li></ul><ul><li>Internal linking within each toolkit</li></ul><ul><li>Mobile-responsive design</li></ul><ul><li>Search functionality (client-side)</li></ul><ul><li>Clean navigation and table of contents</li></ul><ul><li>Print-friendly CSS for individual pages</li></ul>
+
+<p>#### <strong>Technical Approach:</strong></p><ul><li>Convert all markdown to HTML for each toolkit</li></ul><ul><li>Create unified CSS styling (shared between toolkits)</li></ul><ul><li>Build independent navigation systems</li></ul><ul><li>Test all internal links within each toolkit</li></ul><ul><li>Package each toolkit as separate ZIP file</li></ul>
+
+<p>#### <strong>Advantages:</strong></p><ul><li>✅ All internal links work perfectly</li></ul><ul><li>✅ Professional appearance</li></ul><ul><li>✅ Easy to share and deploy</li></ul><ul><li>✅ Works offline after download</li></ul><ul><li>✅ Can be hosted anywhere</li></ul>
+
+<p>---</p>
+
+<h3><strong>2. Individual PDF Documents</strong></h3>
+<p><strong>Target:</strong> Formal sharing, printing, email distribution</p>
+<p><strong>Audience:</strong> Administrators, formal presentations, offline use</p>
+
+<p>#### <strong>Features:</strong></p><ul><li><strong>Two independent PDF collections</strong> - Teacher Toolkit and Grant Toolkit</li></ul><ul><li>Separate PDFs for each major document within each toolkit</li></ul><ul><li>Cross-references instead of clickable links</li></ul><ul><li>Table of contents for each PDF</li></ul><ul><li>Consistent formatting across all PDFs</li></ul><ul><li>Print-optimized layouts</li></ul>
+
+<p>#### <strong>Link Handling:</strong></p><ul><li>Internal links → Convert to "See [Document Name] on page X"</li></ul><ul><li>External links → Keep as clickable URLs</li></ul><ul><li>Cross-references → Add page numbers where possible</li></ul><ul><li>Navigation → Include document index</li></ul>
+
+<p>#### <strong>Advantages:</strong></p><ul><li>✅ Professional, printable format</li></ul><ul><li>✅ Works on any device</li></ul><ul><li>✅ Easy to email or share</li></ul><ul><li>✅ Can be printed and distributed</li></ul><ul><li>✅ Standard format everyone can open</li></ul>
+
+<p>---</p>
+
+<h3><strong>3. Google Docs Format (ZIP of .doc files)</strong></h3>
+<p><strong>Target:</strong> Collaborative editing, Google Workspace integration</p>
+<p><strong>Audience:</strong> Teams, collaborative work, version control</p>
+
+<p>#### <strong>Features:</strong></p><ul><li><strong>Two independent document collections</strong> - Teacher Toolkit and Grant Toolkit</li></ul><ul><li>Word documents (.docx format) for each toolkit</li></ul><ul><li>Preserved formatting and styling</li></ul><ul><li>Internal cross-references as text</li></ul><ul><li>Table of contents and navigation</li></ul><ul><li>Ready for Google Docs import</li></ul>
+
+<p>#### <strong>Link Handling:</strong></p><ul><li>Internal links → Convert to "See [Document Name]"</li></ul><ul><li>External links → Keep as clickable URLs</li></ul><ul><li>Cross-references → Add document names</li></ul><ul><li>Navigation → Include document index</li></ul>
+
+<p>#### <strong>Advantages:</strong></p><ul><li>✅ Easy to import to Google Docs</li></ul><ul><li>✅ Collaborative editing</li></ul><ul><li>✅ Version control</li></ul><ul><li>✅ Easy to share and comment</li></ul><ul><li>✅ Familiar format for most users</li></ul>
+
+<p>---</p>
+
+<h2>🚀 <strong>Implementation Phases</strong></h2>
+
+<h3><strong>Phase 1: Static Website (ZIP Package)</strong> ✅ COMPLETED</h3>
+<p><strong>Timeline:</strong> 2-3 hours | <strong>Priority:</strong> High (most versatile)</p>
+
+<p>#### <strong>Tasks Completed:</strong></p>
+<p>1. ✅ <strong>Convert all markdown to HTML</strong> - Teacher Toolkit and Grant Toolkit</p>
+<p>2. ✅ <strong>Create unified CSS styling</strong> - Professional, responsive design</p>
+<p>3. ✅ <strong>Build independent navigation systems</strong> - Clear navigation for each toolkit</p>
+<p>4. ✅ <strong>Handle internal linking</strong> - All links work within each toolkit</p>
+<p>5. ✅ <strong>Test and package</strong> - Both toolkits packaged as separate ZIP files</p>
+
+<p>#### <strong>Deliverables Created:</strong></p><ul><li>✅ <code>teacher-toolkit-website.zip</code> - Complete teacher toolkit website</li></ul><ul><li>✅ <code>grant-toolkit-website.zip</code> - Complete grant toolkit website</li></ul><ul><li>✅ <code>deployment-instructions.md</code> - How to deploy each toolkit</li></ul><ul><li>✅ <code>browser-compatibility.md</code> - Supported browsers</li></ul>
+
+<p>---</p>
+
+<h3><strong>Phase 2: PDF Documents</strong> 🚧 PENDING</h3>
+<p><strong>Timeline:</strong> 2-3 hours | <strong>Priority:</strong> Medium (specific use cases)</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Convert HTML to PDF format</strong></p><ul><li>Use HTML-to-PDF conversion</li></ul><ul><li>Maintain formatting and layout</li></ul><ul><li>Optimize for printing</li></ul>
+
+<p>2. <strong>Handle internal links</strong></p><ul><li>Convert to cross-references</li></ul><ul><li>Add page numbers where possible</li></ul><ul><li>Create document index</li></ul>
+
+<p>3. <strong>Create individual PDFs</strong></p><ul><li>Teacher Toolkit PDFs</li></ul><ul><li>Grant Toolkit PDFs</li></ul><ul><li>Combined index PDF</li></ul>
+
+<p>4. <strong>Optimize for printing</strong></p><ul><li>Adjust margins and spacing</li></ul><ul><li>Ensure readability</li></ul><ul><li>Test print quality</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>teacher-toolkit-complete.pdf</code> - Complete teacher toolkit</li></ul><ul><li><code>grant-toolkit-complete.pdf</code> - Complete grant toolkit</li></ul><ul><li><code>teacher-toolkit-individual/</code> - Separate PDFs for each teacher document</li></ul><ul><li><code>grant-toolkit-individual/</code> - Separate PDFs for each grant document</li></ul>
+
+<p>---</p>
+
+<h3><strong>Phase 3: Google Docs Format</strong> 🚧 PENDING</h3>
+<p><strong>Timeline:</strong> 1-2 hours | <strong>Priority:</strong> Low (collaborative use)</p>
+
+<p>#### <strong>Tasks:</strong></p>
+<p>1. <strong>Convert to Word format</strong></p><ul><li>Use HTML-to-Word conversion</li></ul><ul><li>Preserve formatting and structure</li></ul><ul><li>Optimize for Google Docs</li></ul>
+
+<p>2. <strong>Handle internal links</strong></p><ul><li>Convert to text references</li></ul><ul><li>Maintain document structure</li></ul><ul><li>Create navigation</li></ul>
+
+<p>3. <strong>Create import guide</strong></p><ul><li>Instructions for Google Docs import</li></ul><ul><li>Collaboration setup</li></ul><ul><li>Version control guidance</li></ul>
+
+<p>4. <strong>Package and test</strong></p><ul><li>Create ZIP of .doc files</li></ul><ul><li>Test import process</li></ul><ul><li>Verify functionality</li></ul>
+
+<p>#### <strong>Deliverables:</strong></p><ul><li><code>teacher-toolkit-google-docs.zip</code> - Teacher toolkit Word documents</li></ul><ul><li><code>grant-toolkit-google-docs.zip</code> - Grant toolkit Word documents</li></ul><ul><li><code>google-docs-import-guide.md</code> - Import instructions</li></ul><ul><li><code>collaboration-setup.md</code> - Team setup guide</li></ul>
+
+<p>---</p>
+
+<h2>📁 <strong>File Structure</strong></h2>
+
+<h3><strong>Static Website Structure:</strong></h3>
+<pre><code>
+<p>teacher-toolkit-website/</p>
+<p>├── index.html</p>
+<p>├── css/</p>
+<p>│   ├── main.css</p>
+<p>│   ├── print.css</p>
+<p>│   └── mobile.css</p>
+<p>├── js/</p>
+<p>│   └── search.js</p>
+<p>├── quick-start.html</p>
+<p>├── workflows/</p>
+<p>├── strategies/</p>
+<p>├── tools/</p>
+<p>└── assets/</p>
+<p>    ├── images/</p>
+<p>    └── fonts/</p>
+
+<p>grant-toolkit-website/</p>
+<p>├── index.html</p>
+<p>├── css/</p>
+<p>│   ├── main.css</p>
+<p>│   ├── print.css</p>
+<p>│   └── mobile.css</p>
+<p>├── js/</p>
+<p>│   └── search.js</p>
+<p>├── quick-start.html</p>
+<p>├── templates/</p>
+<p>├── samples/</p>
+<p>└── assets/</p>
+<p>    ├── images/</p>
+<p>    └── fonts/</p>
+<p></code></pre></p>
+
+<h3><strong>PDF Structure:</strong></h3>
+<pre><code>
+<p>teacher-toolkit-pdfs/</p>
+<p>├── teacher-toolkit-complete.pdf</p>
+<p>└── individual-documents/</p>
+<p>    ├── workflows/</p>
+<p>    ├── strategies/</p>
+<p>    └── tools/</p>
+
+<p>grant-toolkit-pdfs/</p>
+<p>├── grant-toolkit-complete.pdf</p>
+<p>└── individual-documents/</p>
+<p>    ├── templates/</p>
+<p>    └── samples/</p>
+<p></code></pre></p>
+
+<h3><strong>Google Docs Structure:</strong></h3>
+<pre><code>
+<p>teacher-toolkit-google-docs/</p>
+<p>├── workflows/</p>
+<p>├── strategies/</p>
+<p>├── tools/</p>
+<p>└── import-guide.md</p>
+
+<p>grant-toolkit-google-docs/</p>
+<p>├── templates/</p>
+<p>├── samples/</p>
+<p>└── import-guide.md</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🎨 <strong>Design Specifications</strong></h2>
+
+<h3><strong>Color Scheme:</strong></h3><ul><li><strong>Primary:</strong> Professional blue (#2c3e50)</li></ul><ul><li><strong>Secondary:</strong> Learning green (#27ae60)</li></ul><ul><li><strong>Accent:</strong> Grant gold (#f39c12)</li></ul><ul><li><strong>Text:</strong> Dark gray (#2c3e50)</li></ul><ul><li><strong>Background:</strong> Light gray (#f8f9fa)</li></ul>
+
+<h3><strong>Typography:</strong></h3><ul><li><strong>Headings:</strong> Inter, sans-serif</li></ul><ul><li><strong>Body:</strong> Source Sans Pro, sans-serif</li></ul><ul><li><strong>Code:</strong> Fira Code, monospace</li></ul>
+
+<h3><strong>Layout:</strong></h3><ul><li><strong>Max width:</strong> 1200px</li></ul><ul><li><strong>Sidebar:</strong> 250px (desktop)</li></ul><ul><li><strong>Content:</strong> Responsive grid</li></ul><ul><li><strong>Mobile:</strong> Single column</li></ul>
+
+<p>---</p>
+
+<h2>🔧 <strong>Technical Requirements</strong></h2>
+
+<h3><strong>Static Website:</strong></h3><ul><li>HTML5 semantic markup</li></ul><ul><li>CSS3 with flexbox/grid</li></ul><ul><li>Vanilla JavaScript (no dependencies)</li></ul><ul><li>Responsive design (mobile-first)</li></ul><ul><li>Print-friendly styles</li></ul><ul><li>Cross-browser compatibility</li></ul>
+
+<h3><strong>PDF Export:</strong></h3><ul><li>High-quality rendering</li></ul><ul><li>Preserved formatting</li></ul><ul><li>Clickable external links</li></ul><ul><li>Table of contents</li></ul><ul><li>Page numbers</li></ul><ul><li>Print optimization</li></ul>
+
+<h3><strong>Google Docs:</strong></h3><ul><li>.docx format</li></ul><ul><li>Preserved formatting</li></ul><ul><li>Compatible with Google Docs</li></ul><ul><li>Maintained structure</li></ul><ul><li>Cross-references</li></ul>
+
+<p>---</p>
+
+<h2>📊 <strong>Success Metrics</strong></h2>
+
+<h3><strong>Static Website:</strong></h3><ul><li>✅ All internal links work</li></ul><ul><li>✅ Mobile-responsive design</li></ul><ul><li>✅ Fast loading (< 3 seconds)</li></ul><ul><li>✅ Search functionality works</li></ul><ul><li>✅ Print-friendly pages</li></ul>
+
+<h3><strong>PDF Export:</strong></h3><ul><li>✅ Professional appearance</li></ul><ul><li>✅ All content preserved</li></ul><ul><li>✅ Cross-references accurate</li></ul><ul><li>✅ Print quality excellent</li></ul><ul><li>✅ File sizes reasonable</li></ul>
+
+<h3><strong>Google Docs:</strong></h3><ul><li>✅ Easy import process</li></ul><ul><li>✅ Formatting preserved</li></ul><ul><li>✅ Collaboration ready</li></ul><ul><li>✅ Version control works</li></ul><ul><li>✅ Sharing functional</li></ul>
+
+<p>---</p>
+
+<h2>🚀 <strong>Getting Started</strong></h2>
+
+<h3><strong>Phase 1: Static Website</strong> ✅ COMPLETED</h3>
+<p><strong>Status:</strong> Complete and ready for deployment</p>
+<p><strong>Next Steps:</strong> Deploy to school CMS or share ZIP files</p>
+
+<h3><strong>Phase 2: PDF Documents</strong> 🚧 READY TO START</h3>
+<p><strong>Status:</strong> Pending Phase 1 completion</p>
+<p><strong>Dependencies:</strong> Static website HTML</p>
+
+<h3><strong>Phase 3: Google Docs Format</strong> 🚧 READY TO START</h3>
+<p><strong>Status:</strong> Pending Phase 1 completion</p>
+<p><strong>Dependencies:</strong> Static website HTML</p>
+
+<p>---</p>
+
+<h2>📝 <strong>Notes and Considerations</strong></h2>
+
+<h3><strong>Link Handling Strategy:</strong></h3><ul><li><strong>Internal links:</strong> Convert to relative paths (HTML) or cross-references (PDF/DOC)</li></ul><ul><li><strong>External links:</strong> Keep as clickable URLs in all formats</li></ul><ul><li><strong>Navigation:</strong> Maintain consistent structure across formats</li></ul>
+
+<h3><strong>Content Updates:</strong></h3><ul><li><strong>Source of truth:</strong> Markdown files in repository</li></ul><ul><li><strong>Export process:</strong> Automated conversion from markdown</li></ul><ul><li><strong>Version control:</strong> Git-based with export timestamps</li></ul>
+
+<h3><strong>Quality Assurance:</strong></h3><ul><li><strong>Testing:</strong> Cross-browser, cross-device testing</li></ul><ul><li><strong>Validation:</strong> HTML/CSS validation</li></ul><ul><li><strong>Accessibility:</strong> WCAG 2.1 compliance</li></ul><ul><li><strong>Performance:</strong> Page speed optimization</li></ul>
+
+<p>---</p>
+
+<p><em>This export plan provides a comprehensive roadmap for creating multiple shareable formats of the learning disability support toolkits. Each format serves different use cases and audiences while maintaining the quality and functionality of the original content.</em></p>
+
+<p><strong>Last Updated:</strong> December 2024  </p>
+<p><strong>Next Review:</strong> As needed for additional formats</p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#export-plan-learning-disability-support-toolkits">Export Plan: Learning Disability Support Toolkits</a></li>
@@ -113,12 +349,13 @@
         <li><a href="#quality-assurance">Quality Assurance:</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../grant_toolkit/sample_proposals.html" class="nav-prev">← Sample Grant Proposals</a>
   <a href="../../roadmaps/federal_state_grants_implementation_plan.html" class="nav-next">Federal & State Grants Toolkit - Implementation Plan →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -126,6 +363,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/main.js"></script>
 </body>
 </html>

@@ -21,12 +21,20 @@
                         <li><a href="../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section ">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
   </div>
@@ -63,24 +71,273 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../index.html">Home</a></li>
           <li><a href="../../grant_toolkit">Grant Toolkit</a></li><li><span aria-current="page">Budget Planning Guide</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Budget Planning Guide</h1>
+                        
+                    </header>
                     <h1>Budget Planning Guide</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Budget Planning Guide</h1></p><p><br><em>Comprehensive guide to developing and managing budgets for learning disability support programs</em></p><p><br>---</p><p><br><h2>🚀 Quick Navigation</h2></p><p><br><h3><strong>Budget Development</strong></h3></p><p><br>- <strong><a href="#budget-categories">Budget Categories</a></strong> - Standard expense categories</p><p><br>- <strong><a href="#budget-templates">Budget Templates</a></strong> - Ready-to-use spreadsheets</p><p><br>- <strong><a href="#cost-calculations">Cost Calculations</a></strong> - How to calculate expenses</p><p><br>- <strong><a href="#budget-justification">Budget Justification</a></strong> - Explaining your costs</p><p><br><h3><strong>Budget Management</strong></h3></p><p><br>- <strong><a href="#financial-tracking">Financial Tracking</a></strong> - Monitoring expenses</p><p><br>- <strong><a href="#budget-modifications">Budget Modifications</a></strong> - Making changes</p><p><br>- <strong><a href="#reporting-requirements">Reporting Requirements</a></strong> - Funder expectations</p><p><br>- <strong><a href="#audit-preparation">Audit Preparation</a></strong> - Staying compliant</p><p><br>---</p><p><br><h2>💰 Budget Categories</h2></p><p><br><h3><strong>Personnel (60-70% of total budget)</strong></h3></p><p><br>#### <strong>Direct Program Staff</strong></p><p><br>- <strong>Program Director/Coordinator</strong> - Overall program management</p><p><br>  - <em>Typical Range:</em> $45,000 - $80,000 annually</p><p><br>  - <em>FTE Considerations:</em> Full-time for programs >$200K, part-time for smaller programs</p><p><br>  - <em>Benefits:</em> 25-30% of salary (health insurance, retirement, taxes)</p><p><br>- <strong>Special Education Specialist</strong> - Student assessment and intervention</p><p><br>  - <em>Typical Range:</em> $40,000 - $65,000 annually</p><p><br>  - <em>Qualifications:</em> Master's degree in special education, teaching certification</p><p><br>  - <em>Benefits:</em> 25-30% of salary</p><p><br>- <strong>Family Engagement Coordinator</strong> - Family support and education</p><p><br>  - <em>Typical Range:</em> $35,000 - $55,000 annually</p><p><br>  - <em>Qualifications:</em> Bachelor's degree, experience with families</p><p><br>  - <em>Benefits:</em> 25-30% of salary</p><p><br>- <strong>Teacher Training Specialist</strong> - Professional development and coaching</p><p><br>  - <em>Typical Range:</em> $40,000 - $60,000 annually</p><p><br>  - <em>Qualifications:</em> Master's degree, teaching experience, training expertise</p><p><br>  - <em>Benefits:</em> 25-30% of salary</p><p><br>- <strong>Data Analyst/Evaluator</strong> - Program evaluation and data management</p><p><br>  - <em>Typical Range:</em> $35,000 - $50,000 annually</p><p><br>  - <em>Qualifications:</em> Bachelor's degree in research, statistics, or related field</p><p><br>  - <em>Benefits:</em> 25-30% of salary</p><p><br>#### <strong>Administrative Staff</strong></p><p><br>- <strong>Program Assistant</strong> - Administrative support</p><p><br>  - <em>Typical Range:</em> $25,000 - $40,000 annually</p><p><br>  - <em>FTE Considerations:</em> 0.5-1.0 FTE depending on program size</p><p><br>  - <em>Benefits:</em> 25-30% of salary</p><p><br>- <strong>Bookkeeper/Accountant</strong> - Financial management</p><p><br>  - <em>Typical Range:</em> $30,000 - $45,000 annually</p><p><br>  - <em>FTE Considerations:</em> 0.25-0.5 FTE, often contracted</p><p><br>  - <em>Benefits:</em> 25-30% of salary</p><p><br><h3><strong>Equipment and Supplies (15-20% of total budget)</strong></h3></p><p><br>#### <strong>Assistive Technology</strong></p><p><br>- <strong>Text-to-speech software</strong> - $500 - $2,000 per license</p><p><br>- <strong>Speech-to-text software</strong> - $300 - $1,500 per license</p><p><br>- <strong>Reading support apps</strong> - $50 - $200 per student</p><p><br>- <strong>Math support tools</strong> - $100 - $500 per student</p><p><br>- <strong>Communication devices</strong> - $1,000 - $5,000 per device</p><p><br>#### <strong>Assessment Tools</strong></p><p><br>- <strong>Standardized assessments</strong> - $200 - $800 per kit</p><p><br>- <strong>Progress monitoring tools</strong> - $100 - $300 per student</p><p><br>- <strong>Behavioral assessment tools</strong> - $150 - $500 per kit</p><p><br>- <strong>Family assessment tools</strong> - $100 - $300 per family</p><p><br>#### <strong>Classroom Supplies</strong></p><p><br>- <strong>Manipulatives and hands-on materials</strong> - $500 - $2,000 per classroom</p><p><br>- <strong>Visual aids and charts</strong> - $200 - $800 per classroom</p><p><br>- <strong>Books and reading materials</strong> - $300 - $1,000 per classroom</p><p><br>- <strong>Writing supplies and tools</strong> - $200 - $600 per classroom</p><p><br>#### <strong>Technology Equipment</strong></p><p><br>- <strong>Computers and tablets</strong> - $800 - $2,000 per device</p><p><br>- <strong>Printers and scanners</strong> - $200 - $800 per device</p><p><br>- <strong>Projectors and displays</strong> - $500 - $2,000 per device</p><p><br>- <strong>Internet and software licenses</strong> - $100 - $500 per month</p><p><br><h3><strong>Professional Development (10-15% of total budget)</strong></h3></p><p><br>#### <strong>Training and Conferences</strong></p><p><br>- <strong>Conference registration</strong> - $200 - $800 per person</p><p><br>- <strong>Travel and accommodation</strong> - $500 - $2,000 per person</p><p><br>- <strong>Workshop fees</strong> - $100 - $500 per person</p><p><br>- <strong>Online training courses</strong> - $50 - $300 per person</p><p><br>#### <strong>Consultant Fees</strong></p><p><br>- <strong>Expert trainers</strong> - $1,000 - $5,000 per day</p><p><br>- <strong>Curriculum specialists</strong> - $500 - $2,000 per day</p><p><br>- <strong>Technology consultants</strong> - $100 - $200 per hour</p><p><br>- <strong>Evaluation specialists</strong> - $1,000 - $3,000 per project</p><p><br>#### <strong>Materials and Resources</strong></p><p><br>- <strong>Training materials</strong> - $50 - $200 per person</p><p><br>- <strong>Books and resources</strong> - $100 - $500 per person</p><p><br>- <strong>Certification fees</strong> - $200 - $800 per person</p><p><br>- <strong>Continuing education</strong> - $300 - $1,000 per person</p><p><br><h3><strong>Evaluation and Research (5-10% of total budget)</strong></h3></p><p><br>#### <strong>External Evaluation</strong></p><p><br>- <strong>External evaluator</strong> - $10,000 - $50,000 per year</p><p><br>- <strong>Data collection tools</strong> - $500 - $2,000 per year</p><p><br>- <strong>Survey software</strong> - $200 - $1,000 per year</p><p><br>- <strong>Statistical analysis</strong> - $1,000 - $5,000 per year</p><p><br>#### <strong>Internal Evaluation</strong></p><p><br>- <strong>Staff time for evaluation</strong> - 10-15% of program staff time</p><p><br>- <strong>Data management systems</strong> - $500 - $2,000 per year</p><p><br>- <strong>Reporting and analysis</strong> - $1,000 - $3,000 per year</p><p><br>- <strong>Dissemination activities</strong> - $500 - $2,000 per year</p><p><br><h3><strong>Indirect Costs (10-15% of total budget)</strong></h3></p><p><br>#### <strong>Administrative Overhead</strong></p><p><br>- <strong>Office space and utilities</strong> - $200 - $500 per month</p><p><br>- <strong>Insurance and liability</strong> - $500 - $2,000 per year</p><p><br>- <strong>Legal and accounting</strong> - $1,000 - $5,000 per year</p><p><br>- <strong>Technology and communications</strong> - $200 - $800 per month</p><p><br>#### <strong>Program Administration</strong></p><p><br>- <strong>Program management</strong> - 15-20% of program staff time</p><p><br>- <strong>Financial management</strong> - 5-10% of program staff time</p><p><br>- <strong>Reporting and compliance</strong> - 10-15% of program staff time</p><p><br>- <strong>Partnership coordination</strong> - 5-10% of program staff time</p><p><br>---</p><p><br><h2>📊 Budget Templates</h2></p><p><br><h3><strong>Annual Program Budget Template</strong></h3></p><p><br>| <strong>Category<em>* | **Item** | **Quantity** | **Unit Cost** | **Total Cost** | *</em>Notes</strong> |</p><p><br>|--------------|----------|--------------|---------------|----------------|-----------|</p><p><br>| <strong>PERSONNEL</strong> | | | | | |</p><p><br>| Program Director | 1.0 FTE | $60,000 | $60,000 | Full-time position |</p><p><br>| Benefits (30%) | | | $18,000 | $18,000 | Health, retirement, taxes |</p><p><br>| Special Ed Specialist | 1.0 FTE | $50,000 | $50,000 | Master's degree required |</p><p><br>| Benefits (30%) | | | $15,000 | $15,000 | |</p><p><br>| Family Coordinator | 0.5 FTE | $45,000 | $22,500 | Part-time position |</p><p><br>| Benefits (30%) | | | $6,750 | $6,750 | |</p><p><br>| <strong>Subtotal Personnel<em>* | | | | *</em>$177,250</strong> | |</p><p><br>| <strong>EQUIPMENT/SUPPLIES</strong> | | | | | |</p><p><br>| Assistive Technology | 20 licenses | $500 | $10,000 | Software and devices |</p><p><br>| Assessment Tools | 5 kits | $400 | $2,000 | Standardized assessments |</p><p><br>| Classroom Supplies | 10 classrooms | $300 | $3,000 | Materials and resources |</p><p><br>| Technology Equipment | 5 devices | $1,500 | $7,500 | Computers and tablets |</p><p><br>| <strong>Subtotal Equipment<em>* | | | | *</em>$22,500</strong> | |</p><p><br>| <strong>PROFESSIONAL DEVELOPMENT</strong> | | | | | |</p><p><br>| Conference Registration | 4 people | $500 | $2,000 | Annual conference |</p><p><br>| Travel and Accommodation | 4 people | $1,000 | $4,000 | Conference travel |</p><p><br>| Training Workshops | 8 people | $200 | $1,600 | Professional development |</p><p><br>| Consultant Fees | 2 projects | $2,000 | $4,000 | Expert training |</p><p><br>| <strong>Subtotal PD<em>* | | | | *</em>$11,600</strong> | |</p><p><br>| <strong>EVALUATION</strong> | | | | | |</p><p><br>| External Evaluator | 1 year | $15,000 | $15,000 | Program evaluation |</p><p><br>| Data Collection Tools | 1 year | $1,000 | $1,000 | Survey software |</p><p><br>| Internal Evaluation | 0.1 FTE | $5,000 | $5,000 | Staff time |</p><p><br>| <strong>Subtotal Evaluation<em>* | | | | *</em>$21,000</strong> | |</p><p><br>| <strong>INDIRECT COSTS</strong> | | | | | |</p><p><br>| Office Space | 12 months | $400 | $4,800 | Rent and utilities |</p><p><br>| Insurance | 1 year | $1,500 | $1,500 | Liability and coverage |</p><p><br>| Technology/Communications | 12 months | $300 | $3,600 | Internet, phone, software |</p><p><br>| <strong>Subtotal Indirect<em>* | | | | *</em>$9,900</strong> | |</p><p><br>| <strong>TOTAL PROGRAM BUDGET<em>* | | | | *</em>$242,250</strong> | |</p><p><br><h3><strong>Multi-Year Budget Template</strong></h3></p><p><br>| <strong>Year<em>* | **Personnel** | **Equipment** | **PD** | **Evaluation** | **Indirect** | *</em>Total</strong> |</p><p><br>|----------|---------------|---------------|--------|----------------|--------------|-----------|</p><p><br>| <strong>Year 1</strong> | $177,250 | $22,500 | $11,600 | $21,000 | $9,900 | $242,250 |</p><p><br>| <strong>Year 2</strong> | $185,000 | $8,000 | $12,000 | $22,000 | $10,200 | $237,200 |</p><p><br>| <strong>Year 3</strong> | $192,000 | $6,000 | $12,500 | $23,000 | $10,500 | $244,000 |</p><p><br>| <strong>Total</strong> | $554,250 | $36,500 | $36,100 | $66,000 | $30,600 | $723,450 |</p><p><br>---</p><p><br><h2>🧮 Cost Calculations</h2></p><p><br><h3><strong>Personnel Cost Formula</strong></h3></p><p><br><pre><code></p><p><br>Annual Salary × FTE × (1 + Benefits Rate) = Total Annual Cost</p><p><br></code></pre></p><p><br><strong>Example:</strong></p><p><br>- Program Director: $60,000 × 1.0 FTE × 1.30 = $78,000</p><p><br>- Family Coordinator: $45,000 × 0.5 FTE × 1.30 = $29,250</p><p><br><h3><strong>Equipment Cost Formula</strong></h3></p><p><br><pre><code></p><p><br>Unit Cost × Quantity × (1 + Shipping/Installation) = Total Cost</p><p><br></code></pre></p><p><br><strong>Example:</strong></p><p><br>- Computers: $1,500 × 5 × 1.05 = $7,875</p><p><br>- Software licenses: $500 × 20 × 1.00 = $10,000</p><p><br><h3><strong>Professional Development Cost Formula</strong></h3></p><p><br><pre><code></p><p><br>(Registration + Travel + Accommodation) × Number of People = Total Cost</p><p><br></code></pre></p><p><br><strong>Example:</strong></p><p><br>- Conference: ($500 + $800 + $400) × 4 people = $6,800</p><p><br>---</p><p><br><h2>📝 Budget Justification</h2></p><p><br><h3><strong>Personnel Justification Template</strong></h3></p><p><br><strong>Program Director (1.0 FTE, $78,000 annually)</strong></p><p><br>The Program Director will provide overall leadership and coordination for the learning disability support program. This position requires a master's degree in special education or related field, with 5+ years of experience managing similar programs. The director will oversee all program activities, manage staff, coordinate with partners, and ensure program goals are met. The salary reflects the competitive market rate for similar positions in the region, and benefits include health insurance, retirement contributions, and payroll taxes.</p><p><br><strong>Special Education Specialist (1.0 FTE, $65,000 annually)</strong></p><p><br>The Special Education Specialist will provide direct assessment and intervention services to students with learning differences. This position requires a master's degree in special education and teaching certification, with 3+ years of experience working with students with learning differences. The specialist will conduct assessments, develop individualized plans, provide direct instruction, and coordinate with teachers and families. The salary reflects the specialized skills and qualifications required for this position.</p><p><br><h3><strong>Equipment Justification Template</strong></h3></p><p><br><strong>Assistive Technology Software ($10,000)</strong></p><p><br>Text-to-speech and speech-to-text software licenses for 20 students with reading and writing difficulties. This technology is essential for providing appropriate accommodations and supports as required by IDEA. The software will be installed on school computers and student devices, with training provided to teachers and families. Cost includes annual licensing fees and technical support.</p><p><br><strong>Assessment Tools ($2,000)</strong></p><p><br>Standardized assessment kits for evaluating student progress and determining appropriate interventions. These tools are required for evidence-based practice and program evaluation. The assessments will be used by certified staff to monitor student progress and adjust interventions as needed. Cost includes initial purchase and annual updates.</p><p><br><h3><strong>Professional Development Justification Template</strong></h3></p><p><br><strong>Conference Attendance ($6,800 for 4 staff)</strong></p><p><br>Annual attendance at the Council for Exceptional Children conference to stay current with best practices and research in special education. This professional development is essential for maintaining high-quality services and ensuring staff are trained in the latest evidence-based practices. Cost includes registration, travel, and accommodation for key program staff.</p><p><br><strong>Expert Training ($4,000)</strong></p><p><br>Consultant fees for specialized training in evidence-based interventions for students with learning differences. This training will be provided to all program staff and partner teachers to ensure consistent, high-quality implementation. The consultant has 20+ years of experience and is a recognized expert in the field.</p><p><br>---</p><p><br><h2>📊 Financial Tracking</h2></p><p><br><h3><strong>Monthly Budget Tracking Template</strong></h3></p><p><br>| <strong>Category<em>* | **Budgeted** | **Spent** | **Remaining** | **% Used** | *</em>Notes</strong> |</p><p><br>|--------------|--------------|-----------|---------------|------------|-----------|</p><p><br>| Personnel | $14,771 | $14,200 | $571 | 96% | On track |</p><p><br>| Equipment | $1,875 | $1,200 | $675 | 64% | Waiting for delivery |</p><p><br>| PD | $967 | $800 | $167 | 83% | Conference next month |</p><p><br>| Evaluation | $1,750 | $1,500 | $250 | 86% | On track |</p><p><br>| Indirect | $825 | $800 | $25 | 97% | On track |</p><p><br>| <strong>Total<em>* | **$20,188** | **$18,500** | **$1,688** | *</em>92%</strong> | |</p><p><br><h3><strong>Quarterly Budget Review Template</strong></h3></p><p><br><strong>Q1 Budget Review - [Program Name]</strong></p><p><br><strong>Overall Status:</strong> ✅ On Track / ⚠️ Watch / ❌ Concern</p><p><br><strong>Key Highlights:</strong></p><p><br>- Personnel costs are 2% under budget due to delayed hiring</p><p><br>- Equipment costs are 15% under budget due to bulk purchasing discounts</p><p><br>- Professional development is 5% over budget due to additional training needs</p><p><br><strong>Recommendations:</strong></p><p><br>- Reallocate $2,000 from equipment to professional development</p><p><br>- Accelerate hiring timeline to meet program goals</p><p><br>- Negotiate better rates for remaining equipment purchases</p><p><br><strong>Next Quarter Priorities:</strong></p><p><br>- Complete staff hiring and training</p><p><br>- Finalize equipment purchases and installation</p><p><br>- Begin external evaluation activities</p><p><br>---</p><p><br><h2>🔄 Budget Modifications</h2></p><p><br><h3><strong>When to Modify Budget</strong></h3></p><p><br>- <strong>Significant changes</strong> in program scope or activities</p><p><br>- <strong>Unexpected costs</strong> or savings in any category</p><p><br>- <strong>Funder approval</strong> required for changes >10%</p><p><br>- <strong>Program timeline</strong> changes affecting costs</p><p><br>- <strong>New opportunities</strong> or partnerships</p><p><br><h3><strong>Modification Process</strong></h3></p><p><br>1. <strong>Identify</strong> the need for changes</p><p><br>2. <strong>Calculate</strong> the financial impact</p><p><br>3. <strong>Prepare</strong> modification request</p><p><br>4. <strong>Submit</strong> to funder for approval</p><p><br>5. <strong>Update</strong> internal tracking systems</p><p><br>6. <strong>Communicate</strong> changes to staff and partners</p><p><br><h3><strong>Modification Request Template</strong></h3></p><p><br><strong>Budget Modification Request</strong></p><p><br><strong>Program:</strong> [Program Name]  </p><p><br><strong>Funder:</strong> [Foundation Name]  </p><p><br><strong>Date:</strong> [Date]  </p><p><br><strong>Requested by:</strong> [Your Name]</p><p><br><strong>Reason for Modification:</strong></p><p><br>[Brief explanation of why changes are needed]</p><p><br><strong>Proposed Changes:</strong></p><p><br>| <strong>Category<em>* | **Original** | **Revised** | **Difference** | *</em>Justification</strong> |</p><p><br>|--------------|--------------|-------------|----------------|-------------------|</p><p><br>| Personnel | $177,250 | $180,000 | +$2,750 | Additional training needs |</p><p><br>| Equipment | $22,500 | $20,000 | -$2,500 | Bulk purchasing discounts |</p><p><br>| <strong>Total<em>* | **$242,250** | **$242,250** | **$0** | *</em>No net change</strong> |</p><p><br><strong>Impact on Program:</strong></p><p><br>[Explanation of how changes will affect program delivery]</p><p><br><strong>Approval Requested:</strong></p><p><br>[Specific approval needed from funder]</p><p><br>---</p><p><br><h2>📋 Reporting Requirements</h2></p><p><br><h3><strong>Monthly Financial Reports</strong></h3></p><p><br>- <strong>Expense summary</strong> by category</p><p><br>- <strong>Variance analysis</strong> (budgeted vs. actual)</p><p><br>- <strong>Cash flow</strong> projections</p><p><br>- <strong>Outstanding</strong> invoices and payments</p><p><br><h3><strong>Quarterly Reports</strong></h3></p><p><br>- <strong>Detailed expense</strong> breakdown</p><p><br>- <strong>Program activity</strong> summary</p><p><br>- <strong>Challenges</strong> and solutions</p><p><br>- <strong>Upcoming</strong> major expenses</p><p><br><h3><strong>Annual Reports</strong></h3></p><p><br>- <strong>Complete financial</strong> summary</p><p><br>- <strong>Program outcomes</strong> and impact</p><p><br>- <strong>Lessons learned</strong> and recommendations</p><p><br>- <strong>Sustainability</strong> planning</p><p><br>---</p><p><br><h2>🔍 Audit Preparation</h2></p><p><br><h3><strong>Documentation Requirements</strong></h3></p><p><br>- <strong>All receipts</strong> and invoices</p><p><br>- <strong>Time sheets</strong> and payroll records</p><p><br>- <strong>Contract</strong> agreements</p><p><br>- <strong>Approval</strong> documentation</p><p><br>- <strong>Bank</strong> statements and reconciliations</p><p><br><h3><strong>Best Practices</strong></h3></p><p><br>- <strong>Maintain</strong> detailed records</p><p><br>- <strong>Separate</strong> program funds</p><p><br>- <strong>Regular</strong> reconciliation</p><p><br>- <strong>Clear</strong> documentation</p><p><br>- <strong>Timely</strong> reporting</p><p><br>---</p><p><br><h2>💡 Budget Planning Tips</h2></p><p><br><h3><strong>Do This</strong></h3></p><p><br>- <strong>Start early</strong> with budget planning</p><p><br>- <strong>Research</strong> current market rates</p><p><br>- <strong>Include</strong> all necessary costs</p><p><br>- <strong>Build in</strong> contingency funds</p><p><br>- <strong>Plan for</strong> sustainability</p><p><br><h3><strong>Don't Do This</strong></h3></p><p><br>- <strong>Underestimate</strong> personnel costs</p><p><br>- <strong>Forget</strong> indirect costs</p><p><br>- <strong>Ignore</strong> inflation and increases</p><p><br>- <strong>Skip</strong> budget justification</p><p><br>- <strong>Neglect</strong> ongoing monitoring</p><p><br>---</p><p><br><em>This budget planning guide provides comprehensive tools and templates for developing and managing program budgets. Remember to customize based on your specific program needs and funder requirements.</em></p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Comprehensive guide to developing and managing budgets for learning disability support programs</em></p>
+
+<p>---</p>
+
+<h2>🚀 Quick Navigation</h2>
+
+<h3><strong>Budget Development</strong></h3><ul><li><strong><a href="#budget-categories">Budget Categories</a></strong> - Standard expense categories</li></ul><ul><li><strong><a href="#budget-templates">Budget Templates</a></strong> - Ready-to-use spreadsheets</li></ul><ul><li><strong><a href="#cost-calculations">Cost Calculations</a></strong> - How to calculate expenses</li></ul><ul><li><strong><a href="#budget-justification">Budget Justification</a></strong> - Explaining your costs</li></ul>
+
+<h3><strong>Budget Management</strong></h3><ul><li><strong><a href="#financial-tracking">Financial Tracking</a></strong> - Monitoring expenses</li></ul><ul><li><strong><a href="#budget-modifications">Budget Modifications</a></strong> - Making changes</li></ul><ul><li><strong><a href="#reporting-requirements">Reporting Requirements</a></strong> - Funder expectations</li></ul><ul><li><strong><a href="#audit-preparation">Audit Preparation</a></strong> - Staying compliant</li></ul>
+
+<p>---</p>
+
+<h2>💰 Budget Categories</h2>
+
+<h3><strong>Personnel (60-70% of total budget)</strong></h3>
+
+<p>#### <strong>Direct Program Staff</strong></p><ul><li><strong>Program Director/Coordinator</strong> - Overall program management</li></ul><ul><li><em>Typical Range:</em> $45,000 - $80,000 annually</li></ul><ul><li><em>FTE Considerations:</em> Full-time for programs >$200K, part-time for smaller programs</li></ul><ul><li><em>Benefits:</em> 25-30% of salary (health insurance, retirement, taxes)</li></ul><ul><li><strong>Special Education Specialist</strong> - Student assessment and intervention</li></ul><ul><li><em>Typical Range:</em> $40,000 - $65,000 annually</li></ul><ul><li><em>Qualifications:</em> Master's degree in special education, teaching certification</li></ul><ul><li><em>Benefits:</em> 25-30% of salary</li></ul><ul><li><strong>Family Engagement Coordinator</strong> - Family support and education</li></ul><ul><li><em>Typical Range:</em> $35,000 - $55,000 annually</li></ul><ul><li><em>Qualifications:</em> Bachelor's degree, experience with families</li></ul><ul><li><em>Benefits:</em> 25-30% of salary</li></ul><ul><li><strong>Teacher Training Specialist</strong> - Professional development and coaching</li></ul><ul><li><em>Typical Range:</em> $40,000 - $60,000 annually</li></ul><ul><li><em>Qualifications:</em> Master's degree, teaching experience, training expertise</li></ul><ul><li><em>Benefits:</em> 25-30% of salary</li></ul><ul><li><strong>Data Analyst/Evaluator</strong> - Program evaluation and data management</li></ul><ul><li><em>Typical Range:</em> $35,000 - $50,000 annually</li></ul><ul><li><em>Qualifications:</em> Bachelor's degree in research, statistics, or related field</li></ul><ul><li><em>Benefits:</em> 25-30% of salary</li></ul>
+
+<p>#### <strong>Administrative Staff</strong></p><ul><li><strong>Program Assistant</strong> - Administrative support</li></ul><ul><li><em>Typical Range:</em> $25,000 - $40,000 annually</li></ul><ul><li><em>FTE Considerations:</em> 0.5-1.0 FTE depending on program size</li></ul><ul><li><em>Benefits:</em> 25-30% of salary</li></ul><ul><li><strong>Bookkeeper/Accountant</strong> - Financial management</li></ul><ul><li><em>Typical Range:</em> $30,000 - $45,000 annually</li></ul><ul><li><em>FTE Considerations:</em> 0.25-0.5 FTE, often contracted</li></ul><ul><li><em>Benefits:</em> 25-30% of salary</li></ul>
+
+<h3><strong>Equipment and Supplies (15-20% of total budget)</strong></h3>
+
+<p>#### <strong>Assistive Technology</strong></p><ul><li><strong>Text-to-speech software</strong> - $500 - $2,000 per license</li></ul><ul><li><strong>Speech-to-text software</strong> - $300 - $1,500 per license</li></ul><ul><li><strong>Reading support apps</strong> - $50 - $200 per student</li></ul><ul><li><strong>Math support tools</strong> - $100 - $500 per student</li></ul><ul><li><strong>Communication devices</strong> - $1,000 - $5,000 per device</li></ul>
+
+<p>#### <strong>Assessment Tools</strong></p><ul><li><strong>Standardized assessments</strong> - $200 - $800 per kit</li></ul><ul><li><strong>Progress monitoring tools</strong> - $100 - $300 per student</li></ul><ul><li><strong>Behavioral assessment tools</strong> - $150 - $500 per kit</li></ul><ul><li><strong>Family assessment tools</strong> - $100 - $300 per family</li></ul>
+
+<p>#### <strong>Classroom Supplies</strong></p><ul><li><strong>Manipulatives and hands-on materials</strong> - $500 - $2,000 per classroom</li></ul><ul><li><strong>Visual aids and charts</strong> - $200 - $800 per classroom</li></ul><ul><li><strong>Books and reading materials</strong> - $300 - $1,000 per classroom</li></ul><ul><li><strong>Writing supplies and tools</strong> - $200 - $600 per classroom</li></ul>
+
+<p>#### <strong>Technology Equipment</strong></p><ul><li><strong>Computers and tablets</strong> - $800 - $2,000 per device</li></ul><ul><li><strong>Printers and scanners</strong> - $200 - $800 per device</li></ul><ul><li><strong>Projectors and displays</strong> - $500 - $2,000 per device</li></ul><ul><li><strong>Internet and software licenses</strong> - $100 - $500 per month</li></ul>
+
+<h3><strong>Professional Development (10-15% of total budget)</strong></h3>
+
+<p>#### <strong>Training and Conferences</strong></p><ul><li><strong>Conference registration</strong> - $200 - $800 per person</li></ul><ul><li><strong>Travel and accommodation</strong> - $500 - $2,000 per person</li></ul><ul><li><strong>Workshop fees</strong> - $100 - $500 per person</li></ul><ul><li><strong>Online training courses</strong> - $50 - $300 per person</li></ul>
+
+<p>#### <strong>Consultant Fees</strong></p><ul><li><strong>Expert trainers</strong> - $1,000 - $5,000 per day</li></ul><ul><li><strong>Curriculum specialists</strong> - $500 - $2,000 per day</li></ul><ul><li><strong>Technology consultants</strong> - $100 - $200 per hour</li></ul><ul><li><strong>Evaluation specialists</strong> - $1,000 - $3,000 per project</li></ul>
+
+<p>#### <strong>Materials and Resources</strong></p><ul><li><strong>Training materials</strong> - $50 - $200 per person</li></ul><ul><li><strong>Books and resources</strong> - $100 - $500 per person</li></ul><ul><li><strong>Certification fees</strong> - $200 - $800 per person</li></ul><ul><li><strong>Continuing education</strong> - $300 - $1,000 per person</li></ul>
+
+<h3><strong>Evaluation and Research (5-10% of total budget)</strong></h3>
+
+<p>#### <strong>External Evaluation</strong></p><ul><li><strong>External evaluator</strong> - $10,000 - $50,000 per year</li></ul><ul><li><strong>Data collection tools</strong> - $500 - $2,000 per year</li></ul><ul><li><strong>Survey software</strong> - $200 - $1,000 per year</li></ul><ul><li><strong>Statistical analysis</strong> - $1,000 - $5,000 per year</li></ul>
+
+<p>#### <strong>Internal Evaluation</strong></p><ul><li><strong>Staff time for evaluation</strong> - 10-15% of program staff time</li></ul><ul><li><strong>Data management systems</strong> - $500 - $2,000 per year</li></ul><ul><li><strong>Reporting and analysis</strong> - $1,000 - $3,000 per year</li></ul><ul><li><strong>Dissemination activities</strong> - $500 - $2,000 per year</li></ul>
+
+<h3><strong>Indirect Costs (10-15% of total budget)</strong></h3>
+
+<p>#### <strong>Administrative Overhead</strong></p><ul><li><strong>Office space and utilities</strong> - $200 - $500 per month</li></ul><ul><li><strong>Insurance and liability</strong> - $500 - $2,000 per year</li></ul><ul><li><strong>Legal and accounting</strong> - $1,000 - $5,000 per year</li></ul><ul><li><strong>Technology and communications</strong> - $200 - $800 per month</li></ul>
+
+<p>#### <strong>Program Administration</strong></p><ul><li><strong>Program management</strong> - 15-20% of program staff time</li></ul><ul><li><strong>Financial management</strong> - 5-10% of program staff time</li></ul><ul><li><strong>Reporting and compliance</strong> - 10-15% of program staff time</li></ul><ul><li><strong>Partnership coordination</strong> - 5-10% of program staff time</li></ul>
+
+<p>---</p>
+
+<h2>📊 Budget Templates</h2>
+
+<h3><strong>Annual Program Budget Template</strong></h3>
+
+<p>| <strong>Category</strong> | <strong>Item</strong> | <strong>Quantity</strong> | <strong>Unit Cost</strong> | <strong>Total Cost</strong> | <strong>Notes</strong> |</p>
+<p>|--------------|----------|--------------|---------------|----------------|-----------|</p>
+<p>| <strong>PERSONNEL</strong> | | | | | |</p>
+<p>| Program Director | 1.0 FTE | $60,000 | $60,000 | Full-time position |</p>
+<p>| Benefits (30%) | | | $18,000 | $18,000 | Health, retirement, taxes |</p>
+<p>| Special Ed Specialist | 1.0 FTE | $50,000 | $50,000 | Master's degree required |</p>
+<p>| Benefits (30%) | | | $15,000 | $15,000 | |</p>
+<p>| Family Coordinator | 0.5 FTE | $45,000 | $22,500 | Part-time position |</p>
+<p>| Benefits (30%) | | | $6,750 | $6,750 | |</p>
+<p>| <strong>Subtotal Personnel</strong> | | | | <strong>$177,250</strong> | |</p>
+<p>| <strong>EQUIPMENT/SUPPLIES</strong> | | | | | |</p>
+<p>| Assistive Technology | 20 licenses | $500 | $10,000 | Software and devices |</p>
+<p>| Assessment Tools | 5 kits | $400 | $2,000 | Standardized assessments |</p>
+<p>| Classroom Supplies | 10 classrooms | $300 | $3,000 | Materials and resources |</p>
+<p>| Technology Equipment | 5 devices | $1,500 | $7,500 | Computers and tablets |</p>
+<p>| <strong>Subtotal Equipment</strong> | | | | <strong>$22,500</strong> | |</p>
+<p>| <strong>PROFESSIONAL DEVELOPMENT</strong> | | | | | |</p>
+<p>| Conference Registration | 4 people | $500 | $2,000 | Annual conference |</p>
+<p>| Travel and Accommodation | 4 people | $1,000 | $4,000 | Conference travel |</p>
+<p>| Training Workshops | 8 people | $200 | $1,600 | Professional development |</p>
+<p>| Consultant Fees | 2 projects | $2,000 | $4,000 | Expert training |</p>
+<p>| <strong>Subtotal PD</strong> | | | | <strong>$11,600</strong> | |</p>
+<p>| <strong>EVALUATION</strong> | | | | | |</p>
+<p>| External Evaluator | 1 year | $15,000 | $15,000 | Program evaluation |</p>
+<p>| Data Collection Tools | 1 year | $1,000 | $1,000 | Survey software |</p>
+<p>| Internal Evaluation | 0.1 FTE | $5,000 | $5,000 | Staff time |</p>
+<p>| <strong>Subtotal Evaluation</strong> | | | | <strong>$21,000</strong> | |</p>
+<p>| <strong>INDIRECT COSTS</strong> | | | | | |</p>
+<p>| Office Space | 12 months | $400 | $4,800 | Rent and utilities |</p>
+<p>| Insurance | 1 year | $1,500 | $1,500 | Liability and coverage |</p>
+<p>| Technology/Communications | 12 months | $300 | $3,600 | Internet, phone, software |</p>
+<p>| <strong>Subtotal Indirect</strong> | | | | <strong>$9,900</strong> | |</p>
+<p>| <strong>TOTAL PROGRAM BUDGET</strong> | | | | <strong>$242,250</strong> | |</p>
+
+<h3><strong>Multi-Year Budget Template</strong></h3>
+
+<p>| <strong>Year</strong> | <strong>Personnel</strong> | <strong>Equipment</strong> | <strong>PD</strong> | <strong>Evaluation</strong> | <strong>Indirect</strong> | <strong>Total</strong> |</p>
+<p>|----------|---------------|---------------|--------|----------------|--------------|-----------|</p>
+<p>| <strong>Year 1</strong> | $177,250 | $22,500 | $11,600 | $21,000 | $9,900 | $242,250 |</p>
+<p>| <strong>Year 2</strong> | $185,000 | $8,000 | $12,000 | $22,000 | $10,200 | $237,200 |</p>
+<p>| <strong>Year 3</strong> | $192,000 | $6,000 | $12,500 | $23,000 | $10,500 | $244,000 |</p>
+<p>| <strong>Total</strong> | $554,250 | $36,500 | $36,100 | $66,000 | $30,600 | $723,450 |</p>
+
+<p>---</p>
+
+<h2>🧮 Cost Calculations</h2>
+
+<h3><strong>Personnel Cost Formula</strong></h3>
+<pre><code>
+<p>Annual Salary × FTE × (1 + Benefits Rate) = Total Annual Cost</p>
+<p></code></pre></p>
+
+<p><strong>Example:</strong></p><ul><li>Program Director: $60,000 × 1.0 FTE × 1.30 = $78,000</li></ul><ul><li>Family Coordinator: $45,000 × 0.5 FTE × 1.30 = $29,250</li></ul>
+
+<h3><strong>Equipment Cost Formula</strong></h3>
+<pre><code>
+<p>Unit Cost × Quantity × (1 + Shipping/Installation) = Total Cost</p>
+<p></code></pre></p>
+
+<p><strong>Example:</strong></p><ul><li>Computers: $1,500 × 5 × 1.05 = $7,875</li></ul><ul><li>Software licenses: $500 × 20 × 1.00 = $10,000</li></ul>
+
+<h3><strong>Professional Development Cost Formula</strong></h3>
+<pre><code>
+<p>(Registration + Travel + Accommodation) × Number of People = Total Cost</p>
+<p></code></pre></p>
+
+<p><strong>Example:</strong></p><ul><li>Conference: ($500 + $800 + $400) × 4 people = $6,800</li></ul>
+
+<p>---</p>
+
+<h2>📝 Budget Justification</h2>
+
+<h3><strong>Personnel Justification Template</strong></h3>
+
+<p><strong>Program Director (1.0 FTE, $78,000 annually)</strong></p>
+<p>The Program Director will provide overall leadership and coordination for the learning disability support program. This position requires a master's degree in special education or related field, with 5+ years of experience managing similar programs. The director will oversee all program activities, manage staff, coordinate with partners, and ensure program goals are met. The salary reflects the competitive market rate for similar positions in the region, and benefits include health insurance, retirement contributions, and payroll taxes.</p>
+
+<p><strong>Special Education Specialist (1.0 FTE, $65,000 annually)</strong></p>
+<p>The Special Education Specialist will provide direct assessment and intervention services to students with learning differences. This position requires a master's degree in special education and teaching certification, with 3+ years of experience working with students with learning differences. The specialist will conduct assessments, develop individualized plans, provide direct instruction, and coordinate with teachers and families. The salary reflects the specialized skills and qualifications required for this position.</p>
+
+<h3><strong>Equipment Justification Template</strong></h3>
+
+<p><strong>Assistive Technology Software ($10,000)</strong></p>
+<p>Text-to-speech and speech-to-text software licenses for 20 students with reading and writing difficulties. This technology is essential for providing appropriate accommodations and supports as required by IDEA. The software will be installed on school computers and student devices, with training provided to teachers and families. Cost includes annual licensing fees and technical support.</p>
+
+<p><strong>Assessment Tools ($2,000)</strong></p>
+<p>Standardized assessment kits for evaluating student progress and determining appropriate interventions. These tools are required for evidence-based practice and program evaluation. The assessments will be used by certified staff to monitor student progress and adjust interventions as needed. Cost includes initial purchase and annual updates.</p>
+
+<h3><strong>Professional Development Justification Template</strong></h3>
+
+<p><strong>Conference Attendance ($6,800 for 4 staff)</strong></p>
+<p>Annual attendance at the Council for Exceptional Children conference to stay current with best practices and research in special education. This professional development is essential for maintaining high-quality services and ensuring staff are trained in the latest evidence-based practices. Cost includes registration, travel, and accommodation for key program staff.</p>
+
+<p><strong>Expert Training ($4,000)</strong></p>
+<p>Consultant fees for specialized training in evidence-based interventions for students with learning differences. This training will be provided to all program staff and partner teachers to ensure consistent, high-quality implementation. The consultant has 20+ years of experience and is a recognized expert in the field.</p>
+
+<p>---</p>
+
+<h2>📊 Financial Tracking</h2>
+
+<h3><strong>Monthly Budget Tracking Template</strong></h3>
+
+<p>| <strong>Category</strong> | <strong>Budgeted</strong> | <strong>Spent</strong> | <strong>Remaining</strong> | <strong>% Used</strong> | <strong>Notes</strong> |</p>
+<p>|--------------|--------------|-----------|---------------|------------|-----------|</p>
+<p>| Personnel | $14,771 | $14,200 | $571 | 96% | On track |</p>
+<p>| Equipment | $1,875 | $1,200 | $675 | 64% | Waiting for delivery |</p>
+<p>| PD | $967 | $800 | $167 | 83% | Conference next month |</p>
+<p>| Evaluation | $1,750 | $1,500 | $250 | 86% | On track |</p>
+<p>| Indirect | $825 | $800 | $25 | 97% | On track |</p>
+<p>| <strong>Total</strong> | <strong>$20,188</strong> | <strong>$18,500</strong> | <strong>$1,688</strong> | <strong>92%</strong> | |</p>
+
+<h3><strong>Quarterly Budget Review Template</strong></h3>
+
+<p><strong>Q1 Budget Review - [Program Name]</strong></p>
+
+<p><strong>Overall Status:</strong> ✅ On Track / ⚠️ Watch / ❌ Concern</p>
+
+<p><strong>Key Highlights:</strong></p><ul><li>Personnel costs are 2% under budget due to delayed hiring</li></ul><ul><li>Equipment costs are 15% under budget due to bulk purchasing discounts</li></ul><ul><li>Professional development is 5% over budget due to additional training needs</li></ul>
+
+<p><strong>Recommendations:</strong></p><ul><li>Reallocate $2,000 from equipment to professional development</li></ul><ul><li>Accelerate hiring timeline to meet program goals</li></ul><ul><li>Negotiate better rates for remaining equipment purchases</li></ul>
+
+<p><strong>Next Quarter Priorities:</strong></p><ul><li>Complete staff hiring and training</li></ul><ul><li>Finalize equipment purchases and installation</li></ul><ul><li>Begin external evaluation activities</li></ul>
+
+<p>---</p>
+
+<h2>🔄 Budget Modifications</h2>
+
+<h3><strong>When to Modify Budget</strong></h3><ul><li><strong>Significant changes</strong> in program scope or activities</li></ul><ul><li><strong>Unexpected costs</strong> or savings in any category</li></ul><ul><li><strong>Funder approval</strong> required for changes >10%</li></ul><ul><li><strong>Program timeline</strong> changes affecting costs</li></ul><ul><li><strong>New opportunities</strong> or partnerships</li></ul>
+
+<h3><strong>Modification Process</strong></h3>
+<p>1. <strong>Identify</strong> the need for changes</p>
+<p>2. <strong>Calculate</strong> the financial impact</p>
+<p>3. <strong>Prepare</strong> modification request</p>
+<p>4. <strong>Submit</strong> to funder for approval</p>
+<p>5. <strong>Update</strong> internal tracking systems</p>
+<p>6. <strong>Communicate</strong> changes to staff and partners</p>
+
+<h3><strong>Modification Request Template</strong></h3>
+
+<p><strong>Budget Modification Request</strong></p>
+
+<p><strong>Program:</strong> [Program Name]  </p>
+<p><strong>Funder:</strong> [Foundation Name]  </p>
+<p><strong>Date:</strong> [Date]  </p>
+<p><strong>Requested by:</strong> [Your Name]</p>
+
+<p><strong>Reason for Modification:</strong></p>
+<p>[Brief explanation of why changes are needed]</p>
+
+<p><strong>Proposed Changes:</strong></p>
+<p>| <strong>Category</strong> | <strong>Original</strong> | <strong>Revised</strong> | <strong>Difference</strong> | <strong>Justification</strong> |</p>
+<p>|--------------|--------------|-------------|----------------|-------------------|</p>
+<p>| Personnel | $177,250 | $180,000 | +$2,750 | Additional training needs |</p>
+<p>| Equipment | $22,500 | $20,000 | -$2,500 | Bulk purchasing discounts |</p>
+<p>| <strong>Total</strong> | <strong>$242,250</strong> | <strong>$242,250</strong> | <strong>$0</strong> | <strong>No net change</strong> |</p>
+
+<p><strong>Impact on Program:</strong></p>
+<p>[Explanation of how changes will affect program delivery]</p>
+
+<p><strong>Approval Requested:</strong></p>
+<p>[Specific approval needed from funder]</p>
+
+<p>---</p>
+
+<h2>📋 Reporting Requirements</h2>
+
+<h3><strong>Monthly Financial Reports</strong></h3><ul><li><strong>Expense summary</strong> by category</li></ul><ul><li><strong>Variance analysis</strong> (budgeted vs. actual)</li></ul><ul><li><strong>Cash flow</strong> projections</li></ul><ul><li><strong>Outstanding</strong> invoices and payments</li></ul>
+
+<h3><strong>Quarterly Reports</strong></h3><ul><li><strong>Detailed expense</strong> breakdown</li></ul><ul><li><strong>Program activity</strong> summary</li></ul><ul><li><strong>Challenges</strong> and solutions</li></ul><ul><li><strong>Upcoming</strong> major expenses</li></ul>
+
+<h3><strong>Annual Reports</strong></h3><ul><li><strong>Complete financial</strong> summary</li></ul><ul><li><strong>Program outcomes</strong> and impact</li></ul><ul><li><strong>Lessons learned</strong> and recommendations</li></ul><ul><li><strong>Sustainability</strong> planning</li></ul>
+
+<p>---</p>
+
+<h2>🔍 Audit Preparation</h2>
+
+<h3><strong>Documentation Requirements</strong></h3><ul><li><strong>All receipts</strong> and invoices</li></ul><ul><li><strong>Time sheets</strong> and payroll records</li></ul><ul><li><strong>Contract</strong> agreements</li></ul><ul><li><strong>Approval</strong> documentation</li></ul><ul><li><strong>Bank</strong> statements and reconciliations</li></ul>
+
+<h3><strong>Best Practices</strong></h3><ul><li><strong>Maintain</strong> detailed records</li></ul><ul><li><strong>Separate</strong> program funds</li></ul><ul><li><strong>Regular</strong> reconciliation</li></ul><ul><li><strong>Clear</strong> documentation</li></ul><ul><li><strong>Timely</strong> reporting</li></ul>
+
+<p>---</p>
+
+<h2>💡 Budget Planning Tips</h2>
+
+<h3><strong>Do This</strong></h3><ul><li><strong>Start early</strong> with budget planning</li></ul><ul><li><strong>Research</strong> current market rates</li></ul><ul><li><strong>Include</strong> all necessary costs</li></ul><ul><li><strong>Build in</strong> contingency funds</li></ul><ul><li><strong>Plan for</strong> sustainability</li></ul>
+
+<h3><strong>Don't Do This</strong></h3><ul><li><strong>Underestimate</strong> personnel costs</li></ul><ul><li><strong>Forget</strong> indirect costs</li></ul><ul><li><strong>Ignore</strong> inflation and increases</li></ul><ul><li><strong>Skip</strong> budget justification</li></ul><ul><li><strong>Neglect</strong> ongoing monitoring</li></ul>
+
+<p>---</p>
+
+<p><em>This budget planning guide provides comprehensive tools and templates for developing and managing program budgets. Remember to customize based on your specific program needs and funder requirements.</em></p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#budget-planning-guide">Budget Planning Guide</a></li>
@@ -123,12 +380,13 @@
         <li><a href="#dont-do-this">Don't Do This</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../research_report.html" class="nav-prev">← Learning Needs in School-Age Children: Presentations, Research-Based Classroom Supports, and Teacher Resources</a>
   <a href="../../grant_toolkit/grand_rapids_philanthropist_database.html" class="nav-next">Grand Rapids, MI Philanthropist Database →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -136,6 +394,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/main.js"></script>
 </body>
 </html>

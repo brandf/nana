@@ -60,6 +60,7 @@ export class SearchIndexBuilder {
 
   // Build the Lunr search index
   buildIndex() {
+    const documents = this.documents;
     this.index = lunr(function () {
       // Define the fields to index
       this.field('title', { boost: 10 });
@@ -69,7 +70,7 @@ export class SearchIndexBuilder {
       this.field('tags', { boost: 2 });
 
       // Add documents to the index
-      this.documents.forEach(doc => {
+      documents.forEach(doc => {
         this.add(doc);
       });
     });

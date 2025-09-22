@@ -21,12 +21,20 @@
                         <li><a href="../../roadmaps/index.html">Roadmaps</a></li>
                     </ul>
                 </nav>
+                <button class="search-button" onclick="document.querySelector('#search-input').focus(); document.querySelector('#search-container').style.display='block';">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <span class="search-shortcut">/</span>
+                </button>
             </div>
         </div>
     </header>
 
-    <aside class="sidebar-nav">
-        <nav class="sidebar-nav">
+    <div class="content-wrapper">
+        <aside class="sidebar-nav">
+            <nav class="sidebar-nav">
   <div class="nav-section ">
     <h3 class="nav-section-title">👩‍🏫 Teacher Toolkit</h3>
   </div>
@@ -63,24 +71,526 @@
     <h3 class="nav-section-title">🗺️ Roadmaps</h3>
   </div>
 </nav>
-    </aside>
-    
-    <main class="main-content">
-        <div class="container">
-            <nav class="breadcrumbs" aria-label="Breadcrumb">
+        </aside>
+        
+        <main class="main-content">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../index.html">Home</a></li>
           <li><a href="../../grant_toolkit">Grant Toolkit</a></li><li><span aria-current="page">Grant Writing Flowcharts</span></li>
         </ol>
       </nav>
-            <article class="content">
-                <header class="page-header">
+                <article class="content">
+                    <header class="page-header">
+                        <h1>Grant Writing Flowcharts</h1>
+                        
+                    </header>
                     <h1>Grant Writing Flowcharts</h1>
-                    {{subtitle}}
-                </header>
-                <p><h1>Grant Writing Flowcharts</h1></p><p><br><em>Visual guides and diagrams for the grant writing process</em></p><p><br>---</p><p><br><h2>🚀 Quick Navigation</h2></p><p><br><h3><strong>Process Flowcharts</strong></h3></p><p><br>- <strong><a href="#grant-writing-process-flowchart">Grant Writing Process</a></strong> - Complete step-by-step process</p><p><br>- <strong><a href="#proposal-development-flowchart">Proposal Development</a></strong> - From idea to submission</p><p><br>- <strong><a href="#budget-development-flowchart">Budget Development</a></strong> - Financial planning process</p><p><br>- <strong><a href="#evaluation-planning-flowchart">Evaluation Planning</a></strong> - Measuring success</p><p><br><h3><strong>Decision Trees</strong></h3></p><p><br>- <strong><a href="#funder-selection-decision-tree">Funder Selection</a></strong> - Choosing the right funder</p><p><br>- <strong><a href="#proposal-type-selection-tree">Proposal Type Selection</a></strong> - Letter vs. full proposal</p><p><br>- <strong><a href="#budget-category-selection-tree">Budget Category Selection</a></strong> - What to include</p><p><br>---</p><p><br><h2>📊 Grant Writing Process Flowchart</h2></p><p><br><pre><code></p><p><br>                    I want to write a grant</p><p><br>                              │</p><p><br>                    ┌─────────┴─────────┐</p><p><br>                    │                   │</p><p><br>            I have an idea        I need funding</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Define      │     │ Research     │</p><p><br>            │ program     │     │ funders      │</p><p><br>            │ goals       │     │ and          │</p><p><br>            └─────────────┘     │ opportunities│</p><p><br>                    │           └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Develop     │     │ Build        │</p><p><br>            │ program     │     │ relationships│</p><p><br>            │ activities  │     │ with         │</p><p><br>            └─────────────┘     │ funders      │</p><p><br>                    │           └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Create      │     │ Prepare      │</p><p><br>            │ budget      │     │ application  │</p><p><br>            │ and         │     │ materials    │</p><p><br>            │ timeline    │     └─────────────┘</p><p><br>            └─────────────┘             │</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────────────────────────┐</p><p><br>            │        WRITE PROPOSAL           │</p><p><br>            │                                 │</p><p><br>            │ 1. Executive Summary            │</p><p><br>            │ 2. Statement of Need            │</p><p><br>            │ 3. Program Description          │</p><p><br>            │ 4. Budget and Justification     │</p><p><br>            │ 5. Evaluation Plan              │</p><p><br>            │ 6. Sustainability Plan          │</p><p><br>            └─────────────────────────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Review and  │</p><p><br>            │ edit        │</p><p><br>            │ proposal    │</p><p><br>            └─────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Submit      │</p><p><br>            │ proposal    │</p><p><br>            └─────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Follow up   │</p><p><br>            │ and wait    │</p><p><br>            │ for         │</p><p><br>            │ decision    │</p><p><br>            └─────────────┘</p><p><br>                    │</p><p><br>            ┌───────┴───────┐</p><p><br>            │               │</p><p><br>        FUNDED │           │ NOT FUNDED</p><p><br>            │               │</p><p><br>            ▼               ▼</p><p><br>    ┌─────────────┐ ┌─────────────┐</p><p><br>    │ Implement   │ │ Learn from  │</p><p><br>    │ program     │ │ feedback    │</p><p><br>    │ and track   │ │ and try     │</p><p><br>    │ progress    │ │ again       │</p><p><br>    └─────────────┘ └─────────────┘</p><p><br></code></pre></p><p><br>---</p><p><br><h2>📝 Proposal Development Flowchart</h2></p><p><br><pre><code></p><p><br>                    I need to write a proposal</p><p><br>                              │</p><p><br>                    ┌─────────┴─────────┐</p><p><br>                    │                   │</p><p><br>            Letter of Inquiry    Full Proposal</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Research     │     │ Research     │</p><p><br>            │ funder       │     │ funder       │</p><p><br>            │ priorities   │     │ priorities   │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Write brief │     │ Develop      │</p><p><br>            │ 2-page      │     │ detailed     │</p><p><br>            │ letter      │     │ proposal     │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Include:    │     │ Include:     │</p><p><br>            │ • Problem   │     │ • Executive  │</p><p><br>            │ • Solution  │     │   Summary    │</p><p><br>            │ • Impact    │     │ • Need       │</p><p><br>            │ • Request   │     │ • Program    │</p><p><br>            └─────────────┘     │ • Budget     │</p><p><br>                    │           │ • Evaluation │</p><p><br>                    ▼           │ • Sustain    │</p><p><br>            ┌─────────────┐     └─────────────┘</p><p><br>            │ Submit and  │             │</p><p><br>            │ follow up   │             ▼</p><p><br>            └─────────────┘     ┌─────────────┐</p><p><br>                                │ Submit and  │</p><p><br>                                │ follow up   │</p><p><br>                                └─────────────┘</p><p><br></code></pre></p><p><br>---</p><p><br><h2>💰 Budget Development Flowchart</h2></p><p><br><pre><code></p><p><br>                    I need to create a budget</p><p><br>                              │</p><p><br>                    ┌─────────┴─────────┐</p><p><br>                    │                   │</p><p><br>            I have a program    I need to estimate</p><p><br>            and know what       costs for a new</p><p><br>            it costs            program</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Use actual  │     │ Research     │</p><p><br>            │ costs from  │     │ market rates │</p><p><br>            │ similar     │     │ and similar  │</p><p><br>            │ programs    │     │ programs     │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────────────────────────┐</p><p><br>            │        CALCULATE COSTS          │</p><p><br>            │                                 │</p><p><br>            │ Personnel (60-70%)              │</p><p><br>            │ • Salaries and benefits         │</p><p><br>            │ • FTE calculations              │</p><p><br>            │ • Market rate research          │</p><p><br>            │                                 │</p><p><br>            │ Equipment/Supplies (15-20%)     │</p><p><br>            │ • Technology and devices        │</p><p><br>            │ • Materials and resources       │</p><p><br>            │ • One-time vs. ongoing costs    │</p><p><br>            │                                 │</p><p><br>            │ Professional Development (10-15%)│</p><p><br>            │ • Training and conferences      │</p><p><br>            │ • Consultant fees               │</p><p><br>            │ • Materials and travel          │</p><p><br>            │                                 │</p><p><br>            │ Evaluation (5-10%)              │</p><p><br>            │ • External evaluator            │</p><p><br>            │ • Data collection tools         │</p><p><br>            │ • Internal evaluation time      │</p><p><br>            │                                 │</p><p><br>            │ Indirect Costs (10-15%)         │</p><p><br>            │ • Administrative overhead       │</p><p><br>            │ • Office space and utilities    │</p><p><br>            │ • Insurance and legal           │</p><p><br>            └─────────────────────────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Add         │</p><p><br>            │ contingency │</p><p><br>            │ (5-10%)     │</p><p><br>            └─────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Review and  │</p><p><br>            │ adjust      │</p><p><br>            │ budget      │</p><p><br>            └─────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Justify     │</p><p><br>            │ each        │</p><p><br>            │ expense     │</p><p><br>            └─────────────┘</p><p><br></code></pre></p><p><br>---</p><p><br><h2>📊 Evaluation Planning Flowchart</h2></p><p><br><pre><code></p><p><br>                    I need to plan evaluation</p><p><br>                              │</p><p><br>                    ┌─────────┴─────────┐</p><p><br>                    │                   │</p><p><br>            I know what I      I need to figure</p><p><br>            want to measure    out what to measure</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Define      │     │ Review       │</p><p><br>            │ outcomes    │     │ program      │</p><p><br>            │ and         │     │ goals and    │</p><p><br>            │ indicators  │     │ objectives   │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────────────────────────┐</p><p><br>            │        SELECT METHODS           │</p><p><br>            │                                 │</p><p><br>            │ Quantitative Methods            │</p><p><br>            │ • Pre/post assessments          │</p><p><br>            │ • Surveys and questionnaires    │</p><p><br>            │ • Program records and data      │</p><p><br>            │ • Standardized tests            │</p><p><br>            │                                 │</p><p><br>            │ Qualitative Methods             │</p><p><br>            │ • Focus groups                  │</p><p><br>            │ • Interviews                    │</p><p><br>            │ • Observations                  │</p><p><br>            │ • Case studies                  │</p><p><br>            └─────────────────────────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Create      │</p><p><br>            │ data        │</p><p><br>            │ collection  │</p><p><br>            │ plan        │</p><p><br>            └─────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Establish   │</p><p><br>            │ timeline    │</p><p><br>            │ and         │</p><p><br>            │ schedule    │</p><p><br>            └─────────────┘</p><p><br>                    │</p><p><br>                    ▼</p><p><br>            ┌─────────────┐</p><p><br>            │ Plan data   │</p><p><br>            │ analysis    │</p><p><br>            │ and         │</p><p><br>            │ reporting   │</p><p><br>            └─────────────┘</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🎯 Funder Selection Decision Tree</h2></p><p><br><pre><code></p><p><br>                    I need to find funders</p><p><br>                              │</p><p><br>                    ┌─────────┴─────────┐</p><p><br>                    │                   │</p><p><br>            I want local        I want national</p><p><br>            funders             funders</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Check Grand │     │ Research     │</p><p><br>            │ Rapids      │     │ Foundation   │</p><p><br>            │ Database    │     │ Directory    │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Filter by   │     │ Filter by   │</p><p><br>            │ • Education │     │ • Education │</p><p><br>            │ • Learning  │     │ • Learning  │</p><p><br>            │ • Disabilities│   │ • Disabilities│</p><p><br>            │ • Community │     │ • Research  │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Check       │     │ Check       │</p><p><br>            │ • Grant     │     │ • Grant     │</p><p><br>            │   ranges    │     │   ranges    │</p><p><br>            │ • Deadlines │     │ • Deadlines │</p><p><br>            │ • Priorities│     │ • Priorities│</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Rank by     │     │ Rank by     │</p><p><br>            │ • Alignment │     │ • Alignment │</p><p><br>            │ • Amount    │     │ • Amount    │</p><p><br>            │ • Timeline  │     │ • Timeline  │</p><p><br>            │ • Priority  │     │ • Priority  │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br></code></pre></p><p><br>---</p><p><br><h2>📋 Proposal Type Selection Tree</h2></p><p><br><pre><code></p><p><br>                    I need to apply for funding</p><p><br>                              │</p><p><br>                    ┌─────────┴─────────┐</p><p><br>                    │                   │</p><p><br>            First time with    I've applied</p><p><br>            this funder        before</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Check       │     │ Check       │</p><p><br>            │ funder      │     │ funder      │</p><p><br>            │ requirements│     │ requirements│</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Required?   │     │ Required?   │</p><p><br>            │ Letter of   │     │ Letter of   │</p><p><br>            │ Inquiry     │     │ Inquiry     │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>            ┌───────┴───────┐   ┌───────┴───────┐</p><p><br>            │               │   │               │</p><p><br>        YES │               │ NO│               │</p><p><br>            │               │   │               │</p><p><br>            ▼               ▼   ▼               ▼</p><p><br>    ┌─────────────┐ ┌─────────────┐ ┌─────────────┐</p><p><br>    │ Write       │ │ Write       │ │ Write       │</p><p><br>    │ Letter of   │ │ Full        │ │ Full        │</p><p><br>    │ Inquiry     │ │ Proposal    │ │ Proposal    │</p><p><br>    │ first       │ │ directly    │ │ directly    │</p><p><br>    └─────────────┘ └─────────────┘ └─────────────┘</p><p><br>            │               │               │</p><p><br>            ▼               ▼               ▼</p><p><br>    ┌─────────────┐ ┌─────────────┐ ┌─────────────┐</p><p><br>    │ Wait for    │ │ Submit      │ │ Submit      │</p><p><br>    │ response    │ │ and follow  │ │ and follow  │</p><p><br>    │ and then    │ │ up          │ │ up          │</p><p><br>    │ write full  │ │             │ │             │</p><p><br>    │ proposal    │ │             │ │             │</p><p><br>    └─────────────┘ └─────────────┘ └─────────────┘</p><p><br></code></pre></p><p><br>---</p><p><br><h2>💡 Budget Category Selection Tree</h2></p><p><br><pre><code></p><p><br>                    I need to budget for my program</p><p><br>                              │</p><p><br>                    ┌─────────┴─────────┐</p><p><br>                    │                   │</p><p><br>            I have staff        I need to buy</p><p><br>            and need to         things for the</p><p><br>            pay them            program</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Personnel   │     │ Equipment/  │</p><p><br>            │ (60-70%)    │     │ Supplies    │</p><p><br>            │ • Salaries  │     │ (15-20%)    │</p><p><br>            │ • Benefits  │     │ • Technology│</p><p><br>            │ • FTE       │     │ • Materials │</p><p><br>            └─────────────┘     │ • Resources │</p><p><br>                    │           └─────────────┘</p><p><br>                    ▼                   │</p><p><br>            ┌─────────────┐             ▼</p><p><br>            │ Training    │     ┌─────────────┐</p><p><br>            │ needed?     │     │ Professional│</p><p><br>            └─────────────┘     │ Development │</p><p><br>                    │           │ (10-15%)    │</p><p><br>            ┌───────┴───────┐   │ • Training  │</p><p><br>            │               │   │ • Conferences│</p><p><br>        YES │               │ NO│ • Consultants│</p><p><br>            │               │   └─────────────┘</p><p><br>            ▼               ▼           │</p><p><br>    ┌─────────────┐ ┌─────────────┐     ▼</p><p><br>    │ Professional│ │ Evaluation  │ ┌─────────────┐</p><p><br>    │ Development │ │ needed?     │ │ Evaluation  │</p><p><br>    │ (10-15%)    │ └─────────────┘ │ (5-10%)     │</p><p><br>    │ • Training  │         │       │ • External  │</p><p><br>    │ • Conferences│        │       │   evaluator │</p><p><br>    │ • Consultants│        │       │ • Data tools│</p><p><br>    └─────────────┘         │       │ • Analysis  │</p><p><br>            │               │       └─────────────┘</p><p><br>            ▼               ▼               │</p><p><br>    ┌─────────────┐ ┌─────────────┐         ▼</p><p><br>    │ Evaluation  │ │ Indirect    │ ┌─────────────┐</p><p><br>    │ needed?     │ │ Costs       │ │ Indirect    │</p><p><br>    └─────────────┘ │ (10-15%)    │ │ Costs       │</p><p><br>            │       │ • Office    │ │ (10-15%)    │</p><p><br>            │       │ • Insurance │ │ • Office    │</p><p><br>            │       │ • Legal     │ │ • Insurance │</p><p><br>            │       └─────────────┘ │ • Legal     │</p><p><br>            │               │       └─────────────┘</p><p><br>            ▼               ▼               │</p><p><br>    ┌─────────────┐ ┌─────────────┐         ▼</p><p><br>    │ Evaluation  │ │ Add         │ ┌─────────────┐</p><p><br>    │ (5-10%)     │ │ contingency │ │ Add         │</p><p><br>    │ • External  │ │ (5-10%)     │ │ contingency │</p><p><br>    │   evaluator │ └─────────────┘ │ (5-10%)     │</p><p><br>    │ • Data tools│                 └─────────────┘</p><p><br>    │ • Analysis  │</p><p><br>    └─────────────┘</p><p><br></code></pre></p><p><br>---</p><p><br><h2>🎯 Success Factors Flowchart</h2></p><p><br><pre><code></p><p><br>                    I want to write a successful proposal</p><p><br>                              │</p><p><br>                    ┌─────────┴─────────┐</p><p><br>                    │                   │</p><p><br>            I need to research    I need to write</p><p><br>            funders               the proposal</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Research    │     │ Follow       │</p><p><br>            │ • Priorities│     │ guidelines   │</p><p><br>            │ • Recent    │     │ • Format     │</p><p><br>            │   grants    │     │ • Length     │</p><p><br>            │ • Contact   │     │ • Deadlines  │</p><p><br>            │   info      │     │ • Requirements│</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Build       │     │ Use clear,  │</p><p><br>            │ relationships│     │ compelling  │</p><p><br>            │ • Attend     │     │ language    │</p><p><br>            │   events     │     │ • Tell      │</p><p><br>            │ • Meet       │     │   stories   │</p><p><br>            │   program    │     │ • Include   │</p><p><br>            │   officers   │     │   data      │</p><p><br>            │ • Ask        │     │ • Be        │</p><p><br>            │   questions  │     │   specific  │</p><p><br>            └─────────────┘     └─────────────┘</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────┐     ┌─────────────┐</p><p><br>            │ Align with  │     │ Create      │</p><p><br>            │ funder      │     │ realistic   │</p><p><br>            │ priorities  │     │ budget      │</p><p><br>            │ • Use their │     │ • Justify   │</p><p><br>            │   language  │     │   expenses  │</p><p><br>            │ • Address   │     │ • Include   │</p><p><br>            │   their     │     │   all costs │</p><p><br>            │   concerns  │     │ • Plan for  │</p><p><br>            │ • Show      │     │   sustainability│</p><p><br>            │   fit       │     └─────────────┘</p><p><br>            └─────────────┘             │</p><p><br>                    │                   │</p><p><br>                    ▼                   ▼</p><p><br>            ┌─────────────────────────────────┐</p><p><br>            │        SUBMIT AND FOLLOW UP     │</p><p><br>            │                                 │</p><p><br>            │ 1. Submit on time               │</p><p><br>            │ 2. Follow up appropriately      │</p><p><br>            │ 3. Respond to questions         │</p><p><br>            │ 4. Build relationships          │</p><p><br>            │ 5. Learn from feedback          │</p><p><br>            └─────────────────────────────────┘</p><p><br></code></pre></p><p><br>---</p><p><br><h2>💡 Tips for Using These Flowcharts</h2></p><p><br><h3><strong>How to Use</strong></h3></p><p><br>- <strong>Follow the process</strong> step by step</p><p><br>- <strong>Use decision trees</strong> to make choices</p><p><br>- <strong>Reference flowcharts</strong> when stuck</p><p><br>- <strong>Print and post</strong> for team reference</p><p><br>- <strong>Customize</strong> for your specific needs</p><p><br><h3><strong>Best Practices</strong></h3></p><p><br>- <strong>Start with research</strong> before writing</p><p><br>- <strong>Build relationships</strong> early and often</p><p><br>- <strong>Follow funder guidelines</strong> exactly</p><p><br>- <strong>Use clear, compelling language</strong></p><p><br>- <strong>Include specific data and stories</strong></p><p><br>- <strong>Plan for sustainability</strong></p><p><br>---</p><p><br><em>These flowcharts provide visual guidance for the grant writing process. Use them to navigate complex decisions and ensure you don't miss important steps.</em></p>
-            </article>
-            <nav class="table-of-contents">
+
+<p><em>Visual guides and diagrams for the grant writing process</em></p>
+
+<p>---</p>
+
+<h2>🚀 Quick Navigation</h2>
+
+<h3><strong>Process Flowcharts</strong></h3><ul><li><strong><a href="#grant-writing-process-flowchart">Grant Writing Process</a></strong> - Complete step-by-step process</li></ul><ul><li><strong><a href="#proposal-development-flowchart">Proposal Development</a></strong> - From idea to submission</li></ul><ul><li><strong><a href="#budget-development-flowchart">Budget Development</a></strong> - Financial planning process</li></ul><ul><li><strong><a href="#evaluation-planning-flowchart">Evaluation Planning</a></strong> - Measuring success</li></ul>
+
+<h3><strong>Decision Trees</strong></h3><ul><li><strong><a href="#funder-selection-decision-tree">Funder Selection</a></strong> - Choosing the right funder</li></ul><ul><li><strong><a href="#proposal-type-selection-tree">Proposal Type Selection</a></strong> - Letter vs. full proposal</li></ul><ul><li><strong><a href="#budget-category-selection-tree">Budget Category Selection</a></strong> - What to include</li></ul>
+
+<p>---</p>
+
+<h2>📊 Grant Writing Process Flowchart</h2>
+
+<pre><code>
+<p>                    I want to write a grant</p>
+<p>                              │</p>
+<p>                    ┌─────────┴─────────┐</p>
+<p>                    │                   │</p>
+<p>            I have an idea        I need funding</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Define      │     │ Research     │</p>
+<p>            │ program     │     │ funders      │</p>
+<p>            │ goals       │     │ and          │</p>
+<p>            └─────────────┘     │ opportunities│</p>
+<p>                    │           └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Develop     │     │ Build        │</p>
+<p>            │ program     │     │ relationships│</p>
+<p>            │ activities  │     │ with         │</p>
+<p>            └─────────────┘     │ funders      │</p>
+<p>                    │           └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Create      │     │ Prepare      │</p>
+<p>            │ budget      │     │ application  │</p>
+<p>            │ and         │     │ materials    │</p>
+<p>            │ timeline    │     └─────────────┘</p>
+<p>            └─────────────┘             │</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────────────────────────┐</p>
+<p>            │        WRITE PROPOSAL           │</p>
+<p>            │                                 │</p>
+<p>            │ 1. Executive Summary            │</p>
+<p>            │ 2. Statement of Need            │</p>
+<p>            │ 3. Program Description          │</p>
+<p>            │ 4. Budget and Justification     │</p>
+<p>            │ 5. Evaluation Plan              │</p>
+<p>            │ 6. Sustainability Plan          │</p>
+<p>            └─────────────────────────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Review and  │</p>
+<p>            │ edit        │</p>
+<p>            │ proposal    │</p>
+<p>            └─────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Submit      │</p>
+<p>            │ proposal    │</p>
+<p>            └─────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Follow up   │</p>
+<p>            │ and wait    │</p>
+<p>            │ for         │</p>
+<p>            │ decision    │</p>
+<p>            └─────────────┘</p>
+<p>                    │</p>
+<p>            ┌───────┴───────┐</p>
+<p>            │               │</p>
+<p>        FUNDED │           │ NOT FUNDED</p>
+<p>            │               │</p>
+<p>            ▼               ▼</p>
+<p>    ┌─────────────┐ ┌─────────────┐</p>
+<p>    │ Implement   │ │ Learn from  │</p>
+<p>    │ program     │ │ feedback    │</p>
+<p>    │ and track   │ │ and try     │</p>
+<p>    │ progress    │ │ again       │</p>
+<p>    └─────────────┘ └─────────────┘</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>📝 Proposal Development Flowchart</h2>
+
+<pre><code>
+<p>                    I need to write a proposal</p>
+<p>                              │</p>
+<p>                    ┌─────────┴─────────┐</p>
+<p>                    │                   │</p>
+<p>            Letter of Inquiry    Full Proposal</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Research     │     │ Research     │</p>
+<p>            │ funder       │     │ funder       │</p>
+<p>            │ priorities   │     │ priorities   │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Write brief │     │ Develop      │</p>
+<p>            │ 2-page      │     │ detailed     │</p>
+<p>            │ letter      │     │ proposal     │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Include:    │     │ Include:     │</p>
+<p>            │ • Problem   │     │ • Executive  │</p>
+<p>            │ • Solution  │     │   Summary    │</p>
+<p>            │ • Impact    │     │ • Need       │</p>
+<p>            │ • Request   │     │ • Program    │</p>
+<p>            └─────────────┘     │ • Budget     │</p>
+<p>                    │           │ • Evaluation │</p>
+<p>                    ▼           │ • Sustain    │</p>
+<p>            ┌─────────────┐     └─────────────┘</p>
+<p>            │ Submit and  │             │</p>
+<p>            │ follow up   │             ▼</p>
+<p>            └─────────────┘     ┌─────────────┐</p>
+<p>                                │ Submit and  │</p>
+<p>                                │ follow up   │</p>
+<p>                                └─────────────┘</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>💰 Budget Development Flowchart</h2>
+
+<pre><code>
+<p>                    I need to create a budget</p>
+<p>                              │</p>
+<p>                    ┌─────────┴─────────┐</p>
+<p>                    │                   │</p>
+<p>            I have a program    I need to estimate</p>
+<p>            and know what       costs for a new</p>
+<p>            it costs            program</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Use actual  │     │ Research     │</p>
+<p>            │ costs from  │     │ market rates │</p>
+<p>            │ similar     │     │ and similar  │</p>
+<p>            │ programs    │     │ programs     │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────────────────────────┐</p>
+<p>            │        CALCULATE COSTS          │</p>
+<p>            │                                 │</p>
+<p>            │ Personnel (60-70%)              │</p>
+<p>            │ • Salaries and benefits         │</p>
+<p>            │ • FTE calculations              │</p>
+<p>            │ • Market rate research          │</p>
+<p>            │                                 │</p>
+<p>            │ Equipment/Supplies (15-20%)     │</p>
+<p>            │ • Technology and devices        │</p>
+<p>            │ • Materials and resources       │</p>
+<p>            │ • One-time vs. ongoing costs    │</p>
+<p>            │                                 │</p>
+<p>            │ Professional Development (10-15%)│</p>
+<p>            │ • Training and conferences      │</p>
+<p>            │ • Consultant fees               │</p>
+<p>            │ • Materials and travel          │</p>
+<p>            │                                 │</p>
+<p>            │ Evaluation (5-10%)              │</p>
+<p>            │ • External evaluator            │</p>
+<p>            │ • Data collection tools         │</p>
+<p>            │ • Internal evaluation time      │</p>
+<p>            │                                 │</p>
+<p>            │ Indirect Costs (10-15%)         │</p>
+<p>            │ • Administrative overhead       │</p>
+<p>            │ • Office space and utilities    │</p>
+<p>            │ • Insurance and legal           │</p>
+<p>            └─────────────────────────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Add         │</p>
+<p>            │ contingency │</p>
+<p>            │ (5-10%)     │</p>
+<p>            └─────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Review and  │</p>
+<p>            │ adjust      │</p>
+<p>            │ budget      │</p>
+<p>            └─────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Justify     │</p>
+<p>            │ each        │</p>
+<p>            │ expense     │</p>
+<p>            └─────────────┘</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>📊 Evaluation Planning Flowchart</h2>
+
+<pre><code>
+<p>                    I need to plan evaluation</p>
+<p>                              │</p>
+<p>                    ┌─────────┴─────────┐</p>
+<p>                    │                   │</p>
+<p>            I know what I      I need to figure</p>
+<p>            want to measure    out what to measure</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Define      │     │ Review       │</p>
+<p>            │ outcomes    │     │ program      │</p>
+<p>            │ and         │     │ goals and    │</p>
+<p>            │ indicators  │     │ objectives   │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────────────────────────┐</p>
+<p>            │        SELECT METHODS           │</p>
+<p>            │                                 │</p>
+<p>            │ Quantitative Methods            │</p>
+<p>            │ • Pre/post assessments          │</p>
+<p>            │ • Surveys and questionnaires    │</p>
+<p>            │ • Program records and data      │</p>
+<p>            │ • Standardized tests            │</p>
+<p>            │                                 │</p>
+<p>            │ Qualitative Methods             │</p>
+<p>            │ • Focus groups                  │</p>
+<p>            │ • Interviews                    │</p>
+<p>            │ • Observations                  │</p>
+<p>            │ • Case studies                  │</p>
+<p>            └─────────────────────────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Create      │</p>
+<p>            │ data        │</p>
+<p>            │ collection  │</p>
+<p>            │ plan        │</p>
+<p>            └─────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Establish   │</p>
+<p>            │ timeline    │</p>
+<p>            │ and         │</p>
+<p>            │ schedule    │</p>
+<p>            └─────────────┘</p>
+<p>                    │</p>
+<p>                    ▼</p>
+<p>            ┌─────────────┐</p>
+<p>            │ Plan data   │</p>
+<p>            │ analysis    │</p>
+<p>            │ and         │</p>
+<p>            │ reporting   │</p>
+<p>            └─────────────┘</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🎯 Funder Selection Decision Tree</h2>
+
+<pre><code>
+<p>                    I need to find funders</p>
+<p>                              │</p>
+<p>                    ┌─────────┴─────────┐</p>
+<p>                    │                   │</p>
+<p>            I want local        I want national</p>
+<p>            funders             funders</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Check Grand │     │ Research     │</p>
+<p>            │ Rapids      │     │ Foundation   │</p>
+<p>            │ Database    │     │ Directory    │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Filter by   │     │ Filter by   │</p>
+<p>            │ • Education │     │ • Education │</p>
+<p>            │ • Learning  │     │ • Learning  │</p>
+<p>            │ • Disabilities│   │ • Disabilities│</p>
+<p>            │ • Community │     │ • Research  │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Check       │     │ Check       │</p>
+<p>            │ • Grant     │     │ • Grant     │</p>
+<p>            │   ranges    │     │   ranges    │</p>
+<p>            │ • Deadlines │     │ • Deadlines │</p>
+<p>            │ • Priorities│     │ • Priorities│</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Rank by     │     │ Rank by     │</p>
+<p>            │ • Alignment │     │ • Alignment │</p>
+<p>            │ • Amount    │     │ • Amount    │</p>
+<p>            │ • Timeline  │     │ • Timeline  │</p>
+<p>            │ • Priority  │     │ • Priority  │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>📋 Proposal Type Selection Tree</h2>
+
+<pre><code>
+<p>                    I need to apply for funding</p>
+<p>                              │</p>
+<p>                    ┌─────────┴─────────┐</p>
+<p>                    │                   │</p>
+<p>            First time with    I've applied</p>
+<p>            this funder        before</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Check       │     │ Check       │</p>
+<p>            │ funder      │     │ funder      │</p>
+<p>            │ requirements│     │ requirements│</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Required?   │     │ Required?   │</p>
+<p>            │ Letter of   │     │ Letter of   │</p>
+<p>            │ Inquiry     │     │ Inquiry     │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>            ┌───────┴───────┐   ┌───────┴───────┐</p>
+<p>            │               │   │               │</p>
+<p>        YES │               │ NO│               │</p>
+<p>            │               │   │               │</p>
+<p>            ▼               ▼   ▼               ▼</p>
+<p>    ┌─────────────┐ ┌─────────────┐ ┌─────────────┐</p>
+<p>    │ Write       │ │ Write       │ │ Write       │</p>
+<p>    │ Letter of   │ │ Full        │ │ Full        │</p>
+<p>    │ Inquiry     │ │ Proposal    │ │ Proposal    │</p>
+<p>    │ first       │ │ directly    │ │ directly    │</p>
+<p>    └─────────────┘ └─────────────┘ └─────────────┘</p>
+<p>            │               │               │</p>
+<p>            ▼               ▼               ▼</p>
+<p>    ┌─────────────┐ ┌─────────────┐ ┌─────────────┐</p>
+<p>    │ Wait for    │ │ Submit      │ │ Submit      │</p>
+<p>    │ response    │ │ and follow  │ │ and follow  │</p>
+<p>    │ and then    │ │ up          │ │ up          │</p>
+<p>    │ write full  │ │             │ │             │</p>
+<p>    │ proposal    │ │             │ │             │</p>
+<p>    └─────────────┘ └─────────────┘ └─────────────┘</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>💡 Budget Category Selection Tree</h2>
+
+<pre><code>
+<p>                    I need to budget for my program</p>
+<p>                              │</p>
+<p>                    ┌─────────┴─────────┐</p>
+<p>                    │                   │</p>
+<p>            I have staff        I need to buy</p>
+<p>            and need to         things for the</p>
+<p>            pay them            program</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Personnel   │     │ Equipment/  │</p>
+<p>            │ (60-70%)    │     │ Supplies    │</p>
+<p>            │ • Salaries  │     │ (15-20%)    │</p>
+<p>            │ • Benefits  │     │ • Technology│</p>
+<p>            │ • FTE       │     │ • Materials │</p>
+<p>            └─────────────┘     │ • Resources │</p>
+<p>                    │           └─────────────┘</p>
+<p>                    ▼                   │</p>
+<p>            ┌─────────────┐             ▼</p>
+<p>            │ Training    │     ┌─────────────┐</p>
+<p>            │ needed?     │     │ Professional│</p>
+<p>            └─────────────┘     │ Development │</p>
+<p>                    │           │ (10-15%)    │</p>
+<p>            ┌───────┴───────┐   │ • Training  │</p>
+<p>            │               │   │ • Conferences│</p>
+<p>        YES │               │ NO│ • Consultants│</p>
+<p>            │               │   └─────────────┘</p>
+<p>            ▼               ▼           │</p>
+<p>    ┌─────────────┐ ┌─────────────┐     ▼</p>
+<p>    │ Professional│ │ Evaluation  │ ┌─────────────┐</p>
+<p>    │ Development │ │ needed?     │ │ Evaluation  │</p>
+<p>    │ (10-15%)    │ └─────────────┘ │ (5-10%)     │</p>
+<p>    │ • Training  │         │       │ • External  │</p>
+<p>    │ • Conferences│        │       │   evaluator │</p>
+<p>    │ • Consultants│        │       │ • Data tools│</p>
+<p>    └─────────────┘         │       │ • Analysis  │</p>
+<p>            │               │       └─────────────┘</p>
+<p>            ▼               ▼               │</p>
+<p>    ┌─────────────┐ ┌─────────────┐         ▼</p>
+<p>    │ Evaluation  │ │ Indirect    │ ┌─────────────┐</p>
+<p>    │ needed?     │ │ Costs       │ │ Indirect    │</p>
+<p>    └─────────────┘ │ (10-15%)    │ │ Costs       │</p>
+<p>            │       │ • Office    │ │ (10-15%)    │</p>
+<p>            │       │ • Insurance │ │ • Office    │</p>
+<p>            │       │ • Legal     │ │ • Insurance │</p>
+<p>            │       └─────────────┘ │ • Legal     │</p>
+<p>            │               │       └─────────────┘</p>
+<p>            ▼               ▼               │</p>
+<p>    ┌─────────────┐ ┌─────────────┐         ▼</p>
+<p>    │ Evaluation  │ │ Add         │ ┌─────────────┐</p>
+<p>    │ (5-10%)     │ │ contingency │ │ Add         │</p>
+<p>    │ • External  │ │ (5-10%)     │ │ contingency │</p>
+<p>    │   evaluator │ └─────────────┘ │ (5-10%)     │</p>
+<p>    │ • Data tools│                 └─────────────┘</p>
+<p>    │ • Analysis  │</p>
+<p>    └─────────────┘</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>🎯 Success Factors Flowchart</h2>
+
+<pre><code>
+<p>                    I want to write a successful proposal</p>
+<p>                              │</p>
+<p>                    ┌─────────┴─────────┐</p>
+<p>                    │                   │</p>
+<p>            I need to research    I need to write</p>
+<p>            funders               the proposal</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Research    │     │ Follow       │</p>
+<p>            │ • Priorities│     │ guidelines   │</p>
+<p>            │ • Recent    │     │ • Format     │</p>
+<p>            │   grants    │     │ • Length     │</p>
+<p>            │ • Contact   │     │ • Deadlines  │</p>
+<p>            │   info      │     │ • Requirements│</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Build       │     │ Use clear,  │</p>
+<p>            │ relationships│     │ compelling  │</p>
+<p>            │ • Attend     │     │ language    │</p>
+<p>            │   events     │     │ • Tell      │</p>
+<p>            │ • Meet       │     │   stories   │</p>
+<p>            │   program    │     │ • Include   │</p>
+<p>            │   officers   │     │   data      │</p>
+<p>            │ • Ask        │     │ • Be        │</p>
+<p>            │   questions  │     │   specific  │</p>
+<p>            └─────────────┘     └─────────────┘</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────┐     ┌─────────────┐</p>
+<p>            │ Align with  │     │ Create      │</p>
+<p>            │ funder      │     │ realistic   │</p>
+<p>            │ priorities  │     │ budget      │</p>
+<p>            │ • Use their │     │ • Justify   │</p>
+<p>            │   language  │     │   expenses  │</p>
+<p>            │ • Address   │     │ • Include   │</p>
+<p>            │   their     │     │   all costs │</p>
+<p>            │   concerns  │     │ • Plan for  │</p>
+<p>            │ • Show      │     │   sustainability│</p>
+<p>            │   fit       │     └─────────────┘</p>
+<p>            └─────────────┘             │</p>
+<p>                    │                   │</p>
+<p>                    ▼                   ▼</p>
+<p>            ┌─────────────────────────────────┐</p>
+<p>            │        SUBMIT AND FOLLOW UP     │</p>
+<p>            │                                 │</p>
+<p>            │ 1. Submit on time               │</p>
+<p>            │ 2. Follow up appropriately      │</p>
+<p>            │ 3. Respond to questions         │</p>
+<p>            │ 4. Build relationships          │</p>
+<p>            │ 5. Learn from feedback          │</p>
+<p>            └─────────────────────────────────┘</p>
+<p></code></pre></p>
+
+<p>---</p>
+
+<h2>💡 Tips for Using These Flowcharts</h2>
+
+<h3><strong>How to Use</strong></h3><ul><li><strong>Follow the process</strong> step by step</li></ul><ul><li><strong>Use decision trees</strong> to make choices</li></ul><ul><li><strong>Reference flowcharts</strong> when stuck</li></ul><ul><li><strong>Print and post</strong> for team reference</li></ul><ul><li><strong>Customize</strong> for your specific needs</li></ul>
+
+<h3><strong>Best Practices</strong></h3><ul><li><strong>Start with research</strong> before writing</li></ul><ul><li><strong>Build relationships</strong> early and often</li></ul><ul><li><strong>Follow funder guidelines</strong> exactly</li></ul><ul><li><strong>Use clear, compelling language</strong></li></ul><ul><li><strong>Include specific data and stories</strong></li></ul><ul><li><strong>Plan for sustainability</strong></li></ul>
+
+<p>---</p>
+
+<p><em>These flowcharts provide visual guidance for the grant writing process. Use them to navigate complex decisions and ensure you don't miss important steps.</em></p>
+
+                </article>
+                <nav class="table-of-contents">
   <h3>Table of Contents</h3>
   <ol class="toc-list">
 <li><a href="#grant-writing-flowcharts">Grant Writing Flowcharts</a></li>
@@ -100,12 +610,13 @@
         <li><a href="#best-practices">Best Practices</a></li>
   </ol>
 </nav>
-            <nav class="page-navigation">
+                <nav class="page-navigation">
   <a href="../../grant_toolkit/grand_rapids_philanthropist_database.html" class="nav-prev">← Grand Rapids, MI Philanthropist Database</a>
   <a href="../../grant_toolkit/grant_writing_guide.html" class="nav-next">Grant Writing Guide for Learning Disabilities Support →</a>
 </nav>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -113,6 +624,9 @@
         </div>
     </footer>
 
+    <!-- Lunr.js for search functionality -->
+    <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+    <script src="../../assets/js/search.js"></script>
     <script src="../../assets/js/main.js"></script>
 </body>
 </html>
