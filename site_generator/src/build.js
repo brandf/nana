@@ -56,7 +56,11 @@ function markdownToHtml(markdown, baseUrl = './') {
         inList = false;
         listItems = [];
       }
-      html += `<h3>${trimmedLine.replace(/^### /, '')}</h3>\n`;
+      let headerText = trimmedLine.replace(/^### /, '');
+      headerText = headerText
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>');
+      html += `<h3>${headerText}</h3>\n`;
     } else if (trimmedLine.match(/^## /)) {
       // Close any open list
       if (inList) {
@@ -64,7 +68,11 @@ function markdownToHtml(markdown, baseUrl = './') {
         inList = false;
         listItems = [];
       }
-      html += `<h2>${trimmedLine.replace(/^## /, '')}</h2>\n`;
+      let headerText = trimmedLine.replace(/^## /, '');
+      headerText = headerText
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>');
+      html += `<h2>${headerText}</h2>\n`;
     } else if (trimmedLine.match(/^# /)) {
       // Close any open list
       if (inList) {
@@ -72,7 +80,11 @@ function markdownToHtml(markdown, baseUrl = './') {
         inList = false;
         listItems = [];
       }
-      html += `<h1>${trimmedLine.replace(/^# /, '')}</h1>\n`;
+      let headerText = trimmedLine.replace(/^# /, '');
+      headerText = headerText
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>');
+      html += `<h1>${headerText}</h1>\n`;
     }
     // Horizontal rules
     else if (trimmedLine === '---') {
@@ -87,7 +99,11 @@ function markdownToHtml(markdown, baseUrl = './') {
     // List items
     else if (trimmedLine.match(/^- /)) {
       inList = true;
-      listItems.push(`<li>${trimmedLine.replace(/^- /, '')}</li>`);
+      let listText = trimmedLine.replace(/^- /, '');
+      listText = listText
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>');
+      listItems.push(`<li>${listText}</li>`);
     }
     // Empty lines or other content
     else {
