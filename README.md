@@ -39,15 +39,18 @@ This repository contains comprehensive toolkits for supporting students with lea
 
 ```
 ├── README.md                           # This file
-├── docs/                               # Main documentation
+├── docs/                               # Main documentation (markdown source)
 │   ├── teacher_toolkit/                # Complete teacher resources
 │   ├── grant_toolkit/                  # Complete grant writing resources
 │   ├── roadmaps/                       # Strategic development plans
 │   ├── research_report.md              # Comprehensive research foundation
 │   └── for_teachers.md                # Teacher-focused summary
-├── exports/                            # Deployable formats
-│   ├── teacher-toolkit-website.zip     # Static website
-│   └── grant-toolkit-website.zip      # Static website
+├── site_generator/                     # Static site generator (Node.js)
+│   ├── src/                            # Generator source code
+│   ├── package.json                    # Node.js dependencies
+│   └── PLAN.md                         # Development roadmap
+├── exports/                            # Generated static website
+│   └── website/                        # Professional static site (53 pages)
 ├── notes/                              # Research notes and observations
 └── references/                         # Reference materials and citations
 ```
@@ -68,8 +71,62 @@ This repository contains comprehensive toolkits for supporting students with lea
 
 ### **For Administrators:**
 1. **[Roadmaps](docs/roadmaps/README.md)** - Strategic development plans
-2. **[Export Plan](docs/roadmaps/export_plan.md)** - Multiple format distribution
-3. **[Static Websites](exports/)** - Deployable toolkit websites
+2. **[Static Website](exports/website/)** - Professional documentation site
+3. **[Site Generator](site_generator/)** - Build and deployment tools
+
+---
+
+## 🌐 **Static Website Generator**
+
+### **Professional Documentation Site**
+This repository includes a **Node.js-based static site generator** that converts all markdown documentation into a professional, modern website.
+
+**Features:**
+- ✅ **Professional Design** - Modern typography, responsive layout, clean navigation
+- ✅ **Full-Text Search** - Lunr.js-powered search with keyboard shortcuts (`/` to open)
+- ✅ **Smart Navigation** - Hierarchical sidebar, breadcrumbs, table of contents
+- ✅ **SEO Optimized** - Sitemap, robots.txt, semantic HTML
+- ✅ **53 Pages Generated** - Complete documentation site from markdown source
+
+### **Development Workflows**
+
+#### **Local Development**
+```bash
+cd site_generator
+npm install                    # Install dependencies
+npm run build                  # Generate static site
+npm run serve                  # Serve locally (http://localhost:3000)
+npm run open-local             # Build + serve + open browser
+npm run open-file              # Build + open file:// version
+```
+
+#### **Content Updates**
+1. **Edit markdown files** in `docs/` directory
+2. **Run build command** to regenerate site locally
+3. **Preview changes** locally before deployment
+4. **Push to GitHub** for automatic deployment (GitHub Actions)
+
+#### **Automatic Deployment**
+- **GitHub Actions** workflow automatically builds and deploys on push to `main`
+- **Live site** available at `https://[username].github.io/nana`
+- **Zero-friction publishing** - just edit markdown and push
+- **See [DEPLOYMENT.md](DEPLOYMENT.md)** for setup instructions
+
+#### **Available Commands**
+- `npm run build` - Generate static site to `exports/website/`
+- `npm run dev` - Development server with live reload
+- `npm run serve` - Serve generated site locally
+- `npm run check` - Validate internal links
+- `npm run open-local` - Open local server in browser
+- `npm run open-file` - Open file:// version in browser
+- `npm run open-github` - Open GitHub Pages (when deployed)
+
+### **Site Architecture**
+- **Source**: Markdown files in `docs/` directory
+- **Generator**: Node.js build pipeline in `site_generator/`
+- **Output**: Professional static site in `exports/website/`
+- **Deployment**: GitHub Actions automatic deployment to GitHub Pages
+- **Live Site**: `https://[username].github.io/nana`
 
 ---
 
@@ -78,10 +135,14 @@ This repository contains comprehensive toolkits for supporting students with lea
 ### **✅ COMPLETED PROJECTS**
 - **Teacher Toolkit** - Fully complete and ready for use (10/10 rating)
 - **Grant Toolkit** - Fully complete and ready for use (10/10 rating)
-- **Static Websites** - Both toolkits exported as deployable websites
+- **Static Site Generator** - Professional Node.js-based website generator (53 pages)
+- **Professional Website** - Modern, searchable documentation site with responsive design
 
 ### **🚧 ACTIVE DEVELOPMENT**
 - **Federal/State Grants Expansion** - 12-week implementation plan for government funding opportunities
+
+### **✅ RECENTLY COMPLETED**
+- **GitHub Pages Integration** - Automatic deployment pipeline (ready for activation)
 
 ### **🚀 POTENTIAL FUTURE PROJECTS**
 - **Administrator Toolkit** - System-level support resources
@@ -118,8 +179,10 @@ This repository contains comprehensive toolkits for supporting students with lea
 - **[Federal/State Grants Roadmap](docs/roadmaps/federal_state_grants_roadmap.md)** - Government funding expansion
 
 ### **Deployable Formats**
-- **[Export Plan](docs/roadmaps/export_plan.md)** - Multiple format distribution
-- **[Static Websites](exports/)** - Ready-to-deploy toolkit websites
+- **[Static Website](exports/website/)** - Professional documentation site (53 pages)
+- **[Site Generator](site_generator/)** - Node.js build pipeline and deployment tools
+- **[Deployment Instructions](DEPLOYMENT.md)** - GitHub Pages setup and automatic deployment
+- **[Export Plan](docs/roadmaps/export_plan.md)** - Multiple format distribution strategy
 
 ---
 
@@ -153,8 +216,10 @@ This repository contains comprehensive toolkits for supporting students with lea
 
 ### **For Administrators**
 - **[Project Roadmaps](docs/roadmaps/README.md)** - Strategic development overview
-- **[Export Plan](docs/roadmaps/export_plan.md)** - Multiple format distribution
-- **[Static Websites](exports/)** - Deployable toolkit websites
+- **[Static Website](exports/website/)** - Professional documentation site
+- **[Site Generator](site_generator/)** - Build and deployment tools
+- **[Deployment Instructions](DEPLOYMENT.md)** - GitHub Pages setup and automatic deployment
+- **[Export Plan](docs/roadmaps/export_plan.md)** - Multiple format distribution strategy
 
 ---
 

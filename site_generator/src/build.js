@@ -39,36 +39,84 @@ console.log(`Found ${markdownFiles.length} markdown files`);
 
 // Simple markdown to HTML converter (basic version)
 function markdownToHtml(markdown, baseUrl = './') {
-  let html = markdown
+  const lines = markdown.split('\n');
+  let html = '';
+  let inList = false;
+  let listItems = [];
+  
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const trimmedLine = line.trim();
+    
     // Headers
-    .replace(/^### (.*$)/gim, '<h3>$1</h3>')
-    .replace(/^## (.*$)/gim, '<h2>$1</h2>')
-    .replace(/^# (.*$)/gim, '<h1>$1</h1>')
-    // Bold
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    // Italic
-    .replace(/\*(.*?)\*/g, '<em>$1</em>')
-    // Code blocks
-    .replace(/```([^`]+)```/g, '<pre><code>$1</code></pre>')
-    // Inline code
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    // Lists - handle multiple consecutive list items
-    .replace(/^(\s*-\s.*(?:\n\s*-\s.*)*)/gim, (match) => {
-      const items = match.split('\n')
-        .filter(line => line.trim().match(/^- /))
-        .map(line => `<li>${line.replace(/^\s*-\s/, '')}</li>`)
-        .join('');
-      return `<ul>${items}</ul>`;
-    })
-    // Line breaks - convert double line breaks to paragraph breaks
-    .replace(/\n\n/gim, '</p><p>')
-    // Wrap in paragraphs
-    .replace(/^(?!<h|<ul|<li|<pre|<p)(.*)$/gim, '<p>$1</p>')
-    // Clean up empty paragraphs and excessive breaks
-    .replace(/<p><\/p>/gim, '')
-    .replace(/<p><br><\/p>/gim, '')
-    .replace(/<p><br><br><\/p>/gim, '')
-    .replace(/<p>\s*<br>\s*<\/p>/gim, '');
+    if (trimmedLine.match(/^### /)) {
+      // Close any open list
+      if (inList) {
+        html += `<ul>${listItems.join('')}</ul>\n`;
+        inList = false;
+        listItems = [];
+      }
+      html += `<h3>${trimmedLine.replace(/^### /, '')}</h3>\n`;
+    } else if (trimmedLine.match(/^## /)) {
+      // Close any open list
+      if (inList) {
+        html += `<ul>${listItems.join('')}</ul>\n`;
+        inList = false;
+        listItems = [];
+      }
+      html += `<h2>${trimmedLine.replace(/^## /, '')}</h2>\n`;
+    } else if (trimmedLine.match(/^# /)) {
+      // Close any open list
+      if (inList) {
+        html += `<ul>${listItems.join('')}</ul>\n`;
+        inList = false;
+        listItems = [];
+      }
+      html += `<h1>${trimmedLine.replace(/^# /, '')}</h1>\n`;
+    }
+    // Horizontal rules
+    else if (trimmedLine === '---') {
+      // Close any open list
+      if (inList) {
+        html += `<ul>${listItems.join('')}</ul>\n`;
+        inList = false;
+        listItems = [];
+      }
+      html += '<hr>\n';
+    }
+    // List items
+    else if (trimmedLine.match(/^- /)) {
+      inList = true;
+      listItems.push(`<li>${trimmedLine.replace(/^- /, '')}</li>`);
+    }
+    // Empty lines or other content
+    else {
+      // Close any open list
+      if (inList) {
+        html += `<ul>${listItems.join('')}</ul>\n`;
+        inList = false;
+        listItems = [];
+      }
+      
+      if (trimmedLine === '') {
+        html += '\n';
+      } else {
+        // Process inline formatting
+        let processedLine = trimmedLine
+          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+          .replace(/\*(.*?)\*/g, '<em>$1</em>')
+          .replace(/```([^`]+)```/g, '<pre><code>$1</code></pre>')
+          .replace(/`([^`]+)`/g, '<code>$1</code>');
+        
+        html += `<p>${processedLine}</p>\n`;
+      }
+    }
+  }
+  
+  // Close any remaining open list
+  if (inList) {
+    html += `<ul>${listItems.join('')}</ul>\n`;
+  }
 
   // Process links - convert internal .md links to .html
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, (match, linkText, linkUrl) => {
@@ -136,6 +184,11 @@ const searchIndexBuilder = new SearchIndexBuilder();
 for (const page of pages) {
   const route = page.route;
   
+  // Remove duplicate H1 if it matches the page title
+  const pageTitle = navigationBuilder.getPageTitle(page);
+  const duplicateH1Regex = new RegExp(`<h1>${pageTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}</h1>`, 'i');
+  page.content = page.content.replace(duplicateH1Regex, '');
+  
   // Generate breadcrumbs and base URL
   const breadcrumbItems = generateBreadcrumbs(route, '');
   const baseUrl = getBaseUrl(route);
@@ -144,9 +197,6 @@ for (const page of pages) {
   const sidebarNavigation = navigationBuilder.generateSidebarNavigation(route);
   const tableOfContents = navigationBuilder.generateTableOfContents(page.content, route);
   const pageNavigation = navigationBuilder.generatePreviousNextNavigation(route);
-  
-  // Get proper page title
-  const pageTitle = navigationBuilder.getPageTitle(page);
   
   // Render template
   const templateData = {

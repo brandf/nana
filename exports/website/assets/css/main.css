@@ -309,6 +309,47 @@ body {
     max-width: 900px;
     margin: 0;
     padding: 0;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.content hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e5e7eb, transparent);
+    margin: 3rem 0;
+}
+
+.content ul {
+    margin: 1.5rem 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.content ul li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    color: #4b5563;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.content ul li::before {
+    content: "•";
+    color: #3b82f6;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.content strong {
+    font-weight: 600;
+    color: #374151;
+}
+
+.content em {
+    font-style: italic;
+    color: #6b7280;
 }
 
 .page-header {
