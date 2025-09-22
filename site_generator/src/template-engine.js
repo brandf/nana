@@ -101,6 +101,6 @@ export function generateBreadcrumbs(route, baseUrl) {
 
 // Helper function to determine base URL for assets
 export function getBaseUrl(route) {
-    // For GitHub Pages, use absolute paths starting with /
-    return '/';
+    // For GitHub Pages, use the full GitHub Pages URL
+    return 'https://brandf.github.io/nana/';
 }
