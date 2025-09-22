@@ -107,7 +107,7 @@ npm run open-file              # Build + open file:// version
 4. **Push to GitHub** for automatic deployment (GitHub Actions)
 
 #### **Automatic Deployment**
-- **GitHub Actions** workflow automatically builds and deploys on push to `main`
+- **GitHub Actions** workflow automatically builds and deploys on push to `master`
 - **Live site** available at `https://[username].github.io/nana`
 - **Zero-friction publishing** - just edit markdown and push
 - **See [DEPLOYMENT.md](DEPLOYMENT.md)** for setup instructions

@@ -2,10 +2,10 @@
 
 ## 🚀 **Automatic Deployment Setup**
 
-This repository is configured for **automatic deployment** to GitHub Pages. When you push changes to the `main` branch, the site will automatically rebuild and deploy.
+This repository is configured for **automatic deployment** to GitHub Pages. When you push changes to the `master` branch, the site will automatically rebuild and deploy.
 
 ### **What Happens Automatically**
-1. **Trigger**: Push to `main` branch (or changes to `docs/**`, `site_generator/**`, or `.github/workflows/deploy.yml`)
+1. **Trigger**: Push to `master` branch (or changes to `docs/**`, `site_generator/**`, or `.github/workflows/deploy.yml`)
 2. **Build**: GitHub Actions runs `npm run build` in the `site_generator/` directory
 3. **Deploy**: Generated site from `exports/website/` is deployed to GitHub Pages
 4. **Live**: Site becomes available at `https://[username].github.io/nana`
@@ -80,7 +80,7 @@ https://[your-github-username].github.io/nana
 
 To update the site content:
 1. **Edit markdown files** in `docs/` directory
-2. **Commit and push** to `main` branch
+2. **Commit and push** to `master` branch
 3. **Wait for automatic deployment** (usually 2-3 minutes)
 4. **Visit your live site** to see changes
 
