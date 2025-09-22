@@ -41,6 +41,11 @@ console.log(`Found ${markdownFiles.length} markdown files`);
 
 // Helper function to resolve internal links
 function resolveInternalLink(linkUrl, currentRoute, baseUrl) {
+  // If link already contains the GitHub Pages domain, return as-is
+  if (linkUrl.includes('brandf.github.io')) {
+    return linkUrl;
+  }
+  
   // If link starts with /, it's absolute from root
   if (linkUrl.startsWith('/')) {
     return `${baseUrl}${linkUrl.substring(1)}`;
