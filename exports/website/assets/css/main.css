@@ -421,12 +421,36 @@ pre code {
 
 /* Lists */
 ul, ol {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     padding-left: 1.5rem;
 }
 
 li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+/* Content lists */
+.content ul {
+    margin: 1.5rem 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.content ul li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    color: #4b5563;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.content ul li::before {
+    content: "•";
+    color: #3b82f6;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
 }
 
 /* Tables */

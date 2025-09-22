@@ -5,10 +5,12 @@ import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
+import { marked } from 'marked';
 import { TemplateEngine, generateBreadcrumbs, getBaseUrl } from './template-engine.js';
 import { NavigationBuilder } from './navigation.js';
 import { SearchIndexBuilder } from './search.js';
 
+async function build() {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(__dirname, '..', '..');
 const docsDir = path.join(projectRoot, 'docs');
@@ -66,123 +68,46 @@ function resolveInternalLink(linkUrl, currentRoute, baseUrl) {
   return result.replace(/\/+/g, '/');
 }
 
-// Simple markdown to HTML converter (basic version)
+// Proper markdown to HTML converter using marked
 function markdownToHtml(markdown, baseUrl = './', currentRoute = '/') {
-  const lines = markdown.split('\n');
-  let html = '';
-  let inList = false;
-  let listItems = [];
-  
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    const trimmedLine = line.trim();
-    
-    // Headers
-    if (trimmedLine.match(/^### /)) {
-      // Close any open list
-      if (inList) {
-        html += `<ul>${listItems.join('')}</ul>\n`;
-        inList = false;
-        listItems = [];
-      }
-      let headerText = trimmedLine.replace(/^### /, '');
-      headerText = headerText
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>');
-      html += `<h3>${headerText}</h3>\n`;
-    } else if (trimmedLine.match(/^## /)) {
-      // Close any open list
-      if (inList) {
-        html += `<ul>${listItems.join('')}</ul>\n`;
-        inList = false;
-        listItems = [];
-      }
-      let headerText = trimmedLine.replace(/^## /, '');
-      headerText = headerText
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>');
-      html += `<h2>${headerText}</h2>\n`;
-    } else if (trimmedLine.match(/^# /)) {
-      // Close any open list
-      if (inList) {
-        html += `<ul>${listItems.join('')}</ul>\n`;
-        inList = false;
-        listItems = [];
-      }
-      let headerText = trimmedLine.replace(/^# /, '');
-      headerText = headerText
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>');
-      html += `<h1>${headerText}</h1>\n`;
-    }
-    // Horizontal rules
-    else if (trimmedLine === '---') {
-      // Close any open list
-      if (inList) {
-        html += `<ul>${listItems.join('')}</ul>\n`;
-        inList = false;
-        listItems = [];
-      }
-      html += '<hr>\n';
-    }
-    // List items
-    else if (trimmedLine.match(/^- /)) {
-      inList = true;
-      let listText = trimmedLine.replace(/^- /, '');
-      listText = listText
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>');
-      listItems.push(`<li>${listText}</li>`);
-    }
-    // Empty lines or other content
-    else {
-      // Close any open list
-      if (inList) {
-        html += `<ul>${listItems.join('')}</ul>\n`;
-        inList = false;
-        listItems = [];
+  try {
+    // Configure marked for GitHub Flavored Markdown
+    marked.setOptions({
+      gfm: true, // GitHub Flavored Markdown
+      breaks: true, // Convert \n to <br>
+      tables: true, // Support tables
+      sanitize: false, // Allow HTML
+      smartLists: true,
+      smartypants: true
+    });
+
+    // Process markdown with marked
+    let html = marked.parse(markdown);
+
+    // Process links - convert internal .md links to .html
+    html = html.replace(/<a href="([^"]+)">([^<]+)<\/a>/gim, (match, linkUrl, linkText) => {
+      // Skip external links
+      if (linkUrl.startsWith('http') || linkUrl.startsWith('mailto:') || linkUrl.startsWith('#')) {
+        return match;
       }
       
-      if (trimmedLine === '') {
-        html += '\n';
-      } else {
-        // Process inline formatting
-        let processedLine = trimmedLine
-          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-          .replace(/\*(.*?)\*/g, '<em>$1</em>')
-          .replace(/```([^`]+)```/g, '<pre><code>$1</code></pre>')
-          .replace(/`([^`]+)`/g, '<code>$1</code>');
-        
-        html += `<p>${processedLine}</p>\n`;
+      // Convert internal .md links to .html
+      if (linkUrl.endsWith('.md')) {
+        const htmlUrl = linkUrl.replace('.md', '.html');
+        const resolvedUrl = resolveInternalLink(htmlUrl, currentRoute, baseUrl);
+        return `<a href="${resolvedUrl}">${linkText}</a>`;
       }
-    }
-  }
-  
-  // Close any remaining open list
-  if (inList) {
-    html += `<ul>${listItems.join('')}</ul>\n`;
-  }
-
-  // Process links - convert internal .md links to .html
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, (match, linkText, linkUrl) => {
-    // Skip external links
-    if (linkUrl.startsWith('http') || linkUrl.startsWith('mailto:') || linkUrl.startsWith('#')) {
-      return `<a href="${linkUrl}">${linkText}</a>`;
-    }
-    
-    // Convert internal .md links to .html and resolve paths
-    if (linkUrl.endsWith('.md')) {
-      const htmlUrl = linkUrl.replace('.md', '.html');
-      const resolvedUrl = resolveInternalLink(htmlUrl, currentRoute, baseUrl);
+      
+      // Handle relative paths
+      const resolvedUrl = resolveInternalLink(linkUrl, currentRoute, baseUrl);
       return `<a href="${resolvedUrl}">${linkText}</a>`;
-    }
-    
-    // For other internal links, resolve paths
-    const resolvedUrl = resolveInternalLink(linkUrl, currentRoute, baseUrl);
-    return `<a href="${resolvedUrl}">${linkText}</a>`;
-  });
+    });
 
-  return html;
+    return html;
+  } catch (error) {
+    console.error('Error processing markdown:', error);
+    return `<p>Error processing markdown: ${error.message}</p>`;
+  }
 }
 
 // Process each markdown file
@@ -330,3 +255,7 @@ console.log('Search index generated successfully');
 
 console.log(`\nBuild complete! Generated ${pages.length + 1} pages.`);
 console.log(`Output directory: ${outputDir}`);
+}
+
+// Run the build
+build().catch(console.error);
