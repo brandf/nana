@@ -101,10 +101,6 @@ export function generateBreadcrumbs(route, baseUrl) {
 
 // Helper function to determine base URL for assets
 export function getBaseUrl(route) {
-    if (route === '/' || route === '') {
-        return './';
-    }
-    
-    const depth = route.split('/').filter(part => part).length;
-    return '../'.repeat(depth);
+    // For GitHub Pages, use absolute paths starting with /
+    return '/';
 }
