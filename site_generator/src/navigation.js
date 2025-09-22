@@ -198,15 +198,15 @@ export class NavigationBuilder {
   }
 
   getRelativePath(targetRoute, currentRoute) {
-    const currentDepth = currentRoute.split('/').filter(Boolean).length;
-    const baseUrl = '../'.repeat(currentDepth);
+    // Use full GitHub Pages URL for all links
+    const baseUrl = 'https://brandf.github.io/nana';
     
     if (targetRoute === '/') {
-      return baseUrl + 'index.html';
+      return baseUrl + '/index.html';
     } else if (targetRoute.endsWith('/')) {
-      return baseUrl + targetRoute.slice(1) + 'index.html';
+      return baseUrl + targetRoute + 'index.html';
     } else {
-      return baseUrl + targetRoute.slice(1) + '.html';
+      return baseUrl + targetRoute + '.html';
     }
   }
 
