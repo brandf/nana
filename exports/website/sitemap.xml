@@ -25,54 +25,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/budget_planning_guide</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/grand_rapids_philanthropist_database</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/grant_writing_flowcharts</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/grant_writing_guide</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/proposal_templates</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/quick_start</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/sample_proposals</loc>
-    <lastmod>2025-09-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://brandf.github.io/nana/roadmaps/export_plan</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -229,19 +181,49 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/federal_state_grants/federal_grants_database</loc>
+    <loc>https://brandf.github.io/nana/grant_toolkit/budget_planning_guide</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/federal_state_grants/michigan_state_grants_database</loc>
+    <loc>https://brandf.github.io/nana/grant_toolkit/grand_rapids_philanthropist_database</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://brandf.github.io/nana/grant_toolkit/federal_state_grants</loc>
+    <loc>https://brandf.github.io/nana/grant_toolkit/grant_writing_flowcharts</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandf.github.io/nana/grant_toolkit/grant_writing_guide</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandf.github.io/nana/grant_toolkit/proposal_templates</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandf.github.io/nana/grant_toolkit/quick_start</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandf.github.io/nana/grant_toolkit</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandf.github.io/nana/grant_toolkit/sample_proposals</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -308,6 +290,24 @@
   </url>
   <url>
     <loc>https://brandf.github.io/nana/teacher_toolkit/workflows/try_strategies</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandf.github.io/nana/grant_toolkit/federal_state_grants/federal_grants_database</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandf.github.io/nana/grant_toolkit/federal_state_grants/michigan_state_grants_database</loc>
+    <lastmod>2025-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandf.github.io/nana/grant_toolkit/federal_state_grants</loc>
     <lastmod>2025-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
