@@ -198,16 +198,41 @@ export class NavigationBuilder {
   }
 
   getRelativePath(targetRoute, currentRoute) {
-    // Use full GitHub Pages URL for all links
-    const baseUrl = 'https://brandf.github.io/nana';
+    // Calculate relative path between current and target routes
+    const currentParts = currentRoute.split('/').filter(part => part);
+    const targetParts = targetRoute.split('/').filter(part => part);
     
-    if (targetRoute === '/') {
-      return baseUrl + '/index.html';
-    } else if (targetRoute.endsWith('/')) {
-      return baseUrl + targetRoute + 'index.html';
-    } else {
-      return baseUrl + targetRoute + '.html';
+    // Find common path
+    let commonLength = 0;
+    while (commonLength < currentParts.length && 
+           commonLength < targetParts.length && 
+           currentParts[commonLength] === targetParts[commonLength]) {
+      commonLength++;
     }
+    
+    // Calculate relative path
+    const upLevels = currentParts.length - commonLength;
+    const downPath = targetParts.slice(commonLength);
+    
+    let relativePath = '';
+    
+    // Add "../" for each level up
+    if (upLevels > 0) {
+      relativePath = '../'.repeat(upLevels);
+    } else if (currentRoute !== '/' && targetRoute !== '/') {
+      relativePath = './';
+    }
+    
+    // Add the target path
+    if (targetRoute === '/') {
+      relativePath += 'index.html';
+    } else if (targetRoute.endsWith('/')) {
+      relativePath += downPath.join('/') + '/index.html';
+    } else {
+      relativePath += downPath.join('/') + '.html';
+    }
+    
+    return relativePath;
   }
 
   generateTableOfContents(content, currentRoute) {

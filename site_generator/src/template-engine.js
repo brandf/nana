@@ -101,6 +101,14 @@ export function generateBreadcrumbs(route, baseUrl) {
 
 // Helper function to determine base URL for assets
 export function getBaseUrl(route) {
-    // For GitHub Pages, use the full GitHub Pages URL
-    return 'https://brandf.github.io/nana/';
+    // Calculate relative path depth for proper asset linking
+    const depth = route.split('/').filter(part => part && part !== 'index').length;
+    
+    if (depth === 0) {
+        // Root level - use relative paths
+        return './';
+    } else {
+        // Subdirectory - use relative paths with appropriate depth
+        return '../'.repeat(depth);
+    }
 }

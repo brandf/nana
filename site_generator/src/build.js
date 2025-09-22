@@ -68,7 +68,7 @@ function resolveInternalLink(linkUrl, currentRoute, baseUrl) {
   // Normalize the path (remove double slashes, etc.)
   fullPath = fullPath.replace(/\/+/g, '/');
   
-  // Add baseUrl for relative navigation
+  // Use relative paths instead of absolute URLs
   const result = `${baseUrl}${fullPath}`;
   return result.replace(/\/+/g, '/');
 }
