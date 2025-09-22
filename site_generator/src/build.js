@@ -96,6 +96,9 @@ function markdownToHtml(markdown, baseUrl = './', currentRoute = '/') {
     // Also fix any URLs that have double domains
     html = html.replace(/https:\/\/brandf\.github\.io\/brandf\.github\.io/g, 'https://brandf.github.io');
     
+    // Fix any URLs that are missing the second slash
+    html = html.replace(/https:\/brandf\.github\.io/g, 'https://brandf.github.io');
+    
     // Process links - convert internal .md links to .html
     html = html.replace(/<a href="([^"]+)">([^<]+)<\/a>/gim, (match, linkUrl, linkText) => {
       // Skip external links
