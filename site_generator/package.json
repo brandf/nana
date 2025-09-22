@@ -11,7 +11,7 @@
     "serve": "live-server ../exports/website --port=3000 --open=/",
     "open-local": "npm run build && npm run serve",
     "open-file": "npm run build && powershell -Command \"Invoke-Item 'C:\\Users\\brand\\Documents\\nana\\exports\\website\\index.html'\"",
-    "open-github": "start https://brand.github.io/nana"
+        "open-github": "start https://brandf.github.io/nana"
   },
   "dependencies": {
     "globby": "^13.2.2",

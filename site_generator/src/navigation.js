@@ -285,7 +285,7 @@ export class NavigationBuilder {
 ${this.pages.map(page => {
   const url = page.route === '/' ? '' : page.route.replace(/\/$/, '');
   return `  <url>
-    <loc>https://your-domain.com${url}</loc>
+    <loc>https://brandf.github.io/nana${url}</loc>
     <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>${page.route === '/' ? '1.0' : '0.8'}</priority>

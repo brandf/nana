@@ -108,7 +108,7 @@ npm run open-file              # Build + open file:// version
 
 #### **Automatic Deployment**
 - **GitHub Actions** workflow automatically builds and deploys on push to `master`
-- **Live site** available at `https://[username].github.io/nana`
+- **Live site** available at `https://brandf.github.io/nana`
 - **Zero-friction publishing** - just edit markdown and push
 - **See [DEPLOYMENT.md](DEPLOYMENT.md)** for setup instructions
 
@@ -126,7 +126,7 @@ npm run open-file              # Build + open file:// version
 - **Generator**: Node.js build pipeline in `site_generator/`
 - **Output**: Professional static site in `exports/website/`
 - **Deployment**: GitHub Actions automatic deployment to GitHub Pages
-- **Live Site**: `https://[username].github.io/nana`
+- **Live Site**: `https://brandf.github.io/nana`
 
 ---
 

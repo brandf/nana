@@ -60,7 +60,7 @@ The GitHub Actions workflow (`.github/workflows/deploy.yml`) includes:
 
 Once configured, your site will be available at:
 ```
-https://[your-github-username].github.io/nana
+https://brandf.github.io/nana
 ```
 
 ### **Troubleshooting**
