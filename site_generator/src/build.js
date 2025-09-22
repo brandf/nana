@@ -78,12 +78,16 @@ function markdownToHtml(markdown, baseUrl = './', currentRoute = '/') {
       tables: true, // Support tables
       sanitize: false, // Allow HTML
       smartLists: true,
-      smartypants: true
+      smartypants: true,
+      baseUrl: null // Explicitly disable base URL processing
     });
 
     // Process markdown with marked
     let html = marked.parse(markdown);
 
+    // Fix malformed URLs (missing slashes)
+    html = html.replace(/https:\/brandf\.github\.io/g, 'https://brandf.github.io');
+    
     // Process links - convert internal .md links to .html
     html = html.replace(/<a href="([^"]+)">([^<]+)<\/a>/gim, (match, linkUrl, linkText) => {
       // Skip external links
