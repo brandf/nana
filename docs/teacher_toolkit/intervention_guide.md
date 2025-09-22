@@ -38,8 +38,8 @@
 - Spelling pattern errors
 
 **Resources:**
-- [International Dyslexia Association](https://dyslexiaida.org/fact-sheets/)
-- [IES Foundational Reading Guide](https://ies.ed.gov/ncee/wwc/PracticeGuide/1)
+- [International Dyslexia Association](https:///dyslexiaida.org/fact-sheets/)
+- [IES Foundational Reading Guide](https:///ies.ed.gov/ncee/wwc/PracticeGuide/1)
 - Books: Overcoming Dyslexia (Shaywitz), Speech to Print (Moats)
 
 ---
@@ -80,9 +80,9 @@
 - Student's oral vs. written expression
 
 **Resources:**
-- [IES Writing Practice Guides](https://ies.ed.gov/ncee/wwc/PracticeGuides)
-- [The Writing Revolution](https://www.thewritingrevolution.org/)
-- [Teaching Elementary Writers](https://ies.ed.gov/ncee/wwc/PracticeGuide/17)
+- [IES Writing Practice Guides](https:///ies.ed.gov/ncee/wwc/PracticeGuides)
+- [The Writing Revolution](https:///www.thewritingrevolution.org/)
+- [Teaching Elementary Writers](https:///ies.ed.gov/ncee/wwc/PracticeGuide/17)
 
 ---
 
@@ -122,8 +122,8 @@
 - Strategy use and accuracy
 
 **Resources:**
-- [IES Math Practice Guide](https://ies.ed.gov/ncee/wwc/PracticeGuide/18)
-- [EEF Math Guidance](https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send)
+- [IES Math Practice Guide](https:///ies.ed.gov/ncee/wwc/PracticeGuide/18)
+- [EEF Math Guidance](https:///educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send)
 - Number Sense resources and manipulatives
 
 ---
@@ -164,9 +164,9 @@
 - Effectiveness of different supports
 
 **Resources:**
-- [CDC ADHD Resources](https://www.cdc.gov/adhd/school-success.html)
-- [CHADD Teacher Resources](https://chadd.org/for-professionals/educators/)
-- [AAP Clinical Guidelines](https://www.aap.org/en/patient-care/adhd/)
+- [CDC ADHD Resources](https:///www.cdc.gov/adhd/school-success.html)
+- [CHADD Teacher Resources](https:///chadd.org/for-professionals/educators/)
+- [AAP Clinical Guidelines](https:///www.aap.org/en/patient-care/adhd/)
 
 ---
 
@@ -206,9 +206,9 @@
 - Response to language scaffolds
 
 **Resources:**
-- [ASHA Practice Portal](https://www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/)
-- [RCSLT DLD Resources](https://www.rcslt.org/speech-and-language-therapy/clinical-information/developmental-language-disorder-dld/)
-- [RADLD Campaign](https://radld.org/)
+- [ASHA Practice Portal](https:///www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/)
+- [RCSLT DLD Resources](https:///www.rcslt.org/speech-and-language-therapy/clinical-information/developmental-language-disorder-dld/)
+- [RADLD Campaign](https:///radld.org/)
 
 ---
 
@@ -248,9 +248,9 @@
 - Sensory needs and accommodations
 
 **Resources:**
-- [AFIRM Modules](https://afirm.fpg.unc.edu/afirm-modules)
-- [National Autistic Society](https://www.autism.org.uk/advice-and-guidance/professional-practice/education)
-- [Autism Focused Intervention Resources](https://afirm.fpg.unc.edu/)
+- [AFIRM Modules](https:///afirm.fpg.unc.edu/afirm-modules)
+- [National Autistic Society](https:///www.autism.org.uk/advice-and-guidance/professional-practice/education)
+- [Autism Focused Intervention Resources](https:///afirm.fpg.unc.edu/)
 
 ---
 
@@ -290,8 +290,8 @@
 - Note-taking accuracy and independence
 
 **Resources:**
-- [ASHA Practice Portal - APD](https://www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/)
-- [Auditory Processing Resources](https://www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/)
+- [ASHA Practice Portal - APD](https:///www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/)
+- [Auditory Processing Resources](https:///www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/)
 
 ---
 
@@ -373,9 +373,9 @@
 - Self-monitoring effectiveness
 
 **Resources:**
-- [Executive Function Resources](https://www.understood.org/en/learning-thinking-differences/executive-function-skills)
-- [SMARTS Executive Function](https://smarts-ef.org/)
-- [CHADD Executive Function](https://chadd.org/for-professionals/educators/)
+- [Executive Function Resources](https:///www.understood.org/en/learning-thinking-differences/executive-function-skills)
+- [SMARTS Executive Function](https:///smarts-ef.org/)
+- [CHADD Executive Function](https:///chadd.org/for-professionals/educators/)
 
 ---
 

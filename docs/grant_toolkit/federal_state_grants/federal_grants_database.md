@@ -1,6 +1,6 @@
 # Federal Grants Database
 
-Targeted federal opportunities to fund learning disability support programs. Primary source: [Grants.gov](https://www.grants.gov) and [ED Available Grants](https://www.ed.gov/grants-and-programs/apply-grant/available-grants).
+Targeted federal opportunities to fund learning disability support programs. Primary source: [Grants.gov](https:///www.grants.gov) and [ED Available Grants](https:///www.ed.gov/grants-and-programs/apply-grant/available-grants).
 
 ---
 
@@ -20,9 +20,9 @@ Targeted federal opportunities to fund learning disability support programs. Pri
 - Eligibility: LEAs, nonprofits in partnerships, community orgs (state-specific)
 - Deadlines: State RFP cycles
 - Official Links:
-  - ED: [Available Grants](https://www.ed.gov/grants-and-programs/apply-grant/available-grants)
-  - Grants.gov: [Search 21st CCLC / 84.287](https://www.grants.gov/)
-  - Forecast: [ED Forecast of Funding Opportunities](https://www2.ed.gov/fund/grant/find/edlite-forecast.html)
+  - ED: [Available Grants](https:///www.ed.gov/grants-and-programs/apply-grant/available-grants)
+  - Grants.gov: [Search 21st CCLC / 84.287](https:///www.grants.gov/)
+  - Forecast: [ED Forecast of Funding Opportunities](https:///www2.ed.gov/fund/grant/find/edlite-forecast.html)
 - Best For: After-school tutoring, SEL, enrichment tied to academic outcomes
 
 ### 2) Full-Service Community Schools (FSCS) — CFDA 84.215U
@@ -32,9 +32,9 @@ Targeted federal opportunities to fund learning disability support programs. Pri
 - Eligibility: LEAs, school consortia, partners
 - Deadlines: Annual/biannual NOFO cycles
 - Official Links:
-  - ED: [Available Grants](https://www.ed.gov/grants-and-programs/apply-grant/available-grants)
-  - Grants.gov: [Search FSCS / 84.215U](https://www.grants.gov/)
-  - Forecast: [ED Forecast of Funding Opportunities](https://www2.ed.gov/fund/grant/find/edlite-forecast.html)
+  - ED: [Available Grants](https:///www.ed.gov/grants-and-programs/apply-grant/available-grants)
+  - Grants.gov: [Search FSCS / 84.215U](https:///www.grants.gov/)
+  - Forecast: [ED Forecast of Funding Opportunities](https:///www2.ed.gov/fund/grant/find/edlite-forecast.html)
 - Best For: Whole-child, community-partnership models supporting LD students and families
 
 ### 3) Promise Neighborhoods — CFDA 84.215N
@@ -44,9 +44,9 @@ Targeted federal opportunities to fund learning disability support programs. Pri
 - Eligibility: Nonprofits, IHEs, LEAs (consortia with partnerships)
 - Deadlines: Periodic NOFOs
 - Official Links:
-  - ED: [Available Grants](https://www.ed.gov/grants-and-programs/apply-grant/available-grants)
-  - Grants.gov: [Search Promise Neighborhoods / 84.215N](https://www.grants.gov/)
-  - Forecast: [ED Forecast of Funding Opportunities](https://www2.ed.gov/fund/grant/find/edlite-forecast.html)
+  - ED: [Available Grants](https:///www.ed.gov/grants-and-programs/apply-grant/available-grants)
+  - Grants.gov: [Search Promise Neighborhoods / 84.215N](https:///www.grants.gov/)
+  - Forecast: [ED Forecast of Funding Opportunities](https:///www2.ed.gov/fund/grant/find/edlite-forecast.html)
 - Best For: Multi-partner initiatives impacting LD supports within broader neighborhood efforts
 
 ### 4) IDEA, Part B — CFDA 84.027 (Formula) and OSEP Discretionary
@@ -56,10 +56,10 @@ Targeted federal opportunities to fund learning disability support programs. Pri
 - Eligibility: State agencies (formula); IHEs/SEAs/LEAs/nonprofits (discretionary)
 - Deadlines: Formula annual; discretionary per NOFO
 - Official Links:
-  - OSEP: [Discretionary Grants Public Database](https://publicddb.osepideasthatwork.org/)
-  - ED: [Available Grants](https://www.ed.gov/grants-and-programs/apply-grant/available-grants)
-  - Grants.gov: [Search IDEA / 84.027, 84.173, 84.325, etc.](https://www.grants.gov/)
-  - Forecast: [ED Forecast of Funding Opportunities](https://www2.ed.gov/fund/grant/find/edlite-forecast.html)
+  - OSEP: [Discretionary Grants Public Database](https:///publicddb.osepideasthatwork.org/)
+  - ED: [Available Grants](https:///www.ed.gov/grants-and-programs/apply-grant/available-grants)
+  - Grants.gov: [Search IDEA / 84.027, 84.173, 84.325, etc.](https:///www.grants.gov/)
+  - Forecast: [ED Forecast of Funding Opportunities](https:///www2.ed.gov/fund/grant/find/edlite-forecast.html)
 - Best For: Specialized LD initiatives, training, evidence-based practices
 
 ---

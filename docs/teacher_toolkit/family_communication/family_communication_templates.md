@@ -234,14 +234,14 @@ Next steps: Continue audiobooks, try repeated reading practice, consider referra
 ## Resources to Share with Families
 
 ### General Information
-- [Understood.org](https://www.understood.org/) - Comprehensive resources for families
-- [LD Online](https://www.ldonline.org/) - Learning disabilities information
-- [Wrightslaw](https://www.wrightslaw.com/) - Special education law and advocacy
+- [Understood.org](https:///www.understood.org/) - Comprehensive resources for families
+- [LD Online](https:///www.ldonline.org/) - Learning disabilities information
+- [Wrightslaw](https:///www.wrightslaw.com/) - Special education law and advocacy
 
 ### Specific Conditions
-- [International Dyslexia Association](https://dyslexiaida.org/) - Dyslexia resources
-- [CHADD](https://chadd.org/) - ADHD information and support
-- [Autism Society](https://autismsociety.org/) - Autism resources and support
+- [International Dyslexia Association](https:///dyslexiaida.org/) - Dyslexia resources
+- [CHADD](https:///chadd.org/) - ADHD information and support
+- [Autism Society](https:///autismsociety.org/) - Autism resources and support
 
 ### Local Resources
 - [Add your district's parent resource center]

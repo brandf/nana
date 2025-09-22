@@ -20,7 +20,7 @@ Targeted Michigan state opportunities to fund learning disability support progra
 - Eligibility: LEAs, nonprofits in partnership with schools, community orgs
 - Deadlines: Cohort-based RFP releases by MDE
 - Official Links:
-  - MDE Grants Repository: https://www.michigan.gov/en/mde/Services/financial-management/grants
+  - MDE Grants Repository: https:///www.michigan.gov/en/mde/Services/financial-management/grants
   - Application System (MEGS+): linked from MDE grants pages / communications
   - State Program Page: search "MDE 21st CCLC" for current cohort details
 - Best For: After-school tutoring, SEL, enrichment tied to academic outcomes
@@ -32,7 +32,7 @@ Targeted Michigan state opportunities to fund learning disability support progra
 - Eligibility: ISDs/LEAs; some competitive opportunities for IHEs/nonprofits
 - Deadlines: Per MDE calendar and notices
 - Official Links:
-  - MDE Grants Repository: https://www.michigan.gov/en/mde/Services/financial-management/grants
+  - MDE Grants Repository: https:///www.michigan.gov/en/mde/Services/financial-management/grants
   - MDE Office of Special Education: program overview and guidance
 - Best For: System-level supports and targeted LD interventions
 
@@ -43,7 +43,7 @@ Targeted Michigan state opportunities to fund learning disability support progra
 - Eligibility: Identified schools/LEAs
 - Deadlines: Per MDE communication and federal program cycles
 - Official Links:
-  - MDE Grants Repository: https://www.michigan.gov/en/mde/Services/financial-management/grants
+  - MDE Grants Repository: https:///www.michigan.gov/en/mde/Services/financial-management/grants
   - Program Guidance: MDE School Improvement pages
 - Best For: Whole-school improvement tied to achievement gaps and LD supports
 
@@ -55,7 +55,7 @@ Targeted Michigan state opportunities to fund learning disability support progra
 - Deadlines: Program-dependent
 - Official Links:
   - MDE Early Childhood: Great Start Readiness Program and related funding
-  - MDE Grants Repository: https://www.michigan.gov/en/mde/Services/financial-management/grants
+  - MDE Grants Repository: https:///www.michigan.gov/en/mde/Services/financial-management/grants
 - Best For: Early identification and support of learning differences
 
 ---
@@ -76,6 +76,6 @@ Targeted Michigan state opportunities to fund learning disability support progra
 ---
 
 ## Quick Links
-- MDE Grants Repository: https://www.michigan.gov/en/mde/Services/financial-management/grants
+- MDE Grants Repository: https:///www.michigan.gov/en/mde/Services/financial-management/grants
 - MEGS+ (via MDE): application portal links from program pages
 - Grants.gov: for federal pass-through opportunities

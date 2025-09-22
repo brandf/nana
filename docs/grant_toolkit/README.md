@@ -153,10 +153,10 @@
 ## 🔗 **Related Resources**
 
 ### **External Resources**
-- **[Grants.gov](https://www.grants.gov)** - Federal grant opportunities
-- **[Foundation Directory Online](https://fconline.foundationcenter.org)** - Comprehensive foundation database
-- **[Grand Rapids Nonprofit Center](https://www.grnonprofitcenter.org)** - Local support
-- **[Michigan Nonprofit Association](https://www.mnaonline.org)** - State resources
+- **[Grants.gov](https:///www.grants.gov)** - Federal grant opportunities
+- **[Foundation Directory Online](https:///fconline.foundationcenter.org)** - Comprehensive foundation database
+- **[Grand Rapids Nonprofit Center](https:///www.grnonprofitcenter.org)** - Local support
+- **[Michigan Nonprofit Association](https:///www.mnaonline.org)** - State resources
 
 ### **Internal Resources**
 - **[Teacher Toolkit](../teacher_toolkit/README.md)** - Supporting students with learning differences

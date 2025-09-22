@@ -8,7 +8,7 @@ This guide summarizes common learning disabilities and related conditions that p
 - Observe: Match classroom behaviors with the “How it presents” lists.
 - Support: Try the “What helps (evidence-based)” supports first; note responses.
 - Document: Keep brief notes under “What to document” to share with families and evaluators.
-- Refer: When concerns persist, coordinate with your school team to initiate [MTSS/RTI](https://iris.peabody.vanderbilt.edu/module/rti01/) supports and, if needed, a formal special education/504 referral.
+- Refer: When concerns persist, coordinate with your school team to initiate [MTSS/RTI](https:///iris.peabody.vanderbilt.edu/module/rti01/) supports and, if needed, a formal special education/504 referral.
 
 ---
 
@@ -19,15 +19,15 @@ This guide summarizes common learning disabilities and related conditions that p
   - Trouble with letter–sound mappings, blending, spelling; weak nonsense word reading
   - Comprehension improves significantly when text is read aloud
 - What helps (evidence-based)
-  - Explicit, systematic phonics and phonemic awareness within a [Structured Literacy](https://dyslexiaida.org/structured-literacy/) approach (daily, cumulative, multisensory)
+  - Explicit, systematic phonics and phonemic awareness within a [Structured Literacy](https:///dyslexiaida.org/structured-literacy/) approach (daily, cumulative, multisensory)
   - Teach morphology (prefixes/suffixes), high-utility spelling patterns; repeated reading for fluency
   - Access supports: audiobooks/text-to-speech; reduced volume of decoding-heavy work when task focus is content
   - Assessment accommodations: extended time; read-aloud for directions and non-reading constructs
 - What to document for families/evaluators
   - Frequency/examples of decoding errors, fluency rates, spelling patterns, response to explicit phonics practice
 - Teacher resources (evidence-based, teacher-friendly)
-  - [International Dyslexia Association (IDA)](https://dyslexiaida.org/fact-sheets/) Fact Sheets and Structured Literacy overview
-  - [IES What Works Clearinghouse (WWC)](https://ies.ed.gov/ncee/wwc/PracticeGuide/1) Practice Guide: Foundational Skills to Support Reading (K–3)
+  - [International Dyslexia Association (IDA)](https:///dyslexiaida.org/fact-sheets/) Fact Sheets and Structured Literacy overview
+  - [IES What Works Clearinghouse (WWC)](https:///ies.ed.gov/ncee/wwc/PracticeGuide/1) Practice Guide: Foundational Skills to Support Reading (K–3)
   - Books: Overcoming Dyslexia (S. & J. Shaywitz); Speech to Print (Louisa Moats)
 
 Sources: IDA; IES WWC Foundational Reading Guide; research on structured literacy.
@@ -48,8 +48,8 @@ Sources: IDA; IES WWC Foundational Reading Guide; research on structured literac
 - What to document
   - Samples showing legibility, speed, spelling error types; response to handwriting and keyboarding instruction
 - Teacher resources
-  - [IES Practice Guides](https://ies.ed.gov/ncee/wwc/PracticeGuides): Teaching Elementary Students to Be Effective Writers; Teaching Secondary Students to Write Effectively
-  - [The Writing Revolution](https://www.thewritingrevolution.org/) (Hochman & Wexler) for explicit sentence/paragraph instruction
+  - [IES Practice Guides](https:///ies.ed.gov/ncee/wwc/PracticeGuides): Teaching Elementary Students to Be Effective Writers; Teaching Secondary Students to Write Effectively
+  - [The Writing Revolution](https:///www.thewritingrevolution.org/) (Hochman & Wexler) for explicit sentence/paragraph instruction
 
 Sources: IES Writing Practice Guides; research on transcription skills and composition.
 
@@ -66,18 +66,18 @@ Sources: IES Writing Practice Guides; research on transcription skills and compo
   - Teach efficient strategies (e.g., make-ten, decomposing numbers), spaced retrieval practice; worked examples → faded scaffolds
   - Frequent cumulative review; error analysis; explicit vocabulary instruction (e.g., equal, difference)
   - Access supports: number lines, times tables/reference charts; calculators for complex multi-step tasks once concepts are taught
-  - Use [CRA (Concrete-Representational-Abstract)](https://ies.ed.gov/ncee/wwc/PracticeGuide/18) sequence for concept development
+  - Use [CRA (Concrete-Representational-Abstract)](https:///ies.ed.gov/ncee/wwc/PracticeGuide/18) sequence for concept development
 - What to document
   - Misconception patterns (e.g., regrouping, fraction magnitude), fluency data, response to concrete–representational–abstract (CRA) sequences
 - Teacher resources
-  - [IES/WWC Practice Guide](https://ies.ed.gov/ncee/wwc/PracticeGuide/18): Assisting Students Struggling with Mathematics (Elementary & Middle)
-  - [Education Endowment Foundation (EEF)](https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send) Math guidance; Number Sense resources (teacher-facing)
+  - [IES/WWC Practice Guide](https:///ies.ed.gov/ncee/wwc/PracticeGuide/18): Assisting Students Struggling with Mathematics (Elementary & Middle)
+  - [Education Endowment Foundation (EEF)](https:///educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send) Math guidance; Number Sense resources (teacher-facing)
 
 Sources: IES WWC Mathematics Practice Guide; EEF guidance reports.
 
 ---
 
-## [ADHD](https://www.cdc.gov/adhd/school-success.html) (attention-deficit/hyperactivity disorder)
+## [ADHD](https:///www.cdc.gov/adhd/school-success.html) (attention-deficit/hyperactivity disorder)
 
 - How it presents
   - Inattention (short task persistence, distractible), impulsivity, hyperactivity; inconsistent work completion
@@ -90,13 +90,13 @@ Sources: IES WWC Mathematics Practice Guide; EEF guidance reports.
 - What to document
   - On-task intervals, work completion, response to behavior plans and instructional adjustments
 - Teacher resources
-  - [AAP Clinical Practice Guideline](https://www.aap.org/en/patient-care/adhd/) for ADHD (school interventions summary), [CDC "For Educators,"](https://www.cdc.gov/adhd/school-success.html) [CHADD Teacher resources](https://chadd.org/for-professionals/educators/)
+  - [AAP Clinical Practice Guideline](https:///www.aap.org/en/patient-care/adhd/) for ADHD (school interventions summary), [CDC "For Educators,"](https:///www.cdc.gov/adhd/school-success.html) [CHADD Teacher resources](https:///chadd.org/for-professionals/educators/)
 
 Sources: American Academy of Pediatrics ADHD guideline; CDC School Resources; CHADD.
 
 ---
 
-## [Developmental Language Disorder (DLD)](https://www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/) / Language Disorder
+## [Developmental Language Disorder (DLD)](https:///www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/) / Language Disorder
 
 - How it presents
   - Difficulty understanding complex sentences, following multi-step directions, and expressing ideas with precise vocabulary/grammar
@@ -108,13 +108,13 @@ Sources: American Academy of Pediatrics ADHD guideline; CDC School Resources; CH
 - What to document
   - Specific language behaviors (following directions, retell, question responses), response to visuals and language scaffolds
 - Teacher resources
-  - [ASHA Practice Portal](https://www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/) (Language Disorders in Children); [RCSLT (DLD)](https://www.rcslt.org/speech-and-language-therapy/clinical-information/developmental-language-disorder-dld/) teacher resources; [RADLD campaign](https://radld.org/) teacher materials
+  - [ASHA Practice Portal](https:///www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/) (Language Disorders in Children); [RCSLT (DLD)](https:///www.rcslt.org/speech-and-language-therapy/clinical-information/developmental-language-disorder-dld/) teacher resources; [RADLD campaign](https:///radld.org/) teacher materials
 
 Sources: ASHA Practice Portals; RCSLT; evidence on vocabulary/grammar interventions.
 
 ---
 
-## [Autism Spectrum Disorder (ASD)](https://afirm.fpg.unc.edu/afirm-modules)
+## [Autism Spectrum Disorder (ASD)](https:///afirm.fpg.unc.edu/afirm-modules)
 
 - How it presents
   - Differences in social communication and interaction; restricted/repetitive behaviors; variable language and cognitive profiles
@@ -126,13 +126,13 @@ Sources: ASHA Practice Portals; RCSLT; evidence on vocabulary/grammar interventi
 - What to document
   - Triggers, successful supports, communication modes, response to visual schedules and modeled routines
 - Teacher resources
-  - [AFIRM (Autism Focused Intervention Resources & Modules)](https://afirm.fpg.unc.edu/afirm-modules) teacher modules; [National Autistic Society](https://www.autism.org.uk/advice-and-guidance/professional-practice/education) teacher guides
+  - [AFIRM (Autism Focused Intervention Resources & Modules)](https:///afirm.fpg.unc.edu/afirm-modules) teacher modules; [National Autistic Society](https:///www.autism.org.uk/advice-and-guidance/professional-practice/education) teacher guides
 
 Sources: AFIRM/NPDC Evidence-Based Practices; practitioner guidance.
 
 ---
 
-## [Auditory Processing Disorder (APD)](https://www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/)
+## [Auditory Processing Disorder (APD)](https:///www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/)
 
 - How it presents
   - Appears not to listen; difficulty understanding speech in noise; asks for repetition; trouble following multi-step oral directions
@@ -142,7 +142,7 @@ Sources: AFIRM/NPDC Evidence-Based Practices; practitioner guidance.
 - What to document
   - Environments/tasks where breakdowns occur; response to acoustic and visual supports
 - Teacher resources
-  - [ASHA Practice Portal](https://www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/): Central Auditory Processing; teacher tips
+  - [ASHA Practice Portal](https:///www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/): Central Auditory Processing; teacher tips
 
 Sources: ASHA.
 
@@ -164,7 +164,7 @@ Note: “Colored overlays” have mixed evidence; prioritize high-contrast, clea
 
 ---
 
-## [Nonverbal Learning Disability (NVLD)](https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send) profile
+## [Nonverbal Learning Disability (NVLD)](https:///educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send) profile
 
 - How it presents
   - Strong rote verbal skills with weaknesses in visual-spatial reasoning, motor coordination, and social perception
@@ -175,7 +175,7 @@ Note: “Colored overlays” have mixed evidence; prioritize high-contrast, clea
 - What to document
   - Discrepancies between verbal and nonverbal tasks; response to spatial and organizational scaffolds
 - Teacher resources
-  - Teacher primers from reputable hospitals/universities; [EEF SEND guidance](https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send) on scaffolding and explicit instruction
+  - Teacher primers from reputable hospitals/universities; [EEF SEND guidance](https:///educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send) on scaffolding and explicit instruction
 
 ---
 
@@ -185,7 +185,7 @@ Note: “Colored overlays” have mixed evidence; prioritize high-contrast, clea
 - Spaced and retrieval practice; worked examples and gradual fading of support
 - Graphic organizers and visual schedules; preteaching key vocabulary; dual coding (visual + verbal)
 - Assistive technology: text-to-speech, speech-to-text, word prediction, digital graphic organizers, audiobooks
-- [MTSS/RTI](https://iris.peabody.vanderbilt.edu/module/rti01/): frequent progress monitoring and data-informed adjustment of supports
+- [MTSS/RTI](https:///iris.peabody.vanderbilt.edu/module/rti01/): frequent progress monitoring and data-informed adjustment of supports
 
 ---
 
@@ -204,36 +204,36 @@ Note: “Colored overlays” have mixed evidence; prioritize high-contrast, clea
 ## Selected, teacher-friendly resources grounded in rigorous evidence (links)
 
 Reading and Dyslexia
-- International Dyslexia Association – Fact Sheets and Structured Literacy: https://dyslexiaida.org/fact-sheets/
-- IES What Works Clearinghouse – Practice Guides (Foundational Reading): https://ies.ed.gov/ncee/wwc/PracticeGuides
+- International Dyslexia Association – Fact Sheets and Structured Literacy: https:///dyslexiaida.org/fact-sheets/
+- IES What Works Clearinghouse – Practice Guides (Foundational Reading): https:///ies.ed.gov/ncee/wwc/PracticeGuides
 
 Writing and Dysgraphia
-- IES – Teaching Elementary Students to Be Effective Writers: https://ies.ed.gov/ncee/wwc/PracticeGuide/17
-- IES – Teaching Secondary Students to Write Effectively: https://ies.ed.gov/ncee/wwc/PracticeGuide/22
-- The Writing Revolution (book/site): https://www.thewritingrevolution.org/
+- IES – Teaching Elementary Students to Be Effective Writers: https:///ies.ed.gov/ncee/wwc/PracticeGuide/17
+- IES – Teaching Secondary Students to Write Effectively: https:///ies.ed.gov/ncee/wwc/PracticeGuide/22
+- The Writing Revolution (book/site): https:///www.thewritingrevolution.org/
 
 Mathematics and Dyscalculia
-- IES/WWC – Assisting Students Struggling with Mathematics: https://ies.ed.gov/ncee/wwc/PracticeGuide/18
-- Education Endowment Foundation (EEF) – SEND in Mainstream Schools: https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send
+- IES/WWC – Assisting Students Struggling with Mathematics: https:///ies.ed.gov/ncee/wwc/PracticeGuide/18
+- Education Endowment Foundation (EEF) – SEND in Mainstream Schools: https:///educationendowmentfoundation.org.uk/education-evidence/guidance-reports/send
 
 ADHD and Executive Function
-- CDC – ADHD in the Classroom (For Educators): https://www.cdc.gov/adhd/school-success.html
-- CHADD – For Educators: https://chadd.org/for-professionals/educators/
-- AAP – ADHD Clinical Guidance (overview): https://www.aap.org/en/patient-care/adhd/
+- CDC – ADHD in the Classroom (For Educators): https:///www.cdc.gov/adhd/school-success.html
+- CHADD – For Educators: https:///chadd.org/for-professionals/educators/
+- AAP – ADHD Clinical Guidance (overview): https:///www.aap.org/en/patient-care/adhd/
 
 Language (DLD)
-- ASHA Practice Portal – Spoken Language Disorders: https://www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/
-- RCSLT – Developmental Language Disorder: https://www.rcslt.org/speech-and-language-therapy/clinical-information/developmental-language-disorder-dld/
+- ASHA Practice Portal – Spoken Language Disorders: https:///www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/
+- RCSLT – Developmental Language Disorder: https:///www.rcslt.org/speech-and-language-therapy/clinical-information/developmental-language-disorder-dld/
 
 Autism
-- AFIRM Modules (teacher EBPs): https://afirm.fpg.unc.edu/afirm-modules
-- National Autistic Society – Schools: https://www.autism.org.uk/advice-and-guidance/professional-practice/education
+- AFIRM Modules (teacher EBPs): https:///afirm.fpg.unc.edu/afirm-modules
+- National Autistic Society – Schools: https:///www.autism.org.uk/advice-and-guidance/professional-practice/education
 
 Auditory Processing
-- ASHA Practice Portal – Central Auditory Processing Disorder: https://www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/
+- ASHA Practice Portal – Central Auditory Processing Disorder: https:///www.asha.org/practice-portal/clinical-topics/central-auditory-processing-disorder/
 
 General Teacher Modules
-- IRIS Center – Evidence-based instructional modules: https://iris.peabody.vanderbilt.edu/resources/
+- IRIS Center – Evidence-based instructional modules: https:///iris.peabody.vanderbilt.edu/resources/
 
 ---
 

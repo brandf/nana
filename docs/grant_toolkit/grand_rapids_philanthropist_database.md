@@ -52,8 +52,8 @@
 **Assets**: $400+ million  
 **Annual Giving**: $20+ million  
 **Focus Areas**: Education, youth development, community impact, arts, environment  
-**Website**: [grfoundation.org](https://www.grfoundation.org)  
-**Contact**: [grfoundation.org/contact](https://www.grfoundation.org/contact)  
+**Website**: [grfoundation.org](https:///www.grfoundation.org)  
+**Contact**: [grfoundation.org/contact](https:///www.grfoundation.org/contact)  
 **Priority**: ⭐⭐⭐⭐⭐ (Highest - Perfect alignment)
 
 #### **Education Priorities**
@@ -92,8 +92,8 @@
 **Assets**: $200+ million  
 **Annual Giving**: $10+ million  
 **Focus Areas**: Education, arts, environment, community development  
-**Website**: [freyfoundation.org](https://www.freyfoundation.org)  
-**Contact**: [freyfoundation.org/contact](https://www.freyfoundation.org/contact)  
+**Website**: [freyfoundation.org](https:///www.freyfoundation.org)  
+**Contact**: [freyfoundation.org/contact](https:///www.freyfoundation.org/contact)  
 **Priority**: ⭐⭐⭐⭐⭐ (Highest - Perfect alignment)
 
 #### **Education Priorities**
@@ -493,9 +493,9 @@
 - **[Grant Writing Flowcharts](grant_writing_flowcharts.md)** - Visual process guides
 
 ### **Local Resources**
-- **[Grand Rapids Nonprofit Center](https://www.grnonprofitcenter.org)** - Local support
-- **[Michigan Nonprofit Association](https://www.mnaonline.org)** - State resources
-- **[Foundation Directory Online](https://fconline.foundationcenter.org)** - Research tool
+- **[Grand Rapids Nonprofit Center](https:///www.grnonprofitcenter.org)** - Local support
+- **[Michigan Nonprofit Association](https:///www.mnaonline.org)** - State resources
+- **[Foundation Directory Online](https:///fconline.foundationcenter.org)** - Research tool
 
 ---
 
