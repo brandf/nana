@@ -37,8 +37,37 @@ const markdownFiles = await globby('**/*.md', {
 
 console.log(`Found ${markdownFiles.length} markdown files`);
 
+// Helper function to resolve internal links
+function resolveInternalLink(linkUrl, currentRoute, baseUrl) {
+  // If link starts with /, it's absolute from root
+  if (linkUrl.startsWith('/')) {
+    return `${baseUrl}${linkUrl.substring(1)}`;
+  }
+  
+  // For relative links, we need to resolve them based on current route
+  const currentDir = currentRoute === '/' ? '' : currentRoute.replace(/\/$/, '');
+  const linkPath = linkUrl.startsWith('./') ? linkUrl.substring(2) : linkUrl;
+  
+  // Build the full path
+  let fullPath;
+  if (currentDir === '') {
+    // We're at root
+    fullPath = linkPath;
+  } else {
+    // We're in a subdirectory
+    fullPath = `${currentDir}/${linkPath}`;
+  }
+  
+  // Normalize the path (remove double slashes, etc.)
+  fullPath = fullPath.replace(/\/+/g, '/');
+  
+  // Add baseUrl for relative navigation
+  const result = `${baseUrl}${fullPath}`;
+  return result.replace(/\/+/g, '/');
+}
+
 // Simple markdown to HTML converter (basic version)
-function markdownToHtml(markdown, baseUrl = './') {
+function markdownToHtml(markdown, baseUrl = './', currentRoute = '/') {
   const lines = markdown.split('\n');
   let html = '';
   let inList = false;
@@ -141,14 +170,16 @@ function markdownToHtml(markdown, baseUrl = './') {
       return `<a href="${linkUrl}">${linkText}</a>`;
     }
     
-    // Convert internal .md links to .html
+    // Convert internal .md links to .html and resolve paths
     if (linkUrl.endsWith('.md')) {
       const htmlUrl = linkUrl.replace('.md', '.html');
-      return `<a href="${baseUrl}${htmlUrl}">${linkText}</a>`;
+      const resolvedUrl = resolveInternalLink(htmlUrl, currentRoute, baseUrl);
+      return `<a href="${resolvedUrl}">${linkText}</a>`;
     }
     
-    // For other internal links, add baseUrl
-    return `<a href="${baseUrl}${linkUrl}">${linkText}</a>`;
+    // For other internal links, resolve paths
+    const resolvedUrl = resolveInternalLink(linkUrl, currentRoute, baseUrl);
+    return `<a href="${resolvedUrl}">${linkText}</a>`;
   });
 
   return html;
@@ -177,7 +208,7 @@ for (const file of markdownFiles) {
   const baseUrl = getBaseUrl(route);
   
   // Process markdown to HTML
-  const html = markdownToHtml(markdown, baseUrl);
+  const html = markdownToHtml(markdown, baseUrl, route);
   
   const page = {
     route,
