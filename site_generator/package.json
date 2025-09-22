@@ -12,7 +12,8 @@
     "serve": "live-server ../exports/website --port=3000 --open=/",
     "open-local": "npm run build && npm run serve",
     "open-file": "npm run build && powershell -Command \"Invoke-Item 'C:\\Users\\brand\\Documents\\nana\\exports\\website\\index.html'\"",
-        "open-github": "start https://brandf.github.io/nana"
+    "open-github": "start https://brandf.github.io/nana",
+    "deploy-and-wait": "node src/monitor-deployment.js"
   },
   "dependencies": {
     "change-case": "^4.1.2",

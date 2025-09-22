@@ -89,9 +89,12 @@ function markdownToHtml(markdown, baseUrl = './', currentRoute = '/') {
 
     // Process markdown with marked
     let html = marked.parse(markdown);
-
-    // Fix malformed URLs (missing slashes)
+    
+    // Fix malformed URLs (missing slashes) - this is a critical fix
     html = html.replace(/https:\/brandf\.github\.io/g, 'https://brandf.github.io');
+    
+    // Also fix any URLs that have double domains
+    html = html.replace(/https:\/\/brandf\.github\.io\/brandf\.github\.io/g, 'https://brandf.github.io');
     
     // Process links - convert internal .md links to .html
     html = html.replace(/<a href="([^"]+)">([^<]+)<\/a>/gim, (match, linkUrl, linkText) => {
